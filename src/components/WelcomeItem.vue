@@ -18,12 +18,12 @@
   display: flex;
 }
 
-.details {
+/* .details {
   flex: 1;
   margin-left: 1rem;
-}
+} */
 
-i {
+/* i {
   display: flex;
   place-items: center;
   place-content: center;
@@ -31,7 +31,7 @@ i {
   height: 32px;
 
   color: var(--color-text);
-}
+} */
 
 h3 {
   font-size: 1.2rem;
@@ -41,7 +41,7 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-  .item {
+  /* .item {
     margin-top: 0;
     padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
   }
@@ -81,6 +81,6 @@ h3 {
 
   .item:last-of-type:after {
     display: none;
-  }
+  } */
 }
 </style>
