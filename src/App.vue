@@ -1,11 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import HelloWorld from "./components/MainPage-1.vue";
 </script>
 
 <template>
+  <!-- For header & footer -->
   <header>
-
     <div class="wrapper">
       <nav>
         <div class="nav-wrapper">
@@ -14,8 +14,6 @@ import HelloWorld from "./components/HelloWorld.vue";
         alt="KiteSense logo"
         class="logo"
         src="@/assets/kitesense_logo.svg"
-        width="150"
-        height="65"
         />
         </div>
         <div class="nav-menu-wrapper">
@@ -24,12 +22,10 @@ import HelloWorld from "./components/HelloWorld.vue";
         <RouterLink to="/">Product</RouterLink>
         <RouterLink to="/">Company</RouterLink>
         <RouterLink to="/">Resources</RouterLink>
-        <RouterLink to="/about">Get Started</RouterLink>
+        <RouterLink to="/about"><span>Get Started</span></RouterLink>
         </div>
       </div>
       </nav>
-      <HelloWorld msg="You did it!" />
-
     </div>
   </header>
 
@@ -48,13 +44,6 @@ header {
 }
 
 .wrapper {
-  /* background-color: blue; */
-  /* margin-left: -2vw; */
-  /* margin-top: -1vw; */
-  background-image: url("./assets/background_nav_to_headings.svg");
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
   font-family: Proxima Nova Alt Rg;
 }
 
@@ -66,13 +55,27 @@ header {
   /* background-color: blue; */
 }
 
+.logo-wrapper img {
+  width: 15vw;
+  height: 5vw;
+}
+
 .nav-menu-wrapper{
   width: 100%;
   /* background-color: yellow; */
-  margin-right: 2vw;
+  margin-right: 3vw;
   display: flex;
   justify-content: right;
   align-items: center;
+}
+
+.nav-menu-wrapper span {
+  padding: 1vw;
+  border: 3px solid #024F94;
+  border-radius: 0.68vw;
+  background-color: #FFFFFF;
+  color: #024F94;
+  font-weight: ;
 }
 
 /* nav .logo { */
@@ -94,7 +97,8 @@ header {
 
 nav {
   width: 100vw;
-  font-size: 1.2vw;
+  font-size: 1.36vw;
+  font-weight: 700;
   text-align: center;
   margin-top: 2rem;
   /* background-color: red; */
