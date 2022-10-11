@@ -1,0 +1,103 @@
+@font-face{
+    font-family: Proxima Nova Alt Rg;
+    src: url(./assets/fonts/ProximaNovaA-Regular.ttf);
+  }
+.wrapper {
+font-family: Proxima Nova Alt Rg;
+background-color: #132F66;
+width: 100vw;
+height: auto;
+margin-top: -2vw;
+margin-left: -1vw;
+padding-top: 15vw;
+padding-bottom: 10vw;
+}
+
+.first-content {
+margin-left: 4vw;
+}
+
+.first-content h1 {
+font-weight: 600;
+font-size: 3.265vw;
+color: #FFFFFF;
+}
+
+.first-content h2 {
+font-weight: 400;
+font-size: 1.2vw;
+color: #9E9E9E;
+width: 70vw;
+margin-top: -1vw;
+}
+
+.second-content {
+margin-top: 5vw;
+}
+
+.features {
+display: flex;
+flex-direction: row;
+margin-left: 4vw;
+}
+
+.features div {
+display: flex;
+width: 23.8vw;
+height: 23.8vw;
+background-color: #18181C;
+margin-right: 3vw;
+border-radius: 10%;
+color: #18181C; /* remember to change this */
+align-items: center;
+justify-content: center;
+}
+
+.features div:hover {
+transform: scale(1.1);
+}
+
+.third-content {
+margin-top: 30vw;
+margin-left: 4vw;
+display: flex;
+flex-direction: row;
+}
+
+.animated-gif {
+width: 51.22vw;
+height: 28.77vw;
+background-image: url("../gif1.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.text-content h3{
+width: 40vw;
+margin-left: 2vw;
+font-weight: 400;
+font-size: 1.3vw;
+margin-bottom: 3vw;
+}
+
+.h3-1, .h3-2 {
+color: #FFFFFF;
+}
+
+.h3-3{
+color:#9E9E9E;
+}
+
+.fourth-content{
+
+}
+
+.fifth-content{
+    display: flex;
+    width: 15vw;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: red;
+    margin-left: 75vw;
+}
+
