@@ -29,12 +29,14 @@ defineProps({
 }
 
 .wrapper {
-  background-image: url("../assets/background_nav_to_headings.svg");
+  /* background-image: url("../assets/background_nav_to_headings.svg"); */
+  /* background: linear-gradient(180deg, rgba(13, 111, 202, 0.9) 0%, rgba(38, 0, 111, 0.9) 50%, rgba(24, 24, 28, 0) 100%); */
+  background-image: url(../assets/eclipse.svg),linear-gradient(180deg, rgba(13, 111, 202, 0.9) 0%, rgba(38, 0, 111, 0.9) 50%, rgba(24, 24, 28, 0) 100%);
   background-repeat: no-repeat;
   /* background-color: blue; */
   padding-top: 18vw;
   margin-top: -15vw;
-  margin-left: -0.5vw;
+  margin-left: -1vw;
   width: 100vw;
   height: 100vh;
 }
@@ -68,10 +70,7 @@ h4 {
   width: 60vw;
 }
 
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
+
 
 @media (min-width: 1024px) {
   .greetings h1,
