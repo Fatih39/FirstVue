@@ -4,6 +4,7 @@
 <!-- Main Page Section 2 -->
 <template>
   <div class="wrapper">
+    <div class="eclipse"></div>
     <div class="first-content">
       <h1>
         Feature Boxes

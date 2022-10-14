@@ -9,6 +9,10 @@ defineProps({
 <!-- Main Page Section 1 -->
 <template>
   <div class="greetings wrapper">
+    <div class="stars-1"></div>
+    <div class="signal-left"></div>
+    <div class="signal-right"></div>
+    <div class="stars-2"></div>
     <!-- <h1 class="green">{{ msg }}</h1> -->
     <h3 class="h3-1">
       Augmenting
@@ -19,63 +23,11 @@ defineProps({
     <h4>
       Kitesense’s Mastery.AI engine recommends the right learning content at the right time so learners can achieve proficiency of skills and knowledge faster.
     </h4>
+
+    <div class="vector-1"></div>
+
   </div>
 </template>
 
-<style scoped>
-@font-face{
-  font-family: Proxima Nova Alt Rg;
-  src: url(./assets/fonts/ProximaNovaA-Regular.ttf);
-}
-
-.wrapper {
-  /* background-image: url("../assets/background_nav_to_headings.svg"); */
-  /* background: linear-gradient(180deg, rgba(13, 111, 202, 0.9) 0%, rgba(38, 0, 111, 0.9) 50%, rgba(24, 24, 28, 0) 100%); */
-  background-image: url(../assets/eclipse.svg),linear-gradient(180deg, rgba(13, 111, 202, 0.9) 0%, rgba(38, 0, 111, 0.9) 50%, rgba(24, 24, 28, 0) 100%);
-  background-repeat: no-repeat;
-  /* background-color: blue; */
-  padding-top: 18vw;
-  margin-top: -15vw;
-  margin-left: -1vw;
-  width: 100vw;
-  height: 100vh;
-}
-
-/* h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
-} */
-
-.h3-1 , .h3-2{
-  font-size: 6.5vw;
-  font-family: Proxima Nova Alt Rg;
-  /* background-color: red; */
-  margin-left: 4vw;
-  color: #ffffff;
-  font-weight: 700;
-  /* height: 15vw;
-  width: 8vw; */
-}
-
-.h3-2 {
-  margin-top: -7vw;
-}
-
-h4 {
-  margin-left: 4vw;
-  margin-top: -6vw;
-  font-weight: 400;
-  font-size: 2.17vw;
-  width: 60vw;
-}
-
-
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
+<style src="../assets/css/MainPage-1.css" scoped>
 </style>
