@@ -25,7 +25,10 @@
         <div class="caption">We help you to reach right leaners at the right time by enable students to take control of their learning set at their own pace to master learning objectives.</div>
       </div>
       <div class="form">
-        
+        <div class="name"><input type="text" class="input-name" placeholder="Name" autocomplete="off"></div>
+        <div><input type="text" placeholder="Your Email" autocomplete="off"></div>
+        <div><textarea placeholder="Message"></textarea></div>
+        <div class="button-style-primary"><RouterLink to="/">Connect Us</RouterLink></div>
       </div>
     </div>
 
