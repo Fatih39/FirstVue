@@ -1,15 +1,25 @@
+/* @keyframes spin {
+  from {
+    transform-origin: left bottom;
+    transform: rotate(0deg);
+  } to {
+    transform-origin: left bottom;
+    transform: rotate(30deg);
+  }
+} */
 * {
 	--natural: #ffffff;
 	--primary: #024F94;
 	--accent: #132F66;
 	--base: #000000;
   --test: #FF0000;
+  font-family: Proxima Nova Alt Rg;
 }
 @font-face{
     font-family: Proxima Nova Alt Rg;
     src: url(./fonts/ProximaNovaA-Regular.ttf);
   }
-  
+
   .wrapper {
     /* background-image: url("../assets/background_nav_to_headings.svg"); */
     /* background: linear-gradient(180deg, rgba(13, 111, 202, 0.9) 0%, rgba(38, 0, 111, 0.9) 50%, rgba(24, 24, 28, 0) 100%); */
@@ -18,9 +28,9 @@
     /* background-color: blue; */
     padding-top: 18vw;
     margin-top: -15vw;
-    /* margin-left: -1vw; */
+    margin-left: -1vw;
     width: 100vw;
-    height: 100vh;
+    height: auto;
   }
   
   /* h1 {
@@ -58,10 +68,23 @@
     background-image: url(../svg/eclipse.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    z-index: -2;
     /* background-color: red; */
     margin-left: 50vw; 
     width: 100vw;
     height: 60vw;
+    position: absolute;
+  }
+
+  .eclipse {
+    background-image: url(../svg/eclipse_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: var(--test); */
+    /* margin-left: 50vw;  */
+    z-index: -2;
+    width: 100vw;
+    height: 100vw;
     position: absolute;
   }
 
@@ -87,8 +110,12 @@
     z-index: -1;
     margin-top: -10vw;
     margin-left: -15vw;
-    /* background-color: red; */
+    /* background-color: var(--test); */
     transform: rotate(15deg);
+    /* animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
   }
 
   .signal-right {
@@ -109,13 +136,215 @@
     background-image: url(../svg/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    z-index: -2;
     margin-top: 40vw;
     width: 40vw;
     height: 40vw;
     /* background-color: var(--test); */
     position: absolute;
   }
+
+  .button-style-primary {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--natural);
+    font-size: 1.1vw;
+    margin-left: 5vw;
+    width: 10vw;
+    height: 1vw;
+    border: 3px solid var(--primary);
+    border-radius: 0.68vw;
+    padding: 1.224vw;
+    font-family: Proxima Nova Alt Rg;
+  }
   
+  .button-style-primary a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: var(--primary);
+  }
+
+  .button-style-primary:active{
+    transform: scale(0.8);
+    transition: 0.1s;
+  }
+
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title-wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vw;
+    font-family: Proxima Nova Alt Rg;
+    letter-spacing: -0.008em;
+    color: var(--natural);
+  }
+  
+  .title-wrapper .title {
+    font-weight: 700;
+    font-size: 4.354vw;
+  }
+
+  .title-wrapper .caption {
+    font-size: 2.177vw;
+    font-weight: 400;
+  }
+
+  .gif {
+    margin-top: 2vw;
+    background-image: url(../svg/dummy_gif.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: var(--test); */
+    width: 50vw;
+    height: 25vw;
+  }
+
+  .section-2 .content {
+    width: 80vw;
+    padding: 1.5vw;
+    /* background-color: var(--test); */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1.4vw;
+    font-family: Proxima Nova Alt Rg;
+    color: var(--natural);
+    font-weight: 700;
+    font-size: 1.6vw;
+    line-height: 2.721vw;
+    text-align: center;
+  }
+
+  .vector-2 {
+    background-image: url(../svg/Vector_2.svg);
+    position: absolute;
+    /* margin-top: 10vw; */
+    z-index: -1;
+    width: 150vw;
+    height: 100vw;
+    margin-left: -10vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .section-3 {
+    font-family: Proxima Nova Alt Rg;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-3 .content {
+    padding-top: 1.5vw;
+  }
+  
+  .section-3 .title {
+    letter-spacing: -0.008em;
+    font-weight: 700;
+    font-size: 4.354vw;
+    color: var(--accent);
+  }
+
+  .first-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+    /* background-color: var(--test); */
+  }
+
+  .section-3 .number {
+    font-size: 7.483vw;
+    font-weight: 700;
+    font-family: Proxima Nova Alt Rg;
+  }
+
+  .section-3 .stats-title {
+    font-size: 2.041vw;
+    font-family: Proxima Nova Alt Rg;
+    color: var(--base);
+    font-weight: 700;
+  }
+
+  .section-3 .caption {
+    padding-top: 1vw;
+    font-size: 1.3vw;
+    font-family: Proxima Nova Alt Rg;
+    color: var(--base);
+    line-height: 2.381vw;
+  }
+
+  .vector-3 {
+    background-image: url(../svg/Vector_3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    opacity: 30%;
+    z-index: -1;
+    margin-top: 10vw;
+    margin-left: -15vw;
+    width: 140vw;
+    height: 40vw;
+  }
+
+  .section-4 {
+    padding-top: 15vw;
+    /* margin-left: 50vw; */
+    /* background-color: var(--test); */
+    font-family: Proxima Nova Alt Rg;
+    color: var(--natural);
+    display: flex;
+  }
+
+  .section-4 .picture {
+    background-image: url(../svg/interface_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: -3vw;
+    /* background-color: var(--test); */
+  }
+
+  .section-4 .text-content {
+    /* background-color: var(--test); */
+    margin-left: 50vw;
+    width: 40vw;
+  }
+
+  .section-4 .title {
+    font-weight: 700;
+    font-size: 4.354vw;
+  }
+  
+  .section-4 .content {
+    margin-top: 2vw;
+    font-size: 2.177vw;
+    font-weight: 300;
+    line-height: 2.721vw;
+  }
+
+  .section-4 .button-style-primary{
+    margin-top: 2vw;
+    margin-left: 0;
+    width: 13vw;
+  }
+
   @media (min-width: 1024px) {
     .greetings h1,
     .greetings h3 {

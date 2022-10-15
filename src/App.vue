@@ -22,7 +22,7 @@ import HelloWorld from "./components/MainPage-1.vue";
         <RouterLink to="/">Product</RouterLink>
         <RouterLink to="/">Company</RouterLink>
         <RouterLink to="/">Resources</RouterLink>
-        <RouterLink to="/about"><span>Get Started</span></RouterLink>
+        <RouterLink to="/about"><div class="get-started">Get Started</div></RouterLink>
         </div>
       </div>
       </nav>

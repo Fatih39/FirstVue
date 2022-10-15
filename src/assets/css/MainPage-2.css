@@ -10,7 +10,10 @@
 @font-face{
     font-family: Proxima Nova Alt Rg;
     src: url(../fonts/ProximaNovaA-Regular.ttf);
+    font-family: Sharp Sans;
+    src: url(../fonts/SharpSans.otf);
   }
+
 .wrapper {
 font-family: Proxima Nova Alt Rg;
 /* background: linear-gradient(180deg, #005999 0%, rgba(0, 89, 153, 0) 100%); */
@@ -18,96 +21,112 @@ width: 100vw;
 height: auto;
 /* margin-top: -2vw; */
 /* margin-left: -1vw; */
-padding-top: 15vw;
 padding-bottom: 10vw;
 }
 
-.first-content {
-margin-left: 4vw;
+.vector-1 {
+  background-image: url(../svg/Vector_1.svg);
+  position: absolute;
+  margin-top: -5vw;
+  margin-left: -1vw;
+  z-index: -1;
+  width: 100vw;
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.first-content h1 {
-font-weight: 600;
-font-size: 3.265vw;
-color: var(--natural);
+.carousel-bg {
+  position: absolute;
+  width: 70vw;
+  height: 35vw;
+  z-index: -1;
+  margin-top: -5vw;
+  filter: blur(17.5px);
+  -webkit-filter: blur(17.5px);
+  background: rgba(207, 236, 255, 0.5);
+  border-radius: 1.7vw;
+  margin-left: -5vw;
 }
 
-.first-content h2 {
-font-weight: 400;
-font-size: 1.2vw;
-color: var(--sec_natural);
-width: 70vw;
-margin-top: -1vw;
+.about-us {
+  padding-top: 10vw;
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 
-.second-content {
-margin-top: 5vw;
+.about-us .title {
+  padding-bottom: 5vw;
+  color: var(--natural);
+  font-size: 3.265vw;
+  font-weight: 600;
 }
 
-.features {
-display: flex;
-flex-direction: row;
-margin-left: 4vw;
+.about-us .carousel {
+  padding: 5vw;
+  width: 60vw;
+  color: var(--base);
+  
+  /* backdrop-filter: blur(17.5px); */
 }
 
-.features div {
-display: flex;
-width: 23.8vw;
-height: 23.8vw;
-background-color: var(--third_natural);
-margin-right: 3vw;
-border-radius: 10%;
-color: var(--third_natural); /* remember to change this */
-align-items: center;
-justify-content: center;
+.about-us .carousel-title {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: Sharp Sans;
+  font-style: italic;
+  font-size: 2.449vw;
+  font-weight: 600;
 }
 
-.features div:hover {
-transform: scale(1.1);
+.about-us .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.third-content {
-margin-top: 30vw;
-margin-left: 4vw;
-display: flex;
-flex-direction: row;
+.carousel-container .content {
+  font-family: Proxima Nova Alt Rg;
+  font-size: 1.361vw;
+  line-height: 2.381vw;
 }
 
-.animated-gif {
-width: 51.22vw;
-height: 28.77vw;
-background-image: url("../animation/gif1.gif");
-background-repeat: no-repeat;
-background-size: cover;
+.button-style-primary {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--natural);
+  font-size: 1.1vw;
+  width: 8vw;
+  height: 1vw;
+  border: 3px solid var(--primary);
+  border-radius: 0.68vw;
+  padding: 1.224vw;
+  font-family: Proxima Nova Alt Rg;
 }
 
-.text-content h3{
-width: 40vw;
-margin-left: 2vw;
-font-weight: 400;
-font-size: 1.3vw;
-margin-bottom: 3vw;
+.button-style-primary a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1.4vw;
+  color: var(--primary);
 }
 
-.h3-1, .h3-2 {
-color: var(--natural);
+.button-style-primary:active{
+  transform: scale(0.8);
+  transition: 0.1s;
 }
 
-.h3-3{
-color: var(--sec_natural);
+.about-us .button-style-primary {
+  margin-top: 5vw;
 }
 
-.fourth-content{
-
-}
-
-.fifth-content{
-    display: flex;
-    width: 15vw;
-    flex-direction: column;
-    align-items: flex-end;
-    background-color: var(--test);
-    margin-left: 75vw;
+.section-2 {
+  margin-left: 4vw;
+  
 }
 
 .eclipse {
@@ -116,7 +135,7 @@ color: var(--sec_natural);
   background-size: contain;
   /* background-color: var(--test); */
   /* margin-left: 50vw;  */
-  z-index: -1;
+  z-index: -2;
   width: 100vw;
   height: 100vw;
   position: absolute;
