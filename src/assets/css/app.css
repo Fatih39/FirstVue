@@ -9,6 +9,7 @@
 * {
 	--natural: #ffffff;
 	--primary: #024F94;
+  --menu-active : #005999;
 	--accent: #132F66;
 	--base: #000000;
   --test: #FF0000;
@@ -28,6 +29,7 @@ header {
   width: 100vw;
 }
 
+/* Logo styles */
 .logo-wrapper{
   width: 50%;
   display: flex;
@@ -41,6 +43,7 @@ header {
   height: 5vw;
 }
 
+/* Nav bar Styles */
 .nav-menu-wrapper{
   width: 100%;
   /* background-color: yellow; */
@@ -103,11 +106,73 @@ nav {
   background-color: transparent;
 } */
 
-nav a {
+/* Button styles for nav-bar */
+.nav-menu-wrapper button {
+  /* padding-right: 2vw; */
+  margin-right: 5vw;
+  width: 7vw;
+  height: 3vw;
+  /* background-color: transparent; */
+  background: none;
+  border: none;
   color: var(--natural);
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  font-weight: 700;
+  letter-spacing: 0.025vw;
+}
+
+.nav-menu-wrapper button:hover {
+  background-color: var(--accent);
+  /* border-radius: 0.5vw; */
+}
+
+/* Style per sub-menu */
+.nav-menu-wrapper .sub-menu {
+  /* padding-top: 1vw;   */
+  /* padding-bottom: 1vw; */
+  background-color: var(--natural);
+  /* padding-left: 1vw; */
+}
+
+.nav-menu-wrapper #sub {
+  padding-left: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.nav-menu-wrapper .sub-menu:hover {
+  background-color: var(--accent);
+  border-radius: 0.5vw;
+  color: var(--natural);
+}
+
+.sub-menu .sub-menu-title {
+  padding-left: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.sub-menu .sub-menu-title:hover {
+  background-color: var(--accent);
+  color: var(--natural);
+  font-weight: 700;
+  /* padding-left: 1vw; */
+}
+
+/* .sub-menu:hover, .sub-menu:hover ~ #solution {
+  background-color: var(--test);
+} */
+
+/* .sub-menu:hover ~ #dummy {
+  background-color: var(--primary);
+} */
+
+.menu-active {
+  background-color: var(--accent);
+  border-radius: 0.5vw;
+}
+
+
+nav a {
   text-decoration: none;
 }
 
@@ -115,17 +180,18 @@ nav a {
   border: 0;
 } */
 
+/* Styles for footer */
 footer {
   max-height: 20vw;
-  margin-left: -2vw;
+  /* margin-left: -2vw; */
 }
 
 .footer-wrapper {
   display: flex;
   width: 100vw;
+  max-width: 100vw;
   background-color: var(--base);
   padding-top: 2vw;
-  padding-left: 5vw;
   padding-bottom: 2vw;
   color: var(--natural);
   font-family: Proxima Nova Alt Rg;
@@ -142,6 +208,7 @@ footer {
 
 .footer-wrapper .contact {
   width: 50vw;
+  padding-left: 3vw;
 }
 
 .footer-wrapper .address {
@@ -179,6 +246,8 @@ footer {
   font-size: 1.361vw;
   line-height: 1.7vw;
 }
+
+
 
 @media (min-width: 1024px) {
   /* header {
