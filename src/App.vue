@@ -104,8 +104,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
                   <div class="sub-menu-title">Legal</div>
                 </template>
                 <template #sub-dropdown-menu>
-                  <div class="sub-menu" id="sub">Privacy Policies</div>
-                  <div class="sub-menu" id="sub">Terms & Conditions</div>
+                  <div class="sub-menu" id="sub">Terms & Policies</div>
                 </template>
               </SubDropdownMenu>
             </div>
@@ -152,13 +151,15 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
             <div class="footer-content"><RouterLink to="/">Blog</RouterLink></div>
             <div class="footer-content"><RouterLink to="/">Events</RouterLink></div>
             <div class="footer-content"><RouterLink to="/">References</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/">Terms & Policies</RouterLink></div>
         </div>
       </div>
       <div>
         <div class="legal">
-            <div class="title">Legal:</div>
-            <div class="footer-content"><RouterLink to="/">Privacy Policies</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/">Terms & Conditions</RouterLink></div>
+            <div class="title">Meet the Experts:</div>
+            <div class="footer-content">Sign Up with your email to join our community</div>
+            <div class="footer-content"><input type="email" placeholder="Your Email"></div>
+            <div class="footer-content"><button class="button-style-secondary">Submit</button></div>
         </div>
       </div>
 

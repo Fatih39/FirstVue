@@ -213,7 +213,7 @@ footer {
 }
 
 .footer-wrapper .contact {
-  width: 50vw;
+  width: 35vw;
   padding-left: 3vw;
 }
 
@@ -237,7 +237,9 @@ footer {
 
 .footer-wrapper .company, .resources, .legal {
   padding-top: 3vw;
-  padding-right: 7vw;
+  /* padding-right: 5vw; */
+  /* margin-right: 3vw; */
+  margin-left: 5vw;
 }
 
 .footer-wrapper .footer-content {
@@ -253,7 +255,26 @@ footer {
   line-height: 1.7vw;
 }
 
+.button-style-secondary {
+  font-weight: 400;
+  font-size: 1vw;
+  letter-spacing: 0.014em;
+  color: var(--primary);
+  border-radius: 0.68vw;
+  border: solid 0.2vw var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: var(--natural);
+  cursor: pointer;
+}
 
+.legal input {
+  border-radius: 0.34vw;
+}
 
 @media (min-width: 1024px) {
   /* header {
