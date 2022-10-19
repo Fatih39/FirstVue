@@ -5,7 +5,7 @@ import HelloWorld from "../components/MainPage-1.vue";
 
 <template>
   <main>
-    <HelloWorld msg="You did it!" />
+    <HelloWorld />
     <TheWelcome />
   </main>
 </template>

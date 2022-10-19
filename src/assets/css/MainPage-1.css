@@ -28,8 +28,8 @@
     /* background-color: red; */
 
     /* background-color: blue; */
-    padding-top: 18vw;
-    margin-top: -16vw;
+    padding-top: 14vw;
+    margin-top: -20vw;
     margin-left: -2vw;
     height: auto;
   }
@@ -95,7 +95,7 @@
     background-image: url(../svg/Vector_1.svg);
     position: absolute;
     /* margin-top: 10vw; */
-    z-index: -0.5;
+    z-index: 1;
     width: 102vw;
     height: 100vw;
     background-repeat: no-repeat;
@@ -259,6 +259,11 @@
   .section-3 .content {
     padding-top: 1.5vw;
   }
+
+  .section-3 .statistics {
+    display: flex;
+    
+  }
   
   .section-3 .title {
     letter-spacing: -0.008em;
@@ -267,13 +272,14 @@
     color: var(--accent);
   }
 
-  .first-stats {
+  .first-stats, .second-stats, .third-stats, .fourth-stats {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 20vw;
+    padding-right: 5vw;
     /* background-color: var(--test); */
   }
 

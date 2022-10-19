@@ -1,0 +1,68 @@
+/* Typography */
+* {
+    --natural: #ffffff;
+    --sec_natural : #9E9E9E;
+    --third_natural : #18181C;
+	--primary: #024F94;
+	--accent: #132F66;
+	--base: #000000;
+    --test: #FF0000;
+    --menu-active : #005999;
+}
+@font-face {
+    font-family: Proxima Nova Alt Rg;
+    src: url(./fonts/ProximaNovaA-Regular.ttf);
+}
+
+
+/* Wrapper */
+
+/*** Section - 1 ***/
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--natural);
+    text-align: center;
+}
+
+/* Title  */
+.section-1 .title {
+    font-family: Proxima Nova Alt Rg;
+    font-size: 6.531vw;
+    line-height: 6.122vw;
+    font-weight: 700;
+    letter-spacing: -0.008em;
+}
+
+/* Caption */
+.section-1 .caption {
+    padding-top: 5vw;
+    width: 65vw;
+    font-size: 2.177vw;
+}
+
+/* Section - 2 */
+.section-2 {
+    color: var(--natural);
+}
+
+.section-2 .desc {
+    width: 30vw;
+}
+
+.section-2 .desc .desc-title {
+    font-family: Proxima Nova Alt Rg;
+    font-weight: 700;
+    font-size: 2.117vw;
+    line-height: 2.721vw;
+
+}
+
+.section-2 .desc .desc-caption{
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    font-size: 1.224vw;
+    line-height: 1.905vw;
+}

@@ -46,9 +46,21 @@ defineProps({
             <div class="stats-title">Learning Outcomes</div>
             <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
           </div>
-
-
-
+          <div class="second-stats">
+            <div class="number">18%</div>
+            <div class="stats-title">Learning Outcomes</div>
+            <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
+          </div>
+          <div class="third-stats">
+            <div class="number">18%</div>
+            <div class="stats-title">Learning Outcomes</div>
+            <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
+          </div>
+          <div class="fourth-stats">
+            <div class="number">18%</div>
+            <div class="stats-title">Learning Outcomes</div>
+            <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
+          </div>
         </div>
       </div>
     </div>

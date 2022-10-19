@@ -39,6 +39,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
                   <div class="sub-menu" id="sub">Advanced Manufacturing</div>
                   <div class="sub-menu" id="sub">Information Technology</div>
                   <div class="sub-menu" id="sub">Security</div>
+                  <div class="sub-menu" id="sub">Content Publisher</div>
                 </template>
               </SubDropdownMenu>
             </div>
@@ -52,6 +53,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
                   <div class="sub-menu" id="sub">Teach More with Less</div>
                   <div class="sub-menu" id="sub">Enhance Learning Platforms</div>
                   <div class="sub-menu" id="sub">Upskill Workface</div>
+                  <div class="sub-menu" id="sub">Digitalise Publishing Process</div>
                 </template>
               </SubDropdownMenu>
             </div>
@@ -64,7 +66,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
           </template>
           <template #dropdown-menu>
             <div class="sub-menu" id="sub">About Us</div>
-            <div class="sub-menu" id="sub">Contact Us</div>
+            <RouterLink to="/contact-us"><div class="sub-menu" id="sub">Contact Us</div></RouterLink>
           </template>
         </DropdownMenu>
         <DropdownMenu>
@@ -80,6 +82,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
                 </template>
                 <template #sub-dropdown-menu>
                   <div class="sub-menu" id="sub">User Guide</div>
+                  <div class="sub-menu" id="sub">Research</div>
                   <div class="sub-menu" id="sub">Brochures</div>
                 </template>
               </SubDropdownMenu>

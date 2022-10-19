@@ -29,6 +29,12 @@ header {
   width: 100vw;
 }
 
+/* Link styles */
+a {
+  text-decoration: none;
+  color: none;
+}
+
 /* Logo styles */
 .logo-wrapper{
   width: 50%;
@@ -139,7 +145,7 @@ nav {
   padding-bottom: 1vw;
 }
 
-.nav-menu-wrapper .sub-menu:hover {
+.nav-menu-wrapper .sub-menu:hover, a:hover {
   background-color: var(--accent);
   border-radius: 0.5vw;
   color: var(--natural);

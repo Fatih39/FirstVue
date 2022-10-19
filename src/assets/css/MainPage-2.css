@@ -12,7 +12,8 @@
     src: url(../fonts/ProximaNovaA-Regular.ttf);
     font-family: Sharp Sans;
     src: url(../fonts/SharpSans.otf);
-  }
+}
+
 
 .wrapper {
 font-family: Proxima Nova Alt Rg;
@@ -81,6 +82,7 @@ padding-bottom: 10vw;
   font-style: italic;
   font-size: 2.449vw;
   font-weight: 600;
+  
 }
 
 .about-us .carousel-container {
