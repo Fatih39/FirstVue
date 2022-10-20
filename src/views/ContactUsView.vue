@@ -8,6 +8,4 @@ import Contact_Us from "../components/Contact_Us.vue";
 
 <style>
 
-
-
 </style>

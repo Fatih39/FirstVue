@@ -1,0 +1,171 @@
+/* Typography */
+* {
+    --natural: #ffffff;
+    --sec_natural : #9E9E9E;
+    --third_natural : #18181C;
+	--primary: #024F94;
+	--accent: #132F66;
+	--base: #000000;
+    --test: #FF0000;
+    --menu-active : #005999;
+}
+@font-face {
+    font-family: Proxima Nova Alt Rg;
+    src: url(./fonts/ProximaNovaA-Regular.ttf);
+}
+
+/* Custom Class */
+.background-no-repeat-size-contain{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Wrapper */
+.wrapper-about-us {
+    color: var(--natural);
+    font-family: Proxima Nova Alt Rg;
+}
+
+/* Section - 1 */
+.section-1-about-us {
+    width: 50vw;
+    margin-left: 5vw;
+    font-weight: 700;
+    font-size: 6.531vw;
+    line-height: 6.122vw;
+    letter-spacing: -0.008em;
+}
+
+.about-us-dummy {
+    background-image: url(../svg/about_us_dummy_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: -2;
+    margin-top: -20vw;
+    margin-left: 55vw;
+    width: 40vw;
+    height: 40vw;
+}
+
+.vector-5 {
+    background-image: url(../svg/Vector_5.svg);
+    width: 110vw;
+    height: 50vw;
+    margin-top: 6vw;
+    margin-left: -5vw;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Section - 2 */
+.section-2-about-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vw;
+    margin-left: 5vw;
+}
+
+.about-us-caption {
+    padding-bottom: 5vw;
+    width: 90vw;
+    text-align: center;  
+    font-weight: 400;
+    font-size: 2.177vw;
+    line-height: 2.721vw;
+}
+
+.about-us-profile-photo-desc-1 {
+    background-image: url(../svg//mr_yp.svg);
+    background-size: 35vw;
+    background-position: center;
+    width: 34vw;
+    height: 34vw;
+    /* border-radius: 2vw; */
+    margin-left: -10vw;
+    /* padding-right: 5vw; */
+}
+
+.about-us-profile-desc .about-us-name-1 {
+    font-weight: 700;
+    font-size: 3.265vw;
+    line-height: 2.721vw;
+    border-bottom: solid 0.05vw var(--natural);
+    width: 16.7vw;
+    margin-left: -1vw;
+    /* background-color: var(--test); */
+}
+
+.about-us-profile-desc .about-us-position-1 {
+    font-size: 2.177vw;
+    font-weight: 700;
+    line-height: 2.721vw;
+    padding-top: 2vw;
+    text-align: center;
+    margin-left: -10vw;
+}
+
+.about-us-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-profile-container .about-us-story-1 {
+    width: 35vw;
+    margin-left: 5vw;
+    font-size: 2.177vw;
+    line-height: 2.721vw;
+    text-align: center;
+}
+
+.about-us-profile-photo-desc-2 {
+    background-image: url(../svg/mr_wee_koon.svg);
+    background-size: 35vw;
+    background-position: center;
+    width: 34vw;
+    height: 34vw;
+    margin-left: 5vw;
+    /* border-radius: 2vw; */
+    /* margin-left: -10vw; */
+    /* padding-right: 5vw; */
+}
+
+.about-us-profile-container .about-us-story-2 {
+    width: 35vw;
+    margin-left: -10vw;
+    font-size: 2.177vw;
+    line-height: 2.721vw;
+    text-align: center;
+}
+
+.about-us-profile-desc .about-us-name-2 {
+    font-weight: 700;
+    font-size: 3.265vw;
+    line-height: 2.721vw;
+    border-bottom: solid 0.05vw var(--natural);
+    width: 21vw;
+    margin-left: 12vw;
+    /* background-color: var(--test); */
+}
+
+.about-us-profile-desc .about-us-position-2 {
+    font-size: 2.177vw;
+    font-weight: 700;
+    line-height: 2.721vw;
+    padding-top: 2vw;
+    text-align: center;
+    margin-left: 5vw;
+}
+
+/* Section - 3 */
+.vector-6 {
+    background-image: url(../svg/Vector_6.svg);
+    width: 100vw;
+    height: 60vw;
+    position: absolute;
+}
+
+.section-3-about-us {
+    padding-bottom: 50vw;
+}

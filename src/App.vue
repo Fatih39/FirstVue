@@ -65,7 +65,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
             <button>Company</button>
           </template>
           <template #dropdown-menu>
-            <div class="sub-menu" id="sub">About Us</div>
+            <RouterLink to="/about"><div class="sub-menu" id="sub">About Us</div></RouterLink>
             <RouterLink to="/contact-us"><div class="sub-menu" id="sub">Contact Us</div></RouterLink>
           </template>
         </DropdownMenu>
@@ -140,7 +140,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
       <div>
         <div class="company">
           <div class="title">Company:</div>
-          <div class="footer-content"><RouterLink to="/">About Us</RouterLink></div>
+          <div class="footer-content"><RouterLink to="/about">About Us</RouterLink></div>
           <div class="footer-content"><RouterLink to="/">Contact Us</RouterLink></div>
           <div class="footer-content"><RouterLink to="/">Solutions</RouterLink></div>
         </div>
