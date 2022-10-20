@@ -189,7 +189,7 @@
 }
 
 .section-2-contact-us .form-wrapper input::placeholder {
-    color: white;
+    color: var(--natural);
 }
 
 .section-2-contact-us .form-wrapper input:focus , textarea:focus {

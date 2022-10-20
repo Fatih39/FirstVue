@@ -213,7 +213,7 @@ footer {
 }
 
 .footer-wrapper .contact {
-  width: 35vw;
+  width: 40vw;
   padding-left: 3vw;
 }
 
@@ -272,8 +272,19 @@ footer {
   cursor: pointer;
 }
 
+.legal {
+  width: 20vw;
+}
+
 .legal input {
+  width: 15vw;
+  height: 2vw;
   border-radius: 0.34vw;
+  padding-left: 0.5vw;
+}
+
+.legal input:focus {
+  outline: none;
 }
 
 @media (min-width: 1024px) {
