@@ -17,7 +17,7 @@
             <div class="sub-terms-title">
                 Subscription Terms (Customer)
             </div>
-            <div class="button-style-primary-tp width-18-vw"><DynamicLink to="/">Master Terms & Conditions</DynamicLink></div>
+            <div class="button-style-primary-tp width-18-vw"><DynamicLink to="/terms-policies-master">Master Terms & Conditions</DynamicLink></div>
 
             <div class="privacy-security-title">
                 Privacy and Security Resources

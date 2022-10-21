@@ -1,0 +1,122 @@
+/* Typography */
+* {
+    --natural: #ffffff;
+    --sec_natural : #9E9E9E;
+    --third_natural : #18181C;
+	--primary: #024F94;
+	--accent: #132F66;
+	--base: #000000;
+    --test: #FF0000;
+    --menu-active : #005999;
+}
+@font-face {
+    font-family: Proxima Nova Alt Rg;
+    src: url(./fonts/ProximaNovaA-Regular.ttf);
+}
+
+/* Custom Class */
+.background-no-repeat-size-contain {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bold-underline-thin {
+    font-weight: 700;
+    border-bottom: 0.05vw solid var(--natural);
+}
+
+.bold-underline-thick {
+    font-weight: 700;
+    border-bottom: 0.25vw solid var(--natural);
+}
+
+/* Wrapper */
+
+.tp-m-wrapper {
+    color: var(--natural);
+    font-family: Proxima Nova Alt Rg;
+    margin-left: 5vw;
+    width: 80vw;
+}
+
+/* Vectors */
+.tp-m-stars-1 {
+    background-image: url(../svg/stars_4.svg);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -2;
+    margin-top: -5vw;
+    margin-left: -5vw;
+    /* background-color: var(--test); */
+}
+
+.tp-m-stars-2 {
+    background-image: url(../svg/stars_5.svg);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -2;
+    margin-top: -5vw;
+    margin-left: -5vw;
+    /* background-color: var(--test); */
+}
+
+.tp-m-stars-3 {
+    background-image: url(../svg/stars_4.svg);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -2;
+    margin-top: -5vw;
+    margin-left: -5vw;
+    /* background-color: var(--test); */
+}
+
+.tp-m-stars-4 {
+    background-image: url(../svg/stars_5.svg);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -2;
+    margin-top: -5vw;
+    margin-left: -5vw;
+    /* background-color: var(--test); */
+}
+
+
+/* Title */
+
+.tp-m-title {
+    font-size: 4.354vw;
+    line-height: 6.122vw;
+    letter-spacing: -0.008em;
+    font-weight: 700;
+    /* border-bottom: 0.25vw solid var(--natural); */
+}
+
+/* Caption */
+
+.tp-m-caption {
+    margin-top: 5vw;
+    font-size: 1.361vw;
+    line-height: 1.361vw;   
+}
+
+/* Contact Section */
+
+.tp-m-contact-us {
+    margin-top: 3vw;
+    font-size: 1.633vw;
+}
+
+.tp-m-contact-us-title {
+    /* border-bottom: 0.25vw solid var(--natural); */
+    font-weight: 700;
+}
+
+.tp-m-contact-us-caption {
+    margin-top: 2.5vw;
+    padding-bottom: 5vw;
+}
+
