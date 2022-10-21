@@ -1,7 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterView } from "vue-router";
 import DropdownMenu from "./components/logic/DropdownMenu.vue"
 import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
+import DynamicLink from "./components/logic/DynamicLink.vue";
 
 </script>
 
@@ -19,9 +20,9 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
         />
         </div>
         <div class="nav-menu-wrapper">
-          <RouterLink to="/">
+          <DynamicLink to="/">
             <button>Home</button>
-          </RouterLink>
+          </DynamicLink>
         <DropdownMenu>
           <template #button>
             <button class="sol">Solution</button>
@@ -65,8 +66,8 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
             <button>Company</button>
           </template>
           <template #dropdown-menu>
-            <RouterLink to="/about"><div class="sub-menu" id="sub">About Us</div></RouterLink>
-            <RouterLink to="/contact-us"><div class="sub-menu" id="sub">Contact Us</div></RouterLink>
+            <DynamicLink to="/about"><div class="sub-menu" id="sub">About Us</div></DynamicLink>
+            <DynamicLink to="/contact-us"><div class="sub-menu" id="sub">Contact Us</div></DynamicLink>
           </template>
         </DropdownMenu>
         <DropdownMenu>
@@ -101,7 +102,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
             <div class="sub-menu">
               <SubDropdownMenu>
                 <template #sub-button>
-                  <div class="sub-menu-title">Legal</div>
+                  <DynamicLink to="/terms-policies"><div class="sub-menu-title">Legal</div></DynamicLink>
                 </template>
                 <template #sub-dropdown-menu>
                   <div class="sub-menu" id="sub">Terms & Policies</div>
@@ -110,7 +111,7 @@ import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
             </div>
           </template>
         </DropdownMenu>
-        <RouterLink to="/about"><div class="get-started">Get Started</div></RouterLink>
+        <DynamicLink to="/about"><div class="get-started">Get Started</div></DynamicLink>
         </div>
       </div>
       </nav>

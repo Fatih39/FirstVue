@@ -53,7 +53,6 @@
 
 /* Wrapper */
 .wrapper-about-us {
-    color: var(--natural);
     font-family: Proxima Nova Alt Rg;
 }
 
@@ -63,6 +62,7 @@
     margin-left: 5vw;
     font-weight: 700;
     font-size: 6.531vw;
+    color: var(--natural);
     line-height: 6.122vw;
     letter-spacing: -0.008em;
 }
@@ -143,6 +143,7 @@
     flex-direction: column;
     margin-top: 25vw;
     margin-left: 5vw;
+    color: var(--natural);
 }
 
 .about-us-caption {
@@ -259,6 +260,7 @@
 .section-3-about-us {
     margin-top: 15vw;
     margin-left: 5vw;
+    color: var(--natural);
 }
 
 .section-3-about-us .section-3-about-us-title{
@@ -269,6 +271,7 @@
     width: 50vw;
     padding-bottom: 5vw;
 }
+
 
 .section-3-about-us .section-3-about-us-content {
     width: 85vw;
@@ -343,11 +346,13 @@
 .about-us-form .about-us-form-title {
     font-weight: 700;
     font-size: 3.265vw;
+    color: var(--natural);
     line-height: 5.442vw;
 }
 
 .about-us-form .about-us-form-caption {
     font-size: 1.361vw;
+    color: var(--natural);
     line-height: 2.721vw;
     padding-bottom: 2vw;
 }

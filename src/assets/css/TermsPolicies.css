@@ -1,0 +1,144 @@
+/* Typography */
+* {
+    --natural: #ffffff;
+    --sec_natural : #9E9E9E;
+    --third_natural : #18181C;
+	--primary: #024F94;
+	--accent: #132F66;
+	--base: #000000;
+    --test: #FF0000;
+    --menu-active : #005999;
+}
+@font-face {
+    font-family: Proxima Nova Alt Rg;
+    src: url(./fonts/ProximaNovaA-Regular.ttf);
+}
+
+/* Button Config */
+.button-style-primary-tp {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--natural);
+    font-size: 1.497vw;
+    /* margin-left: 5vw; */
+    position: relative;
+    z-index: 1;
+    width: 8vw;
+    height: 1vw;
+    border: 3px solid var(--primary);
+    border-radius: 0.68vw;
+    padding: 1.224vw;
+    font-family: Proxima Nova Alt Rg;
+}
+
+.button-style-primary-tp a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: var(--primary);
+}
+
+.button-style-primary-tp:active{
+    transform: scale(0.8);
+    transition: 0.1s;
+}
+
+/* Custom class */
+.width-15-vw {
+    width: 15vw;
+}
+
+.width-18-vw {
+    width: 18vw;
+}
+
+.width-22-vw {
+    width: 22vw;
+}
+
+.margin-top-1-vw {
+    margin-top: 1vw;
+}
+
+.background-no-repeat-size-contain {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Section - 1 */
+
+.tp-section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Proxima Nova Alt Rg;
+}
+
+.tp-section-1 .tp-title {
+    font-weight: 700;
+    font-size: 6.531vw;
+    color: var(--natural);
+    line-height: 6.122vw;
+    letter-spacing: -0.008em;
+}
+
+.tp-section-1 .tp-desc {
+    width: 70vw;
+    margin-top: 8vw;
+    font-weight: 400;
+    font-size: 2.177vw;
+    color: var(--natural);
+    line-height: 2.721vw;
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+.tp-section-1 .sub-terms-title, .privacy-security-title {
+    margin-top: 8vw;
+    padding-bottom: 2vw;
+    font-weight: 700;
+    font-size: 3.265vw;
+    color: var(--natural);
+    line-height: 4.354vw;
+    text-align: center;    
+}
+
+.tp-section-1 .sub-terms-title {
+    margin-top: 20vw;
+}
+
+.tp-wrapper .section-2 {
+    margin-top: 15vw;
+    padding-bottom: 5vw;
+}
+
+.tp-stars {
+    background-image: url(../svg/stars_3.svg);
+    width: 100vw;
+    height: 150vw;
+    position: absolute;
+    z-index: -2;
+    /* background-color: var(--test); */
+}
+
+.tp-vector-1 {
+    background-image: url(../svg/Vector_8.svg);
+    width: 100vw;
+    height: 60vw;
+    position: absolute;
+    z-index: -2;
+    margin-top: 40vw;
+}
+
+.tp-signal {
+    background-image: url(../svg/tp-signal.svg);
+    width: 70vw;
+    height: 70vw;
+    position: absolute;
+    z-index: -2;
+    margin-top: 70vw;
+    margin-left: -30vw;
+}

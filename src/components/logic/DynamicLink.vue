@@ -19,6 +19,13 @@
 </router-link>
 </template>
   
+<style scoped>
+a, a:visited, a:active {
+    color: #024F94;
+    text-decoration: none;
+}
+</style>
+
 <script>
 import { RouterLink } from 'vue-router'
 
