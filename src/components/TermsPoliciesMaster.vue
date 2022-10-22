@@ -1,3 +1,4 @@
+<!-- Terms & Policies Master Page -->
 <template>
     <div class="tp-m-wrapper">
         <div class="tp-m-stars-1"></div>

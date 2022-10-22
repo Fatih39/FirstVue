@@ -1,13 +1,7 @@
+<!-- Main Page Section 1 -->
 <script setup>
 import { RouterLink } from "vue-router";
-defineProps({
-  msg: {
-    type: String,
-    required: true,
-  },
-});
 </script>
-<!-- Main Page Section 1 -->
 <template>
   <div class="greetings wrapper">
     <!-- "Augmenting Learning with AI" Section -->

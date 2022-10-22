@@ -38,7 +38,7 @@
         animation-duration: 0.5s;
     }
 </style>
-  
+
 <script setup>
 import { onMounted } from "vue"
 import logo_1 from "../assets/svg/about_us_logo_1.svg"
@@ -49,7 +49,7 @@ const carousel_title = [
   'Doing the Math with Personalised, Empathetic Learning for Australian Students','Computing IT Skills Development for Young Adults','Supporting and Empowering Learners in Achieving Better Outcomes.','Enhanced SAP’s Capacity to Publish Digital Books'
   ];
 const carousel_content = [
-  'KiteSense provide a cloud-based learning platform that would give teachers deep, scalable insight into students’ progress and motivations.','Reduce lecturer workload with “smart learning tutors” to help more than 600 students (aged 17-18 ages) gain skills in IT workforce which will enhance their employability.','Digitise publishing process by ingesting questions, and tagging down to topics, subtopics and difficulty levels.','Digitise publishing process by ingesting questions, and tagging down to topics, subtopics and difficulty levels.'
+  'KiteSense provide a cloud-based learning platform that would give teachers deep, scalable insight into students’ progress and motivations.','Reduce lecturer workload with “smart learning tutors” to help more than 600 students (aged 17-18 ages) gain skills in IT workforce which will enhance their employability.','4 hours of learning on KiteSense lead to 18% of learners achieving better outcomes.','Digitise publishing process by ingesting questions, and tagging down to topics, subtopics and difficulty levels.'
 ];
 const carousel_img = [
   logo_1, logo_2, logo_2, logo_3

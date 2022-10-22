@@ -1,3 +1,4 @@
+<!-- Terms & Policies Page -->
 <template>
     <div class="tp-wrapper">
         <div class="tp-stars background-no-repeat-size-contain"></div>

@@ -1,11 +1,3 @@
-<script setup>
-import { RouterView } from "vue-router";
-import DropdownMenu from "./components/logic/DropdownMenu.vue"
-import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
-import DynamicLink from "./components/logic/DynamicLink.vue";
-
-</script>
-
 <template>
   <!-- For header & footer -->
   <header>
@@ -79,7 +71,7 @@ import DynamicLink from "./components/logic/DynamicLink.vue";
             <div class="sub-menu">
               <SubDropdownMenu>
                 <template #sub-button>
-                  <div class="sub-menu-title">References</div>
+                  <DynamicLink to="/landing-page"><div class="sub-menu-title">References</div></DynamicLink>
                 </template>
                 <template #sub-dropdown-menu>
                   <div class="sub-menu" id="sub">User Guide</div>
@@ -159,8 +151,14 @@ import DynamicLink from "./components/logic/DynamicLink.vue";
         <div class="legal">
             <div class="title">Meet the Experts:</div>
             <div class="footer-content">Sign Up with your email to join our community</div>
-            <div class="footer-content"><input type="email" placeholder="Your Email"></div>
-            <div class="footer-content"><button class="button-style-secondary">Submit</button></div>
+            <div class="footer-content">
+              <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0"  >
+              <input type="email" placeholder="Your Email" name="EMAIL" value="" id="mce-EMAIL" required autocomplete="off" />
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0b07771d977c2dbf9936e0d63_f7033870e4" tabindex="-1" value=""></div>
+              <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Submit" />
+              <!-- <div class="success-msg" v-if="submittedState">Subscribed!</div> -->
+              </form>
+            </div>
         </div>
       </div>
 
@@ -168,22 +166,58 @@ import DynamicLink from "./components/logic/DynamicLink.vue";
   </footer>
 </template>
 
-<script>
+<script setup>
+import { onBeforeRouteUpdate, RouterView, useRoute } from "vue-router";
+import DropdownMenu from "./components/logic/DropdownMenu.vue"
+import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
+// import DynamicLink from "./components/logic/DynamicLink.vue";
+import { onMounted } from "vue";
+import { computed } from "@vue/reactivity";
 
-// Need to Mark the First Nav Selection (using jQuery but couldn't detect the dropdown-menu because its hidden)
+// import all necessary scripts
+const addScript = (src) => {
+  return new Promise((resolve, reject) => {
+    const myScript = document.createElement('script');
 
-// const activateParent = (current_menu_id) => {
-//   let current_menu = document.getElementById(current_menu_id);
-//   current_menu.classList.add('menu-active');
-// }
-// const deactivateParent = (current_menu_id) => {
-//   let current_menu = document.getElementById(current_menu_id);
-//   current_menu.classList.add('menu-active');
-// }
-  import $ from 'jquery'
-  $('#sub').mouseenter(() => {
-    $('.address').css("background-color", "red");
-  })
+    myScript.setAttribute('src', src); 
+    myScript.addEventListener('load', resolve);
+    myScript.addEventListener('error', reject);
+
+    document.body.appendChild(myScript);
+  });
+}
+
+// Need to specify current route
+// Need to know what route is prohibited
+onBeforeRouteUpdate ((to, from, next) => {
+  let user_current_state = sessionStorage.getItem("user_filled_form_state");
+  console.log(user_current_state)
+  if (to == "terms-policies") {
+    if (user_current_state){
+      next();  
+    } else {
+      next('landing-page');
+    }
+  }
+  console.log(to)
+  console.log(from)
+})
+
+const route = useRoute().name
+
+
+onMounted(() => {
+  console.log(route)
+  try {
+    addScript('https://code.jquery.com/jquery-3.6.1.min.js');
+    addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
+    (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='FMESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+  } catch (e) {
+    console.log(e);
+}
+})
+
+
 
 </script>
 

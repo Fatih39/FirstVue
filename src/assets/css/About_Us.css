@@ -357,7 +357,7 @@
     padding-bottom: 2vw;
 }
 
-.about-us-input input {
+.about-us-input #mce-EMAIL {
     width: 35vw;
     height: 2.5vw;
     margin-bottom: 2vw;
@@ -373,13 +373,37 @@
     border-radius: 0.4vw;
 }
 
-.about-us-input input::placeholder {
+.about-us-input #mce-EMAIL::placeholder {
     color: var(--natural);
 }
 
-.about-us-input input:focus {
+.about-us-input #mce-EMAIL:focus {
     outline: none;
 }
+
+.about-us-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-form #mc-embedded-subscribe {
+    background-color: var(--natural);
+    font-size: 1.497vw;
+    /* margin-left: 5vw; */
+    width: 20vw;
+    height: 5vw;
+    border: 3px solid var(--primary);
+    border-radius: 0.68vw;
+    padding: 1.224vw;
+    font-family: Proxima Nova Alt Rg;
+    cursor: pointer;
+}
+
+.about-us-form #mc-embedded-subscribe:active{
+    transform: scale(0.8);
+    transition: 0.1s;
+}
+
 
 .about-us-agreement {
     margin-top: 1vw;

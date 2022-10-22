@@ -1,3 +1,4 @@
+<!-- About Us Page -->
 <template>
 <div class="wrapper-about-us">
     <!-- Eclipse_5 here -->
@@ -92,8 +93,12 @@
         <div class="about-us-form-caption">
             Don’t miss out on our future updates, stay tuned to get the latest updates.
         </div>
-        <div class="about-us-input"><input type="email" placeholder="Your Email" autocomplete="off" /></div>
-        <div class="button-style-primary-about-us"><DynamicLink to="/">Forge Mastery Now</DynamicLink></div>
+        <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="about-us-input">
+            <input type="email" placeholder="Your Email" name="EMAIL" value="" id="mce-EMAIL" required autocomplete="off" />
+        </div>
+        <div class="about-us-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Forge Mastery Now"></div>
+        </form>
         <div class="about-us-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <b>Terms & Policies.</b></div>
     </div>
 </div>
@@ -101,3 +106,29 @@
 <style src="../assets/css/About_Us.css">
 
 </style>
+
+<script setup>
+import { onMounted } from "vue";
+
+const addScript = (src) => {
+  return new Promise((resolve, reject) => {
+    const myScript = document.createElement('script');
+
+    myScript.setAttribute('src', src); 
+    myScript.addEventListener('load', resolve);
+    myScript.addEventListener('error', reject);
+
+    document.body.appendChild(myScript);
+  });
+}
+
+onMounted(() => {
+  try {
+    addScript('https://code.jquery.com/jquery-3.6.1.min.js');
+    addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
+    (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='FMESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+  } catch (e) {
+    console.log(e);
+}
+})
+</script>

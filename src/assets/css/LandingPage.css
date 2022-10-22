@@ -1,0 +1,57 @@
+/* Typography */
+* {
+    --natural: #ffffff;
+    --sec_natural : #9E9E9E;
+    --third_natural : #18181C;
+	--primary: #024F94;
+	--accent: #132F66;
+	--base: #000000;
+    --test: #FF0000;
+    --menu-active : #005999;
+}
+@font-face {
+    font-family: Proxima Nova Alt Rg;
+    src: url(./fonts/ProximaNovaA-Regular.ttf);
+}
+
+/* Custom Class */
+
+
+/* Wrapper */
+
+.pop-up-content {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Pop-Up Form Description */
+.pop-up-form-desc {
+    width: 40vw;
+}
+
+
+/* Pop-Up Form input */
+.pop-up-form-input {
+    width: 60vw;
+}
+
+.pop-up-form-input input {
+    width: 35vw;
+    height: 2.5vw;
+    margin-bottom: 2vw;
+    background-color: var(--third_natural);
+    border: none;
+    padding: 0.5vw;
+    padding-left: 2vw;
+    color: var(--natural);
+    font-family: Proxima Nova Alt Rg;
+    font-size: 1.1vw;
+    font-weight: 700;
+    line-height: 1.4vw;
+    border-radius: 0.4vw;
+}
+
+.pop-up-form-input input::placeholder {
+    color: var(--natural);
+}

@@ -1,3 +1,4 @@
+<!-- Contact Us Page -->
 <template>
     <div class="wrapper-contact-us">
     <div class="background-contact-us"></div>
@@ -48,17 +49,19 @@
             <div class="form-bg"></div>
             <div class="form-wrapper">
                 <div class="form-title">Built-in smart tools to help educators supercharge learning every learner.</div>
+                <form ref="form" @submit.prevent = "sendMail">
                 <div class="input">
-                    <input type="text" class="input-form" placeholder="First Name" autocomplete="off">
-                    <input type="text" class="input-form" placeholder="Last Name" autocomplete="off">
-                    <input type="email" class="input-form" placeholder="Email" autocomplete="off">
-                    <input type="text" class="input-form" placeholder="Organization / Company" autocomplete="off">
-                    <input type="text" class="input-form" placeholder="Industry" autocomplete="off">
-                    <input type="text" class="input-form" placeholder="Job Function" autocomplete="off">
-                    <textarea name="message" placeholder="Message"></textarea>
-                </div>
-                <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <b>Terms & Policies.</b></div>
-                <RouterLink to="/about"><div class="button-style-primary">Send</div></RouterLink>
+                        <input type="text" class="input-form" name="first_name" placeholder="First Name" autocomplete="off" required>
+                        <input type="text" class="input-form" name="last_name" placeholder="Last Name" autocomplete="off" required>
+                        <input type="email" class="input-form" name="email" placeholder="Email" autocomplete="off" required>
+                        <input type="text" class="input-form" name="organization_company" placeholder="Organization / Company" autocomplete="off" required>
+                        <input type="text" class="input-form" name="industry" placeholder="Industry" autocomplete="off" required>
+                        <input type="text" class="input-form"  name="job_function" placeholder="Job Function" autocomplete="off" required>
+                        <textarea name="message" value="" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <b>Terms & Policies.</b></div>
+                    <div class="form-submit-field"><input type="submit" value="Send" id="submit-field"></div>
+                </form>
             </div>
         </div>
     </div>
@@ -82,5 +85,22 @@
     </div>
     </div>
 </template>
-<style src="../assets/css/Contact_Us.css">
-</style>
+<style src="../assets/css/Contact_Us.css"></style>
+<script>
+import emailjs from "emailjs-com";
+
+export default {
+  methods : {
+    sendMail () {
+        emailjs.sendForm('service_g76yx9n', 'template_5h9hx8i', this.$refs.form, 'e5dLPmoZPvHz0ycRM').then(() => {
+            alert("Succesfully sent!")
+            // clear input field
+            this.$refs.form.reset();
+        }, (error) => {
+            alert("Failed to sent! Please refresh the page.", error);
+        }
+        )
+    },
+  }
+}
+</script>

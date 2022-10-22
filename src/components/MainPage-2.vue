@@ -1,7 +1,7 @@
+<!-- Main Page Section 2 -->
 <script setup>
 import Carousel from "./Carousel.vue";
 </script>
-<!-- Main Page Section 2 -->
 <template>
   <div class="wrapper">
     <Carousel></Carousel>
@@ -11,11 +11,11 @@ import Carousel from "./Carousel.vue";
         <div class="caption">We help you to reach right leaners at the right time by enable students to take control of their learning set at their own pace to master learning objectives.</div>
       </div>
       <div class="form">
-        <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0">
-          <div class="name"><input type="text" value="" name="FNAME" class="input-name" placeholder="Name" autocomplete="off" required></div>
-          <div><input type="email" value="" name="EMAIL" placeholder="Your Email" autocomplete="off" required></div>
-          <div><textarea placeholder="Message" value="" name="FMESSAGE" required></textarea></div>
-          <div class="button-style-primary" name="subscribe"><RouterLink to="/">Connect Us</RouterLink></div>
+        <form ref="form" @submit.prevent = "sendMail">
+          <div class="name"><input type="text" name="from_name" placeholder="Name" autocomplete="off" id="name-field" :value="inputFieldReset" required></div>
+          <div><input type="email" name="from_email" placeholder="Your Email" autocomplete="off" id="email-field" :value="inputFieldReset" required></div>
+          <div><textarea placeholder="Message" name="message" :value="inputFieldReset" required></textarea></div>
+          <div class="main-page-2-submit"><input type="submit" value="Connect Us" id="submit-field"></div>
         </form>
       </div>
     </div>
@@ -26,17 +26,21 @@ import Carousel from "./Carousel.vue";
 <style src="../assets/css/MainPage-2.css" scoped>
 </style>
 
+<script>
+import emailjs from "emailjs-com";
 
-<!-- Error : cannot use 2 script tag in vue components -->
-
-<!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-<script type='text/javascript'>
-(function($) {window.fnames = new Array(); window.ftypes = new Array();
-fnames[1]='FNAME';
-ftypes[1]='text';
-fnames[0]='EMAIL';
-ftypes[0]='email';
-fnames[2]='FMESSAGE';
-ftypes[2]='text';}(jQuery));
-var $mcj = jQuery.noConflict(true);
-</script> -->
+export default {
+  methods : {
+    sendMail () {
+        emailjs.sendForm('service_g76yx9n', 'template_3ljsqyd', this.$refs.form, 'e5dLPmoZPvHz0ycRM').then(() => {
+            alert("Succesfully sent!")
+            // clear input field
+            this.$refs.form.reset();
+        }, (error) => {
+            alert("Failed to sent! Please refresh the page.", error);
+        }
+        )
+    },
+  }
+}
+</script>

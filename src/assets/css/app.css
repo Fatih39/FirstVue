@@ -256,7 +256,7 @@ footer {
   line-height: 1.7vw;
 }
 
-.button-style-secondary {
+/* .button-style-secondary {
   font-weight: 400;
   font-size: 1vw;
   letter-spacing: 0.014em;
@@ -271,21 +271,35 @@ footer {
   padding-right: 1vw;
   background-color: var(--natural);
   cursor: pointer;
-}
+} */
 
 .legal {
   width: 20vw;
 }
 
-.legal input {
+.legal #mce-EMAIL {
   width: 15vw;
   height: 2vw;
   border-radius: 0.34vw;
   padding-left: 0.5vw;
 }
 
-.legal input:focus {
+.legal #mce-EMAIL:focus {
   outline: none;
+}
+
+.legal #mc-embedded-subscribe {
+  margin-top: 1vw;
+  border-radius: 0.68vw;
+  border: solid 0.2vw var(--primary);
+  font-weight: 400;
+  font-size: 1vw;
+  letter-spacing: 0.014em;
+  color: var(--primary);
+}
+
+.legal .success-msg {
+  color: greenyellow;
 }
 
 @media (min-width: 1024px) {
