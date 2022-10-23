@@ -32,6 +32,7 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/TermsPoliciesView.vue"),
+      meta : { requiresAuth : true }
     },
     {
       path: "/terms-policies-master",
@@ -49,7 +50,41 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/LandingPageView.vue"),
     },
+    {
+      path: "/events",
+      name: "events",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/EventView.vue"),
+    },
+    // Need to create Not Found page
+    // {
+    //   path: "/404",
+    //   name: "landing-page",
+    //   // route level code-splitting
+    //   // this generates a separate chunk (About.[hash].js) for this route
+    //   // which is lazy-loaded when the route is visited.
+    //   component: () => import("../views/LandingPageView.vue"),
+    // },
   ],
 });
+
+router.beforeEach((to, from, next) => {
+  let current_user_state = sessionStorage.getItem("user_filled_form_state");
+  console.log(current_user_state);
+  console.log(to.meta.requiresAuth);
+  if (to.meta.requiresAuth) {
+    if (current_user_state == "true") {
+      next();
+    } else {
+      next({
+        name : "landing-page"
+      });
+    }
+  } else {  
+    next();
+  }
+})
 
 export default router;

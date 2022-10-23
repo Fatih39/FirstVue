@@ -15,28 +15,48 @@
 }
 
 /* Custom Class */
+.background-no-repeat-size-contain {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 /* Wrapper */
+.landing-page-bg {
+    background-image: url(../svg/landing_page_bg.svg);
+    width: 120vw;
+    height: 100vw;
+    position: absolute;
+    margin-top: -25vw;
+    z-index: -1;
+}
+
+.landing-page-stars {
+    background-image: url(../svg/stars_6.svg);
+    width: 100vw;
+    height: 70vw;
+    position: absolute;
+    z-index: -2;
+    /* background-color: var(--test); */
+}
 
 .pop-up-content {
     display: flex;
     align-items: center;
+    font-family: Proxima Nova Alt Rg;
+    margin-left: 5vw;
+    /* margin-top: -5vw; */
+    padding-bottom: 5vw;
 }
-
-
-/* Pop-Up Form Description */
-.pop-up-form-desc {
-    width: 40vw;
-}
-
 
 /* Pop-Up Form input */
 .pop-up-form-input {
-    width: 60vw;
+    margin-left: 10vw;
+    width: 40vw;
+    margin-top: -5vw;
 }
 
-.pop-up-form-input input {
+.pop-up-form-input .input-form {
     width: 35vw;
     height: 2.5vw;
     margin-bottom: 2vw;
@@ -52,6 +72,72 @@
     border-radius: 0.4vw;
 }
 
-.pop-up-form-input input::placeholder {
+.pop-up-form-input .input-form::placeholder {
     color: var(--natural);
+}
+
+/* Pop-Up LHS Wrapper */
+.pop-up-left-wrapper {
+    width: 30vw;
+}
+
+/* Pop-Up Form Title & Description */
+.pop-up-title {
+    font-weight: 700;
+    font-size: 4.354vw;
+    line-height: 6.122vw;
+    letter-spacing: -0.008em;
+    color: var(--menu-active);
+}
+
+.pop-up-form-desc {
+    font-weight: 400;
+    font-size: 2.177vw;
+    line-height: 2.721vw;
+    width: 25vw;
+    margin-top: 2.5vw;
+}
+
+.pop-up-content .character {
+    background: url(../svg/astronaut.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5vw;
+    width: 25vw;
+    height: 25vw;
+}
+
+/* Agreement & Submit Field */
+.pop-up-content .form-agreement {
+    font-size: 1.088vw;
+    line-height: 1.361vw;
+    width: 38vw;
+}
+
+.pop-up-content .form-submit-field {
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.pop-up-content #submit-field {
+    background-color: var(--natural);
+    width: 8vw;
+    border: 3px solid var(--primary);
+    border-radius: 0.68vw;
+    padding: 1vw;
+    font-family: Proxima Nova Alt Rg;
+    font-size: 1.4vw;
+    color: var(--primary);
+    cursor: pointer;
+}
+
+
+.pop-up-content #submit-field::placeholder {
+    color: var(--primary);
+}
+
+.pop-up-content #submit-field:active {
+    transform: scale(0.8);
+    transition: 0.1s;
 }

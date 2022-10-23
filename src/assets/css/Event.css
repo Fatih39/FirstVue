@@ -1,0 +1,125 @@
+/* Typography */
+* {
+    --natural: #ffffff;
+    --sec_natural : #9E9E9E;
+    --third_natural : #18181C;
+	--primary: #024F94;
+	--accent: #132F66;
+	--base: #000000;
+    --test: #FF0000;
+    --menu-active : #005999;
+}
+@font-face {
+    font-family: Proxima Nova Alt Rg;
+    src: url(./fonts/ProximaNovaA-Regular.ttf);
+}
+
+/* Custom Class */
+.background-no-repeat-size-contain {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.margin-left-10vw {
+    margin-left: 10vw;
+}
+
+/* Button Config */
+.button-style-primary-event {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--natural);
+    font-size: 1.1vw;
+    margin-left: 5vw;
+    position: relative;
+    z-index: 1;
+    width: 25vw;
+    height: 1vw;
+    border: 3px solid var(--primary);
+    border-radius: 0.68vw;
+    padding: 1.224vw;
+    font-family: Proxima Nova Alt Rg;
+    margin-top: 3vw;
+  }
+  
+.button-style-primary-event a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: var(--primary);
+}
+
+.button-style-primary-event:active{
+    transform: scale(0.8);
+    transition: 0.1s;
+}
+
+/* Wrapper */
+.event-wrapper {
+    font-family: Proxima Nova Alt Rg;
+    color: var(--natural);
+    padding-bottom: 30vw;
+}
+
+.event-wrapper .event-page-title {
+    font-weight: 700;
+    font-size: 6.531vw;
+    line-height: 6.122vw;
+    letter-spacing: -0.008em;
+    /* background-color: var(--test); */
+    text-align: center;
+}
+
+.event-section-2-wrapper {
+    display: flex;
+    margin-top: 10vw;
+    margin-left: 10vw;
+}
+
+.event-left-wrapper {
+    width: 40vw;
+}
+
+.event-left-wrapper .event-left-desc {
+    font-weight: 400;
+    font-size: 2.177vw;
+    line-height: 2.721vw;
+    text-align: center;
+}
+
+
+.event-wrapper .event-dummy {
+    background-image: url(../svg/event_dummy.svg);
+    width: 40vw;
+    height: 40vw;
+    margin-left: 40vw;
+    margin-top: -5vw;
+    position: absolute;
+    z-index: -2;
+}
+
+/* Section - 3 */
+.event-title-vector {
+    background-image: url(../svg/Vector_9.svg);
+    width: 100vw;
+    height: 30vw;
+    margin-left: -10vw;
+    margin-top: 18vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.event-section-3-wrapper {
+    margin-top: 13vw;
+    margin-left: 5vw;
+}
+.event-section-3-wrapper .event-title {
+    display: flex;
+    font-weight: 700;
+    font-size: 3.265vw;
+    
+}
+
+

@@ -83,7 +83,7 @@
             <div class="sub-menu">
               <SubDropdownMenu>
                 <template #sub-button>
-                  <div class="sub-menu-title">Events</div>
+                  <DynamicLink to="/events"><div class="sub-menu-title">Events</div></DynamicLink>
                 </template>
                 <template #sub-dropdown-menu>
                   <div class="sub-menu" id="sub">Exhibitions</div>
@@ -167,12 +167,12 @@
 </template>
 
 <script setup>
-import { onBeforeRouteUpdate, RouterView, useRoute } from "vue-router";
+import { RouterView } from "vue-router";
 import DropdownMenu from "./components/logic/DropdownMenu.vue"
 import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
 // import DynamicLink from "./components/logic/DynamicLink.vue";
 import { onMounted } from "vue";
-import { computed } from "@vue/reactivity";
+import DynamicLink from "./components/logic/DynamicLink.vue";
 
 // import all necessary scripts
 const addScript = (src) => {
@@ -187,27 +187,7 @@ const addScript = (src) => {
   });
 }
 
-// Need to specify current route
-// Need to know what route is prohibited
-onBeforeRouteUpdate ((to, from, next) => {
-  let user_current_state = sessionStorage.getItem("user_filled_form_state");
-  console.log(user_current_state)
-  if (to == "terms-policies") {
-    if (user_current_state){
-      next();  
-    } else {
-      next('landing-page');
-    }
-  }
-  console.log(to)
-  console.log(from)
-})
-
-const route = useRoute().name
-
-
 onMounted(() => {
-  console.log(route)
   try {
     addScript('https://code.jquery.com/jquery-3.6.1.min.js');
     addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');

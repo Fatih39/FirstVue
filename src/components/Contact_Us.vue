@@ -96,6 +96,7 @@ export default {
             alert("Succesfully sent!")
             // clear input field
             this.$refs.form.reset();
+            sessionStorage.setItem("user_filled_form_state", true);
         }, (error) => {
             alert("Failed to sent! Please refresh the page.", error);
         }

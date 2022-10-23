@@ -5,7 +5,7 @@ Task :
 2. For About Page & Footer (Subscribe form), need to plugin using MailChimp (company mail).
 3. Header, to access features like Resources need to head direct to Pop Up Page
 
-For future need : 
+For future needs: 
 To enable arguments :
 <script setup>
 defineProps({
