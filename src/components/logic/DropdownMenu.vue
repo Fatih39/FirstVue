@@ -36,6 +36,7 @@
         color: var(--menu-active);
         font-weight: 400;
         letter-spacing: 0.025vw;
+        transition: 0.25s;
     }
 
 </style>

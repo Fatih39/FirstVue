@@ -41,7 +41,6 @@ a {
   display: flex;
   justify-content: left;
   margin-left: 5vw;
-  /* background-color: blue; */
 }
 
 .logo-wrapper img {
@@ -52,7 +51,6 @@ a {
 /* Nav bar Styles */
 .nav-menu-wrapper{
   width: 100%;
-  /* background-color: yellow; */
   margin-right: 3vw;
   display: flex;
   justify-content: right;
@@ -65,27 +63,14 @@ a {
   border-radius: 0.68vw;
   color: var(--primary);
   background-color: var(--natural);
-  /* font-weight: ; */
 }
 
 .nav-menu-wrapper .get-started:active{
-  /* animation: shrink;
-  animation-duration: 0.5ms; */
   transform: scale(0.8);
   transition-duration: 0.25s;
 }
 
-/* nav .logo { */
-  /* display: flex; */
-  /* width: 100%; */
-  /* margin-right: 75vw; */
-  /* margin-inline: 20vw ; */
-  /* justify-content: right; */
-  /* background-color: blue; */
-/* } */
-
 .nav-wrapper{
-  /* background-color: red; */
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -99,26 +84,15 @@ nav {
   text-align: center;
   margin-top: 2rem;
   margin-left: -2vw;
-  /* background-color: red; */
   display: flex;
   justify-content: right;
 }
 
-/* nav a.router-link-exact-active {
-  color: var(--color-text);
-} */
-
-/* nav a.router-link-exact-active:hover {
-  background-color: transparent;
-} */
-
 /* Button styles for nav-bar */
 .nav-menu-wrapper button {
-  /* padding-right: 2vw; */
   margin-right: 5vw;
   width: 7vw;
   height: 3vw;
-  /* background-color: transparent; */
   background: none;
   border: none;
   color: var(--natural);
@@ -128,15 +102,11 @@ nav {
 
 .nav-menu-wrapper button:hover {
   background-color: var(--accent);
-  /* border-radius: 0.5vw; */
 }
 
 /* Style per sub-menu */
 .nav-menu-wrapper .sub-menu {
-  /* padding-top: 1vw;   */
-  /* padding-bottom: 1vw; */
   background-color: var(--natural);
-  /* padding-left: 1vw; */
 }
 
 .nav-menu-wrapper #sub {
@@ -147,7 +117,8 @@ nav {
 
 .nav-menu-wrapper .sub-menu:hover, a:hover {
   background-color: var(--accent);
-  border-radius: 0.5vw;
+  /* border-radius: 0.5vw; */
+  font-weight: 400;
   color: var(--natural);
 }
 
@@ -160,17 +131,7 @@ nav {
 .sub-menu .sub-menu-title:hover {
   background-color: var(--accent);
   color: var(--natural);
-  font-weight: 700;
-  /* padding-left: 1vw; */
 }
-
-/* .sub-menu:hover, .sub-menu:hover ~ #solution {
-  background-color: var(--test);
-} */
-
-/* .sub-menu:hover ~ #dummy {
-  background-color: var(--primary);
-} */
 
 .menu-active {
   background-color: var(--accent);
@@ -182,19 +143,12 @@ nav a {
   text-decoration: none;
 }
 
-/* nav a:first-of-type {
-  border: 0;
-} */
-
-
 /* Styles for footer */
 footer {
   max-height: 20vw;
-  /* margin-left: -2vw; */
 }
 
 .footer-wrapper {
-  /* min-height: 100vh; */
   display: flex;
   width: 100vw;
   max-width: 100vw;
@@ -239,8 +193,6 @@ footer {
 
 .footer-wrapper .company, .resources, .legal {
   padding-top: 3vw;
-  /* padding-right: 5vw; */
-  /* margin-right: 3vw; */
   margin-left: 5vw;
 }
 
@@ -256,23 +208,6 @@ footer {
   font-size: 1.361vw;
   line-height: 1.7vw;
 }
-
-/* .button-style-secondary {
-  font-weight: 400;
-  font-size: 1vw;
-  letter-spacing: 0.014em;
-  color: var(--primary);
-  border-radius: 0.68vw;
-  border: solid 0.2vw var(--primary);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 5vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  background-color: var(--natural);
-  cursor: pointer;
-} */
 
 .legal {
   width: 20vw;

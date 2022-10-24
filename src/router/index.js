@@ -72,8 +72,8 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   let current_user_state = sessionStorage.getItem("user_filled_form_state");
-  console.log(current_user_state);
-  console.log(to.meta.requiresAuth);
+  // console.log(current_user_state);
+  // console.log(to.meta.requiresAuth);
   if (to.meta.requiresAuth) {
     if (current_user_state == "true") {
       next();

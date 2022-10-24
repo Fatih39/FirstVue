@@ -81,25 +81,10 @@
               </SubDropdownMenu>
             </div>
             <div class="sub-menu">
-              <SubDropdownMenu>
-                <template #sub-button>
-                  <DynamicLink to="/events"><div class="sub-menu-title">Events</div></DynamicLink>
-                </template>
-                <template #sub-dropdown-menu>
-                  <div class="sub-menu" id="sub">Exhibitions</div>
-                  <div class="sub-menu" id="sub">Webinars</div>
-                </template>
-              </SubDropdownMenu>
+              <DynamicLink to="/events"><div class="sub-menu-title">Events</div></DynamicLink>
             </div>
             <div class="sub-menu">
-              <SubDropdownMenu>
-                <template #sub-button>
-                  <DynamicLink to="/terms-policies"><div class="sub-menu-title">Legal</div></DynamicLink>
-                </template>
-                <template #sub-dropdown-menu>
-                  <div class="sub-menu" id="sub">Terms & Policies</div>
-                </template>
-              </SubDropdownMenu>
+              <DynamicLink to="/terms-policies"><div class="sub-menu-title">Legal</div></DynamicLink>
             </div>
           </template>
         </DropdownMenu>

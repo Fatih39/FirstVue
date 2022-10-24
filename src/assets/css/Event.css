@@ -14,6 +14,19 @@
     src: url(./fonts/ProximaNovaA-Regular.ttf);
 }
 
+/* Animations */
+@keyframes fade-in {
+    from {
+        opacity : 0;
+    } to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+}
+
 /* Custom Class */
 .background-no-repeat-size-contain {
     background-repeat: no-repeat;
@@ -35,7 +48,7 @@
     margin-left: 5vw;
     position: relative;
     z-index: 1;
-    width: 25vw;
+    width: 13vw;
     height: 1vw;
     border: 3px solid var(--primary);
     border-radius: 0.68vw;
@@ -56,11 +69,28 @@
     transition: 0.1s;
 }
 
+.display-none {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
 /* Wrapper */
+.event-stars {
+    background-image: url(../svg/stars_7.svg);
+    width: 200vw;
+    height: 200vw;
+    position: absolute;
+    z-index: -2;
+    /* background-color: var(--test); */
+}
+
 .event-wrapper {
     font-family: Proxima Nova Alt Rg;
     color: var(--natural);
-    padding-bottom: 30vw;
+    padding-bottom: 10vw;
 }
 
 .event-wrapper .event-page-title {
@@ -80,6 +110,10 @@
 
 .event-left-wrapper {
     width: 40vw;
+}
+
+.event-left-wrapper .button-style-primary-event {
+    width: 25vw;
 }
 
 .event-left-wrapper .event-left-desc {
@@ -115,11 +149,203 @@
     margin-top: 13vw;
     margin-left: 5vw;
 }
+
 .event-section-3-wrapper .event-title {
     display: flex;
     font-weight: 700;
     font-size: 3.265vw;
+    cursor: pointer;
+}
+
+.event-section-3-wrapper .event-vector {
+    background-image: url(../svg/event_signal.svg);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -2;
+    /* transform: rotate(10deg); */
+    margin-top: 50vw;
+    margin-left: 30vw;
+}
+
+/* Exhibitions Section */
+.exhibitions-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+}
+
+.upcoming-events {
+    display: flex;
+    padding-top: 3vw;
+    align-items: center;
+    margin-left: -3vw;
+    padding-bottom: 3vw;
+    /* background-color: var(--test); */
+}
+
+.upcoming-event-image {
+    background-image: url(../svg/event_1_exhibitions.svg);
+    width: 40vw;
+    height: 40vw;
+}
+
+.upcoming-events .event-desc {
+    font-weight: 700;
+    font-size: 2.449vw;
+    width: 50vw;
+    margin-left: 5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming-events .event-desc .event-details-2 {
+    margin-top: 3vw;
+    width: 30vw;
+    /* background-color: var(--natural); */
+}
+
+.event-desc .event-button {
+    display: flex;
+    margin-left: -5vw;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+.past-events {
+    margin-top: 3vw;
+    display: flex;
+}
+
+.past-events .past-event-image-1 {
+    background-image: url(../svg/event_2_exhibitions.svg);
+    width: 35vw;
+    height: 35vw;
+}
+
+.past-events .past-event-image-2 {
+    background-image: url(../svg/event_3_exhibitions.svg);
+    width: 35vw;
+    height: 35vw;
+}
+
+.past-events .past-event-1, .past-event-2 {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-left: 8vw;
+    /* background-color: var(--test); */
+}
+
+.past-events .past-event-1 {
+    margin-left: 0;
+}
+
+.past-events .past-event-details-2 {
+    margin-top: 3.5vw;
+}
+
+.past-events .past-event-details-1, .past-event-details-2, .label {
+    font-weight: 400;
+    font-size: 2.177vw;
+    line-height: 2.721vw;
+}
+
+.past-events .button-style-primary-event {
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    width: 10vw;
+    color: var(--primary);
+}
+
+.exhibitions-section .past-event-1 .button-style-primary-event {
+    margin-top: 5vw;
+}
+
+.exhibitions-section .past-event-2 .button-style-primary-event {
+    margin-top: 2vw;
+}
+
+/* Webinars Section */
+.webinars-section {
+    /* display: flex; */
+    margin-top: 10vw;
+}
+
+.webinars-section .upcoming-event-image {
+    background-image: url(../svg/event_1_webinars.svg);
+}
+
+.webinars-section .past-event-image-1 {
+    background-image: url(../svg/event_2_webinars.svg);
+}
+
+.webinars-section .past-event-image-2 {
+    background-image: url(../svg/event_3_webinars.svg);
+}
+
+.event-form {
+    margin-top: 5vw;
+    display: flex;
+}
+
+.event-form .event-input-field input {
+    width: 20vw;
+    height: 3vw;
+    margin-bottom: 2vw;
+    background-color: var(--third_natural);
+    border: none;
+    padding: 0.5vw;
+    padding-left: 2vw;
+    color: var(--natural);
+    font-family: Proxima Nova Alt Rg;
+    font-size: 1.1vw;
+    font-weight: 700;
+    line-height: 1.4vw;
+    border-radius: 0.4vw;
+}
+
+.event-form .event-input-field input:focus {
+    outline: none;
+}
+
+.event-form .event-input-field input::placeholder {
+    color: var(--natural);
+}
+
+.event-form #submit-field {
+    background-color: var(--natural);
+    width: 15vw;
+    border: 3px solid var(--primary);
+    border-radius: 0.68vw;
+    padding: 1vw;
+    font-family: Proxima Nova Alt Rg;
+    font-size: 1.4vw;
+    color: var(--primary);
+    cursor: pointer;
     
 }
 
+.event-form #submit-field:active {
+    transform: scale(0.8);
+    transition: 0.1s;
+}
 
+.webinars-section .past-event-1 .button-style-primary-event {
+    margin-top: 10vw;
+}
+
+.webinars-section .past-event-2 .button-style-primary-event {
+    margin-top: 2vw;
+}
+
+/* Tech Talk Section */
+.techtalk-section {
+    margin-top: 10vw;
+}
