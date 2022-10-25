@@ -3,6 +3,11 @@
     <div class="popup-wrapper">
         <div class="landing-page-bg background-no-repeat-size-contain"></div>
         <div class="landing-page-stars background-no-repeat-size-contain"></div>
+        <div v-if="coverActive" id="pop-up-cover" class="fade-in">
+            <div v-if="loading" class="loading-wrapper fade-in">
+            <div class="lds-ellipsis fade-in"><div></div><div></div><div></div><div></div></div>
+            </div>
+        </div>
         <div class="pop-up-content">
             <div class="pop-up-left-wrapper">
             <div class="pop-up-title">
@@ -30,34 +35,67 @@
                 </form>
 
             </div>
-
             <!-- <button></button> -->
         </div>
+
+        <div v-show="showPopUp" class="pop-up-after-send fade-in">
+            <div class="pop-up-after-send-background background-no-repeat-size-contain"></div>
+            <div class="pop-up-after-send-title">
+                    Thank You !
+            </div>
+            <div class="pop-up-after-send-desc">
+                <div class="pop-up-after-send-caption">In this report, learn in detail about how KiteSense is using AI in the primary areas they are focusing on today</div>
+                <div class="pop-up-after-send-dummy background-no-repeat-size-contain"></div>
+            </div>
+        </div>
+
     </div>
 </template>
 
 <style src="../assets/css/LandingPage.css"></style>
+<!-- <style src="../assets/css/Loading.css"></style> -->
 
 <script>
 import emailjs from "emailjs-com";
-
 export default {
+    data () {
+        return {
+            showPopUp : false,
+            coverActive : false,
+            loading : false,
+        }
+    },
     methods : {
+        showPopup () {
+            setTimeout(() => {
+                this.showPopUp = false;
+                this.coverActive = false;
+            }, 3000)
+        },
         sendMail () {
-            alert("Sending...");
+            // can add classlist "loading here"
+            // alert("Sending..."); 
+            this.coverActive = true;
+            this.loading = true;
             emailjs.sendForm('service_g76yx9n', 'template_5h9hx8i', this.$refs.form, 'e5dLPmoZPvHz0ycRM').then(() => {
-                alert("Succesfully sent!")
+                this.loading = false;
+                // disable loading here
+                // alert("Succesfully sent!")
+                
                 // clear input field
                 this.$refs.form.reset();
                 sessionStorage.setItem("user_filled_form_state", true);
-                this.$router.push('/terms-policies');
+                this.showPopUp = true;
+                // this.coverActive = true;
+                this.showPopup();
+                setTimeout(() => {
+                    this.$router.push('/terms-policies');
+                }, 3000);
             }, (error) => {
                 alert("Failed to sent! Please refresh the page.", error);
             }
             )
-        },
+        }
     }
 }
-
-
 </script>

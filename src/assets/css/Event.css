@@ -274,7 +274,6 @@
 
 /* Webinars Section */
 .webinars-section {
-    /* display: flex; */
     margin-top: 10vw;
 }
 
@@ -283,10 +282,74 @@
 }
 
 .webinars-section .past-event-image-1 {
-    background-image: url(../svg/event_2_webinars.svg);
+    background-image: url(../svg/event_4_webinars.svg);
+    width: 35vw;
+    height: 35vw;
 }
 
 .webinars-section .past-event-image-2 {
+    background-image: url(../svg/event_5_webinars.svg);
+    width: 35vw;
+    height: 35vw;
+}
+
+.webinars-section > .past-events {
+    flex-direction: column;
+}
+
+.webinars-section .past-event-section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    margin-top: -3vw;
+    /* margin-left: 10vw; */
+}
+
+.webinars-section .past-event-1 {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-left: -3vw;
+    /* background-color: var(--test); */
+}
+
+.webinars-section .past-event-2 {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: -3vw;
+}
+
+.webinars-section .past-event-1 .button-style-primary-event {
+    margin-top: 3vw;
+}
+
+.webinars-section .past-event-2 .button-style-primary-event {
+    margin-top: 3vw;
+}
+
+/* Tech Talk Section */
+.techtalk-section {
+    /* display: flex; */
+    margin-top: 10vw;
+}
+
+.techtalk-section .upcoming-event-image {
+    background-image: url(../svg/event_1_webinars.svg);
+}
+
+.techtalk-section .past-event-image-1 {
+    background-image: url(../svg/event_2_webinars.svg);
+}
+
+.techtalk-section .past-event-image-2 {
     background-image: url(../svg/event_3_webinars.svg);
 }
 
@@ -337,15 +400,10 @@
     transition: 0.1s;
 }
 
-.webinars-section .past-event-1 .button-style-primary-event {
+.techtalk-section .past-event-1 .button-style-primary-event {
     margin-top: 10vw;
 }
 
-.webinars-section .past-event-2 .button-style-primary-event {
+.techtalk-section .past-event-2 .button-style-primary-event {
     margin-top: 2vw;
-}
-
-/* Tech Talk Section */
-.techtalk-section {
-    margin-top: 10vw;
 }

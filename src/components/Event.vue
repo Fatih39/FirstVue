@@ -111,22 +111,32 @@ import DynamicLink from './logic/DynamicLink.vue';
                         <div class="past-event-image-1 background-no-repeat-size-contain">
 
                         </div>
-                        <div class="past-event-details-1">
-                            Differentiated Instruction: Create the best learning experience with KiteSense
-                        </div>
-                        <div class="button-style-primary-event">
-                            Join the Community
+                        <div class="past-event-section-right">
+                            <div class="past-event-details-1">
+                                Differentiated Instruction: Create the best learning experience with KiteSense.
+                            </div>
+                            <div class="past-event-details-2">
+                                It was a great chance to share how to create the best learning experience for your student with data-driven differentiated instruction.
+                            </div>
+                            <div class="button-style-primary-event">
+                                Join the Community
+                            </div>
                         </div>
                     </div>
                     <div class="past-event-2">
                         <div class="past-event-image-2 background-no-repeat-size-contain">
 
                         </div>
-                        <div class="past-event-details-1">
-                            Strategies to Prepare Students for the Digitalisation of the VUCA Era for Teachers : "Automating DI to Prep Students for the VUCA World"
-                        </div>
-                        <div class="button-style-primary-event">
-                            Join the Community
+                        <div class="past-event-section-right">
+                            <div class="past-event-details-1">
+                                Strategies to Prepare Students for the Digitalisation of the VUCA Era for Teachers : "Automating DI to Prep Students for the VUCA World"
+                            </div>
+                            <div class="past-event-details-2">
+                                KiteSense with Teachin.id from Indonesia shared a summary of the key highlight of using our apps to help the teaching process.
+                            </div>
+                            <div class="button-style-primary-event">
+                                Join the Community
+                            </div>
                         </div>
                     </div>
                 </div>
