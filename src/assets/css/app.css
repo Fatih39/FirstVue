@@ -57,6 +57,10 @@ a {
   align-items: center;
 }
 
+.nav-menu-wrapper button {
+  cursor: pointer;
+}
+
 .nav-menu-wrapper .get-started {
   padding: 1vw;
   border: 3px solid var(--primary);
@@ -126,6 +130,7 @@ nav {
   padding-left: 1vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
+  cursor: pointer;
 }
 
 .sub-menu .sub-menu-title:hover {

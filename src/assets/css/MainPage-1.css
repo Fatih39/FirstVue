@@ -34,12 +34,6 @@
   height: auto;
 }
 
-/* h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
-} */
-
 .h3-1 , .h3-2{
   font-size: 6.5vw;
   font-family: Proxima Nova Alt Rg;
@@ -94,8 +88,9 @@ h4 {
 .vector-1 {
   background-image: url(../svg/Vector_1.svg);
   position: absolute;
-  /* margin-top: 10vw; */
+  /* margin-top: vw; */
   z-index: 1;
+  opacity: 80%;
   width: 102vw;
   height: 100vw;
   background-repeat: no-repeat;
@@ -177,6 +172,7 @@ h4 {
   transition: 0.1s;
 }
 
+/* Section - 2 */
 .section-2 {
   display: flex;
   flex-direction: column;
@@ -192,7 +188,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 15vw;
+  /* margin-top: 15vw; */
   font-family: Proxima Nova Alt Rg;
   letter-spacing: -0.008em;
   color: var(--natural);
@@ -201,11 +197,18 @@ h4 {
 .title-wrapper .title {
   font-weight: 700;
   font-size: 4.354vw;
+  line-height: 4.082vw;
+  letter-spacing: -0.008em;
+  text-align: center;
+  width: 70vw;
 }
 
 .title-wrapper .caption {
   font-size: 2.177vw;
   font-weight: 400;
+  text-align: center;
+  width: 80vw;
+  margin-top: 2.5vw;
 }
 
 .gif {
@@ -223,7 +226,7 @@ h4 {
   padding: 1.5vw;
   /* background-color: var(--test); */
   background: rgba(255, 255, 255, 0.1);
-  
+  margin-top: 3vw;
   border-radius: 1.4vw;
   font-family: Proxima Nova Alt Rg;
   color: var(--natural);
@@ -246,9 +249,10 @@ h4 {
   background-size: contain;
 }
 
+/* Section - 3 */
 .section-3 {
   font-family: Proxima Nova Alt Rg;
-  margin-top: 10vw;
+  margin-top: 7vw;
   margin-left: 5vw;
   display: flex;
   flex-direction: column;
@@ -262,7 +266,6 @@ h4 {
 
 .section-3 .statistics {
   display: flex;
-  
 }
 
 .section-3 .title {
@@ -302,20 +305,43 @@ h4 {
   font-family: Proxima Nova Alt Rg;
   color: var(--base);
   line-height: 2.381vw;
+  width: 15vw;
+}
+
+.section-3 .disclaimer {
+  margin-top: 2vw;
+  font-weight: 400;
+  font-size: 1.088vw;
+  line-height: 2.721vw;
 }
 
 .vector-3 {
-  background-image: url(../svg/cropped_vector_3.svg);
+  background-image: url(../svg/signal.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  opacity: 30%;
   z-index: -1;
-  margin-top: 45vw;
-  /* margin-left: -15vw; */
-  width: 100vw;
-  height: 50vw;
-  padding-left: 2vw;
+  width: 80vw;
+  height: 80vw;
+  /* background-color: var(--test); */
+  margin-top: 40vw;
+  margin-left: 58vw;
+}
+
+
+/* Section - 4 */
+.section-4-background {
+  background-image: url(../svg/mainpag_1_sec_4_bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background: var(--test); */
+  position: absolute;
+  z-index: -10;
+  width: 120vw;
+  height: 130vw;
+  margin-top: -38vw;
+  /* margin-left: 5vw; */
+
 }
 
 .section-4 {
@@ -327,7 +353,7 @@ h4 {
   display: flex;
 }
 
-.section-4 .picture {
+.section-4 .picture-1 {
   background-image: url(../svg/interface_1.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -339,10 +365,27 @@ h4 {
   /* background-color: var(--test); */
 }
 
+.section-4 .picture-2 {
+  background-image: url(../svg/interface_2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40vw;
+  height: 40vw;
+  position: absolute;
+  margin-left: 55vw;
+  margin-top: -10vw;
+  /* background-color: var(--test); */
+}
+
 .section-4 .text-content {
   /* background-color: var(--test); */
   margin-left: 50vw;
   width: 40vw;
+}
+
+.section-4 .section-4-content-2 {
+  margin-left: -90vw;
+  margin-top: 45vw;
 }
 
 .section-4 .title {
@@ -357,10 +400,34 @@ h4 {
   line-height: 2.721vw;
 }
 
-.section-4 .button-style-primary{
+.section-4-content-2 .text-content {
+  margin-left: 10vw;
+  width: 40vw;
+  text-align: right;
+  /* margin-top: 35vw; */
+}
+
+.section-4-content-2 .button-style-primary {
+  width: 8vw;
+  margin-top: 2vw;
+  margin-left: 29vw;
+}
+
+.section-4-content-1 .button-style-primary{
   margin-top: 2vw;
   margin-left: 0;
   width: 13vw;
+}
+
+.vector-4 {
+  background-image: url(../svg/Vector_10.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 110vw;
+  height: 20vw;
+  position: absolute;
+  z-index: 0;
+  margin-top: 5vw;
 }
 
 @media (min-width: 1024px) {

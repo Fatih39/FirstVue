@@ -1,3 +1,4 @@
+/* Typography */
 * {
 	--natural: #ffffff;
   --sec_natural : #9E9E9E;
@@ -14,29 +15,44 @@
     src: url(../fonts/SharpSans.otf);
 }
 
-
-.wrapper {
-font-family: Proxima Nova Alt Rg;
-/* background: linear-gradient(180deg, #005999 0%, rgba(0, 89, 153, 0) 100%); */
-width: 100vw;
-
-height: auto;
-/* margin-top: -2vw; */
-/* margin-left: -1vw; */
-/* background-color: var(--test); */
-padding-bottom: 10vw;
-}
-
-.vector-1 {
-  background-image: url(../svg/Vector_1.svg);
-  position: absolute;
-  margin-top: -5vw;
-  /* margin-left: -1vw; */
-  z-index: -1;
-  width: 100vw;
-  height: 100vw;
+/* Custom Class */
+.background-no-repeat-size-contain {
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+/* Wrapper */
+.wrapper {
+  font-family: Proxima Nova Alt Rg;
+  width: 100vw;
+  height: auto;
+  padding-bottom: 10vw;
+}
+
+/* Content */
+.main-page-2-signal-1 {
+  background-image: url(../svg/signal_1.svg);
+  width: 85vw;
+  height: 85vw;
+  position: absolute;
+  z-index: 0;
+  margin-top: -8vw;
+  margin-left: -20vw;
+  /* background-color: red; */
+  /* rotate: -3deg; */
+}
+
+.main-page-2-vector-1 {
+  background-image: url(../svg/Vector_11.svg);
+  width: 110vw;
+  height: 60vw;
+  /* background-color: red; */
+  position: absolute;
+  z-index: -1;
+  margin-top: -18vw;
+  margin-left: -5vw;
+  /* background-color: red; */
+  /* rotate: -3deg; */
 }
 
 .carousel-bg {
@@ -45,15 +61,15 @@ padding-bottom: 10vw;
   height: 35vw;
   z-index: -1;
   margin-top: -5vw;
-  filter: blur(17.5px);
-  -webkit-filter: blur(17.5px);
-  background: rgba(207, 236, 255, 0.5);
+  box-shadow: 0px 0.272vw 2.381vw rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(2.041vw 2.041vw 3.401vw rgba(0, 0, 0, 0.79));
+  background: var(--natural);
   border-radius: 1.7vw;
   margin-left: -5vw;
 }
 
 .about-us {
-  padding-top: 10vw;
+  padding-top: 15vw;
   /* margin-left: 4vw; */
   display: flex;
   flex-direction: column;
@@ -134,7 +150,7 @@ padding-bottom: 10vw;
 }
 
 .section-2 {
-  padding-top: 5vw;
+  padding-top: 20vw;
   padding-left: 4vw;
   display: flex;
 }
@@ -202,15 +218,17 @@ padding-bottom: 10vw;
 .form #submit-field {
   background-color: var(--natural);
   width: 10vw;
-  height: 5vw;
+  height: 4vw;
   border: 3px solid var(--primary);
   border-radius: 0.68vw;
   padding: 1vw;
   font-family: Proxima Nova Alt Rg;
   font-size: 1.4vw;
+  margin-left: -28vw;
   color: var(--primary);
   cursor: pointer;
 }
+
 
 .form #submit-field:active{
   transform: scale(0.8);

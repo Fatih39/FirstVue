@@ -29,9 +29,6 @@
                 </template>
                 <template #sub-dropdown-menu>
                   <div class="sub-menu" id="sub">Education</div>
-                  <div class="sub-menu" id="sub">Advanced Manufacturing</div>
-                  <div class="sub-menu" id="sub">Information Technology</div>
-                  <div class="sub-menu" id="sub">Security</div>
                   <div class="sub-menu" id="sub">Content Publisher</div>
                 </template>
               </SubDropdownMenu>
@@ -42,10 +39,7 @@
                   <div class="sub-menu-title">By Use Cases</div>
                 </template>
                 <template #sub-dropdown-menu>
-                  <div class="sub-menu" id="sub">Improve Academic Result</div>
-                  <div class="sub-menu" id="sub">Teach More with Less</div>
-                  <div class="sub-menu" id="sub">Enhance Learning Platforms</div>
-                  <div class="sub-menu" id="sub">Upskill Workface</div>
+                  <div class="sub-menu" id="sub">Improve Student Outcomes</div>
                   <div class="sub-menu" id="sub">Digitalise Publishing Process</div>
                 </template>
               </SubDropdownMenu>
@@ -67,25 +61,14 @@
             <button class="sol">Resources</button>
           </template>
           <template #dropdown-menu>
-            <div class="sub-menu" id="sub">Blog</div>
-            <div class="sub-menu">
-              <SubDropdownMenu>
-                <template #sub-button>
-                  <DynamicLink to="/landing-page"><div class="sub-menu-title">References</div></DynamicLink>
-                </template>
-                <template #sub-dropdown-menu>
-                  <div class="sub-menu" id="sub">User Guide</div>
-                  <div class="sub-menu" id="sub">Research</div>
-                  <div class="sub-menu" id="sub">Brochures</div>
-                </template>
-              </SubDropdownMenu>
-            </div>
+            <DynamicLink to=""><div class="sub-menu" id="sub">References</div></DynamicLink>
             <div class="sub-menu">
               <DynamicLink to="/events"><div class="sub-menu-title">Events</div></DynamicLink>
             </div>
             <div class="sub-menu">
-              <DynamicLink to="/terms-policies"><div class="sub-menu-title">Legal</div></DynamicLink>
+              <DynamicLink to="/terms-policies"><div class="sub-menu-title">Terms & Policies</div></DynamicLink>
             </div>
+            <DynamicLink to=""><div class="sub-menu" id="sub">Support</div></DynamicLink>
           </template>
         </DropdownMenu>
         <DynamicLink to="/about"><div class="get-started">Get Started</div></DynamicLink>

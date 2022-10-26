@@ -57,7 +57,7 @@
 }
 
 /* Section - 1 */
-.section-1-about-us {
+/* .section-1-about-us {
     width: 50vw;
     margin-left: 5vw;
     font-weight: 700;
@@ -65,7 +65,7 @@
     color: var(--natural);
     line-height: 6.122vw;
     letter-spacing: -0.008em;
-}
+} */
 
 .about-us-dummy {
     background-image: url(../svg/about_us_dummy_1.svg);
@@ -91,9 +91,9 @@
 
 .about-us-background {
     background-image: url(../svg/about_us_background.svg);
-    width: 110vw;
-    height: 80vw;
-    margin-top: -50vw;
+    width: 130vw;
+    height: 140vw;
+    margin-top: -25vw;
     /* margin-left: -5vw; */
     position: absolute;
     z-index: -1;
@@ -137,106 +137,83 @@
     position: absolute;
 }
 
-/* Section - 2 */
-.section-2-about-us {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25vw;
-    margin-left: 5vw;
+/* Section - 1 */
+.section-1-about-us {
     color: var(--natural);
+    margin-left: 5vw;
 }
 
-.about-us-caption {
-    padding-bottom: 5vw;
-    width: 90vw;
-    text-align: center;  
+.section-1-about-us .section-1-about-us-title {
+    font-size: 6.531vw;
+    font-weight: 700;
+    line-height: 6.122vw;
+    letter-spacing: -0.008em;
+}
+
+.section-1-about-us .section-1-desc-1 {
+    margin-top: 5vw;
     font-weight: 400;
     font-size: 2.177vw;
     line-height: 2.721vw;
+    width: 80vw;
 }
 
-.about-us-profile-photo-desc-1 {
-    background-image: url(../svg//mr_yp.svg);
-    background-size: 35vw;
-    background-position: center;
-    width: 34vw;
-    height: 34vw;
-    /* border-radius: 2vw; */
-    margin-left: -10vw;
-    /* padding-right: 5vw; */
-}
-
-.about-us-profile-desc .about-us-name-1 {
-    font-weight: 700;
-    font-size: 3.265vw;
-    line-height: 2.721vw;
-    border-bottom: solid 0.05vw var(--natural);
-    width: 16.7vw;
-    margin-left: -1vw;
-    /* background-color: var(--test); */
-}
-
-.about-us-profile-desc .about-us-position-1 {
+.section-1-about-us .section-1-desc-2 {
+    margin-top: 5vw;
+    font-weight: 400;
     font-size: 2.177vw;
-    font-weight: 700;
     line-height: 2.721vw;
-    padding-top: 2vw;
-    text-align: center;
-    margin-left: -10vw;
+    width: 70vw;
+    text-align: right;
+    margin-left: 20vw;
 }
 
-.about-us-profile-container {
+.section-1-about-us .about-us-profile {
     display: flex;
     justify-content: center;
+    margin-left: -5vw;
+}
+
+.section-1-about-us .about-us-person-profile-1, .about-us-person-profile-2 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 5vw;
 }
 
-.about-us-profile-container .about-us-story-1 {
-    width: 35vw;
-    margin-left: 5vw;
-    font-size: 2.177vw;
-    line-height: 2.721vw;
-    text-align: center;
-}
-
-.about-us-profile-photo-desc-2 {
-    background-image: url(../svg/mr_wee_koon.svg);
-    background-size: 35vw;
+.about-us-profile .about-us-profile-image-1 {
+    background-image: url(../svg/mr_yp.svg);
+    background-size: 30vw;
     background-position: center;
     width: 34vw;
     height: 34vw;
-    margin-left: 5vw;
-    /* border-radius: 2vw; */
-    /* margin-left: -10vw; */
-    /* padding-right: 5vw; */
 }
 
-.about-us-profile-container .about-us-story-2 {
-    width: 35vw;
-    margin-left: -10vw;
-    font-size: 2.177vw;
-    line-height: 2.721vw;
-    text-align: center;
+.about-us-profile .about-us-profile-image-2 {
+    background-image: url(../svg/mr_wee_koon.svg);
+    background-size: 30vw;
+    background-position: center;
+    width: 34vw;
+    height: 34vw;
 }
 
-.about-us-profile-desc .about-us-name-2 {
+.about-us-profile .about-us-profile-1-name, .about-us-profile-2-name {
     font-weight: 700;
     font-size: 3.265vw;
     line-height: 2.721vw;
-    border-bottom: solid 0.05vw var(--natural);
-    width: 21vw;
-    margin-left: 12vw;
-    /* background-color: var(--test); */
+    text-align: center;   
+    margin-top: -1vw; 
+    border-bottom: solid 0.1vw var(--natural);
 }
 
-.about-us-profile-desc .about-us-position-2 {
-    font-size: 2.177vw;
+.about-us-profile .about-us-profile-1-position, .about-us-profile-2-position {
     font-weight: 700;
+    font-size: 2.177vw;
     line-height: 2.721vw;
-    padding-top: 2vw;
     text-align: center;
-    margin-left: 5vw;
+    margin-top: 2vw;
 }
+
 
 /* Section - 3 */
 .vector-6 {
@@ -248,7 +225,7 @@
 }
 
 .vector-7 {
-    background-image: url(../svg//Vector_7.svg);
+    background-image: url(../svg/Vector_7.svg);
     width: 100vw;
     height: 100vw;
     position: absolute;
@@ -272,7 +249,6 @@
     padding-bottom: 5vw;
 }
 
-
 .section-3-about-us .section-3-about-us-content {
     width: 85vw;
     font-size: 2.177vw;
@@ -286,13 +262,18 @@
 
 .section-3-about-us-profile-wrapper {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+}
+
+.section-3-about-us-desc {
+    display: flex;
+    flex-direction: column;
 }
 
 .section-3-profile-photo-desc .profile-photo {
     background-image: url(../svg//prof_alex_siow.svg);
-    background-size: 35vw;
+    background-size: 30vw;
     background-position: center;
     width: 34vw;
     height: 34vw;
@@ -302,25 +283,25 @@
     font-weight: 700;
     font-size: 3.265vw;
     line-height: 2.721vw;
-    border-bottom: solid 0.05vw var(--natural);
+    border-bottom: solid 0.1vw var(--natural);
     width: 21vw;
-    margin-left: 6vw;
+    /* margin-left: 6vw; */
 }
 
 .section-3-about-us-position {
     font-size: 2.177vw;
     font-weight: 700;
     line-height: 2.721vw;
-    padding-top: 2vw;
+    padding-top: 1vw;
     text-align: center;
-    margin-left: -1vw;
+    margin-left: -31vw;
 }
 
 .section-3-about-us-profile-wrapper .section-3-profile-caption {
     font-size: 2.177vw;
     line-height: 2.721vw;
     width: 50vw;
-    margin-top: -5vw;
+    margin-top: 3.5vw;
 }
 
 .about-us-form-bg {

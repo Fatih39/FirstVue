@@ -5,7 +5,7 @@
             <div @mouseover="active = true" class="button">
                 <slot name="sub-button"></slot>
             </div>
-            <div v-if="active" @mouseleave="active = false" class="dropdown-menu">
+            <div v-if="active" @mouseleave="active = false" class="dropdown-menu fade-in">
                 <slot name="sub-dropdown-menu"></slot>
             </div>
         </div>
@@ -21,6 +21,18 @@
     --test: #FF0000;
     }
 
+    @keyframes fade-in {
+        from {
+            opacity : 0;
+        } to {
+            opacity: 1;
+        }
+    }
+    .fade-in {
+        animation-name: fade-in;
+        animation-duration: 0.2s;
+    }
+    
     /* Dropdown menu styles */
     .dropdown-menu {
         border: 0.25vw solid var(--primary);
@@ -35,7 +47,9 @@
         font-size: 1vw;
         color: var(--menu-active);
         font-weight: 400;
+        cursor: pointer;
         letter-spacing: 0.025vw;
+        box-shadow: 0px 0.272vw 1.02vw rgba(0, 0, 0, 0.12), 0px 0.408vw 0.408vw rgba(0, 0, 0, 0.2);
     }
 
 </style>

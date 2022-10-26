@@ -2,55 +2,42 @@
 <template>
 <div class="wrapper-about-us">
     <!-- Eclipse_5 here -->
-    <div class="section-1-about-us">
-        Empowering Learners to Learn Independently at Their Own Pace.
-    </div>
     <div class="about-us-background background-no-repeat-size-contain"></div>
-    <div class="about-us-dummy"></div>
-    <div class="vector-5  background-no-repeat-size-contain"></div>
     <div class="stars-1"></div>
     <div class="stars-2"></div>
     <!-- Section 2 -->
     <div class="stars-3"></div>
-    <div class="section-2-about-us">
-        <div class="about-us-caption">
-            KiteSense™ is a cloud-based recommender that guides every learner towards mastery of a chosen subject. The AI engine scaffolds learning tasks for each subject and optimize learning paths for each learner based on pedagogical research and individual learner profile. Using data collected from formative assessments, KiteSense™ personalises the learning speed and content to every learner,  providing the right tools and support to meet their individual needs. 
+    <div class="section-1-about-us">
+        <div class="section-1-about-us-title">About Us</div>
+        <div class="section-1-desc-1">
+            KiteSense™ is a cloud-based recommender that guides every learner towards mastery of a chosen subject. The AI engine scaffolds learning tasks for each subject and optimize learning paths for each learner based on pedagogical research and individual learner profile.
         </div>
-        <div class="about-us-container">
-            <div class="about-us-profile-container">
-                <div class="about-us-profile-wrapper">
-                    <DynamicLink to="https://www.linkedin.com/in/yuehphern/">
-                    <div class="about-us-profile-photo-desc-1 background-no-repeat-size-contain">
-                        <!-- Photo here ! -->
+        <div class="section-1-desc-2">
+            KiteSense are a team of engineers, data scientists, and designers, passionate about using technology to providing the right tools and support for learners. We believe in teamwork, learning together, being creative and thoughtful and helping every learners succeed.
+        </div>
+
+        <div class="about-us-profile">
+            <div class="about-us-person-profile-1">
+                <DynamicLink to="https://www.linkedin.com/in/yuehphern/">
+                    <div class="about-us-profile-image-1 background-no-repeat-size-contain">
+                        <!-- Image here -->
                     </div>
-                    </DynamicLink>
-                    <div class="about-us-profile-desc">
-                        <div class="about-us-name-1">Yueh Phern</div>
-                        <div class="about-us-position-1">Founder/CEO</div>
-                    </div>
-                </div>
-                <div class="about-us-story-1">
-                    After catching the startup bug from Stanford GSB, Yueh Phern with his partner Wee Koon started KiteSense with a vision to harness the potential of data to change teaching and learning, and change lives. We are dedicated to making the best learning analytics system for educators
-                </div>
+                </DynamicLink>
+                <div class="about-us-profile-1-name">Yueh Phern</div>
+                <div class="about-us-profile-1-position">Founder/CEO</div>
             </div>
 
-            <div class="about-us-profile-container">
-                <div class="about-us-story-2">
-                    After catching the startup bug from Stanford GSB, Yueh Phern with his partner Wee Koon started KiteSense with a vision to harness the potential of data to change teaching and learning, and change lives. We are dedicated to making the best learning analytics system for educators
-                </div>
-                <div class="about-us-profile-wrapper">
-                    <DynamicLink to="https://www.linkedin.com/in/yan-wee-koon/">
-                    <div class="about-us-profile-photo-desc-2 background-no-repeat-size-contain">
-                        <!-- Photo here ! -->
+            <div class="about-us-person-profile-2">
+                <DynamicLink to="https://www.linkedin.com/in/yan-wee-koon/">
+                    <div class="about-us-profile-image-2 background-no-repeat-size-contain">
+                        <!-- Image here -->
                     </div>
-                    </DynamicLink>
-                    <div class="about-us-profile-desc">
-                        <div class="about-us-name-2">Yan Wee Koon</div>
-                        <div class="about-us-position-2">Co-Founder/CTO</div>
-                    </div>
-                </div>
+                </DynamicLink>
+                <div class="about-us-profile-2-name">Wee Koon</div>
+                <div class="about-us-profile-2-position">Co-Founder/CTO</div>
             </div>
         </div>
+
     </div>
     
     <!-- Section 3 -->
@@ -62,14 +49,11 @@
         </div>
         <div class="section-3-about-us-content">
             <div>
-            Professor Alex Siow is a renowned author, professor, board chairman, managing director, independent director, consultant, and advisor. Prior to joining NUS, Prof Alex was the Managing Director, Health & Public Service, Accenture, SVP/CIO, Starhub and CIO, HDB 
+                Professor Alex Siow is a renowned author, professor, board chairman, managing director, independent director, consultant, and advisor. Prior to joining NUS, Prof Alex was the Managing Director, Health & Public Service, Accenture, SVP/CIO, Starhub and CIO, HDB. He is also an experienced independent advisory professional, with more than a decade in the industry. 
             </div>
             <div>
-            He is also an experienced independent advisory professional, with more than a decade in the industry. He regularly advises on business strategy for companies that are using or developing new ways of moving and managing technology roadmap across borders.
+                We are very happy to have Professor Alex Siow as our advisor. He is helping us to get KiteSense better, so you can access our high-quality services and data for your personalised teaching effectively and easily. 
             </div> 
-            <div>
-            We are very happy to have Professor Alex Siow as our advisor. He is helping us to get KiteSense better, so you can access our high-quality services and data for your personalised teaching effectively and easily.
-            </div>
         </div>
         <div class="section-3-about-us-profile-wrapper">
             <div class="section-3-profile-photo-desc">
@@ -78,10 +62,12 @@
                     <!-- Photo here -->
                 </div> 
                 </DynamicLink>
+            </div>
+            <div class="section-3-about-us-desc">
                 <div class="section-3-about-us-name">Prof Alex Siow</div>
                 <div class="section-3-about-us-position">KiteSense’s Advisor</div>
+                <div class="section-3-profile-caption">Professor (Practice) at the Department of Information Systems and Analytics of the School of Computing, National University of Singapore.</div>
             </div>
-            <div class="section-3-profile-caption">Professor (Practice) at the Department of Information Systems and Analytics of the School of Computing, National University of Singapore.</div>
         </div>
     </div>
 

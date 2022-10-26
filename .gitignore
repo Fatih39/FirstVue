@@ -29,3 +29,7 @@ coverage
 Form extraction plan.txt
 src/components/EmailJS_env.txt
 .vscode/extensions.json
+
+.vscode/
+QnA.txt
+Todo.txt

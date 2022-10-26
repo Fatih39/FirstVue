@@ -25,7 +25,7 @@ import { RouterLink } from "vue-router";
     <!-- "7 Billion Learners" Section -->
     <div class="eclipse"></div>
     <div class="section-2">
-      <div class="title-wrapper"><div class="title">7 Billion Learners</div><div class="caption">Only 85 million teachers. Let us help accelerate your learning journey.</div></div>
+      <div class="title-wrapper"><div class="title">Integrated Cloud-Based Recommender Into Learning System</div><div class="caption">A fully asynchronous online adaptive learning recommender with ontology-driven knowledge maps to empower learners to learn independently at their own pace.</div></div>
       <div class="gif"></div>
       <div class="content">KiteSense cloud-based recommender guides every learner towards the mastery of a chosen subject by automatically prescribing “what’s next”. By serving the right content at the right stage of their learning journey, KiteSense enables learners to learn independently and accurately with better outcomes.</div>
     </div>
@@ -41,21 +41,22 @@ import { RouterLink } from "vue-router";
             <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
           </div>
           <div class="second-stats">
-            <div class="number">18%</div>
-            <div class="stats-title">Learning Outcomes</div>
-            <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
+            <div class="number">30%</div>
+            <div class="stats-title">Enjoyment</div>
+            <div class="caption">Students enjoyment in learning positively.</div>
           </div>
           <div class="third-stats">
             <div class="number">18%</div>
-            <div class="stats-title">Learning Outcomes</div>
-            <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
+            <div class="stats-title">Engagement</div>
+            <div class="caption">Students felt more supported in their learning with KiteSense.</div>
           </div>
           <div class="fourth-stats">
-            <div class="number">18%</div>
-            <div class="stats-title">Learning Outcomes</div>
-            <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
+            <div class="number">16%</div>
+            <div class="stats-title">Confidence</div>
+            <div class="caption">Students more confidence learning the content taught in class.</div>
           </div>
         </div>
+        <div class="disclaimer">*based on a research study with Temasek Polytechnic, Singapore</div>
       </div>
     </div>
 
@@ -63,15 +64,26 @@ import { RouterLink } from "vue-router";
 
     <div class="vector-3"></div>
     <div class="section-4">
-      <div class="eclipse"></div>
-      <div class="picture"></div>
-      <div class="text-content">
-        <div class="title">Powering the Future of Learning with Ontology-Driven Maps.
+      <div class="section-4-background"></div>
+      <div class="section-4-content-1">
+        <div class="eclipse"></div>
+        <div class="picture-1"></div>
+        <div class="text-content">
+          <div class="title">Data-Driven AI Solutions</div>
+          <div class="content">The AI engine scaffolds and optimize learning path for each subject for each learner based on pedagogical research and individual learner profile.</div>
+          <div class="button-style-primary"><RouterLink to="/">Discover More Here</RouterLink></div>
         </div>
-        <div class="content">Applicable to schools, tutoring centres, learning platforms, vocational training, workforce development and more. </div>
-        <div class="button-style-primary"><RouterLink to="/">Discover More Here</RouterLink></div>
+      </div>
+      <div class="section-4-content-2">
+        <div class="picture-2"></div>
+        <div class="text-content">
+          <div class="title">Cultivate A Mastery of Learning</div>
+          <div class="content">Applicable to schools, tutoring centres, learning platforms, vocational training, workforce development and more.</div>
+          <div class="button-style-primary"><RouterLink to="/">Read More</RouterLink></div>
+        </div>
       </div>
     </div>
+    <div class="vector-4"></div>
 
   </div>
 </template>

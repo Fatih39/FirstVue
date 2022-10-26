@@ -4,8 +4,10 @@ import Carousel from "./Carousel.vue";
 </script>
 <template>
   <div class="wrapper">
+    <div class="main-page-2-signal-1 background-no-repeat-size-contain"></div>
     <Carousel></Carousel>
     <div class="section-2">
+      <div class="main-page-2-vector-1 background-no-repeat-size-contain"></div>
       <div class="text-content">
         <div class="title">Connect to Our Experts</div>
         <div class="caption">We help you to reach right leaners at the right time by enable students to take control of their learning set at their own pace to master learning objectives.</div>
