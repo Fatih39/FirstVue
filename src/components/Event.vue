@@ -18,17 +18,11 @@ import DynamicLink from './logic/DynamicLink.vue';
             <div class="event-title-vector background-no-repeat-size-contain"></div>
         </div>
         <div class="event-section-3-wrapper">
-            <div class="event-title">
-                <div id="exhibitions" class="event-title-content" @mouseover="exhibitionsActive = true; webinarsActive = false; techTalkActive = false">Exhibitions</div>
-                <div class="event-title-content margin-left-10vw" id="webinars" @mouseover="exhibitionsActive = false; webinarsActive = true; techTalkActive = false">Webinars</div>
-                <div class="event-title-content margin-left-10vw" @mouseover="exhibitionsActive = false; webinarsActive = false; techTalkActive = true">Tech Talk</div>
-            </div>
             <div class="event-vector background-no-repeat-size-contain"></div>
-            <!-- EXHIBITIONS -->
-            <div v-if="exhibitionsActive" class="exhibitions-section fade-in">
-                <div class="label">Upcoming Events :</div>
-                <div class="upcoming-events">
-                    <div class="upcoming-event-image background-no-repeat-size-contain">
+            <div class="all-past-section fade-in">
+                <div class="label">Past event :</div>
+                <div class="all-past-events">
+                    <div class="all-past-event-image background-no-repeat-size-contain">
                         <!-- Image here -->
                     </div>
                     <div class="event-desc">
@@ -49,8 +43,10 @@ import DynamicLink from './logic/DynamicLink.vue';
                         </div>
                     </div>
                 </div>
-                <div class="label">Past Events :</div>
-                <div class="past-events">
+                <!-- Exhibitions -->
+                <div class="past-event-label">Past Exhibitions :</div>
+                <div class="event-vector-2 background-no-repeat-size-contain"></div>
+                <div class="exhibitions-past-events">
                     <div class="past-event-1">
                         <div class="past-event-image-1 background-no-repeat-size-contain">
 
@@ -80,100 +76,20 @@ import DynamicLink from './logic/DynamicLink.vue';
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- WEBINARS -->
-            <div v-if="webinarsActive" class="webinars-section fade-in">
-                <div class="label">Upcoming Events :</div>
-                <div class="upcoming-events">
-                    <div class="upcoming-event-image background-no-repeat-size-contain">
-                        <!-- Image here -->
-                    </div>
-                    <div class="event-desc">
-                        <div class="event-details-1">
-                            <div class="event-details-title">We are preparing for the next events !</div>
-                        </div>
-                        <div class="event-details-2">
-                            Stay tuned !
-                        </div>
-                        <div class="event-form">
-                            <div class="event-input-field">
-                                <input type="text" id="email" placeholder="Your Email" autocomplete="off">
-                            </div>
-                            <div class="event-submit-field">
-                                <input type="submit" id="submit-field" value="Sign Up for Updates">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="label">Past Events :</div>
-                <div class="past-events">
-                    <div class="past-event-1">
-                        <div class="past-event-image-1 background-no-repeat-size-contain">
 
-                        </div>
-                        <div class="past-event-section-right">
-                            <div class="past-event-details-1">
-                                Differentiated Instruction: Create the best learning experience with KiteSense.
-                            </div>
-                            <div class="past-event-details-2">
-                                It was a great chance to share how to create the best learning experience for your student with data-driven differentiated instruction.
-                            </div>
-                            <div class="button-style-primary-event">
-                                Join the Community
-                            </div>
-                        </div>
-                    </div>
-                    <div class="past-event-2">
-                        <div class="past-event-image-2 background-no-repeat-size-contain">
-
-                        </div>
-                        <div class="past-event-section-right">
-                            <div class="past-event-details-1">
-                                Strategies to Prepare Students for the Digitalisation of the VUCA Era for Teachers : "Automating DI to Prep Students for the VUCA World"
-                            </div>
-                            <div class="past-event-details-2">
-                                KiteSense with Teachin.id from Indonesia shared a summary of the key highlight of using our apps to help the teaching process.
-                            </div>
-                            <div class="button-style-primary-event">
-                                Join the Community
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- TECH TALK -->
-            <div v-if="techTalkActive" class="techtalk-section fade-in">
-                <div class="label">Upcoming Events :</div>
-                <div class="upcoming-events">
-                    <div class="upcoming-event-image background-no-repeat-size-contain">
-                        <!-- Image here -->
-                    </div>
-                    <div class="event-desc">
-                        <div class="event-details-1">
-                            <div class="event-details-title">We are preparing for the next events !</div>
-                        </div>
-                        <div class="event-details-2">
-                            Stay tuned !
-                        </div>
-                        <div class="event-form">
-                            <div class="event-input-field">
-                                <input type="text" id="email" placeholder="Your Email" autocomplete="off">
-                            </div>
-                            <div class="event-submit-field">
-                                <input type="submit" id="submit-field" value="Sign Up for Updates">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="label">Past Events :</div>
-                <div class="past-events">
+                <!-- Tech Talk -->
+                <div class="past-event-label">Past Tech Talk :</div>
+                <div class="tech-talk-past-events">
                     <div class="past-event-1">
                         <div class="past-event-image-1 background-no-repeat-size-contain">
 
                         </div>
                         <div class="past-event-details-1">
-                            Differentiated Instruction: Create the best learning experience with KiteSense
+                            InnovLogue : Bridging Learning & Work Performance with Learning Analytics.<br>26 May 2022
                         </div>
+                        <!-- <div class="past-event-details-2">
+                            
+                        </div> -->
                         <div class="button-style-primary-event">
                             Join the Community
                         </div>
@@ -183,7 +99,10 @@ import DynamicLink from './logic/DynamicLink.vue';
 
                         </div>
                         <div class="past-event-details-1">
-                            Strategies to Prepare Students for the Digitalisation of the VUCA Era for Teachers : "Automating DI to Prep Students for the VUCA World"
+                            Summit Singapore 6 October 2022
+                        </div>
+                        <div class="past-event-details-2">
+                            Suntec Singapore Convention & Exhibition Centre
                         </div>
                         <div class="button-style-primary-event">
                             Join the Community
@@ -191,7 +110,23 @@ import DynamicLink from './logic/DynamicLink.vue';
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- Mailchimp form -->
+        <div class="event-mailchimp-vector background-no-repeat-size-contain"></div>
+        <div class="event-mailchimp-wrapper">
+            <div class="event-mailchimp-image background-no-repeat-size-contain"></div>
+            <div class="event-mailchimp-form">
+                <div class="event-mailchimp-form-title">We are preparing for the next events !<br><br>Stay tuned !</div>
+                <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="event-mailchimp-form-input">
+                        <input type="email" placeholder="Your Email" name="EMAIL" value="" id="mce-EMAIL" required autocomplete="off" />
+                    </div>
+                    <div class="about-us-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Sign Up For Updates"></div>
+                </form>
+
+
+            </div>
         </div>
 
     </div>
@@ -199,29 +134,28 @@ import DynamicLink from './logic/DynamicLink.vue';
 
 <style src="../assets/css/Event.css"></style>
 <script>
+import { onMounted } from "vue";
 
-import $ from 'jquery';
+const addScript = (src) => {
+  return new Promise((resolve, reject) => {
+    const myScript = document.createElement('script');
 
-// $(document).ready(() => {
-//     const exhibitionsPage = () => {
-//         $('.exhibitions-section').addClass('display-flex');
-//         $('.webinars-section').addClass('display-none');
-//     }
+    myScript.setAttribute('src', src); 
+    myScript.addEventListener('load', resolve);
+    myScript.addEventListener('error', reject);
 
-//     const webinarsPage = () => {
-//         $('.exhibitions-section').addClass('display-none');
-//         $('.webinars-section').addClass('display-flex');
-//     }
-// })
-export default {
-    data() {
-        return {
-            exhibitionsActive : true,
-            webinarsActive : false,
-            techTalkActive : false,
-        }
-    }
-    
+    document.body.appendChild(myScript);
+  });
 }
+
+onMounted(() => {
+  try {
+    addScript('https://code.jquery.com/jquery-3.6.1.min.js');
+    addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
+    (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='FMESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+  } catch (e) {
+    console.log(e);
+}
+})
 
 </script>

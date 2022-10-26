@@ -146,7 +146,7 @@
 }
 
 .event-section-3-wrapper {
-    margin-top: 13vw;
+    margin-top: 5vw;
     margin-left: 5vw;
 }
 
@@ -159,23 +159,29 @@
 
 .event-section-3-wrapper .event-vector {
     background-image: url(../svg/event_signal.svg);
-    width: 100vw;
-    height: 100vw;
+    width: 80vw;
+    height: 80vw;
     position: absolute;
     z-index: -2;
     /* transform: rotate(10deg); */
-    margin-top: 50vw;
-    margin-left: 30vw;
+    margin-top: 120vw;
+    margin-left: 45vw;
+}
+
+.label {
+    font-weight: 700;
+    font-size: 3.265vw;
+    line-height: 4.354vw;
 }
 
 /* Exhibitions Section */
-.exhibitions-section {
+.all-past-section {
     display: flex;
     flex-direction: column;
     margin-top: 10vw;
 }
 
-.upcoming-events {
+.all-past-events {
     display: flex;
     padding-top: 3vw;
     align-items: center;
@@ -184,13 +190,13 @@
     /* background-color: var(--test); */
 }
 
-.upcoming-event-image {
+.all-past-event-image {
     background-image: url(../svg/event_1_exhibitions.svg);
     width: 40vw;
     height: 40vw;
 }
 
-.upcoming-events .event-desc {
+.all-past-events .event-desc {
     font-weight: 700;
     font-size: 2.449vw;
     width: 50vw;
@@ -202,7 +208,7 @@
     align-items: center;
 }
 
-.upcoming-events .event-desc .event-details-2 {
+.all-past-events .event-desc .event-details-2 {
     margin-top: 3vw;
     width: 30vw;
     /* background-color: var(--natural); */
@@ -215,24 +221,38 @@
     color: var(--primary);
 }
 
-.past-events {
-    margin-top: 3vw;
+.exhibitions-past-events, .tech-talk-past-events {
+    /* margin-top: 3vw; */
     display: flex;
 }
 
-.past-events .past-event-image-1 {
+/* Exhibitions */
+.event-vector-2 {
+    background-image: url(../svg/Vector_12.svg);
+    position: absolute;
+    z-index: -1;
+    width: 110vw;
+    height: 40vw;
+    margin-left: -5vw;
+    margin-top: 70vw;
+}
+
+.exhibitions-past-events {
+    padding-bottom: 5vw;
+}
+.exhibitions-past-events .past-event-image-1 {
     background-image: url(../svg/event_2_exhibitions.svg);
     width: 35vw;
     height: 35vw;
 }
 
-.past-events .past-event-image-2 {
+.exhibitions-past-events .past-event-image-2 {
     background-image: url(../svg/event_3_exhibitions.svg);
     width: 35vw;
     height: 35vw;
 }
 
-.past-events .past-event-1, .past-event-2 {
+.exhibitions-past-events .past-event-1, .past-event-2 {
     width: 25vw;
     display: flex;
     flex-direction: column;
@@ -243,123 +263,124 @@
     /* background-color: var(--test); */
 }
 
-.past-events .past-event-1 {
+.exhibitions-past-events .past-event-1 {
     margin-left: 0;
 }
 
-.past-events .past-event-details-2 {
+.exhibitions-past-events .past-event-details-2 {
     margin-top: 3.5vw;
 }
 
-.past-events .past-event-details-1, .past-event-details-2, .label {
+.past-event-details-1, .past-event-details-2, .past-event-label {
     font-weight: 400;
     font-size: 2.177vw;
     line-height: 2.721vw;
 }
 
-.past-events .button-style-primary-event {
+.past-event-label {
+    margin-top: 1.5vw;
+}
+
+.exhibitions-past-events .button-style-primary-event {
     margin-top: 1.5vw;
     margin-left: 0vw;
     width: 10vw;
     color: var(--primary);
 }
 
-.exhibitions-section .past-event-1 .button-style-primary-event {
-    margin-top: 5vw;
-}
+/* Tech Talk */
 
-.exhibitions-section .past-event-2 .button-style-primary-event {
-    margin-top: 2vw;
-}
-
-/* Webinars Section */
-.webinars-section {
-    margin-top: 10vw;
-}
-
-.webinars-section .upcoming-event-image {
-    background-image: url(../svg/event_1_webinars.svg);
-}
-
-.webinars-section .past-event-image-1 {
-    background-image: url(../svg/event_4_webinars.svg);
+.tech-talk-past-events .past-event-image-1 {
+    background-image: url(../svg/event_1_tech_talk.svg);
     width: 35vw;
     height: 35vw;
 }
 
-.webinars-section .past-event-image-2 {
-    background-image: url(../svg/event_5_webinars.svg);
+.tech-talk-past-events .past-event-image-2 {
+    background-image: url(../svg/event_2_tech_talk.svg);
     width: 35vw;
     height: 35vw;
 }
 
-.webinars-section > .past-events {
-    flex-direction: column;
-}
-
-.webinars-section .past-event-section-right {
+.tech-talk-past-events .past-event-1, .past-event-2 {
+    width: 25vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 60vw;
-    margin-top: -3vw;
-    /* margin-left: 10vw; */
-}
-
-.webinars-section .past-event-1 {
-    width: 90vw;
-    display: flex;
-    flex-direction: row;
-    /* flex-direction: column; */
     /* justify-content: center; */
     align-items: center;
     text-align: center;
-    margin-left: -3vw;
+    margin-left: 8vw;
     /* background-color: var(--test); */
 }
 
-.webinars-section .past-event-2 {
-    width: 90vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    margin-left: -3vw;
+
+.tech-talk-past-events .past-event-1 {
+    margin-left: 0;
 }
 
-.webinars-section .past-event-1 .button-style-primary-event {
-    margin-top: 3vw;
+.tech-talk-past-events .past-event-details-2 {
+    margin-top: 3.5vw;
 }
 
-.webinars-section .past-event-2 .button-style-primary-event {
-    margin-top: 3vw;
+.tech-talk-past-events .button-style-primary-event {
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    width: 10vw;
+    color: var(--primary);
 }
 
-/* Tech Talk Section */
-.techtalk-section {
-    /* display: flex; */
-    margin-top: 10vw;
+.tech-talk-past-events .past-event-1 .button-style-primary-event {
+    margin-top: 8.5vw;
 }
 
-.techtalk-section .upcoming-event-image {
-    background-image: url(../svg/event_1_webinars.svg);
-}
-
-.techtalk-section .past-event-image-1 {
-    background-image: url(../svg/event_2_webinars.svg);
-}
-
-.techtalk-section .past-event-image-2 {
-    background-image: url(../svg/event_3_webinars.svg);
-}
-
-.event-form {
+.tech-talk-past-events .past-event-2 .button-style-primary-event {
     margin-top: 5vw;
-    display: flex;
 }
 
-.event-form .event-input-field input {
-    width: 20vw;
+.all-past-section .exhibitions-past-events .past-event-1 .button-style-primary-event {
+    margin-top: 5vw;
+}
+
+.all-past-section .exhibitions-past-events .past-event-2 .button-style-primary-event {
+    margin-top: 2vw;
+}
+
+/* Mailchimp form */
+.event-mailchimp-vector {
+    background-image: url(../svg/Vector_9.svg);
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 30vw;
+}
+
+.event-mailchimp-wrapper {
+    margin-top: 12vw;
+    display: flex;
+    justify-content: center;
+}
+
+.event-mailchimp-image {
+    background-image: url(../svg/event_mailchimp_dummy.svg);
+    width: 15vw;
+    height: 15vw;
+    padding-right: 5vw;
+}
+
+.event-mailchimp-form-title {
+    font-weight: 700;
+    font-size: 2.449vw;
+    line-height: 2.721vw;
+    text-align: center;
+}
+
+.event-mailchimp-form form {
+    display: flex;
+    margin-top: 2.5vw;
+}
+
+.event-mailchimp-form form #mce-EMAIL {
+    width: 22vw;
     height: 3vw;
     margin-bottom: 2vw;
     background-color: var(--third_natural);
@@ -374,36 +395,31 @@
     border-radius: 0.4vw;
 }
 
-.event-form .event-input-field input:focus {
+.event-mailchimp-form form #mce-EMAIL:focus {
     outline: none;
 }
 
-.event-form .event-input-field input::placeholder {
+.event-mailchimp-form form #mce-EMAIL::placeholder {
     color: var(--natural);
 }
 
-.event-form #submit-field {
+
+.event-mailchimp-form #mc-embedded-subscribe {
     background-color: var(--natural);
-    width: 15vw;
+    width: 18vw;
+    height: 4vw;
     border: 3px solid var(--primary);
     border-radius: 0.68vw;
-    padding: 1vw;
     font-family: Proxima Nova Alt Rg;
-    font-size: 1.4vw;
+    font-size: 1.497vw;
+    letter-spacing: 0.008em;
+    font-weight: 400;
     color: var(--primary);
     cursor: pointer;
-    
 }
 
-.event-form #submit-field:active {
+.event-mailchimp-form #mc-embedded-subscribe:active {
     transform: scale(0.8);
     transition: 0.1s;
 }
 
-.techtalk-section .past-event-1 .button-style-primary-event {
-    margin-top: 10vw;
-}
-
-.techtalk-section .past-event-2 .button-style-primary-event {
-    margin-top: 2vw;
-}
