@@ -61,7 +61,7 @@
             <button class="sol">Resources</button>
           </template>
           <template #dropdown-menu>
-            <DynamicLink to=""><div class="sub-menu" id="sub">References</div></DynamicLink>
+            <DynamicLink to="/references"><div class="sub-menu" id="sub">References</div></DynamicLink>
             <div class="sub-menu">
               <DynamicLink to="/events"><div class="sub-menu-title">Events</div></DynamicLink>
             </div>
@@ -102,7 +102,7 @@
         <div class="company">
           <div class="title">Company:</div>
           <div class="footer-content"><RouterLink to="/about">About Us</RouterLink></div>
-          <div class="footer-content"><RouterLink to="/">Contact Us</RouterLink></div>
+          <div class="footer-content"><RouterLink to="/contact-us">Contact Us</RouterLink></div>
           <div class="footer-content"><RouterLink to="/">Solutions</RouterLink></div>
         </div>
       </div>
@@ -110,9 +110,9 @@
         <div class="resources">
             <div class="title">Resources:</div>
             <div class="footer-content"><RouterLink to="/">Blog</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/">Events</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/">References</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/">Terms & Policies</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/events">Events</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/references">References</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/terms-policies">Terms & Policies</RouterLink></div>
         </div>
       </div>
       <div>

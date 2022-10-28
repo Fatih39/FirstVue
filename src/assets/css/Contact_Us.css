@@ -208,9 +208,14 @@
     font-family: Proxima Nova Alt Rg;
 }
 
-.form-submit-field {
+.contact-us-form-submit-field {
     display: flex;
-    justify-content: center;
+    /* background-color: red; */
+}
+
+.contact-us-form-submit-field #submit-field {
+    margin-left: 15vw;
+    margin-top: 2vw;
 }
 
 .form-wrapper #submit-field {

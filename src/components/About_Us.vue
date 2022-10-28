@@ -47,14 +47,14 @@
         <div class="section-3-about-us-title">
             Meet Our Advisor Who Helped Us Get Here
         </div>
-        <div class="section-3-about-us-content">
+        <!-- <div class="section-3-about-us-content">
             <div>
                 Professor Alex Siow is a renowned author, professor, board chairman, managing director, independent director, consultant, and advisor. Prior to joining NUS, Prof Alex was the Managing Director, Health & Public Service, Accenture, SVP/CIO, Starhub and CIO, HDB. He is also an experienced independent advisory professional, with more than a decade in the industry. 
             </div>
             <div>
                 We are very happy to have Professor Alex Siow as our advisor. He is helping us to get KiteSense better, so you can access our high-quality services and data for your personalised teaching effectively and easily. 
             </div> 
-        </div>
+        </div> -->
         <div class="section-3-about-us-profile-wrapper">
             <div class="section-3-profile-photo-desc">
                 <DynamicLink to="https://www.linkedin.com/in/prof-alex-siow-5213b4/">

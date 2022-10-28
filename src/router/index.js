@@ -32,7 +32,6 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/TermsPoliciesView.vue"),
-      meta : { requiresAuth : true }
     },
     {
       path: "/terms-policies-master",
@@ -57,6 +56,15 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/EventView.vue"),
+    },
+    {
+      path: "/references",
+      name: "references",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/ReferencesView.vue"),
+      meta : { requiresAuth : true }
     },
     // Need to create Not Found page
     // {

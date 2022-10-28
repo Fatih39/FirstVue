@@ -1,0 +1,193 @@
+/* Typography */
+* {
+    --natural: #ffffff;
+    --sec_natural : #9E9E9E;
+    --third_natural : #18181C;
+	--primary: #024F94;
+	--accent: #132F66;
+	--base: #000000;
+    --test: #FF0000;
+    --menu-active : #005999;
+}
+@font-face {
+    font-family: Proxima Nova Alt Rg;
+    src: url(./fonts/ProximaNovaA-Regular.ttf);
+}
+
+/* Animations */
+@keyframes fade-in {
+    from {
+        opacity : 0;
+    } to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+}
+
+/* Custom Class */
+.background-no-repeat-size-contain {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Wrapper */
+.references-wrapper {
+    color: var(--natural);
+    font-family: Proxima Nova Alt Rg;
+}
+
+/* Section - 1 */
+.references-stars-1 {
+    background-image: url(../svg/references_stars_1.svg);
+    position: absolute;
+    width: 100vw;
+    height: 150vw;
+    z-index: -1;
+    /* background-color: var(--test); */
+}
+
+.references-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15vw;
+}
+
+.references-section-1 .references-section-1-title {
+    font-weight: 700;
+    font-size: 6.531vw;
+    line-height: 6.122vw;
+    letter-spacing: -0.008em;
+    text-align: center;
+    width: 70vw;
+}
+
+.references-section-1 .references-section-1-desc {
+    font-weight: 400;
+    font-size: 2.177vw;
+    line-height: 2.721vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+/* Section - 2 */
+.references-cloud-vector {
+    background-image: url(../svg/references_vector_1.svg);
+    width: 100vw;
+    height: 35vw;
+    position: absolute;
+    z-index: -1;
+    margin-left: -5vw;
+    margin-top: -15vw;
+}
+
+.references-vector {
+    background-image: url(../svg/references_vector_2.svg);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -1;
+    margin-top: -20vw;
+    margin-left: -5vw;
+}
+
+.references-section-2 {
+    margin-left: 5vw;
+}
+
+.references-section-2-title {
+    font-weight: 700;
+    font-size: 3.265vw;
+    line-height: 4.354vw;
+    margin-top: 7vw;
+}
+
+.references-section-2-content {
+    display: flex;
+    margin-top: 2.5vw;
+}
+
+.references-section-2-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.references-section-2-content-image-1 {
+    background-image: url(../svg/references_brochures_1.svg);
+    /* background-size: 30vw; */
+    width: 30vw;
+    height: 30vw;
+}
+
+.references-section-2-content-image-2 {
+    background-image: url(../svg/references_brochures_2.svg);
+    /* background-size: 30vw; */
+    width: 30vw;
+    height: 30vw;
+}
+
+.references-section-2-content-image-3 {
+    background-image: url(../svg/references_brochures_3.svg);
+    /* background-size: 30vw; */
+    width: 30vw;
+    height: 30vw;
+}
+
+.references-section-2-content-desc {
+    margin-top: 2vw;
+    width: 23vw;
+    text-align: center;
+    font-size: 2.177vw;
+    line-height: 2.721vw;
+}
+
+.references-section-2-content .button-style-primary {
+    margin-top: 5vw;
+}
+
+.references-section-2-research-container {
+    display: flex;
+}
+
+.references-section-2-research-desc {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.references-section-2-research-image {
+    background-image: url(../svg/references_research_1.svg);
+    width: 35vw;
+    height: 35vw;
+}
+
+.references-section-2-research-desc {
+    margin-top: 5vw;
+    padding-bottom: 20vw;
+}
+
+.references-section-2-research-desc .research-title{
+    font-weight: 700;
+    font-size: 2.449vw;
+    line-height: 2.721vw;
+    text-align: center;
+    width: 50vw;
+}
+
+.references-section-2-research-desc .research-caption {
+    font-weight: 400;
+    font-size: 1.633vw;
+    line-height: 2.721vw;
+    text-align: center;
+    width: 50vw;
+    margin-top: 2vw;
+}
+
+.references-section-2-research-desc .button-style-primary {
+    margin-top: 5vw;
+}

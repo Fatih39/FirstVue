@@ -11,7 +11,7 @@
         <div class="pop-up-content">
             <div class="pop-up-left-wrapper">
             <div class="pop-up-title">
-                Augmenting Learning with AI
+                Augmenting Learning with Mastery.AI
             </div>
             <div class="pop-up-form-desc">
                 Fill out this form to explore and get access to our full references.
@@ -31,7 +31,7 @@
                         <input type="text" class="input-form"  name="job_function" placeholder="Job Function" autocomplete="off" required>
                     </div>
                     <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the Privacy Statement.</div>
-                    <div class="form-submit-field"><input type="submit" value="Send" id="submit-field"></div>
+                    <div class="landing-page-form-submit-field"><input type="submit" value="Download Report" id="submit-field"></div>
                 </form>
 
             </div>
@@ -41,7 +41,7 @@
         <div v-show="showPopUp" class="pop-up-after-send fade-in">
             <div class="pop-up-after-send-background background-no-repeat-size-contain"></div>
             <div class="pop-up-after-send-title">
-                    Thank You !
+                Thank You !
             </div>
             <div class="pop-up-after-send-desc">
                 <div class="pop-up-after-send-caption">In this report, learn in detail about how KiteSense is using AI in the primary areas they are focusing on today</div>
@@ -89,7 +89,7 @@ export default {
                 // this.coverActive = true;
                 this.showPopup();
                 setTimeout(() => {
-                    this.$router.push('/terms-policies');
+                    this.$router.push('/references');
                 }, 3000);
             }, (error) => {
                 alert("Failed to sent! Please refresh the page.", error);

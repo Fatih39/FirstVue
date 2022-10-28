@@ -193,15 +193,15 @@ animation: lds-ellipsis3 0.6s infinite;
     width: 38vw;
 }
 
-.pop-up-content .form-submit-field {
+.pop-up-content .landing-page-form-submit-field {
     margin-top: 2vw;
     display: flex;
     justify-content: center;
 }
 
-.pop-up-content #submit-field {
+.landing-page-form-submit-field #submit-field {
     background-color: var(--natural);
-    width: 8vw;
+    width: 14vw;
     border: 3px solid var(--primary);
     border-radius: 0.68vw;
     padding: 1vw;
@@ -212,11 +212,11 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 
-.pop-up-content #submit-field::placeholder {
+.landing-page-form-submit-field #submit-field::placeholder {
     color: var(--primary);
 }
 
-.pop-up-content #submit-field:active {
+.landing-page-form-submit-field #submit-field:active {
     transform: scale(0.8);
     transition: 0.1s;
 }

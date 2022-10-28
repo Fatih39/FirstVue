@@ -60,7 +60,7 @@
                         <textarea name="message" value="" placeholder="Message"></textarea>
                     </div>
                     <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <b>Terms & Policies.</b></div>
-                    <div class="form-submit-field"><input type="submit" value="Send" id="submit-field"></div>
+                    <div class="contact-us-form-submit-field"><input type="submit" value="Send" id="submit-field"></div>
                 </form>
             </div>
         </div>
