@@ -28,7 +28,7 @@
                     <div class="references-section-2-content-desc">
                         Augementing Learning with AI - Scaffold paths to each learner.
                     </div>
-                    <div class="button-style-primary"><DynamicLink to="/">Download</DynamicLink></div>
+                    <div class="button-style-primary" @click="validated ? downloadFile1() : validate()">Download</div>
                 </div>
                 <div class="references-section-2-content-container">
                     <div class="references-section-2-content-image-2 background-no-repeat-size-contain">
@@ -37,7 +37,7 @@
                     <div class="references-section-2-content-desc">
                         The #1 tool for forging every learner's path to mastery.
                     </div>
-                    <div class="button-style-primary"><DynamicLink to="/">Download</DynamicLink></div>
+                    <div class="button-style-primary" @click="validated ? downloadFile2() : validate()">Download</div>
                 </div>
                 <div class="references-section-2-content-container">
                     <div class="references-section-2-content-image-3 background-no-repeat-size-contain">
@@ -46,7 +46,7 @@
                     <div class="references-section-2-content-desc">
                         Smart Worksheets - Guiding bright grades for learners.
                     </div>
-                    <div class="button-style-primary"><DynamicLink to="/">Download</DynamicLink></div>
+                    <div class="button-style-primary" @click="validated ? downloadFile3() : validate()">Download</div>
                 </div>
             </div>
 
@@ -65,7 +65,7 @@
                     <div class="research-caption">
                         Bringing Out the Best in Every Learner - As a leading institution of higher education, this research is one of many undertaken by Temasek Polytechnic to improve and enhance faculty instruction.
                     </div>
-                    <div class="button-style-primary"><DynamicLink to="/">Download</DynamicLink></div>
+                    <div class="button-style-primary" @click="validated ? downloadFile4() : validate()">Download</div>
                 </div>
             </div>
 
@@ -74,3 +74,99 @@
     </div>
 </template>
 <style src="../assets/css/References.css" scoped></style>
+<script>
+import axios from 'axios'
+export default {
+    data () {
+        return {
+            path : null,
+            validated : false,
+        }
+    },
+    mounted () {
+        let current_user_state = sessionStorage.getItem("user_filled_form_state");
+        if (current_user_state == "true") {
+            this.validated = true;
+        }
+        console.log(this.validated);
+    },  
+    methods : {
+        downloadFile1() {
+            axios({
+                url: 'http://localhost:5173/src/assets/doc/dummy_1.pdf',
+                method : 'GET',
+                responseType : 'blob',
+            }).then((res) => {
+                var file = window.URL.createObjectURL(new Blob([res.data]));
+
+                var docUrl = document.createElement('a');
+                docUrl.href = file;
+                docUrl.setAttribute('download', 'augmenting_learning.pdf');
+                document.body.appendChild(docUrl);
+                docUrl.click();
+            })
+        },
+        downloadFile2() {
+            axios({
+                url: 'http://localhost:5173/src/assets/doc/dummy_2.pdf',
+                method : 'GET',
+                responseType : 'blob',
+            }).then((res) => {
+                var file = window.URL.createObjectURL(new Blob([res.data]));
+
+                var docUrl = document.createElement('a');
+                docUrl.href = file;
+                docUrl.setAttribute('download', 'the #1 tool.pdf');
+                document.body.appendChild(docUrl);
+                docUrl.click();
+            })
+        },
+        downloadFile3() {
+            axios({
+                url: 'http://localhost:5173/src/assets/doc/dummy_3.pdf',
+                method : 'GET',
+                responseType : 'blob',
+            }).then((res) => {
+                var file = window.URL.createObjectURL(new Blob([res.data]));
+
+                var docUrl = document.createElement('a');
+                docUrl.href = file;
+                docUrl.setAttribute('download', 'smart_worksheets.pdf');
+                document.body.appendChild(docUrl);
+                docUrl.click();
+            })
+        },
+        downloadFile4() {
+            axios({
+                url: 'http://localhost:5173/src/assets/doc/dummy_4.pdf',
+                method : 'GET',
+                responseType : 'blob',
+            }).then((res) => {
+                var file = window.URL.createObjectURL(new Blob([res.data]));
+
+                var docUrl = document.createElement('a');
+                docUrl.href = file;
+                docUrl.setAttribute('download', 'research_study.pdf');
+                document.body.appendChild(docUrl);
+                docUrl.click();
+            })
+        },
+        validate() {
+            let current_user_state = sessionStorage.getItem("user_filled_form_state");
+            if (current_user_state == "true") {
+                this.$router.push('/references');
+                // this.path = "about-us";
+                this.validated = true;
+                // this.hide = false;
+            } else {
+                this.$router.push('/landing-page');
+            }
+            console.log(current_user_state);
+            console.log(this.validated);
+        }
+    }
+
+}
+
+
+</script>

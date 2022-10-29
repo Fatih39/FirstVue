@@ -44,6 +44,7 @@
   animation-name: fade-in;
   animation-duration: 0.25s;
 }
+
 .transition-leave {
     transform: translateX(-100%);
     transition: 0.5s;
@@ -112,13 +113,13 @@ const next = (current_index) => {
   title.classList.add('fade-in');
   resetAnimation(title);
   toggleSwitch(current_index);
-  
   content.innerHTML = carousel_content[current_index];
   content.classList.add('fade-in');
   resetAnimation(content);
   img.setAttribute("src", carousel_img[current_index]);
   img.classList.add('fade-in');
   resetAnimation(img);
+
   // all_toggle[current_index].classList.add('active');
 }
 
@@ -127,7 +128,6 @@ const toggleSwitch = (index) => {
   for (i = 0; i < all_switch.length; i++){
     if (i == index) {
       all_switch[i].classList.add('active');
-      // next(i);
       restartLoop();
     } else {
       all_switch[i].classList.remove('active');

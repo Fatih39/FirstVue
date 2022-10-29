@@ -145,8 +145,13 @@
     line-height: 2.721vw;
 }
 
-.references-section-2-content .button-style-primary {
+.references-section-2 .button-style-primary {
     margin-top: 5vw;
+    color: var(--menu-active);
+    font-size: 1.288vw;
+    line-height: 1.361vw;
+    letter-spacing: 0.014em;
+    font-weight: 400;
 }
 
 .references-section-2-research-container {

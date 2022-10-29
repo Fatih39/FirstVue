@@ -1,3 +1,21 @@
+<script setup>
+import { RouterView } from "vue-router";
+import DropdownMenu from "./components/logic/DropdownMenu.vue"
+import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
+import DynamicLink from "./components/logic/DynamicLink.vue";
+// import all necessary scripts
+const addScript = (src) => {
+  return new Promise((resolve, reject) => {
+    const myScript = document.createElement('script');
+
+    myScript.setAttribute('src', src); 
+    myScript.addEventListener('load', resolve);
+    myScript.addEventListener('error', reject);
+
+    document.body.appendChild(myScript);
+  });
+}
+</script>
 <template>
   <!-- For header & footer -->
   <header>
@@ -119,12 +137,15 @@
         <div class="legal">
             <div class="title">Meet the Experts:</div>
             <div class="footer-content">Sign Up with your email to join our community</div>
+            <!-- <div class="pop-up-success">
+
+            </div> -->
             <div class="footer-content">
-              <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0"  >
+              <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <input type="email" placeholder="Your Email" name="EMAIL" value="" id="mce-EMAIL" required autocomplete="off" />
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0b07771d977c2dbf9936e0d63_f7033870e4" tabindex="-1" value=""></div>
               <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Submit" />
-              <!-- <div class="success-msg" v-if="submittedState">Subscribed!</div> -->
+              <div class="success-msg-pop-up" v-if="submittedState">Subscribed!</div>
               </form>
             </div>
         </div>
@@ -134,25 +155,11 @@
   </footer>
 </template>
 
-<script setup>
-import { RouterView } from "vue-router";
-import DropdownMenu from "./components/logic/DropdownMenu.vue"
-import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
-// import DynamicLink from "./components/logic/DynamicLink.vue";
+<script>
 import { onMounted } from "vue";
-import DynamicLink from "./components/logic/DynamicLink.vue";
 
-// import all necessary scripts
-const addScript = (src) => {
-  return new Promise((resolve, reject) => {
-    const myScript = document.createElement('script');
-
-    myScript.setAttribute('src', src); 
-    myScript.addEventListener('load', resolve);
-    myScript.addEventListener('error', reject);
-
-    document.body.appendChild(myScript);
-  });
+export default {
+  submittedState : false,
 }
 
 onMounted(() => {
@@ -160,12 +167,12 @@ onMounted(() => {
     addScript('https://code.jquery.com/jquery-3.6.1.min.js');
     addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
     (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='FMESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+    this.submittedState = true;
+
   } catch (e) {
     console.log(e);
 }
 })
-
-
 
 </script>
 

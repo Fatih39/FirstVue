@@ -46,7 +46,7 @@ const router = createRouter({
       path: "/references",
       name: "references",
       component: () => import("../views/ReferencesView.vue"),
-      meta : { requiresAuth : true }
+      meta : { requiresAuth : false }
     },
     // Need to create Not Found page
     // {
