@@ -100,6 +100,8 @@
     letter-spacing: -0.008em;
     /* background-color: var(--test); */
     text-align: center;
+    width: 70vw;
+    margin-left: 15vw;
 }
 
 .event-section-2-wrapper {

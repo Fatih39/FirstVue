@@ -10,7 +10,7 @@
     <div class="section-1-about-us">
         <div class="section-1-about-us-title">About Us</div>
         <div class="section-1-desc-1">
-            KiteSense™ is a cloud-based recommender that guides every learner towards mastery of a chosen subject. The AI engine scaffolds learning tasks for each subject and optimize learning paths for each learner based on pedagogical research and individual learner profile.
+            KiteSense™ is a cloud-based recommender that guides every learner towards mastery of a chosen subject. The AI engine scaffolds learning tasks for each subject and optimises learning paths for each learner based on pedagogical research and individual learner profile.
         </div>
         <div class="section-1-desc-2">
             KiteSense are a team of engineers, data scientists, and designers, passionate about using technology to providing the right tools and support for learners. We believe in teamwork, learning together, being creative and thoughtful and helping every learners succeed.

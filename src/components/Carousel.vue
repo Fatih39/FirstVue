@@ -59,8 +59,8 @@
 
 button {
   opacity: 50%;
-  width: 1.5vw;
-  height: 1.5vw;
+  width: 1.5em;
+  height: 1.5em;
   cursor: pointer;
   margin: 0.25vw;
   border-radius: 50%;

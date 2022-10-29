@@ -3,6 +3,11 @@
     <div class="wrapper-contact-us">
     <div class="background-contact-us"></div>
     <div class="eclipse-contact-us"></div>
+    <div v-if="coverActive" id="pop-up-cover" class="fade-in">
+        <div v-if="loading" class="loading-wrapper fade-in">
+            <div class="lds-ellipsis fade-in"><div></div><div></div><div></div><div></div></div>
+        </div>
+    </div>
     <div class="section-1-contact-us">
         <div class="title">
             <div class="title-seg-1">Talk to</div>
@@ -15,35 +20,35 @@
     <div class="section-2-contact-us">
         <div class="desc">
             <div class="desc-title">
-                Next Gen-AI
+                Improve Learning Outcomes
             </div>
             <div class="desc-caption">
-                Adapt lessons to needs with precision and speed analytics enchance visibility into progression real time. 
+                Improve learning outcomes with better time efficiency with  KiteSense™ learning recommender optimising learning pathways.
             </div>
             <div class="desc-title">
-                Cost Effectiveness
+                Higher Learners' Engagement & Enjoyment
             </div>
             <div class="desc-caption">
-                Our developers based in Singapore and our local technical support team can assist you immediately to migrate your data. 
+                Learners feel more supported in the learning process with curated content customized to their ability levels. 
             </div>
             <div class="desc-title">
-                Lower Cost
+                Cost-Effectiveness
             </div>
             <div class="desc-caption">
-                Providing high-quality curriculum at faster and lower price point.  
+                Save cost and resources by creating smart books and automating differentiated instructions at scale for each learner.  
             </div>
             <div class="desc-title">
                 Data Trust
             </div>
             <div class="desc-caption">
-                We’ve developed a robust administrative process to ensure that every moment of data security and privacy is taken seriously. 
+                KiteSense™ has robust administrative, physical, managerial, technical and cyber defence safeguards in place to secure its facilities and systems from unauthorised access and to secure your company's data. 
             </div>
-            <div class="desc-title">
+            <!-- <div class="desc-title">
                 Easy to Use
             </div>
             <div class="desc-caption">
                 Easy implementation, intuitive design interface, supports existing workflow seamlessly. 
-            </div>
+            </div> -->
         </div>
         <div class="form">
             <div class="form-bg"></div>
@@ -83,6 +88,16 @@
             </div>
         </div>
     </div>
+    <div v-show="showPopUp" class="pop-up-after-send fade-in">
+        <div class="pop-up-after-send-background background-no-repeat-size-contain"></div>
+        <div class="pop-up-after-send-title">
+            Thank You !
+        </div>
+        <div class="pop-up-after-send-desc">
+            <div class="pop-up-after-send-caption">In this report, learn in detail about how KiteSense is using AI in the primary areas they are focusing on today</div>
+            <div class="pop-up-after-send-dummy background-no-repeat-size-contain"></div>
+        </div>
+    </div>
     </div>
 </template>
 <style src="../assets/css/Contact_Us.css"></style>
@@ -90,13 +105,34 @@
 import emailjs from "emailjs-com";
 
 export default {
+    data () {
+        return {
+            coverActive : false,
+            showPopUp : false,
+            loading : false,
+        }
+    },
   methods : {
+    showPopup () {
+        setTimeout(() => {
+            this.showPopUp = false;
+            this.coverActive = false;
+        }, 3000);
+    },
     sendMail () {
+        this.coverActive = true;
+        this.loading = true;
         emailjs.sendForm('service_g76yx9n', 'template_5h9hx8i', this.$refs.form, 'e5dLPmoZPvHz0ycRM').then(() => {
-            alert("Succesfully sent!")
+            // alert("Succesfully sent!")
+            this.loading = false;
+            this.showPopUp = true;
+            this.showPopup();
             // clear input field
             this.$refs.form.reset();
             sessionStorage.setItem("user_filled_form_state", true);
+            setTimeout(() => {
+                this.$router.push('/contact-us');
+            }, 3000);
         }, (error) => {
             alert("Failed to sent! Please refresh the page.", error);
         }

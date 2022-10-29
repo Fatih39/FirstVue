@@ -26,7 +26,7 @@ import { RouterLink } from "vue-router";
     <div class="eclipse"></div>
     <div class="section-2">
       <div class="title-wrapper"><div class="title">Cloud-Based Recommender 
-for All Learners</div><div class="caption">A fully asynchronous online adaptive learning recommender with ontology-driven knowledge maps to guide every learner towards mastery. KiteSense empower learners to learn independently at their own pace, which saves time and resources for organisations while achieving higher outcomes.</div></div>
+for All Learners</div><div class="caption">A fully asynchronous online adaptive learning recommender to guide every learner towards mastery.</div></div>
       <div class="gif"></div>
       <!-- <div class="content">KiteSense cloud-based recommender guides every learner towards the mastery of a chosen subject by automatically prescribing “what’s next”. By serving the right content at the right stage of their learning journey, KiteSense enables learners to learn independently and accurately with better outcomes.</div> -->
     </div>
@@ -71,7 +71,7 @@ for All Learners</div><div class="caption">A fully asynchronous online adaptive 
         <div class="picture-1"></div>
         <div class="text-content">
           <div class="title">Data-Driven AI Solutions</div>
-          <div class="content">Mastery.AI engine scaffolds and optimises learning pathways of every subject for each learner based on pedagogical research and individual learners' profile.</div>
+          <div class="content">We build the Mastery.AI engine to optimise learning pathways through ontology-driven knowledge maps. This amplifies organisational productivity while achieving higher outcomes. Together, we will expand our institutions and our collective capacity to solve humanity's challenges.</div>
           <div class="button-style-primary"><RouterLink to="/contact-us">Discover More Here</RouterLink></div>
         </div>
       </div>

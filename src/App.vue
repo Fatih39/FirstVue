@@ -57,7 +57,7 @@ const addScript = (src) => {
                   <div class="sub-menu-title">By Use Cases</div>
                 </template>
                 <template #sub-dropdown-menu>
-                  <div class="sub-menu" id="sub">Improve Student Outcomes</div>
+                  <div class="sub-menu" id="sub">Improve Learning Outcomes</div>
                   <div class="sub-menu" id="sub">Digitalise Publishing Process</div>
                 </template>
               </SubDropdownMenu>

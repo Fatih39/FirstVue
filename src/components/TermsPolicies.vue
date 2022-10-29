@@ -5,7 +5,7 @@
         <div class="tp-section-1">
             <div class="tp-title">Welcome !</div>
             <div class="tp-desc">
-                Here you will find the terms of sale used on KiteSense's website, as well as related policies.
+                This page contains KiteSense's subscription terms and related policies.
                 <br>
                 <br>
                 If you have any questions or concerns please contact us here :
@@ -31,7 +31,7 @@
     <!-- Contact Form -->
     <div class="section-2">
         <div class="text-content">
-            <div class="title">Connect to Our Experts</div>
+            <div class="title">Connect with Our Experts</div>
             <div class="caption">If you have any questions, feel free to email us at info@kitesense.sg
                 <br>
                 <br>

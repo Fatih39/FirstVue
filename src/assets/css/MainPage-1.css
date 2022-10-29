@@ -338,7 +338,7 @@ h4 {
   position: absolute;
   z-index: -10;
   width: 120vw;
-  height: 130vw;
+  height: 140vw;
   margin-top: -38vw;
   /* margin-left: 5vw; */
 
@@ -373,7 +373,7 @@ h4 {
   height: 40vw;
   position: absolute;
   margin-left: 55vw;
-  margin-top: -7vw;
+  margin-top: 1vw;
   /* background-color: var(--test); */
 }
 
@@ -404,7 +404,7 @@ h4 {
   margin-left: 10vw;
   width: 40vw;
   text-align: right;
-  margin-top: -5vw;
+  margin-top: 5vw;
   /* margin-top: 35vw; */
 }
 

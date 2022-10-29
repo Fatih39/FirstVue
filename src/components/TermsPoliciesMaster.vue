@@ -3,7 +3,7 @@
     <div class="tp-m-wrapper">
         <div class="tp-m-stars-1"></div>
         <div class="tp-m-title">
-            <span class="bold-underline-thick">Term & Conditions</span>
+            <span class="bold-underline-thick">Terms & Conditions</span>
         </div>
         <div class="tp-m-caption">
             These terms and conditions apply to the provision of the products or services identified on the Order Form by KiteSense Pte. Ltd (“KiteSense”) to the entity identified in the Order Form (“Customer”). An “Order Form” means any order for the provision of products or services signed by Customer. These terms are incorporated into the Order Form and together, along with any addendums identified on the Order Form, form the “Agreement.” KiteSense and Customer are referred to in this Agreement each as a “party” and together as the “parties.”  

@@ -5,12 +5,12 @@ import DynamicLink from './logic/DynamicLink.vue';
     <div class="event-wrapper">
         <div class="event-stars background-no-repeat-size-contain"></div>
         <div class="event-page-title">
-            Leverage AI with Us
+            KiteSense Mastery.AI is Education 3.0
         </div>
         <div class="event-section-2-wrapper">
             <div class="event-left-wrapper">
                 <div class="event-left-desc">Come and experience how KiteSense can help you revolutionise your organisation to engage learners through tech-enabled learning experiences.</div>
-                <div class="button-style-primary-event"><DynamicLink to="/">Be a part of a revolutionise movement</DynamicLink></div>
+                <div class="button-style-primary-event"><DynamicLink to="/">Leverage AI with Us</DynamicLink></div>
             </div>
             <div class="event-dummy background-no-repeat-size-contain">
                 <!-- Dummy here -->
@@ -20,7 +20,7 @@ import DynamicLink from './logic/DynamicLink.vue';
         <div class="event-section-3-wrapper">
             <div class="event-vector background-no-repeat-size-contain"></div>
             <div class="all-past-section fade-in">
-                <div class="label">Past event :</div>
+                <div class="label">Upcoming Event :</div>
                 <div class="all-past-events">
                     <div class="all-past-event-image background-no-repeat-size-contain">
                         <!-- Image here -->
@@ -28,7 +28,7 @@ import DynamicLink from './logic/DynamicLink.vue';
                     <div class="event-desc">
                         <div class="event-details-1">
                             <div class="event-details-title">EDUtech_Asia 2022 Singapore</div>
-                            <div class="event-details-date">9-10 August 2022</div>
+                            <div class="event-details-date">9-10 November 2022</div>
                         </div>
                         <div class="event-details-2">
                             Sands Expo, Singapore (Booth #L29)
@@ -99,7 +99,7 @@ import DynamicLink from './logic/DynamicLink.vue';
 
                         </div>
                         <div class="past-event-details-1">
-                            Summit Singapore 6 October 2022
+                            AWS Summit Singapore 6 October 2022
                         </div>
                         <div class="past-event-details-2">
                             Suntec Singapore Convention & Exhibition Centre
@@ -117,7 +117,7 @@ import DynamicLink from './logic/DynamicLink.vue';
         <div class="event-mailchimp-wrapper">
             <div class="event-mailchimp-image background-no-repeat-size-contain"></div>
             <div class="event-mailchimp-form">
-                <div class="event-mailchimp-form-title">We are preparing for the next events !<br><br>Stay tuned !</div>
+                <div class="event-mailchimp-form-title">We are preparing for the next event !<br><br>Stay tuned !</div>
                 <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div class="event-mailchimp-form-input">
                         <input type="email" placeholder="Your Email" name="EMAIL" value="" id="mce-EMAIL" required autocomplete="off" />

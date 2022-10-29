@@ -33,6 +33,10 @@
     background-size: contain;
 }
 
+.pb-5 {
+    padding-bottom: 5.5vw;
+}
+
 /* Wrapper */
 .references-wrapper {
     color: var(--natural);
@@ -90,8 +94,18 @@
     height: 100vw;
     position: absolute;
     z-index: -1;
-    margin-top: -20vw;
+    margin-top: -70vw;
     margin-left: -5vw;
+}
+
+.references-stars-2 {
+    background-image: url(../svg/references_stars_2.svg);
+    position: absolute;
+    width: 100vw;
+    height: 70vw;
+    z-index: -1;
+    margin-left: -5vw;
+    /* background-color: var(--test); */
 }
 
 .references-section-2 {
@@ -132,6 +146,13 @@
 
 .references-section-2-content-image-3 {
     background-image: url(../svg/references_brochures_3.svg);
+    /* background-size: 30vw; */
+    width: 30vw;
+    height: 30vw;
+}
+
+.references-section-2-content-image-4 {
+    background-image: url(../svg/references_brochures_4.svg);
     /* background-size: 30vw; */
     width: 30vw;
     height: 30vw;

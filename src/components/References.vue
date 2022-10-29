@@ -7,10 +7,10 @@
         <div class="references-stars-1 background-no-repeat-size-contain"></div>
         <div class="references-section-1">
             <div class="references-section-1-title">
-                Automate Effective Process with KiteSense
+                KiteSense Mastery.AI is Education 3.0
             </div>
             <div class="references-section-1-desc">
-                At KiteSense™, we believe that every learners deserves an excellent education.
+                At KiteSense, we believe that every learner deserves an excellent education.
             </div>
         </div>
         <!-- Section - 2 -->
@@ -26,7 +26,7 @@
                         <!-- Image here -->
                     </div>
                     <div class="references-section-2-content-desc">
-                        Augementing Learning with AI - Scaffold paths to each learner.
+                        Augmented Learning with Mastery.AI - Giving every learner the capacity to forge their path to mastery.
                     </div>
                     <div class="button-style-primary" @click="validated ? downloadFile1() : validate()">Download</div>
                 </div>
@@ -34,8 +34,8 @@
                     <div class="references-section-2-content-image-2 background-no-repeat-size-contain">
                         <!-- Image here -->
                     </div>
-                    <div class="references-section-2-content-desc">
-                        The #1 tool for forging every learner's path to mastery.
+                    <div class="references-section-2-content-desc pb-5">
+                        Smart Tutor - The #1 tool for forging paths to mastery.
                     </div>
                     <div class="button-style-primary" @click="validated ? downloadFile2() : validate()">Download</div>
                 </div>
@@ -43,14 +43,27 @@
                     <div class="references-section-2-content-image-3 background-no-repeat-size-contain">
                         <!-- Image here -->
                     </div>
-                    <div class="references-section-2-content-desc">
+                    <div class="references-section-2-content-desc pb-5">
                         Smart Worksheets - Guiding bright grades for learners.
                     </div>
                     <div class="button-style-primary" @click="validated ? downloadFile3() : validate()">Download</div>
                 </div>
             </div>
 
+            <div class="references-section-2-content">
+                <div class="references-section-2-content-container">
+                    <div class="references-section-2-content-image-4 background-no-repeat-size-contain">
+                        <!-- Image here -->
+                    </div>
+                    <div class="references-section-2-content-desc">
+                        Smart Learning Journey - Automatically stream  learners into ability bands
+                    </div>
+                    <div class="button-style-primary" @click="validated ? downloadFile1() : validate()">Download</div>
+                </div>
+            </div>
+
             <div class="references-vector background-no-repeat-size-contain"></div>
+            <div class="references-stars-2 background-no-repeat-size-contain"></div>
             <div class="references-section-2-title">
                 Research
             </div>
@@ -68,8 +81,6 @@
                     <div class="button-style-primary" @click="validated ? downloadFile4() : validate()">Download</div>
                 </div>
             </div>
-
-
         </div>
     </div>
 </template>
