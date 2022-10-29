@@ -10,11 +10,11 @@
                 <br>
                 If you have any questions or concerns please contact us here :
             </div>
-            <div class="button-style-primary-tp"><DynamicLink to="/">Contact Us</DynamicLink></div>
+            <div class="button-style-primary-tp"><DynamicLink to="/">Contact Us Now</DynamicLink></div>
             
             <div class="tp-vector-1 background-no-repeat-size-contain"></div>
             <div class="tp-signal background-no-repeat-size-contain"></div>
-
+            <div class="tp-dummy background-no-repeat-size-contain"></div>
             <div class="sub-terms-title">
                 Subscription Terms (Customer)
             </div>
@@ -32,7 +32,10 @@
     <div class="section-2">
         <div class="text-content">
             <div class="title">Connect to Our Experts</div>
-            <div class="caption">We help you to reach right leaners at the right time by enable students to take control of their learning set at their own pace to master learning objectives.</div>
+            <div class="caption">If you have any questions, feel free to email us at info@kitesense.sg
+                <br>
+                <br>
+                If you are interested in learning more about our Enterprise engagements, get in touch with us through this form.</div>
         </div>
         <div class="form">
             <form ref="form" @submit.prevent = "sendMail">

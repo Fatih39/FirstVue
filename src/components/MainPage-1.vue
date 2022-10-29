@@ -21,13 +21,14 @@ import { RouterLink } from "vue-router";
     </h4>
 
     <div class="vector-1"></div>
-    <div class="button-style-primary"><RouterLink to="/">Request Demo</RouterLink></div>
+    <div class="button-style-primary"><RouterLink to="/contact-us">Request Demo</RouterLink></div>
     <!-- "7 Billion Learners" Section -->
     <div class="eclipse"></div>
     <div class="section-2">
-      <div class="title-wrapper"><div class="title">Integrated Cloud-Based Recommender Into Learning System</div><div class="caption">A fully asynchronous online adaptive learning recommender with ontology-driven knowledge maps to empower learners to learn independently at their own pace.</div></div>
+      <div class="title-wrapper"><div class="title">Cloud-Based Recommender 
+for All Learners</div><div class="caption">A fully asynchronous online adaptive learning recommender with ontology-driven knowledge maps to guide every learner towards mastery. KiteSense empower learners to learn independently at their own pace, which saves time and resources for organisations while achieving higher outcomes.</div></div>
       <div class="gif"></div>
-      <div class="content">KiteSense cloud-based recommender guides every learner towards the mastery of a chosen subject by automatically prescribing “what’s next”. By serving the right content at the right stage of their learning journey, KiteSense enables learners to learn independently and accurately with better outcomes.</div>
+      <!-- <div class="content">KiteSense cloud-based recommender guides every learner towards the mastery of a chosen subject by automatically prescribing “what’s next”. By serving the right content at the right stage of their learning journey, KiteSense enables learners to learn independently and accurately with better outcomes.</div> -->
     </div>
     <!-- "Best In Class Performance" Section -->
     <div class="vector-2"></div>
@@ -70,16 +71,16 @@ import { RouterLink } from "vue-router";
         <div class="picture-1"></div>
         <div class="text-content">
           <div class="title">Data-Driven AI Solutions</div>
-          <div class="content">The AI engine scaffolds and optimize learning path for each subject for each learner based on pedagogical research and individual learner profile.</div>
-          <div class="button-style-primary"><RouterLink to="/">Discover More Here</RouterLink></div>
+          <div class="content">Mastery.AI engine scaffolds and optimises learning pathways of every subject for each learner based on pedagogical research and individual learners' profile.</div>
+          <div class="button-style-primary"><RouterLink to="/contact-us">Discover More Here</RouterLink></div>
         </div>
       </div>
       <div class="section-4-content-2">
         <div class="picture-2"></div>
         <div class="text-content">
-          <div class="title">Cultivate A Mastery of Learning</div>
+          <div class="title">Improve Learning Outcomes & Cost-Effectiveness</div>
           <div class="content">Applicable to schools, tutoring centres, learning platforms, vocational training, workforce development and more.</div>
-          <div class="button-style-primary"><RouterLink to="/">Read More</RouterLink></div>
+          <div class="button-style-primary"><RouterLink to="/contact-us">Read More</RouterLink></div>
         </div>
       </div>
     </div>

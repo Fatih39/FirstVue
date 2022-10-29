@@ -88,7 +88,8 @@
   padding: 5vw;
   width: 60vw;
   color: var(--base);
-  
+  position: absolute;
+  margin-top: 6vw;
   /* backdrop-filter: blur(17.5px); */
 }
 
@@ -98,7 +99,7 @@
   font-style: italic;
   font-size: 2.449vw;
   font-weight: 600;
-  
+  padding-bottom: 5vw;
 }
 
 .about-us .carousel-container {
@@ -114,8 +115,8 @@
 }
 
 .carousel-container img {
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
 }
 
 .button-style-primary {
@@ -146,11 +147,11 @@
 }
 
 .about-us .button-style-primary {
-  margin-top: 5vw;
+  margin-top: 40vw;
 }
 
 .section-2 {
-  padding-top: 20vw;
+  padding-top: 10vw;
   padding-left: 4vw;
   display: flex;
 }

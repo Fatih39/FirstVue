@@ -71,7 +71,7 @@
             <DynamicLink to=""><div class="sub-menu" id="sub">Support</div></DynamicLink>
           </template>
         </DropdownMenu>
-        <DynamicLink to="/about"><div class="get-started">Get Started</div></DynamicLink>
+        <DynamicLink to="/contact-us"><div class="get-started">Get Started</div></DynamicLink>
         </div>
       </div>
       </nav>

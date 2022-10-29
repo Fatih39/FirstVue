@@ -9,8 +9,8 @@ import Carousel from "./Carousel.vue";
     <div class="section-2">
       <div class="main-page-2-vector-1 background-no-repeat-size-contain"></div>
       <div class="text-content">
-        <div class="title">Connect to Our Experts</div>
-        <div class="caption">We help you to reach right leaners at the right time by enable students to take control of their learning set at their own pace to master learning objectives.</div>
+        <div class="title">Connect with Our Experts</div>
+        <div class="caption">We help you to extend your reach to all learners by helping them to learn at their own pace in the paths to mastery.</div>
       </div>
       <div class="form">
         <form ref="form" @submit.prevent = "sendMail">
