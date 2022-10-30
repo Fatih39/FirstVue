@@ -48,9 +48,10 @@
 
 /* Loading & Pop Up Message */
 .loading-wrapper {
-    position: absolute;
+    position: fixed;
     /* background-color: var(--test); */
-    margin-top: 80vw;
+    /* margin-top: 40vw; */
+    top: 50%;
     width: 30vw;
     height: 30vw;
     display: flex;
@@ -113,27 +114,27 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 }
 
-
 .pop-up-after-send {
     /* background-image: url(../svg/landing_page_bg_2.svg); */
-    width: 90vw;
-    height: 80vw;
-    position: absolute;
+    width: 45vw;
+    height: 40vw;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 5vw;
-    margin-top: -130vw;
+    margin-left: 28vw;
+    top: 15%;
+    /* margin-top: -70vw; */
     z-index: 2;
 }
 
 .pop-up-after-send-background {
-    width: 90vw;
-    height: 60vw;
+    width: 45vw;
+    height: 35vw;
     position: absolute;
     z-index: -1;
-    margin-top: -15vw;
+    /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
     filter: blur(17.5px);
@@ -142,16 +143,16 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .pop-up-after-send-title {
     /* background-color: var(--test); */
-    margin-top: -15vw;
+    /* margin-top: -15vw; */
     font-weight: 700;
-    font-size: 4.354vw;
-    line-height: 6.122vw;
+    font-size: 3.354vw;
+    line-height: 3.122vw;
     letter-spacing: -0.008em;
     color: var(--menu-active);
 }
 
 .pop-up-after-send-desc {
-    width: 60vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,7 +162,7 @@ animation: lds-ellipsis3 0.6s infinite;
 .pop-up-after-send-caption {
     margin-top: 5vw;
     font-weight: 400;
-    font-size: 2.177vw;
+    font-size: 1.177vw;
     line-height: 2.721vw;
     text-align: center;
 }
@@ -169,8 +170,8 @@ animation: lds-ellipsis3 0.6s infinite;
 .pop-up-after-send-dummy {
     background-image: url(../svg/landing_page_popup_dummy.svg);
     margin-top: 5vw;
-    width: 20vw;
-    height: 20vw;
+    width: 10vw;
+    height: 10vw;
 }
 
 /* Pop up Background Cover */
@@ -182,11 +183,10 @@ animation: lds-ellipsis3 0.6s infinite;
     opacity: 90%;
     position: absolute;
     width: 100vw;
-    height: 210vw;
+    height: 217.5vw;
     margin-top: -30vw;
     z-index: 1;
 }
-
 
 .section-2-contact-us .form-wrapper a {
     display: flex;
@@ -361,6 +361,18 @@ animation: lds-ellipsis3 0.6s infinite;
     font-size: 1vw;
     line-height: 1.361vw;
     font-family: Proxima Nova Alt Rg;
+    text-align: left;
+}
+
+.form-agreement #form-agreement-link {
+    color: var(--base);
+    font-size: 1vw;
+    line-height: 1.361vw;
+    font-weight: 700;
+    display: inline;
+    border-bottom: solid 0.1vw var(--base);
+    /* width: 8vw; */
+    /* background-color: red; */
 }
 
 .contact-us-form-submit-field {

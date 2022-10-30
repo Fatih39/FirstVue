@@ -23,8 +23,8 @@
             <div class="privacy-security-title">
                 Privacy and Security Resources
             </div>
-            <div class="button-style-primary-tp width-15-vw"><DynamicLink to="/">Acceptable Use Policy</DynamicLink></div>
-            <div class="button-style-primary-tp width-22-vw margin-top-1-vw"><DynamicLink to="/">Data Privacy and Protection Policy</DynamicLink></div>
+            <div class="button-style-primary-tp width-15-vw"><DynamicLink to="https://drive.google.com/file/d/1a5M4pcGWPd7Q0IVPJpijBpox_Iyo8HfD/view?usp=sharing">Acceptable Use Policy</DynamicLink></div>
+            <div class="button-style-primary-tp width-22-vw margin-top-1-vw"><DynamicLink to="https://drive.google.com/file/d/1Q7ZRVhe2nElLmlqJlsiQ6erm-Txx093v/view?usp=sharing">Data Privacy and Protection Policy</DynamicLink></div>
             
         </div>
     

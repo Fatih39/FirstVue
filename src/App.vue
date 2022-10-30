@@ -15,6 +15,9 @@ const addScript = (src) => {
     document.body.appendChild(myScript);
   });
 }
+addScript('https://code.jquery.com/jquery-3.6.1.min.js');
+addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
+
 </script>
 <template>
   <!-- For header & footer -->
@@ -141,11 +144,23 @@ const addScript = (src) => {
 
             </div> -->
             <div class="footer-content">
-              <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <input type="email" placeholder="Your Email" name="EMAIL" value="" id="mce-EMAIL" required autocomplete="off" />
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0b07771d977c2dbf9936e0d63_f7033870e4" tabindex="-1" value=""></div>
+              <form action="https://kitesense.us5.list-manage.com/subscribe/post?u=31a9a2a32ed707c2043c28f31&id=462b223dd7&f_id=00228ae9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" ref="form" target="_blank" @submit="showSuccessMsg">
+              <input type="email" placeholder="Your Email" v-model="email" name="EMAIL" id="mce-EMAIL" required autocomplete="off" />
+              <!-- <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div> -->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_31a9a2a32ed707c2043c28f31_462b223dd7" tabindex="-1" value=""></div>
+              <div class="submission-msg-pop-up" v-if="submittedState">
+                <div class="wrappper-pop-up-msg-success" v-if="!invalidEmail">
+                  <div class="success-icon background-no-repeat-size-contain"></div>
+                  <div class="success-msg">Subscribed!</div>
+                </div>
+                <div class="wrappper-pop-up-msg-success" v-if="invalidEmail">
+                  <div class="invalid-email-msg" v-if="invalidEmail">Invalid Email!</div>
+                </div>
+              </div>
               <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Submit" />
-              <div class="success-msg-pop-up" v-if="submittedState">Subscribed!</div>
               </form>
             </div>
         </div>
@@ -156,23 +171,38 @@ const addScript = (src) => {
 </template>
 
 <script>
-import { onMounted } from "vue";
+// import { onMounted, toHandlers } from "vue";
 
 export default {
-  submittedState : false,
+  data () {
+    return {
+      submittedState : false,
+      invalidEmail : false,
+      email: null
+    }
+  },
+  methods : {
+    validation (email) {
+      var checker = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return checker.test(email);
+    },
+    showSuccessMsg () {
+      this.submittedState = true;
+      if (this.validation(this.email)) {
+        this.invalidEmail = false;
+        console.log(this.validation(this.email));
+        console.log(this.email);
+        // setTimeout(() => {
+        // this.showPopUp = false;
+        // },3000);
+      } else {
+        this.invalidEmail = true;
+        console.log(this.validation(this.email));
+        console.log(this.email);
+      }
+    }
+  }
 }
-
-onMounted(() => {
-  try {
-    addScript('https://code.jquery.com/jquery-3.6.1.min.js');
-    addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
-    (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='FMESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
-    this.submittedState = true;
-
-  } catch (e) {
-    console.log(e);
-}
-})
 
 </script>
 

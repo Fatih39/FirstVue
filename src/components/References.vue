@@ -99,7 +99,7 @@ export default {
         if (current_user_state == "true") {
             this.validated = true;
         }
-        console.log(this.validated);
+        // console.log(this.validated);
     },  
     methods : {
         downloadFile1() {
@@ -134,7 +134,7 @@ export default {
         },
         downloadFile3() {
             axios({
-                url: 'http://localhost:5173/src/assets/doc/dummy_3.pdf',
+                url: 'http://localhost:5173/src/assets/doc/Smart_Worksheet.pdf',
                 method : 'GET',
                 responseType : 'blob',
             }).then((res) => {
@@ -172,8 +172,8 @@ export default {
             } else {
                 this.$router.push('/landing-page');
             }
-            console.log(current_user_state);
-            console.log(this.validated);
+            // console.log(current_user_state);
+            // console.log(this.validated);
         }
     }
 

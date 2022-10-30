@@ -13,6 +13,8 @@
 	--accent: #132F66;
 	--base: #000000;
   --test: #FF0000;
+  --success : #22bb33;
+  --danger : #FF0000;
 }
 header {
     line-height: 1.5;
@@ -22,6 +24,12 @@ header {
 @font-face{
   font-family: Proxima Nova Alt Rg;
   src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+/* Custom Class */
+.background-no-repeat-size-contain {
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .wrapper {
@@ -230,7 +238,7 @@ footer {
 }
 
 .legal #mc-embedded-subscribe {
-  margin-top: 1vw;
+  margin-top: 2vw;
   border-radius: 0.68vw;
   border: solid 0.2vw var(--primary);
   font-weight: 400;
@@ -239,8 +247,35 @@ footer {
   color: var(--primary);
 }
 
-.legal .success-msg {
-  color: greenyellow;
+.legal .submission-msg-pop-up {
+  /* color: var(--success); */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 7vw;
+  /* margin-top: 1vw; */
+  color: 0.5vw;
+}
+
+.legal .wrappper-pop-up-msg-success {
+  display: flex;
+  color: var(--success);
+}
+
+.legal .invalid-email-msg {
+  position: absolute;
+  margin-top: 0.25vw;
+  width: 10vw;
+  font-size: 1.2vw;
+  color: var(--danger);
+}
+
+.success-icon {
+  background-image: url(../svg/success_icon.svg);
+  width: 1vw;
+  height: 1vw;
+  color: var(--success);
+  margin: 0.5vw;
 }
 
 @media (min-width: 1024px) {

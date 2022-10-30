@@ -14,6 +14,20 @@
     src: url(./fonts/ProximaNovaA-Regular.ttf);
 }
 
+/* Animation */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+}
+
 /* Button Config */
 .button-style-primary-about-us {
     display: flex;
@@ -49,6 +63,75 @@
 .background-no-repeat-size-contain{
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+/* Pop Up Config */
+.pop-up-after-send {
+    /* background-image: url(../svg/landing_page_bg_2.svg); */
+    width: 45vw;
+    height: 40vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 28vw;
+    top: 15%;
+    /* margin-top: -70vw; */
+    z-index: 2;
+}
+
+.pop-up-after-send-background {
+    width: 45vw;
+    height: 35vw;
+    position: absolute;
+    z-index: -1;
+    /* margin-top: -15vw; */
+    background: rgba(207, 236, 255, 0.7);
+    border-radius: 1.701vw;
+    filter: blur(17.5px);
+    -webkit-filter: blur(17.5px);
+}
+
+.pop-up-after-send-title {
+    /* background-color: var(--test); */
+    /* margin-top: -15vw; */
+    font-weight: 700;
+    font-size: 3.354vw;
+    line-height: 3.122vw;
+    letter-spacing: -0.008em;
+    color: var(--menu-active);
+}
+
+.pop-up-after-send-desc {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.pop-up-after-send-caption {
+    margin-top: 5vw;
+    font-weight: 400;
+    font-size: 1.177vw;
+    line-height: 2.721vw;
+    text-align: center;
+}
+
+.pop-up-after-send-dummy {
+    background-image: url(../svg/landing_page_2_popup_dummy.svg);
+    margin-top: 5vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.invalid-email-msg {
+    font-size: 1vw;
+    color: var(--danger);
+    position: absolute;
+    margin-top: -1.5vw;
+    margin-left: 0.5vw;
 }
 
 /* Wrapper */
@@ -214,6 +297,16 @@
     margin-top: 2vw;
 }
 
+.about-us-agreement #agreement-link {
+    color: var(--base);
+    font-size: 1vw;
+    line-height: 1.361vw;
+    font-weight: 700;
+    display: inline;
+    border-bottom: solid 0.1vw var(--base);
+    /* width: 8vw; */
+    /* background-color: red; */
+}
 
 /* Section - 3 */
 .vector-6 {

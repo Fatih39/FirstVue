@@ -64,7 +64,8 @@
                         <input type="text" class="input-form"  name="job_function" placeholder="Job Function" autocomplete="off" required>
                         <textarea name="message" value="" placeholder="Message"></textarea>
                     </div>
-                    <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <b>Terms & Policies.</b></div>
+                    <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="form-agreement-link">Terms & Policies.</DynamicLink>
+                    </div>
                     <div class="contact-us-form-submit-field"><input type="submit" value="Send" id="submit-field"></div>
                 </form>
             </div>
@@ -103,41 +104,42 @@
 <style src="../assets/css/Contact_Us.css"></style>
 <script>
 import emailjs from "emailjs-com";
+import DynamicLink from "./logic/DynamicLink.vue";
 
 export default {
-    data () {
+    data() {
         return {
-            coverActive : false,
-            showPopUp : false,
-            loading : false,
-        }
+            coverActive: false,
+            showPopUp: false,
+            loading: false,
+        };
     },
-  methods : {
-    showPopup () {
-        setTimeout(() => {
-            this.showPopUp = false;
-            this.coverActive = false;
-        }, 3000);
-    },
-    sendMail () {
-        this.coverActive = true;
-        this.loading = true;
-        emailjs.sendForm('service_g76yx9n', 'template_5h9hx8i', this.$refs.form, 'e5dLPmoZPvHz0ycRM').then(() => {
-            // alert("Succesfully sent!")
-            this.loading = false;
-            this.showPopUp = true;
-            this.showPopup();
-            // clear input field
-            this.$refs.form.reset();
-            sessionStorage.setItem("user_filled_form_state", true);
+    methods: {
+        showPopup() {
             setTimeout(() => {
-                this.$router.push('/contact-us');
+                this.showPopUp = false;
+                this.coverActive = false;
             }, 3000);
-        }, (error) => {
-            alert("Failed to sent! Please refresh the page.", error);
-        }
-        )
+        },
+        sendMail() {
+            this.coverActive = true;
+            this.loading = true;
+            emailjs.sendForm("service_g76yx9n", "template_5h9hx8i", this.$refs.form, "e5dLPmoZPvHz0ycRM").then(() => {
+                // alert("Succesfully sent!")
+                this.loading = false;
+                this.showPopUp = true;
+                this.showPopup();
+                // clear input field
+                this.$refs.form.reset();
+                sessionStorage.setItem("user_filled_form_state", true);
+                setTimeout(() => {
+                    this.$router.push("/contact-us");
+                }, 3000);
+            }, (error) => {
+                alert("Failed to sent! Please refresh the page.", error);
+            });
+        },
     },
-  }
+    components: { DynamicLink }
 }
 </script>

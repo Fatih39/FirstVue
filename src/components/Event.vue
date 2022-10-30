@@ -1,5 +1,19 @@
 <script setup>
 import DynamicLink from './logic/DynamicLink.vue';
+import LandingPageNewsLetter from './LandingPageNewsLetter.vue';
+const addScript = (src) => {
+  return new Promise((resolve, reject) => {
+    const myScript = document.createElement('script');
+
+    myScript.setAttribute('src', src); 
+    myScript.addEventListener('load', resolve);
+    myScript.addEventListener('error', reject);
+
+    document.body.appendChild(myScript);
+  });
+}
+addScript('https://code.jquery.com/jquery-3.6.1.min.js');
+addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 </script>
 <template>
     <div class="event-wrapper">
@@ -118,44 +132,54 @@ import DynamicLink from './logic/DynamicLink.vue';
             <div class="event-mailchimp-image background-no-repeat-size-contain"></div>
             <div class="event-mailchimp-form">
                 <div class="event-mailchimp-form-title">We are preparing for the next event !<br><br>Stay tuned !</div>
-                <form action="https://kitesense.us21.list-manage.com/subscribe/post?u=0b07771d977c2dbf9936e0d63&amp;id=f7033870e4&amp;f_id=00c9c3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <form action="https://kitesense.us5.list-manage.com/subscribe/post?u=31a9a2a32ed707c2043c28f31&id=462b223dd7&f_id=00228ae9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" @submit="showPopup" ref="form">
                     <div class="event-mailchimp-form-input">
-                        <input type="email" placeholder="Your Email" name="EMAIL" value="" id="mce-EMAIL" required autocomplete="off" />
+                        <input type="email" placeholder="Your Email" name="EMAIL" v-model="email" id="mce-EMAIL" required autocomplete="off" />
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_31a9a2a32ed707c2043c28f31_462b223dd7" tabindex="-1" value=""></div>
+                        <div class="invalid-email-msg" v-show="invalidEmail">Please input an valid email address</div>
                     </div>
                     <div class="about-us-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Sign Up For Updates"></div>
                 </form>
-
-
             </div>
         </div>
-
+        <div v-show="showPopUp" class="pop-up-after-send fade-in">
+            <LandingPageNewsLetter />
+        </div>
     </div>
 </template>
 
 <style src="../assets/css/Event.css"></style>
 <script>
-import { onMounted } from "vue";
-
-const addScript = (src) => {
-  return new Promise((resolve, reject) => {
-    const myScript = document.createElement('script');
-
-    myScript.setAttribute('src', src); 
-    myScript.addEventListener('load', resolve);
-    myScript.addEventListener('error', reject);
-
-    document.body.appendChild(myScript);
-  });
+// import { onMounted } from "vue";
+export default {
+    data () {
+        return {
+            showPopUp : false,
+            invalidEmail : false,
+            email : null,
+        }
+    },
+    methods : {
+        validation (email) {
+            var checker = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return checker.test(email);
+        },
+        showPopup () {
+            if (this.validation(this.email)) {
+                // console.log(this.validation(this.email));
+                this.invalidEmail = false;
+                this.showPopUp = true;
+                setTimeout(() => {
+                    this.showPopUp = false;
+                },3000);
+                // this.email = null;
+            } else {
+                this.invalidEmail = true;
+                // console.log(this.validation(this.email));
+            }
+        }
+    }
 }
 
-onMounted(() => {
-  try {
-    addScript('https://code.jquery.com/jquery-3.6.1.min.js');
-    addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
-    (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='FMESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
-  } catch (e) {
-    console.log(e);
-}
-})
 
 </script>
