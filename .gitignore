@@ -33,3 +33,6 @@ src/components/EmailJS_env.txt
 .vscode/
 QnA.txt
 Todo.txt
+archive/QnA-2.txt
+archive/EmailJS_env.txt
+public/doc

@@ -11,10 +11,10 @@ import { RouterLink } from "vue-router";
     <div class="stars-2"></div>
     <!-- <h1 class="green">{{ msg }}</h1> -->
     <h3 class="h3-1">
-      Augmenting
+      Augmenting Learning
     </h3>
     <h3 class="h3-2">
-      Learning with AI.
+      with Mastery.AI
     </h3>
     <h4>
       Kitesense’s Mastery.AI engine recommends the right learning content at the right time so learners can achieve proficiency of skills and knowledge faster.
@@ -70,7 +70,7 @@ for All Learners</div><div class="caption">A fully asynchronous online adaptive 
         <div class="eclipse"></div>
         <div class="picture-1"></div>
         <div class="text-content">
-          <div class="title">Data-Driven AI Solutions</div>
+          <div class="title">Ontology-Driven Mapping of Bodies of Knowledge</div>
           <div class="content">We build the Mastery.AI engine to optimise learning pathways through ontology-driven knowledge maps. This amplifies organisational productivity while achieving higher outcomes. Together, we will expand our institutions and our collective capacity to solve humanity's challenges.</div>
           <div class="button-style-primary"><RouterLink to="/contact-us">Discover More Here</RouterLink></div>
         </div>
@@ -78,7 +78,7 @@ for All Learners</div><div class="caption">A fully asynchronous online adaptive 
       <div class="section-4-content-2">
         <div class="picture-2"></div>
         <div class="text-content">
-          <div class="title">Improve Learning Outcomes & Cost-Effectiveness</div>
+          <div class="title">Learning with AI Recommender Services</div>
           <div class="content">Applicable to schools, tutoring centres, learning platforms, vocational training, workforce development and more.</div>
           <div class="button-style-primary"><RouterLink to="/contact-us">Read More</RouterLink></div>
         </div>

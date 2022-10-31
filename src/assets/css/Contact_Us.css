@@ -318,7 +318,7 @@ animation: lds-ellipsis3 0.6s infinite;
     font-family: Proxima Nova Alt Rg;
     color: var(--base);
     padding-bottom: 2vw;
-    margin-left: -5vw;
+    margin-left: -3vw;
 }
 
 .section-2-contact-us .form-wrapper input {

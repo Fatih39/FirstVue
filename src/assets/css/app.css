@@ -52,8 +52,8 @@ a {
 }
 
 .logo-wrapper img {
-  width: 15vw;
-  height: 5vw;
+  width: 20vw;
+  height: 10vw;
 }
 
 /* Nav bar Styles */
@@ -245,6 +245,7 @@ footer {
   font-size: 1vw;
   letter-spacing: 0.014em;
   color: var(--primary);
+  width: 7vw;
 }
 
 .legal .submission-msg-pop-up {

@@ -104,7 +104,10 @@ export default {
     methods : {
         downloadFile1() {
             axios({
-                url: 'http://localhost:5173/src/assets/doc/dummy_1.pdf',
+                // for dev server
+                // url: 'http://localhost:5173/src/assets/doc/dummy_1.pdf',
+                // for production server IP : 138.197.235.123
+                url : 'http://kitesense-beta-test.surge.sh/doc/dummy_1.pdf',
                 method : 'GET',
                 responseType : 'blob',
             }).then((res) => {
@@ -115,7 +118,9 @@ export default {
                 docUrl.setAttribute('download', 'augmenting_learning.pdf');
                 document.body.appendChild(docUrl);
                 docUrl.click();
-            })
+            }), (error) => {
+                console.log(error);
+            }
         },
         downloadFile2() {
             axios({

@@ -53,7 +53,7 @@
         <div class="form">
             <div class="form-bg"></div>
             <div class="form-wrapper">
-                <div class="form-title">Built-in smart tools to help educators supercharge learning every learner.</div>
+                <div class="form-title">Built-in smart tools to help organisations supercharge learning every learner.</div>
                 <form ref="form" @submit.prevent = "sendMail">
                 <div class="input">
                         <input type="text" class="input-form" name="first_name" placeholder="First Name" autocomplete="off" required>

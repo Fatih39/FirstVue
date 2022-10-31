@@ -385,12 +385,17 @@ h4 {
 
 .section-4 .section-4-content-2 {
   margin-left: -90vw;
-  margin-top: 45vw;
+  margin-top: 50vw;
 }
 
 .section-4 .title {
   font-weight: 700;
   font-size: 4.354vw;
+  width: 50vw;
+}
+
+.section-4-content-2 .title {
+  margin-left: -10vw;
 }
 
 .section-4 .content {

@@ -61,7 +61,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                 </template>
                 <template #sub-dropdown-menu>
                   <div class="sub-menu" id="sub">Improve Learning Outcomes</div>
-                  <div class="sub-menu" id="sub">Digitalise Publishing Process</div>
+                  <div class="sub-menu" id="sub">Smart Learning Program</div>
                 </template>
               </SubDropdownMenu>
             </div>
@@ -130,10 +130,10 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
       <div>
         <div class="resources">
             <div class="title">Resources:</div>
-            <div class="footer-content"><RouterLink to="/">Blog</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/events">Events</RouterLink></div>
             <div class="footer-content"><RouterLink to="/references">References</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/events">Events</RouterLink></div>
             <div class="footer-content"><RouterLink to="/terms-policies">Terms & Policies</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/">Support</RouterLink></div>
         </div>
       </div>
       <div>
