@@ -14,7 +14,7 @@
             <div class="title-seg-2">a Kitesense expert</div>
         </div>
         <div class="caption">
-            We work with every customer to tailor a solution to fit perfectly into your future plans.
+            Powered by Mastery.AI, we have solutions available that will fit your organisation.
         </div>
     </div>
     <div class="section-2-contact-us">
@@ -23,19 +23,19 @@
                 Improve Learning Outcomes
             </div>
             <div class="desc-caption">
-                Improve learning outcomes with better time efficiency with  KiteSense™ learning recommender optimising learning pathways.
+                Improve learning outcomes quickly with KiteSense optimising learning pathways.
             </div>
             <div class="desc-title">
                 Higher Learners' Engagement & Enjoyment
             </div>
             <div class="desc-caption">
-                Learners feel more supported in the learning process with curated content customized to their ability levels. 
+                Learners feel more supported in the learning process with curated content customised to their ability levels.
             </div>
             <div class="desc-title">
                 Cost-Effectiveness
             </div>
             <div class="desc-caption">
-                Save cost and resources by creating smart books and automating differentiated instructions at scale for each learner.  
+                Save time and cost with smarter learning that automate differentiated instructions for each learner.  
             </div>
             <div class="desc-title">
                 Data Trust
@@ -53,7 +53,7 @@
         <div class="form">
             <div class="form-bg"></div>
             <div class="form-wrapper">
-                <div class="form-title">Built-in smart tools to help organisations supercharge learning every learner.</div>
+                <div class="form-title">Enquire now !</div>
                 <form ref="form" @submit.prevent = "sendMail">
                 <div class="input">
                         <input type="text" class="input-form" name="first_name" placeholder="First Name" autocomplete="off" required>
@@ -73,19 +73,19 @@
     </div>
     <div class="section-3-contact-us">
         <div class="vector-4"></div>
-        <div class="section-3-title">What will be the next step ?</div>
+        <div class="section-3-title">What's next?</div>
         <div class="container">
             <div class="sub-wrapper">
-            <div class="sub-title">We’ll prepare your solutions</div>
+            <div class="sub-title">We'll start the conversation</div>
             <div class="caption">Our expert will contact you shortly to confirm your request.</div>
             </div>
             <div class="sub-wrapper">
-            <div class="sub-title">Together we discuss it</div>
-            <div class="caption">Let’s get discuss all possibilities to elevate your outcomes !</div>
+            <div class="sub-title">Let's discuss your solution</div>
+            <div class="caption">Let's unlock possibilities to achieve your goals.</div>
             </div>
             <div class="sub-wrapper">
             <div class="sub-title">Let’s start building</div>
-            <div class="caption">Optimise implement the solutions that fit every need perfectly.</div>
+            <div class="caption">Design, build and optimise a solution that fits your needs perfectly.</div>
             </div>
         </div>
     </div>

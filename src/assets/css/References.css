@@ -37,10 +37,18 @@
     padding-bottom: 5.5vw;
 }
 
+.mt-min-5 {
+    margin-top: -5vw;
+}
+
 /* Wrapper */
 .references-wrapper {
     color: var(--natural);
     font-family: Proxima Nova Alt Rg;
+}
+
+.references-wrapper .button-style-primary:hover {
+    cursor: pointer;
 }
 
 /* Section - 1 */
@@ -62,8 +70,8 @@
 
 .references-section-1 .references-section-1-title {
     font-weight: 700;
-    font-size: 6.531vw;
-    line-height: 6.122vw;
+    font-size: 7.2vw;
+    line-height: 6.8vw;
     letter-spacing: -0.008em;
     text-align: center;
     width: 70vw;
@@ -71,7 +79,7 @@
 
 .references-section-1 .references-section-1-desc {
     font-weight: 400;
-    font-size: 2.177vw;
+    font-size: 2.5vw;
     line-height: 2.721vw;
     text-align: center;
     margin-top: 2vw;
@@ -84,8 +92,8 @@
     height: 35vw;
     position: absolute;
     z-index: -1;
-    margin-left: -5vw;
-    margin-top: -15vw;
+    margin-left: -7vw;
+    margin-top: -20vw;
 }
 
 .references-vector {
@@ -109,19 +117,19 @@
 }
 
 .references-section-2 {
-    margin-left: 5vw;
+    margin-left: 7vw;
 }
 
 .references-section-2-title {
     font-weight: 700;
     font-size: 3.265vw;
     line-height: 4.354vw;
-    margin-top: 7vw;
+    margin-top: 10vw;
 }
 
 .references-section-2-content {
     display: flex;
-    margin-top: 2.5vw;
+    padding-bottom: 10vw;
 }
 
 .references-section-2-content-container {
@@ -160,14 +168,14 @@
 
 .references-section-2-content-desc {
     margin-top: 2vw;
-    width: 25vw;
+    width: 30vw;
     text-align: center;
-    font-size: 2.177vw;
-    line-height: 2.721vw;
+    font-size: 2.5vw;
+    line-height: 3.2vw;
 }
 
 .references-section-2 .button-style-primary {
-    margin-top: 5vw;
+    margin-top: 50vw;
     color: var(--menu-active);
     font-size: 1.288vw;
     line-height: 1.361vw;
@@ -215,5 +223,5 @@
 }
 
 .references-section-2-research-desc .button-style-primary {
-    margin-top: 5vw;
+    margin-top: 20vw;
 }

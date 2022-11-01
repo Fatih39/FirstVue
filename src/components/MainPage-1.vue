@@ -25,39 +25,50 @@ import { RouterLink } from "vue-router";
     <!-- "7 Billion Learners" Section -->
     <div class="eclipse"></div>
     <div class="section-2">
-      <div class="title-wrapper"><div class="title">Cloud-Based Recommender 
-for All Learners</div><div class="caption">A fully asynchronous online adaptive learning recommender to guide every learner towards mastery.</div></div>
+      <div class="title-wrapper"><div class="title">Cloud-Based Recommender for All Learners</div><div class="caption">A fully asynchronous online adaptive learning recommender to guide every learner towards mastery. We empower learners to learn independently at their own pace, which saves time and resources for organisations while achieving higher outcomes.</div></div>
       <div class="gif"></div>
       <!-- <div class="content">KiteSense cloud-based recommender guides every learner towards the mastery of a chosen subject by automatically prescribing “what’s next”. By serving the right content at the right stage of their learning journey, KiteSense enables learners to learn independently and accurately with better outcomes.</div> -->
     </div>
     <!-- "Best In Class Performance" Section -->
     <div class="vector-2"></div>
     <div class="section-3">
-      <div class="title">Best in Class Performance</div>
+      <div class="title">Best in Class Performance*</div>
       <div class="content">
         <div class="statistics">
           <div class="first-stats">
-            <div class="number">18%</div>
+            <div class="number">
+              <div class="arrow-stats"></div>
+              <div class="number-content">18%</div> 
+            </div>
             <div class="stats-title">Learning Outcomes</div>
-            <div class="caption">Students achieve better grades within 4 hours using KiteSense.</div>
+            <div class="caption">4 hours of learning on KiteSense improve learning outcomes.</div>
           </div>
           <div class="second-stats">
-            <div class="number">30%</div>
+            <div class="number">
+              <div class="arrow-stats"></div>
+              <div class="number-content">30%</div>
+            </div>
             <div class="stats-title">Enjoyment</div>
-            <div class="caption">Students enjoyment in learning positively.</div>
+            <div class="caption">Students enjoyed the learning experience on KiteSense.</div>
           </div>
           <div class="third-stats">
-            <div class="number">18%</div>
+            <div class="number">
+              <div class="arrow-stats"></div>
+              <div class="number-content">18%</div>
+            </div>
             <div class="stats-title">Engagement</div>
             <div class="caption">Students felt more supported in their learning with KiteSense.</div>
           </div>
           <div class="fourth-stats">
-            <div class="number">16%</div>
+            <div class="number">
+              <div class="arrow-stats"></div>
+              <div class="number-content">16%</div>
+            </div>
             <div class="stats-title">Confidence</div>
-            <div class="caption">Students more confidence learning the content taught in class.</div>
+            <div class="caption">Students felt more confident during the learning process.</div>
           </div>
         </div>
-        <div class="disclaimer">*based on a research study with Temasek Polytechnic, Singapore</div>
+        <div class="disclaimer">*Based on a research study with Temasek Polytechnic, Singapore</div>
       </div>
     </div>
 
@@ -79,7 +90,7 @@ for All Learners</div><div class="caption">A fully asynchronous online adaptive 
         <div class="picture-2"></div>
         <div class="text-content">
           <div class="title">Learning with AI Recommender Services</div>
-          <div class="content">Applicable to schools, tutoring centres, learning platforms, vocational training, workforce development and more.</div>
+          <div class="content">KiteSense Mastery.AI powers multiple subjects and learning modalities.</div>
           <div class="button-style-primary"><RouterLink to="/contact-us">Read More</RouterLink></div>
         </div>
       </div>

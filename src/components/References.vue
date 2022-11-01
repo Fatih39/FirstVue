@@ -26,7 +26,7 @@
                         <!-- Image here -->
                     </div>
                     <div class="references-section-2-content-desc">
-                        Augmented Learning with Mastery.AI - Giving every learner the capacity to forge their path to mastery.
+                        Augmented Learning with Mastery.AI - An adaptive learning platform for self directed learning
                     </div>
                     <div class="button-style-primary" @click="validated ? downloadFile1() : validate()">Download</div>
                 </div>
@@ -44,7 +44,7 @@
                         <!-- Image here -->
                     </div>
                     <div class="references-section-2-content-desc pb-5">
-                        Smart Worksheets - Guiding bright grades for learners.
+                        Smart Worksheets - Automated worksheet generation for differentiated curriculum
                     </div>
                     <div class="button-style-primary" @click="validated ? downloadFile3() : validate()">Download</div>
                 </div>
@@ -58,7 +58,7 @@
                     <div class="references-section-2-content-desc">
                         Smart Learning Journey - Automatically stream  learners into ability bands
                     </div>
-                    <div class="button-style-primary" @click="validated ? downloadFile1() : validate()">Download</div>
+                    <div class="button-style-primary mt-min-5" @click="validated ? downloadFile1() : validate()">Download</div>
                 </div>
             </div>
 
@@ -92,6 +92,7 @@ export default {
         return {
             path : null,
             validated : false,
+            // publicPath : import.meta.env.BASE_URL,
         }
     },
     mounted () {
@@ -102,70 +103,19 @@ export default {
         // console.log(this.validated);
     },  
     methods : {
+        // Error on build server
         downloadFile1() {
-            axios({
-                // for dev server
-                // url: 'http://localhost:5173/src/assets/doc/dummy_1.pdf',
-                // for production server IP : 138.197.235.123
-                url : 'http://kitesense-beta-test.surge.sh/doc/dummy_1.pdf',
-                method : 'GET',
-                responseType : 'blob',
-            }).then((res) => {
-                var file = window.URL.createObjectURL(new Blob([res.data]));
-
-                var docUrl = document.createElement('a');
-                docUrl.href = file;
-                docUrl.setAttribute('download', 'augmenting_learning.pdf');
-                document.body.appendChild(docUrl);
-                docUrl.click();
-            }), (error) => {
-                console.log(error);
-            }
+            let path = "@/assets/doc/dummy_1.pdf";
+            window.open(path);
         },
         downloadFile2() {
-            axios({
-                url: 'http://localhost:5173/src/assets/doc/dummy_2.pdf',
-                method : 'GET',
-                responseType : 'blob',
-            }).then((res) => {
-                var file = window.URL.createObjectURL(new Blob([res.data]));
-
-                var docUrl = document.createElement('a');
-                docUrl.href = file;
-                docUrl.setAttribute('download', 'the #1 tool.pdf');
-                document.body.appendChild(docUrl);
-                docUrl.click();
-            })
+            window.open("./assets/doc/dummy_2.pdf")
         },
         downloadFile3() {
-            axios({
-                url: 'http://localhost:5173/src/assets/doc/Smart_Worksheet.pdf',
-                method : 'GET',
-                responseType : 'blob',
-            }).then((res) => {
-                var file = window.URL.createObjectURL(new Blob([res.data]));
-
-                var docUrl = document.createElement('a');
-                docUrl.href = file;
-                docUrl.setAttribute('download', 'smart_worksheets.pdf');
-                document.body.appendChild(docUrl);
-                docUrl.click();
-            })
+            window.open("./assets/doc/Smart_Worksheet.pdf")
         },
         downloadFile4() {
-            axios({
-                url: 'http://localhost:5173/src/assets/doc/dummy_4.pdf',
-                method : 'GET',
-                responseType : 'blob',
-            }).then((res) => {
-                var file = window.URL.createObjectURL(new Blob([res.data]));
-
-                var docUrl = document.createElement('a');
-                docUrl.href = file;
-                docUrl.setAttribute('download', 'research_study.pdf');
-                document.body.appendChild(docUrl);
-                docUrl.click();
-            })
+            window.open("./assets/doc/dummy_3.pdf")
         },
         validate() {
             let current_user_state = sessionStorage.getItem("user_filled_form_state");

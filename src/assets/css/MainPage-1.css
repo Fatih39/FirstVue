@@ -28,21 +28,18 @@
   /* background-color: red; */
 
   /* background-color: blue; */
-  padding-top: 20vw;
+  padding-top: 17vw;
   margin-top: -30vw;
   margin-left: -2vw;
   height: auto;
 }
 
 .h3-1 , .h3-2{
-  font-size: 6.5vw;
+  font-size: 7.5vw;
   font-family: Proxima Nova Alt Rg;
-  /* background-color: red; */
-  margin-left: 5vw;
+  margin-left: 10vw;
   color: var(--natural);
-  font-weight: 700;
-  /* height: 15vw;
-  width: 8vw; */
+  font-weight: 3900;
 }
 
 .h3-2 {
@@ -51,7 +48,7 @@
 
 h4 {
   font-family: Proxima Nova Alt Rg;
-  margin-left: 5vw;
+  margin-left: 10vw;
   margin-top: -6vw;
   font-weight: 400;
   font-size: 2.17vw;
@@ -63,8 +60,7 @@ h4 {
   background-image: url(../svg/eclipse.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  z-index: -2;
-  /* background-color: red; */
+  z-index: 1;
   margin-left: 50vw; 
   width: 100vw;
   /* max-width: 100%; */
@@ -78,7 +74,7 @@ h4 {
   background-size: contain;
   /* background-color: var(--test); */
   /* margin-left: 50vw;  */
-  z-index: -2;
+  z-index: -0.5;
   width: 100vw;
   /* max-width: 100%; */
   height: 100vw;
@@ -88,11 +84,12 @@ h4 {
 .vector-1 {
   background-image: url(../svg/Vector_1.svg);
   position: absolute;
-  /* margin-top: vw; */
+  margin-top: -2vw;
+  margin-left: -5vw;
   z-index: 1;
-  opacity: 80%;
-  width: 102vw;
+  width: 110vw;
   height: 100vw;
+  /* background-color: var(--test); */
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -105,7 +102,7 @@ h4 {
   width: 50vw;
   height: 50vw;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   margin-top: -10vw;
   margin-left: -15vw;
   /* background-color: var(--test); */
@@ -123,9 +120,9 @@ h4 {
   width: 35vw;
   height: 35vw;
   position: absolute;
-  z-index: -1;
-  margin-top: 5vw;
-  margin-left: 75vw;
+  z-index: 1;
+  margin-top: 10vw;
+  margin-left: 78vw;
   /* background-color: red; */
   /* transform: rotate(15deg); */
 }
@@ -149,7 +146,7 @@ h4 {
   justify-content: center;
   background-color: var(--natural);
   font-size: 1.1vw;
-  margin-left: 5vw;
+  margin-left: 10vw;
   position: relative;
   z-index: 1;
   width: 10vw;
@@ -180,6 +177,7 @@ h4 {
   justify-content: center;
   position: relative;
   z-index: 1;
+  margin-top: -40vw;
 }
 
 .title-wrapper {
@@ -195,19 +193,19 @@ h4 {
 }
 
 .title-wrapper .title {
-  font-weight: 700;
-  font-size: 4.354vw;
-  line-height: 4.082vw;
+  font-weight: 900;
+  font-size: 5.5vw;
+  line-height: 6.082vw;
   letter-spacing: -0.008em;
   text-align: center;
   width: 70vw;
 }
 
 .title-wrapper .caption {
-  font-size: 2.177vw;
+  font-size: 2.5vw;
   font-weight: 400;
   text-align: center;
-  width: 80vw;
+  width: 85vw;
   margin-top: 2.5vw;
 }
 
@@ -217,8 +215,8 @@ h4 {
   background-repeat: no-repeat;
   background-size: contain;
   /* background-color: var(--test); */
-  width: 50vw;
-  height: 25vw;
+  width: 70vw;
+  height: 45vw;
 }
 
 .section-2 .content {
@@ -239,11 +237,12 @@ h4 {
 .vector-2 {
   background-image: url(../svg/cropped_vector_2.svg);
   position: absolute;
-  /* margin-top: 10vw; */
+  margin-top: -9vw;
   z-index: 0;
-  width: 100vw;
-  height: 50vw;
+  width: 110vw;
+  height: 60vw;
   padding-left: 2vw;
+  /* background-color: red; */
   /* margin-left: -12vw; */
   background-repeat: no-repeat;
   background-size: contain;
@@ -252,8 +251,8 @@ h4 {
 /* Section - 3 */
 .section-3 {
   font-family: Proxima Nova Alt Rg;
-  margin-top: 7vw;
-  margin-left: 5vw;
+  margin-top: -2vw;
+  margin-left: 10vw;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -269,20 +268,20 @@ h4 {
 }
 
 .section-3 .title {
-  letter-spacing: -0.008em;
-  font-weight: 700;
-  font-size: 4.354vw;
+  letter-spacing: -0.012em;
+  font-weight: 900;
+  font-size: 5.354vw;
   color: var(--accent);
 }
 
 .first-stats, .second-stats, .third-stats, .fourth-stats {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   text-align: center;
   width: 20vw;
-  padding-right: 5vw;
+  padding-right: 1.5vw;
   /* background-color: var(--test); */
 }
 
@@ -290,28 +289,42 @@ h4 {
   font-size: 7.483vw;
   font-weight: 700;
   font-family: Proxima Nova Alt Rg;
+  display: flex;
+}
+
+.arrow-stats {
+  background-image: url(../svg/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5.5vw;
+  height: 5.5vw;
+  margin-top: 1.5vw;
+}
+
+.section-3 .number .number-content {
+  margin-left: -2vw;
 }
 
 .section-3 .stats-title {
-  font-size: 2.041vw;
+  font-size: 2.2vw;
   font-family: Proxima Nova Alt Rg;
   color: var(--base);
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .section-3 .caption {
   padding-top: 1vw;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   font-family: Proxima Nova Alt Rg;
   color: var(--base);
   line-height: 2.381vw;
-  width: 15vw;
+  width: 20vw;
 }
 
 .section-3 .disclaimer {
   margin-top: 2vw;
   font-weight: 400;
-  font-size: 1.088vw;
+  font-size: 1.288vw;
   line-height: 2.721vw;
 }
 
@@ -336,16 +349,16 @@ h4 {
   background-repeat: no-repeat;
   /* background: var(--test); */
   position: absolute;
-  z-index: -10;
+  z-index: -1;
   width: 120vw;
-  height: 140vw;
+  height: 139vw;
   margin-top: -38vw;
   /* margin-left: 5vw; */
 
 }
 
 .section-4 {
-  padding-top: 50vw;
+  padding-top: 45vw;
   /* margin-left: 50vw; */
   /* background-color: var(--test); */
   font-family: Proxima Nova Alt Rg;
@@ -400,18 +413,23 @@ h4 {
 
 .section-4 .content {
   margin-top: 2vw;
-  font-size: 2.177vw;
+  font-size: 2.5vw;
   font-weight: 300;
   line-height: 2.721vw;
 }
 
 .section-4-content-2 .text-content {
   margin-left: 10vw;
-  width: 40vw;
+  width: 45vw;
   text-align: right;
   margin-top: 5vw;
   /* margin-top: 35vw; */
 }
+
+.section-4-content-2 .content {
+  margin-right: 5vw;
+}
+
 
 .section-4-content-2 .button-style-primary {
   width: 8vw;

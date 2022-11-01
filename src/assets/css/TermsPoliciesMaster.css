@@ -23,6 +23,7 @@
 .bold-underline-thin {
     font-weight: 700;
     border-bottom: 0.05vw solid var(--natural);
+    color: var(--natural);
 }
 
 .bold-underline-thick {
@@ -118,5 +119,10 @@
 .tp-m-contact-us-caption {
     margin-top: 2.5vw;
     padding-bottom: 5vw;
+    line-height: 1.5vw;
 }
 
+.tp-m-contact-us a {
+    color: var(--natural);
+    text-decoration: none;
+}

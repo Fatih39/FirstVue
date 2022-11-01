@@ -214,8 +214,8 @@
     z-index: -1;
     margin-top: 20vw;
     margin-left: 5vw;
-    width: 90vw;
-    height: 90vw;
+    width: 100vw;
+    height: 150vw;
     /* background-color: var(--test); */
     position: absolute;
 }
@@ -223,12 +223,12 @@
 /* Section - 1 */
 .section-1-about-us {
     color: var(--natural);
-    margin-left: 5vw;
+    margin-left: 10vw;
 }
 
 .section-1-about-us .section-1-about-us-title {
-    font-size: 6.531vw;
-    font-weight: 700;
+    font-size: 7vw;
+    font-weight: 900;
     line-height: 6.122vw;
     letter-spacing: -0.008em;
 }
@@ -236,17 +236,17 @@
 .section-1-about-us .section-1-desc-1 {
     margin-top: 5vw;
     font-weight: 400;
-    font-size: 2.177vw;
-    line-height: 2.721vw;
-    width: 80vw;
+    font-size: 2.5vw;
+    line-height: 3.1vw;
+    width: 70vw;
 }
 
 .section-1-about-us .section-1-desc-2 {
     margin-top: 5vw;
     font-weight: 400;
-    font-size: 2.177vw;
-    line-height: 2.721vw;
-    width: 70vw;
+    font-size: 2.5vw;
+    line-height: 3.1vw;
+    width: 60vw;
     text-align: right;
     margin-left: 20vw;
 }
@@ -329,7 +329,7 @@
 
 .section-3-about-us {
     margin-top: 15vw;
-    margin-left: 5vw;
+    margin-left: 10vw;
     color: var(--natural);
 }
 
@@ -352,6 +352,7 @@
 .section-3-about-us .section-3-about-us-content div {
     padding-bottom: 2vw;
 } */
+
 
 .section-3-about-us-profile-wrapper {
     display: flex;
@@ -396,7 +397,7 @@
     font-size: 2.177vw;
     line-height: 2.721vw;
     width: 50vw;
-    margin-top: 3.5vw;
+    margin-top: 8vw;
 }
 
 .about-us-form-bg {
@@ -420,14 +421,14 @@
 }
 
 .about-us-form .about-us-form-title {
-    font-weight: 700;
-    font-size: 3.265vw;
+    font-weight: 900;
+    font-size: 3.8vw;
     color: var(--natural);
     line-height: 5.442vw;
 }
 
 .about-us-form .about-us-form-caption {
-    font-size: 1.361vw;
+    font-size: 1.5vw;
     color: var(--natural);
     line-height: 2.721vw;
     padding-bottom: 2vw;
@@ -464,13 +465,14 @@
 
 .about-us-form #mc-embedded-subscribe {
     background-color: var(--natural);
-    font-size: 1.497vw;
+    font-size: 1.7vw;
     /* margin-left: 5vw; */
-    width: 20vw;
+    width: 15vw;
     height: 5vw;
     border: 3px solid var(--primary);
     border-radius: 0.68vw;
     padding: 1.224vw;
+    color: var(--menu-active);
     font-family: Proxima Nova Alt Rg;
     cursor: pointer;
 }
@@ -479,6 +481,8 @@
     transform: scale(0.8);
     transition: 0.1s;
 }
+
+
 
 
 .about-us-agreement {

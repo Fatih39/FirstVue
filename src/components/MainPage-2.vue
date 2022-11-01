@@ -10,7 +10,7 @@ import Carousel from "./Carousel.vue";
       <div class="main-page-2-vector-1 background-no-repeat-size-contain"></div>
       <div class="text-content">
         <div class="title">Connect with Our Experts</div>
-        <div class="caption">We help you to extend your reach to all learners by helping them to learn at their own pace in the paths to mastery.</div>
+        <div class="caption">Let us show you how you can help learners create their own path to mastery at their own pace.</div>
       </div>
       <div class="form">
         <form ref="form" @submit.prevent = "sendMail">

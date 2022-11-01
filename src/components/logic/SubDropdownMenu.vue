@@ -20,7 +20,6 @@
 	--base: #000000;
     --test: #FF0000;
     }
-
     @keyframes fade-in {
         from {
             opacity : 0;
@@ -36,7 +35,7 @@
     /* Dropdown menu styles */
     .dropdown-menu {
         border: 0.25vw solid var(--primary);
-        width: 15vw;
+        width: 18vw;
         position: absolute;
         z-index: 1;
         margin-left: 8vw;
@@ -44,14 +43,13 @@
         /* background-color: red; */
         /* padding-left: 0.5vw; */
         text-align: left;
-        font-size: 1vw;
+        font-size: 1.2vw;
         color: var(--menu-active);
         font-weight: 400;
         cursor: pointer;
         letter-spacing: 0.025vw;
         box-shadow: 0px 0.272vw 1.02vw rgba(0, 0, 0, 0.12), 0px 0.408vw 0.408vw rgba(0, 0, 0, 0.2);
     }
-
 </style>
 
 <script>
@@ -62,5 +60,4 @@
             }
         }
     }
-
 </script>

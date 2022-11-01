@@ -48,7 +48,7 @@ a {
   width: 50%;
   display: flex;
   justify-content: left;
-  margin-left: 5vw;
+  margin-left: 10vw;
 }
 
 .logo-wrapper img {
@@ -91,8 +91,8 @@ a {
 
 nav {
   width: 100vw;
-  font-size: 1.36vw;
-  font-weight: 700;
+  font-size: 1.5vw;
+  font-weight: 900;
   text-align: center;
   margin-top: 2rem;
   margin-left: -2vw;
@@ -102,14 +102,19 @@ nav {
 
 /* Button styles for nav-bar */
 .nav-menu-wrapper button {
-  margin-right: 5vw;
-  width: 7vw;
+  margin-right: 1vw;
+  width: 9vw;
   height: 3vw;
   background: none;
   border: none;
   color: var(--natural);
   font-weight: 700;
+  font-size: 1.5vw;
   letter-spacing: 0.025vw;
+}
+
+.nav-menu-wrapper button:focus {
+  outline: none;
 }
 
 .nav-menu-wrapper button:hover {
@@ -204,6 +209,15 @@ footer {
   height: 3vw;
 }
 
+.footer-wrapper .socials .socials-icon:hover {
+  background: none;
+}
+
+.footer-wrapper .footer-menu:hover {
+  border-bottom: 0.125vw solid var(--natural);
+  background-color: var(--base);
+}
+
 .footer-wrapper .company, .resources, .legal {
   padding-top: 3vw;
   margin-left: 5vw;
@@ -231,6 +245,10 @@ footer {
   height: 2vw;
   border-radius: 0.34vw;
   padding-left: 0.5vw;
+}
+
+.legal #mce-EMAIL::placeholder {
+  font-size: 1vw;
 }
 
 .legal #mce-EMAIL:focus {
@@ -300,7 +318,6 @@ footer {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
   } */

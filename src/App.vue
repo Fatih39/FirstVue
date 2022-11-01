@@ -38,7 +38,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
           </DynamicLink>
         <DropdownMenu>
           <template #button>
-            <button class="sol">Solution</button>
+            <button class="sol">Solutions</button>
           </template>
           <template #dropdown-menu>
             <!-- onmouseover="activateParent('solution')" onmouseout="deactivateParent('solution')" -->
@@ -50,7 +50,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                 </template>
                 <template #sub-dropdown-menu>
                   <div class="sub-menu" id="sub">Education</div>
-                  <div class="sub-menu" id="sub">Content Publisher</div>
+                  <!-- <div class="sub-menu" id="sub">Content Publisher</div> -->
                 </template>
               </SubDropdownMenu>
             </div>
@@ -61,7 +61,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                 </template>
                 <template #sub-dropdown-menu>
                   <div class="sub-menu" id="sub">Improve Learning Outcomes</div>
-                  <div class="sub-menu" id="sub">Smart Learning Program</div>
+                  <!-- <div class="sub-menu" id="sub">Smart Learning Program</div> -->
                 </template>
               </SubDropdownMenu>
             </div>
@@ -87,9 +87,9 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
               <DynamicLink to="/events"><div class="sub-menu-title">Events</div></DynamicLink>
             </div>
             <div class="sub-menu">
-              <DynamicLink to="/terms-policies"><div class="sub-menu-title">Terms & Policies</div></DynamicLink>
+              <DynamicLink to="/terms-policies"><div class="sub-menu-title">Terms & Conditions</div></DynamicLink>
             </div>
-            <DynamicLink to=""><div class="sub-menu" id="sub">Support</div></DynamicLink>
+            <DynamicLink to="/privacy-policy"><div class="sub-menu" id="sub">Privacy Policy</div></DynamicLink>
           </template>
         </DropdownMenu>
         <DynamicLink to="/contact-us"><div class="get-started">Get Started</div></DynamicLink>
@@ -113,27 +113,27 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
         </div>
         <div class="address">1 Pemimpin Dr, #02-03<br>Singapore 576151</div>
         <div class="socials">
-          <RouterLink to="/"><img src="./assets/svg/msg_icon.svg" alt="msg_icon"></RouterLink>
-          <RouterLink to="/"><img src="./assets/svg/call_icon.svg" alt="msg_icon"></RouterLink>
-          <RouterLink to="/"><img src="./assets/svg/linkedin_icon.svg" alt="msg_icon"></RouterLink>
-          <RouterLink to="/"><img src="./assets/svg/facebook_icon.svg" alt="msg_icon"></RouterLink>
+          <RouterLink to="/" class="socials-icon"><img src="./assets/svg/msg_icon.svg" alt="msg_icon"></RouterLink>
+          <RouterLink to="/" class="socials-icon"><img src="./assets/svg/call_icon.svg" alt="msg_icon"></RouterLink>
+          <RouterLink to="/" class="socials-icon"><img src="./assets/svg/linkedin_icon.svg" alt="msg_icon"></RouterLink>
+          <RouterLink to="/" class="socials-icon"><img src="./assets/svg/facebook_icon.svg" alt="msg_icon"></RouterLink>
         </div>
       </div>
       <div>
         <div class="company">
           <div class="title">Company:</div>
-          <div class="footer-content"><RouterLink to="/about">About Us</RouterLink></div>
-          <div class="footer-content"><RouterLink to="/contact-us">Contact Us</RouterLink></div>
-          <div class="footer-content"><RouterLink to="/">Solutions</RouterLink></div>
+          <div class="footer-content"><RouterLink to="/about" class="footer-menu">About Us</RouterLink></div>
+          <div class="footer-content"><RouterLink to="/contact-us" class="footer-menu">Contact Us</RouterLink></div>
+          <div class="footer-content"><RouterLink to="/" class="footer-menu">Solutions</RouterLink></div>
         </div>
       </div>
       <div>
         <div class="resources">
             <div class="title">Resources:</div>
-            <div class="footer-content"><RouterLink to="/references">References</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/events">Events</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/terms-policies">Terms & Policies</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/">Support</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/references" class="footer-menu">References</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/events" class="footer-menu">Events</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/terms-policies" class="footer-menu">Terms & Policies</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/" class="footer-menu">Support</RouterLink></div>
         </div>
       </div>
       <div>

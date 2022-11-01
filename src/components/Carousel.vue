@@ -2,9 +2,10 @@
   <div class="eclipse"></div>
   <div class="vector-1"></div>
   <div class="about-us">
-    <div class="title">Forging Pathways towards Mastery with KiteSense</div>
+    <div class="title">Forging Pathways Towards Mastery with KiteSense</div>
       <div class="carousel"> 
         <div class="carousel-bg"></div>
+        <div class="carousel-bg-2"></div>
           <div class="carousel-title" id="carousel-title">Differentiated Instructions at Scale for Australian Students</div>
           <div class="carousel-container">
             <div class="content" id="carousel-content">KiteSense provides a cloud-based learning recommender to deliver differentiated and self-directed learning at scale, with learning pace and content personalised to every student.</div>
@@ -17,7 +18,7 @@
         <button id="control-3"></button>
         <button id="control-4"></button>
       </div>
-      <div class="button-style-primary"><RouterLink to="/">Read More</RouterLink></div>
+      <div class="button-style-primary"><RouterLink to="/contact-us">Read More</RouterLink></div>
   </div> 
 </template>
 
@@ -55,15 +56,16 @@
   position:absolute;
   z-index: 1;
   margin-top: 45vw;
+
 }
 
 button {
   opacity: 50%;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.5vw;
+  height: 1.5vw;
   cursor: pointer;
   margin: 0.25vw;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .active {

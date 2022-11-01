@@ -257,17 +257,18 @@ animation: lds-ellipsis3 0.6s infinite;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5vw;
 }
 
 .section-2-contact-us .desc {
-    width: 30vw;
+    width: 40vw;
     /* background-color: var(--test); */
 }
 /* Desc Title */
 .section-2-contact-us .desc .desc-title {
     font-family: Proxima Nova Alt Rg;
     font-weight: 700;
-    font-size: 2.117vw;
+    font-size: 2.5vw;
     line-height: 2.721vw;
 
 }
@@ -275,7 +276,7 @@ animation: lds-ellipsis3 0.6s infinite;
 .section-2-contact-us .desc .desc-caption{
     padding-top: 2vw;
     padding-bottom: 7vw;
-    font-size: 1.224vw;
+    font-size: 1.8vw;
     line-height: 1.905vw;
 }
 
@@ -284,7 +285,7 @@ animation: lds-ellipsis3 0.6s infinite;
 .section-2-contact-us .form-bg {
     width: 45vw;
     height: 75vw;
-    margin-left: 5.8vw;
+    margin-left: 2vw;
     margin-top: -5vw;
     /* margin-right: 2vw; */
     filter: blur(17.5px);
@@ -307,18 +308,18 @@ animation: lds-ellipsis3 0.6s infinite;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 10vw;
+    margin-left: 6vw;
 }
 
 .section-2-contact-us .form-title {
-    font-weight: 700;
-    font-size: 2.177vw;
+    font-weight: 900;
+    font-size: 3.5vw;
     line-height: 2.721vw;
     text-align: center;
     font-family: Proxima Nova Alt Rg;
     color: var(--base);
-    padding-bottom: 2vw;
-    margin-left: -3vw;
+    padding-bottom: 5vw;
+    margin-left: -6vw;
 }
 
 .section-2-contact-us .form-wrapper input {
@@ -411,6 +412,7 @@ animation: lds-ellipsis3 0.6s infinite;
 .section-3-contact-us {
     margin-top: 10vw;
     padding-bottom: 10vw;
+    margin-left: 5vw;
 }
 .vector-4 {
     background: url(../svg/Vector_4.svg);
@@ -418,7 +420,7 @@ animation: lds-ellipsis3 0.6s infinite;
     background-size: contain;
     width: 110vw;
     height: 60vw;
-    margin-left: -1vw;
+    margin-left: -6vw;
     position: absolute;
     z-index: -1;
 }
@@ -428,9 +430,9 @@ animation: lds-ellipsis3 0.6s infinite;
     margin-left: 5vw;
     color: var(--accent);
     font-family: Proxima Nova Alt Rg;
-    font-size: 4.354vw;
+    font-size: 5.354vw;
     line-height: 6.122vw;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .section-3-contact-us .container {
@@ -441,15 +443,15 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .section-3-contact-us .sub-wrapper {
-    width: 20vw;
-    padding-right: 15vw;
+    width: 30vw;
+    padding-right: 10vw;
 }
 
 .section-3-contact-us .sub-wrapper .sub-title {
     color: var(--menu-active);
     font-family: Proxima Nova Alt Rg;
     font-size: 2.177vw;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 2.721vw;
 }
 

@@ -49,10 +49,10 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                         </div>
                         <div class="event-button">
                             <div class="button-style-primary-event">
-                                Request Demo Now !
+                                <DynamicLink to="/contact-us" >Request Demo Now !</DynamicLink>
                             </div>
                             <div class="button-style-primary-event">
-                                Register Your Visit
+                                <DynamicLink to="/" >Register Your Visit</DynamicLink>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                             Melbourne Convention and Exhibition Centre, Melbourne, Australia (Booth #104)
                         </div>
                         <div class="button-style-primary-event">
-                            Join the Community
+                            <DynamicLink to="" >Join the Community</DynamicLink>
                         </div>
                     </div>
                     <div class="past-event-2">
@@ -86,7 +86,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                             Messe Frankfurt, Ludwig-Erhard-Anlage 1, Frankfurt, Germany (Hall 4.2-Booth B20)
                         </div>
                         <div class="button-style-primary-event">
-                            Join the Community
+                            <DynamicLink to="" >Join the Community</DynamicLink>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                             
                         </div> -->
                         <div class="button-style-primary-event">
-                            Join the Community
+                            <DynamicLink to="">Join the Community</DynamicLink>
                         </div>
                     </div>
                     <div class="past-event-2">
@@ -119,7 +119,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                             Suntec Singapore Convention & Exhibition Centre
                         </div>
                         <div class="button-style-primary-event">
-                            Join the Community
+                            <DynamicLink to="">Join the Community</DynamicLink>
                         </div>
                     </div>
                 </div>

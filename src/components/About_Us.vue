@@ -28,10 +28,10 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
     <div class="section-1-about-us">
         <div class="section-1-about-us-title">About Us</div>
         <div class="section-1-desc-1">
-            KiteSense™ is a cloud-based recommender that guides every learner towards mastery of a chosen subject. The AI engine scaffolds learning tasks for each subject and optimises learning paths for each learner based on pedagogical research and individual learner profile.
+            KiteSense is a cloud-based recommender that guides every learner towards mastery of a chosen subject. The AI engine scaffolds learning tasks for each subject and optimises learning paths for each learner based on pedagogical research and individual learner profile.
         </div>
         <div class="section-1-desc-2">
-            KiteSense are a team of engineers, data scientists, and designers, passionate about using technology to providing the right tools and support for learners. We believe in teamwork, learning together, being creative and thoughtful and helping every learners succeed.
+            KiteSense is a team of engineers, data scientists, and designers passionate about using technology to provide the right tools and support for learners. We believe in teamwork, learning together, being creative, thoughtful, and helping every learner to succeed.
         </div>
 
         <div class="about-us-profile">
@@ -41,7 +41,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                         <!-- Image here -->
                     </div>
                 </DynamicLink>
-                <div class="about-us-profile-1-name">Yueh Phern</div>
+                <div class="about-us-profile-1-name">Tan Yueh Phern</div>
                 <div class="about-us-profile-1-position">Founder/CEO</div>
             </div>
 
@@ -51,7 +51,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                         <!-- Image here -->
                     </div>
                 </DynamicLink>
-                <div class="about-us-profile-2-name">Wee Koon</div>
+                <div class="about-us-profile-2-name">Yan Wee Koon</div>
                 <div class="about-us-profile-2-position">Co-Founder/CTO</div>
             </div>
         </div>
@@ -61,9 +61,10 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
     <!-- Section 3 -->
     <div class="vector-6 background-no-repeat-size-contain"></div>
     <div class="vector-7 background-no-repeat-size-contain"></div>
+    <!-- <div class="stars-4 background-no-repeat-size-contain"></div> -->
     <div class="section-3-about-us">
         <div class="section-3-about-us-title">
-            Meet Our Advisor Who Helped Us Get Here
+            Meet Our Advisor
         </div>
         <!-- <div class="section-3-about-us-content">
             <div>
@@ -83,7 +84,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             </div>
             <div class="section-3-about-us-desc">
                 <div class="section-3-about-us-name">Prof Alex Siow</div>
-                <div class="section-3-about-us-position">KiteSense’s Advisor</div>
+                <!-- <div class="section-3-about-us-position">KiteSense’s Advisor</div> -->
                 <div class="section-3-profile-caption">Professor (Practice) at the Department of Information Systems and Analytics of the School of Computing, National University of Singapore.</div>
             </div>
         </div>
@@ -92,7 +93,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
     <div class="about-us-form">
         <div class="about-us-form-bg"></div>
         <div class="about-us-form-title">
-            One-Stop Solution for All Need
+            Stay Up to Date with KiteSense
         </div>
         <div class="about-us-form-caption">
             Don’t miss out on our future updates, stay tuned to get the latest updates.
@@ -103,7 +104,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_31a9a2a32ed707c2043c28f31_462b223dd7" tabindex="-1" value=""></div>
             <div class="invalid-email-msg" v-show="invalidEmail">Please input an valid email address</div>
         </div>
-        <div class="about-us-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Forge Mastery Now"></div>
+        <div class="about-us-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Register Now"></div>
         </form>
         <div class="about-us-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="agreement-link">Terms & Policies.</DynamicLink></div>
     </div>

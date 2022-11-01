@@ -48,6 +48,12 @@ const router = createRouter({
       component: () => import("../views/ReferencesView.vue"),
       meta : { requiresAuth : false }
     },
+    {
+      path: "/privacy-policy",
+      name: "privacy-policy",
+      component: () => import("../views/PrivacyPolicyView.vue"),
+      meta : { requiresAuth : false }
+    },
     // Need to create Not Found page
     // {
     //   path: "/404",
