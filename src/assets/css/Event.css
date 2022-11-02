@@ -51,7 +51,7 @@
     z-index: 1;
     width: 13vw;
     height: 1vw;
-    border: 3px solid var(--primary);
+    border: 0.25vw solid var(--primary);
     border-radius: 0.68vw;
     padding: 1.224vw;
     font-family: Proxima Nova Alt Rg;
@@ -497,7 +497,7 @@
     background-color: var(--natural);
     width: 18vw;
     height: 4vw;
-    border: 3px solid var(--primary);
+    border: 0.25vw solid var(--primary);
     border-radius: 0.68vw;
     font-family: Proxima Nova Alt Rg;
     font-size: 1.497vw;

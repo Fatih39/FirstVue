@@ -25,7 +25,10 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
     <div class="wrapper">
       <nav>
         <div class="nav-wrapper">
-        <div class="logo-wrapper">
+          <div class="logo-wrapper">
+          <DynamicLink to="/" class="logo-link">
+            <div class="logo-link"></div>
+          </DynamicLink>
         <img
         alt="KiteSense logo"
         class="logo"
@@ -49,7 +52,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                   <div class="sub-menu-title">By Industries</div>
                 </template>
                 <template #sub-dropdown-menu>
-                  <div class="sub-menu" id="sub">Education</div>
+                  <DynamicLink to="/solution-education"><div class="sub-menu" id="sub">Education</div></DynamicLink>
                   <!-- <div class="sub-menu" id="sub">Content Publisher</div> -->
                 </template>
               </SubDropdownMenu>
@@ -60,7 +63,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                   <div class="sub-menu-title">By Use Cases</div>
                 </template>
                 <template #sub-dropdown-menu>
-                  <div class="sub-menu" id="sub">Improve Learning Outcomes</div>
+                  <DynamicLink to=""><div class="sub-menu" id="sub">Improve Learning Outcomes</div></DynamicLink>
                   <!-- <div class="sub-menu" id="sub">Smart Learning Program</div> -->
                 </template>
               </SubDropdownMenu>
@@ -99,12 +102,15 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
     </div>
   </header>
 
-  <RouterView />
+  <RouterView /> 
 
   <footer>
     <div class="footer-wrapper">
       <div class="contact">
         <div class="logo-wrapper">
+          <DynamicLink to="/" class="logo-link">
+            <div class="logo-link"></div>
+          </DynamicLink>
           <img
           alt="KiteSense logo"
           class="logo"
@@ -132,8 +138,8 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             <div class="title">Resources:</div>
             <div class="footer-content"><RouterLink to="/references" class="footer-menu">References</RouterLink></div>
             <div class="footer-content"><RouterLink to="/events" class="footer-menu">Events</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/terms-policies" class="footer-menu">Terms & Policies</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/" class="footer-menu">Support</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/terms-policies" class="footer-menu">Terms & Condition</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/" class="footer-menu">Privacy Policy</RouterLink></div>
         </div>
       </div>
       <div>

@@ -90,8 +90,6 @@ below for more information about third party cookies.
                 <li>for any other purpose disclosed to you when you provide the information; or</li>
                 <li>with your consent.</li>
             </ul> 
-            <br>
-            <br>
             We may also disclose your information:
             <br>
             <ul>
@@ -99,7 +97,6 @@ below for more information about third party cookies.
                 <li>to a buyer or othersuccessor in the event of a merger, divestiture, restructuring,reorganization, dissolution, or other sale or transfer of some or all of our assets;</li>
                 <li>if we believe disclosure is necessary or appropriate to protect our rights, property, or interests, our investors, or others.</li>
             </ul>
-            <br>
             <br>
             <br>
             <b>Bases for Processing</b> 
@@ -137,30 +134,62 @@ for the privacy practices of any platforms, application, or websites not control
             <br>
             <b>Social Media Plug-ins</b>
             <br>
-            As between Customer and KiteSense, the KiteSense Intellectual Property is, and shall at all times remain the sole and exclusive property of KiteSense. KiteSense shall have the right, in its sole discretion, to modify the KiteSense Intellectual Property. “KiteSense Intellectual Property” means: (a) the Service; (b) all improvements, changes, enhancements, and components thereof; (c) all other proprietary materials of KiteSense and/or its licensors; and (d) all other intellectual property owned by KiteSense including, but not limited to, all copyrights, patents, trademarks and trade names, trade secrets, specifications, methodologies, documentation, algorithms, criteria, designs, report formats, and know-how, as well as any underlying source code and object code related thereto. 
+            When you click on a plug-in on our Website, you will be connected to the social media platform you selected. KiteSense currently uses plug-ins for the following social media platforms: 
             <br>
             <br>
-            <b>15. Term and Termination.</b> The term of this Agreement is specified in the Order Form (“Term”) and shall continue for its full duration unless earlier terminated by a party in accordance with this Section 15. In addition to any other rights and remedies that may be available, either party may terminate this Agreement for a material breach of any provision of this Agreement by the other party if such material breach remains uncured for thirty (30) days after receipt of written notice of such breach from the non-breaching party. In the event the Agreement is terminated, all Order Forms are simultaneously terminated. Upon expiration or termination of this Agreement: (a) Customer shall immediately cease using the Service; and (b) in connection with certain aspects of the Service that feature an export function Customer may export the Customer Content and Customer Identifiable Data available to the Customer in the .csv format a period of thirty (30) days, but thereafter the Company shall delete stored Customer Content and Customer Identifiable Data, and shall have no obligation to maintain or provide any data or Service to the Customer. 
+            Facebook: Provided by Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA, and
+            <br>
+            Facebook Ireland Limited, Hanover Reach, 5–7 Hanover Quay, Dublin 2, Ireland. An overview of
+            <br>
+            Facebook plugins are available here: https://developers.facebook.com/docs/plugins/.
+            <br>
+            Facebook’s privacy policy is available here: http://www.facebook.com/policy
             <br>
             <br>
-            <b>16. Suspension of Service.</b> KiteSense may suspend a User’s access to the Service for a violation this Agreement, any applicable law, or third-party rights to the extent and for the duration necessary to address any such violation. KiteSense will use commercially reasonable efforts to provide notice to Customer in advance of any suspension unless such violation may cause direct harm to the Service or may result in liability to KiteSense. Customer agrees that KiteSense will not be liable to Customer or a User if KiteSense exercises its suspension rights as permitted by this Section 16. 
+            LinkedIn: Provided by LinkedIn Corporation, 2029 Stierlin Court, Mountain View, CA 94043, USA.
+            <br>
+            An overview of LinkedIn plugins are available here: https://developer.linkedin.com/plugins.
+            <br>
+            LinkedIn’s privacy policy is available here: https://www.linkedin.com/legal/privacy-policy.
             <br>
             <br>
-            <b>17. Indemnification.</b> KiteSense will indemnify and defend Customer from and against any and all losses, liabilities, and claims (including reasonable attorneys' fees) arising out of any claim by a third party alleging that the Service infringes or misappropriates the intellectual property rights of that third party. Notwithstanding the foregoing, KiteSense shall not be obligated to indemnify Customer if such infringement or misappropriation claim arises from: (a) the Customer Content; (b) Customer’s or User’s misuse of the Service; or (c) Customer’s or User’s use of the Service in combination with any products, services, or technology not provided by KiteSense. If a claim of infringement or misappropriation is made, KiteSense may, in its sole discretion: (i) modify the Service so that it becomes non-infringing; (ii) obtain a license permitting continued use of the Service; or (iii) terminate the Agreement with no liability to Customer, other than KiteSense’s obligation to indemnify hereunder, and return the unused portion of any prepaid Fees. Customer will indemnify and defend KiteSense from and against any and all losses, liabilities, and claims (including reasonable attorneys' fees) arising out of any claim by a third party alleging: (a) the Customer Content infringes or misappropriates the intellectual property rights of that third party; or (b) use of the Service by Customer or any User in violation of this Agreement or the AUP; or (c) a breach by the Customer of its obligations under this Agreement; or (d) any wilful, unlawful or negligent act or omission of the Customer. The Customer will indemnify and defend KiteSense against any damages, losses, liabilities, settlements and expenses (including without limitation costs and legal fees) in connection with any claim or action that arises from an alleged violation of the foregoing or otherwise from the Customer’s use of Services. Although KiteSense has no obligation to monitor the Customer’s use of the Services, KiteSense may do so and may prohibit any use of the Services it believes may be (or alleged to be) in violation of the foregoing.
+            <br>
+            <b>Data Retention</b>
+            <br>
+            We only store information for as long as is needed to fulfil our contractual or legal obligations or any other permissible purpose for which we have collected it, including to prevent fraud or security incidents. When the applicable retention period has expired, we take measures to permanently delete your content. 
+            <br>
+            <br>
+            <br>
+            <b>Security</b>
+            <br>
+            We use commercially reasonable administrative, physical, technical and cyber security measures to safeguard your information and help protect it from unauthorized access. However, we cannot guarantee complete protection of your information since transmission via the internet is not 100% secure. You play an important role in keeping your information secure. You should not
+share your user name, password, or other security information for your account with anyone. If you have reason to believe that your interaction with us is no longer secure, please immediately notify us by contacting us as detailed in the “Contact Us” section. 
+            <br>
+            <br>
+            <br>
+            <b>Children</b>
+            <br>
+            Our Website and Service are not directed to children, as defined under applicable law. If you believe that a child has provided their information to us through our Website or Service, please contact us as detailed in the “Contact Us” section, so that we can take steps to delete it.
+            <br>
             <br>
             <br>
             <div class="tp-m-stars-4"></div>
-            The party seeking indemnification (the "Indemnified Party") shall provide the other party (the "Indemnifying Party") with prompt written notice upon becoming aware of any claim subject to indemnification hereunder and shall provide reasonable cooperation to the Indemnifying Party in the defense or investigation of any claim, suit or proceeding. The Indemnifying Party, at its option, will have sole control of such defense, provided that the Indemnified Party is entitled to participate in its own defense at its sole expense. The Indemnifying Party shall not enter into any settlement or compromise of any such claim, suit, or proceeding without the Indemnified Party's prior written consent, except that the Indemnifying Party may without such consent enter into any settlement of a claim that resolves the claim without liability to the Indemnified Party and without impairment to any of the Indemnified Party's rights or requiring the Indemnified Party to make any admission of liability.
+            <b>Your Choices and Rights</b>
+            <br>
+            You can control the use of cookies on our Website's Cookies Settings or within your browser. However, please note that disabling some or all cookies may affect the functionality of our Website. Our Website does not respond to browser “Do Not Track” signals. We do not control third parties’ collection or use of your information to serve interest-based advertising. However, these third parties may provide you with ways to choose not to have your information collected or used in this way. You can opt out of receiving targeted ads from members of the Network Advertising Initiative ("NAI") on the NAI’s website at https://www.networkadvertising.org. You may also be able to opt out of receiving third-party behavioural ads by visiting the Digital Advertising Alliance (“DAA”) website at http://www.aboutads.info/choices. We are not responsible for effectiveness of or compliance with any third-parties’ opt-out options. If you register for certain services on our Website, we may send you promotional emails. You can opt out of these promotional emails by clicking on the “unsubscribe” link within any promotional email. To the extent required by law, we provide you with (i) reasonable access to your personal information collected through our Website and Service, and (ii) the ability to review, correct, export, or delete your information, restrict its processing, or object to its processing. You may exercise the foregoing rights by submitting your privacy request via our Privacy Request Form. It is our legal obligation to validate any request we receive before responding. The Privacy Request Form linked above is specifically designed to ensure reliable and auditable request validation. Therefore, we will not respond to requests that are not submitted and cannot be validated through this channel. If this channel is not accessible to you for any reason, please contact info@kitesense.sg as indicated in the “Contact Us” section below to find a resolution. Individuals in the EEA: In addition to the foregoing rights, you have the right to lodge a complaint with a supervisory authority if you believe we have processed your information in a manner inconsistent with your privacy rights. We kindly request that you contact us first so
+that we may address your concern.
             <br>
             <br>
-            <b>18. General.</b> Each party acknowledges that any breach, threatened or actual, of this Agreement, including, without limitation, with respect to unauthorized use of proprietary assets, will cause irreparable injury to the other party, such injury would not be quantifiable in monetary damages, and the other party would not have an adequate remedy at law. Each party therefore agrees that the other party shall be entitled, in addition to other available remedies, to seek and be awarded an injunction or other appropriate equitable relief from a court of competent jurisdiction restraining any breach, threatened or actual, of this Agreement. Each party waives any requirement that the other party post any bond or other security in the event any injunctive or equitable relief is sought by or awarded to enforce any provision of this Agreement. Any legal notice by a party under this Agreement shall be in writing and either personally delivered, delivered by email or reputable overnight courier or certified mail, postage prepaid and return receipt requested, addressed to the other party For purposes of service messages and notices about the Service, KiteSense may place a banner notice or send an email to the current email address associated with an account and all notices shall be in English and deemed effective upon receipt. If KiteSense is unable to perform its obligations under this Agreement due to circumstances beyond its reasonable control, including, but not limited to, acts of God, earthquakes, hacker attacks, actions or decrees of governmental bodies, changes in applicable laws, or communication or power failures, such obligations will be suspended so long as those circumstances persist. This Agreement shall be interpreted, governed, and construed by the laws of the State of Delaware without regard to principles of conflict of laws. KiteSense is an independent contractor to Customer. If any term of this Agreement is invalid or unenforceable, the other terms remain in effect and the invalid or unenforceable provision will be deemed modified so that it is valid and enforceable to the maximum extent permitted by law. KiteSense may amend, revise or update these Master Terms and Conditions at any time. Such amendment, revision or update shall be effective upon 30 days’ notice to Customer by any means reasonable to give Customer actual or constructive notice, including by posting such terms on KiteSense’s website. In the event Customer does not agree with any amendment, revision or update, Customer shall give KiteSense notice within 30 days of receiving actual or constructive notice from KiteSense and Customer and KiteSense shall negotiate in good faith to come to an agreement solely with respect to such amendment, revision or update. In the event Customer does not give notice to KiteSense, Customer’s continued use of the Service after the 30-day notice period shall indicate Customer’s agreement with any such amendment, revision or update. The Parties agree that: (a) this Agreement constitutes the entire agreement between the parties with respect to the subject matter thereof, and any prior representations, statements, and agreements relating thereto are superseded by the terms of this Agreement; and (b) Customer may use purchase orders or similar documents only as proof of acceptance of each Order Form and for convenience only, and all terms and conditions (preprinted or otherwise and regardless of how referenced) shall be void and of no effect. Any attempt by Customer to assign this Agreement, in whole or part, to any entity, without KiteSense’s prior written consent shall be void. This Agreement shall be binding upon and shall inure to the benefit of the parties hereto and their successors and permitted assigns. Any failure by either party to enforce the other party's strict performance of any provision of this Agreement will not constitute a waiver of its right to subsequently enforce such provision or any other provision of this Agreement. Customer agrees to allow KiteSense to use its name, logo, and non-competitive use details in both text and pictures in its various marketing communications and materials, in accordance with Customer’s trademark guidelines and policies. Any terms that by their nature survive termination or expiration of this Agreement will survive (including, but not limited to, Sections 4, 5, 6, 13, 14, 15, 16, and 18).
-
+            <br>
+            <b>Changes to This Privacy Policy</b>
+            <br>
+            We encourage you to periodically review this Privacy Policy for the latest information on our privacy practices. If we make any material changes to our privacy practices, we will notify you in accordance with applicable law prior to the changes becoming effective.
         <div class="tp-m-contact-us">
             <div class="tp-m-contact-us-title">
                 <DynamicLink to="/contact-us"><span class="bold-underline-thin">Contact Us</span></DynamicLink>
             </div>
             <div class="tp-m-contact-us-caption">
-                This website is operated by KiteSense Pte Ltd, who is the owner of the KieSense app.
+                This website is operated by KiteSense Pte Ltd, who is the owner of the KiteSense app.
                 <br> 
                 Our address is 1 Pemimpin Drive #02-03 Singapore 576151.
                 <br>

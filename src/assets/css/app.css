@@ -32,15 +32,16 @@ header {
   background-size: contain;
 }
 
-.wrapper {
-  font-family: Proxima Nova Alt Rg;
-  width: 100vw;
-}
 
 /* Link styles */
 a {
   text-decoration: none;
   color: none;
+}
+
+.wrapper {
+  font-family: Proxima Nova Alt Rg;
+  width: 100vw;
 }
 
 /* Logo styles */
@@ -54,6 +55,14 @@ a {
 .logo-wrapper img {
   width: 20vw;
   height: 10vw;
+}
+
+.logo-link {
+  width: 20vw;
+  height: 10vw;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
 }
 
 /* Nav bar Styles */
@@ -71,7 +80,7 @@ a {
 
 .nav-menu-wrapper .get-started {
   padding: 1vw;
-  border: 3px solid var(--primary);
+  border: 0.25vw solid var(--primary);
   border-radius: 0.68vw;
   color: var(--primary);
   background-color: var(--natural);

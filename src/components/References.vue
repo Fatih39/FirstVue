@@ -67,7 +67,7 @@
             <div class="references-section-2-title">
                 Research
             </div>
-            <div class="references-section-2-research-container">
+            <div class="references-section-2-research-container" id="research-section">
                 <div class="references-section-2-research-image background-no-repeat-size-contain">
                     <!-- Image here -->
                 </div>
@@ -86,7 +86,7 @@
 </template>
 <style src="../assets/css/References.css" scoped></style>
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 export default {
     data () {
         return {
@@ -105,17 +105,16 @@ export default {
     methods : {
         // Error on build server
         downloadFile1() {
-            let path = "@/assets/doc/dummy_1.pdf";
-            window.open(path);
+            window.open("https://drive.google.com/file/d/1IM576rB8d29dGJAGCork9BOrrSC3kQ9Z/view?usp=sharing");
         },
         downloadFile2() {
-            window.open("./assets/doc/dummy_2.pdf")
+            window.open("https://drive.google.com/file/d/1SuXCZpzoXO15-nodClYidhEaHI4Xx9KL/view?usp=sharing")
         },
         downloadFile3() {
-            window.open("./assets/doc/Smart_Worksheet.pdf")
+            window.open("https://drive.google.com/file/d/1SuXCZpzoXO15-nodClYidhEaHI4Xx9KL/view?usp=sharing")
         },
         downloadFile4() {
-            window.open("./assets/doc/dummy_3.pdf")
+            window.open("https://drive.google.com/file/d/1IM576rB8d29dGJAGCork9BOrrSC3kQ9Z/view?usp=sharing")
         },
         validate() {
             let current_user_state = sessionStorage.getItem("user_filled_form_state");

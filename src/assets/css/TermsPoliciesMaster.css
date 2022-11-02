@@ -28,7 +28,7 @@
 
 .bold-underline-thick {
     font-weight: 700;
-    border-bottom: 0.25vw solid var(--natural);
+    border-bottom: 0.125vw solid var(--natural);
 }
 
 /* Wrapper */
@@ -36,7 +36,7 @@
 .tp-m-wrapper {
     color: var(--natural);
     font-family: Proxima Nova Alt Rg;
-    margin-left: 5vw;
+    margin-left: 10vw;
     width: 80vw;
 }
 
@@ -48,7 +48,7 @@
     position: absolute;
     z-index: -2;
     margin-top: -5vw;
-    margin-left: -5vw;
+    margin-left: -10vw;
     /* background-color: var(--test); */
 }
 
@@ -59,7 +59,7 @@
     position: absolute;
     z-index: -2;
     margin-top: -5vw;
-    margin-left: -5vw;
+    margin-left: -10vw;
     /* background-color: var(--test); */
 }
 
@@ -70,29 +70,32 @@
     position: absolute;
     z-index: -2;
     margin-top: -5vw;
-    margin-left: -5vw;
+    margin-left: -10vw;
     /* background-color: var(--test); */
 }
 
 .tp-m-stars-4 {
     background-image: url(../svg/stars_5.svg);
     width: 100vw;
-    height: 100vw;
+    height: 50vw;
     position: absolute;
     z-index: -2;
     margin-top: -5vw;
-    margin-left: -5vw;
+    margin-left: -10vw;
     /* background-color: var(--test); */
 }
 
+.tp-m-caption li {
+    margin-left: -2vw;
+}
 
 /* Title */
 
 .tp-m-title {
-    font-size: 4.354vw;
+    font-size: 5vw;
     line-height: 6.122vw;
     letter-spacing: -0.008em;
-    font-weight: 700;
+    font-weight: 900;
     /* border-bottom: 0.25vw solid var(--natural); */
 }
 
@@ -100,8 +103,8 @@
 
 .tp-m-caption {
     margin-top: 5vw;
-    font-size: 1.361vw;
-    line-height: 1.361vw;   
+    font-size: 1.5vw;
+    line-height: 1.5vw;   
 }
 
 /* Contact Section */

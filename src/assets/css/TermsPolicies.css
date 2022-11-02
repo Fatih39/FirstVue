@@ -27,7 +27,7 @@
     z-index: 1;
     width: 13vw;
     height: 2vw;
-    border: 3px solid var(--primary);
+    border: 0.25vw solid var(--primary);
     border-radius: 0.68vw;
     padding: 1.224vw;
     font-family: Proxima Nova Alt Rg;
@@ -202,7 +202,7 @@
     background-color: var(--natural);
     width: 12vw;
     height: 5vw;
-    border: 3px solid var(--primary);
+    border: 0.25vw solid var(--primary);
     border-radius: 0.68vw;
     padding: 1vw;
     font-family: Proxima Nova Alt Rg;

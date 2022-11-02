@@ -76,7 +76,7 @@
                 <DynamicLink to="/contact-us"><span class="bold-underline-thin">Contact Us</span></DynamicLink>
             </div>
             <div class="tp-m-contact-us-caption">
-                This website is operated by KiteSense Pte Ltd, who is the owner of the KieSense app.
+                This website is operated by KiteSense Pte Ltd, who is the owner of the KiteSense app.
                 <br> 
                 Our address is 1 Pemimpin Drive #02-03 Singapore 576151.
                 <br>

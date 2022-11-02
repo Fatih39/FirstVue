@@ -41,7 +41,7 @@
     z-index: 1;
     width: 15vw;
     height: 1vw;
-    border: 3px solid var(--primary);
+    border: 0.25vw solid var(--primary);
     border-radius: 0.68vw;
     padding: 1.224vw;
     font-family: Proxima Nova Alt Rg;
@@ -469,7 +469,7 @@
     /* margin-left: 5vw; */
     width: 15vw;
     height: 5vw;
-    border: 3px solid var(--primary);
+    border: 0.25vw solid var(--primary);
     border-radius: 0.68vw;
     padding: 1.224vw;
     color: var(--menu-active);

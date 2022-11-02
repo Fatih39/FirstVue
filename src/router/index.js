@@ -16,43 +16,55 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
+      meta: { transition: 'slide-right' },
     },
     {
       path: "/contact-us",
       name: "contact-us",
       component: () => import("../views/ContactUsView.vue"),
+      meta: { transition: 'slide-right' },
     },
     {
       path: "/terms-policies",
       name: "terms-policies",
       component: () => import("../views/TermsPoliciesView.vue"),
+      meta: { transition: 'slide-right' },
     },
     {
       path: "/terms-policies-master",
       name: "terms-policies-master",
       component: () => import("../views/TermsPoliciesMasterView.vue"),
+      meta: { transition: 'slide-right' },
     },
     {
       path: "/landing-page",
       name: "landing-page",
       component: () => import("../views/LandingPageView.vue"),
+      meta: { transition: 'slide-right' },
     },
     {
       path: "/events",
       name: "events",
       component: () => import("../views/EventView.vue"),
+      meta: { transition: 'slide-right' },
     },
     {
       path: "/references",
       name: "references",
       component: () => import("../views/ReferencesView.vue"),
-      meta : { requiresAuth : false }
+      meta: { transition: 'slide-right' },
     },
     {
       path: "/privacy-policy",
       name: "privacy-policy",
       component: () => import("../views/PrivacyPolicyView.vue"),
-      meta : { requiresAuth : false }
+      meta: { transition: 'slide-right' },
+    },
+    {
+      path: "/solution-education",
+      name: "solution-education",
+      component: () => import("../views/EducationView.vue"),
+      meta: { transition: 'slide-right' },
     },
     // Need to create Not Found page
     // {
@@ -61,6 +73,23 @@ const router = createRouter({
     //   component: () => import("../views/LandingPageView.vue"),
     // },
   ],
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      if (to.hash) {
+        return {
+          selector : to.hash,
+          behavior : "smooth",
+        }
+      } else {
+        return {
+          top: 0,
+          behavior : "smooth",
+        }
+      }
+    }
+  }
 });
 
 router.beforeEach((to, from, next) => {
@@ -79,5 +108,6 @@ router.beforeEach((to, from, next) => {
     next();
   }
 })
+
 
 export default router;

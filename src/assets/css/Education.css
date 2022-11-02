@@ -1,0 +1,200 @@
+/* Typography */
+* {
+    --natural: #ffffff;
+    --sec_natural : #9E9E9E;
+    --third_natural : #18181C;
+	--primary: #024F94;
+	--accent: #132F66;
+	--base: #000000;
+    --test: #FF0000;
+    --menu-active : #005999;
+    --danger : #ff0000;
+    --box-shadow : #CFECFF;
+}
+@font-face {
+    font-family: Proxima Nova Alt Rg;
+    src: url(./fonts/ProximaNovaA-Regular.ttf);
+}
+
+/* Custom Class */
+.background-no-repeat-size-contain {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Button config */
+.button-style-primary-education {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--natural);
+    font-size: 1.1vw;
+    /* margin-left: 5vw; */
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 1vw;
+    border: 0.25vw solid var(--primary);
+    border-radius: 0.68vw;
+    padding: 1.224vw;
+    font-family: Proxima Nova Alt Rg;
+    margin-top: 3vw;
+}
+ 
+.button-style-primary-education a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: var(--primary);
+}
+
+.button-style-primary-education:active {
+    transform: scale(0.8);
+    transition: 0.1s;
+}
+
+/* Wrapper */
+.education-wrapper {
+    margin-left: 10vw;
+    font-family: Proxima Nova Alt Rg;
+}
+
+.education-bg-1 {
+    background-image: url(../svg/education-section-1-bg.svg);
+    position: absolute;
+    width: 120vw;
+    height: 122.5vw;
+    margin-top: -25vw;
+    z-index: -2;
+}
+
+.education-stars-1  {
+    background-image: url(../svg/education-section-1-stars.svg);
+    position: absolute;
+    width: 110vw;
+    height: 120vw;
+    margin-top: -15vw;
+    margin-left: 15vw;
+    z-index: -2;
+}
+
+/* Section - 1 */
+.education-section-1-title {
+    color: var(--natural);
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: 7vw;
+    letter-spacing: -0.008em;
+}
+
+.education-section-1-desc {
+    color: var(--natural);
+    font-size: 2.5vw;
+    margin-top: 3vw;
+    width: 70vw;
+}
+
+/* Section - 2 */
+.education-section-2 {
+    display: flex;
+    margin-top: 5vw;
+}
+
+.education-section-2-container {
+    background-color: var(--box-shadow);
+    box-shadow: 0.75vw 0.75vw 0.3vw rgba(0, 0, 0, 0.15);
+    margin-right: 5vw;
+    width: 20vw;
+    border-radius: 1.874vw;
+    padding: 2vw;
+}
+
+.education-stats-title {
+    font-size: 2.8vw;
+    font-weight: 700;
+    line-height: 3vw;
+}
+
+.education-stats-desc {
+    font-size: 1.5vw;
+    line-height: 2.624vw;
+    margin-top: 1vw;
+}
+
+.education-section-2-disclaimer {
+    color: var(--natural);
+    font-size: 1.2vw;
+    line-height: 3vw;
+    margin-top: 2.5vw;
+}
+
+.education-vector-1 {
+    margin-top: 3vw;
+    background-image: url(../svg/education-end-section-vector.svg);
+    width: 100vw;
+    height: 30vw;
+    margin-left: -10vw;
+    z-index: -1;
+}
+
+/* Section - 3 */
+.education-section-3 {
+    color: var(--natural);
+    margin-top: -12vw;
+    margin-left: -3vw;
+}
+.education-section-3-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.8vw;
+    line-height: 3.6vw;
+    letter-spacing: 0.02em;
+    margin-left: -5vw;
+}
+
+.education-section-3-container {
+    display: flex;
+    align-items: center;
+    margin-top: -5vw;
+    padding-bottom: 2vw;
+}
+
+.education-section-3-picture-1 {
+    background-image: url(../svg/education-3-tiers-dummy-1.svg);
+    width: 35vw;
+    height: 35vw;
+    margin-top: 10vw;
+}
+
+.education-section-3-picture-2 {
+    background-image: url(../svg/education-3-tiers-dummy-2.svg);
+    width: 35vw;
+    height: 35vw;
+}
+
+.education-section-3-picture-3 {
+    background-image: url(../svg/education-3-tiers-dummy-3.svg);
+    width: 35vw;
+    height: 35vw;
+}
+
+.education-section-3-text-content {
+    width: 45vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.education-section-3-text-content-title {
+    font-weight: 700;
+    font-size: 2.249vw;
+    line-height: 2.5vw;
+    letter-spacing: 0.02em;
+}
+
+.education-section-3-text-content-desc {
+    font-size: 1.6vw;
+    line-height: 2.624vw;
+    margin-top: 1vw;
+    letter-spacing: 0.02em;
+}
