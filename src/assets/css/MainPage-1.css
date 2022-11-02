@@ -13,6 +13,19 @@
 }
 
 /* Custom class */
+/* Animations */
+@keyframes fade-in {
+  from {
+      opacity : 0;
+  } to {
+      opacity: 1;
+  }
+}
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+}
+
 
 /* Wrapper */
 .wrapper {
@@ -206,7 +219,7 @@ h4 {
   font-size: 2.5vw;
   font-weight: 400;
   text-align: center;
-  width: 85vw;
+  width: 90vw;
   margin-top: 2.5vw;
 }
 

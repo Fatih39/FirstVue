@@ -16,7 +16,7 @@ addScript('https://code.jquery.com/jquery-3.6.1.min.js');
 addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 </script>
 <template>
-    <div class="event-wrapper">
+    <div class="event-wrapper fade-in">
         <div class="event-stars background-no-repeat-size-contain"></div>
         <div class="event-page-title">
             KiteSense Mastery.AI is Education 3.0

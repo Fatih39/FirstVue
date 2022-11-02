@@ -1,6 +1,6 @@
 <!-- Pop Up Landing Page -->
 <template>
-    <div class="popup-wrapper">
+    <div class="popup-wrapper fade-in">
         <div class="landing-page-bg background-no-repeat-size-contain"></div>
         <div class="landing-page-stars background-no-repeat-size-contain"></div>
         <div v-if="coverActive" id="pop-up-cover" class="fade-in">

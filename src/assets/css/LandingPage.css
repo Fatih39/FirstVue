@@ -245,8 +245,8 @@ animation: lds-ellipsis3 0.6s infinite;
     /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
-    filter: blur(17.5px);
-    -webkit-filter: blur(17.5px);
+    filter: blur(1.25vw);
+    -webkit-filter: blur(1.25vw);
 }
 
 .pop-up-after-send-title {

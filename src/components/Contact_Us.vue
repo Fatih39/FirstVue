@@ -1,6 +1,6 @@
 <!-- Contact Us Page -->
 <template>
-    <div class="wrapper-contact-us">
+    <div class="wrapper-contact-us fade-in">
     <div class="background-contact-us"></div>
     <div class="eclipse-contact-us"></div>
     <div v-if="coverActive" id="pop-up-cover" class="fade-in">

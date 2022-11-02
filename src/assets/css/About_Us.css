@@ -89,8 +89,8 @@
     /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
-    filter: blur(17.5px);
-    -webkit-filter: blur(17.5px);
+    filter: blur(1.25vw);
+    -webkit-filter: blur(1.25vw);
 }
 
 .pop-up-after-send-title {
@@ -176,7 +176,7 @@
     background-image: url(../svg/about_us_background.svg);
     width: 130vw;
     height: 140vw;
-    margin-top: -25vw;
+    margin-top: -30vw;
     /* margin-left: -5vw; */
     position: absolute;
     z-index: -1;
@@ -403,8 +403,8 @@
 .about-us-form-bg {
     width: 80vw;
     height: 30vw;
-    filter: blur(17.5px);
-    -webkit-filter: blur(17.5px);
+    filter: blur(1.25vw);
+    -webkit-filter: blur(1.25vw);
     background-color: rgba(207, 236, 255, 0.3);
     position: absolute;
     z-index: -2;

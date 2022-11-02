@@ -1,6 +1,6 @@
 <!-- Terms & Policies Master Page -->
 <template>
-    <div class="tp-m-wrapper">
+    <div class="tp-m-wrapper fade-in">
         <div class="tp-m-stars-1"></div>
         <div class="tp-m-title">
             <span class="bold-underline-thick">Terms & Conditions</span>

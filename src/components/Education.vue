@@ -3,7 +3,7 @@
 <template>
     <div class="education-bg-1 background-no-repeat-size-contain"></div>
     <div class="education-stars-1 background-no-repeat-size-contain"></div>
-    <div class="education-wrapper">
+    <div class="education-wrapper fade-in">
         <div class="education-section-1">
             <div class="education-section-1-title">
                 4 Hours of Learning on KiteSense Lead to 18% of Students Achieving Better Outcomes.

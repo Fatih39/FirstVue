@@ -18,7 +18,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 
 </script>
 <template>
-<div class="wrapper-about-us">
+<div class="wrapper-about-us fade-in">
     <!-- Eclipse_5 here -->
     <div class="about-us-background background-no-repeat-size-contain"></div>
     <div class="stars-1"></div>

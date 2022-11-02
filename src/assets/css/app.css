@@ -188,6 +188,12 @@ footer {
 
 .footer-wrapper .logo-wrapper {
   margin-left: 0;
+  margin-top: -2vw;
+}
+
+.footer-wrapper .logo-wrapper img {
+  width: 25;
+  height: 10vw;
 }
 
 .footer-wrapper a {
@@ -202,7 +208,7 @@ footer {
 
 .footer-wrapper .address {
   margin-top: 1vw;
-  font-size: 1.633vw;
+  font-size: 1.4vw;
   font-weight: 400;
   line-height: 1.7vw;
 }
@@ -256,7 +262,8 @@ footer {
   padding-left: 0.5vw;
 }
 
-.legal #mce-EMAIL::placeholder {
+.legal #mce-EMAIL::-webkit-input-placeholder {
+  vertical-align:-webkit-baseline-middle;
   font-size: 1vw;
 }
 

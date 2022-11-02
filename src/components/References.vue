@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="references-wrapper">
+    <div class="references-wrapper fade-in">
         <!-- Section - 1 -->
         <div class="references-stars-1 background-no-repeat-size-contain"></div>
         <div class="references-section-1">

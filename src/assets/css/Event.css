@@ -102,8 +102,8 @@
     /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
-    filter: blur(17.5px);
-    -webkit-filter: blur(17.5px);
+    filter: blur(1.25vw);
+    -webkit-filter: blur(1.25vw);
 }
 
 .pop-up-after-send-title {
@@ -322,7 +322,7 @@
     z-index: -1;
     width: 110vw;
     height: 40vw;
-    margin-left: -5vw;
+    margin-left: -10vw;
     margin-top: 70vw;
 }
 

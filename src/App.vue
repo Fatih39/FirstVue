@@ -63,7 +63,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                   <div class="sub-menu-title">By Use Cases</div>
                 </template>
                 <template #sub-dropdown-menu>
-                  <DynamicLink to=""><div class="sub-menu" id="sub">Improve Learning Outcomes</div></DynamicLink>
+                  <DynamicLink to="/"><div class="sub-menu" id="sub">Improve Learning Outcomes</div></DynamicLink>
                   <!-- <div class="sub-menu" id="sub">Smart Learning Program</div> -->
                 </template>
               </SubDropdownMenu>
@@ -90,7 +90,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
               <DynamicLink to="/events"><div class="sub-menu-title">Events</div></DynamicLink>
             </div>
             <div class="sub-menu">
-              <DynamicLink to="/terms-policies"><div class="sub-menu-title">Terms & Conditions</div></DynamicLink>
+              <DynamicLink to="/terms-policies-master"><div class="sub-menu-title">Terms & Conditions</div></DynamicLink>
             </div>
             <DynamicLink to="/privacy-policy"><div class="sub-menu" id="sub">Privacy Policy</div></DynamicLink>
           </template>
@@ -130,7 +130,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
           <div class="title">Company:</div>
           <div class="footer-content"><RouterLink to="/about" class="footer-menu">About Us</RouterLink></div>
           <div class="footer-content"><RouterLink to="/contact-us" class="footer-menu">Contact Us</RouterLink></div>
-          <div class="footer-content"><RouterLink to="/" class="footer-menu">Solutions</RouterLink></div>
+          <div class="footer-content"><RouterLink to="/solution-education" class="footer-menu">Solutions</RouterLink></div>
         </div>
       </div>
       <div>
@@ -138,8 +138,8 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             <div class="title">Resources:</div>
             <div class="footer-content"><RouterLink to="/references" class="footer-menu">References</RouterLink></div>
             <div class="footer-content"><RouterLink to="/events" class="footer-menu">Events</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/terms-policies" class="footer-menu">Terms & Condition</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/" class="footer-menu">Privacy Policy</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/terms-policies-master" class="footer-menu">Terms & Condition</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/privacy-policy" class="footer-menu">Privacy Policy</RouterLink></div>
         </div>
       </div>
       <div>
@@ -151,7 +151,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             </div> -->
             <div class="footer-content">
               <form action="https://kitesense.us5.list-manage.com/subscribe/post?u=31a9a2a32ed707c2043c28f31&id=462b223dd7&f_id=00228ae9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" ref="form" target="_blank" @submit="showSuccessMsg">
-              <input type="email" placeholder="Your Email" v-model="email" name="EMAIL" id="mce-EMAIL" required autocomplete="off" />
+              <input type="email" placeholder="" v-model="email" name="EMAIL" id="mce-EMAIL" required autocomplete="off" />
               <!-- <div id="mce-responses" class="clear foot">
                 <div class="response" id="mce-error-response" style="display:none"></div>
                 <div class="response" id="mce-success-response" style="display:none"></div>

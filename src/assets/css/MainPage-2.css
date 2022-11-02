@@ -18,6 +18,18 @@
   src: url(../fonts/SharpSans.otf) format("opentype");
 }
 
+/* Animations */
+@keyframes fade-in {
+  from {
+      opacity : 0;
+  } to {
+      opacity: 1;
+  }
+}
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+}
 
 /* Custom Class */
 .background-no-repeat-size-contain {
@@ -108,8 +120,6 @@
   color: var(--base);
   position: absolute;
   margin-top: 8vw;
-
-  /* backdrop-filter: blur(17.5px); */
 }
 
 .about-us .carousel-title {

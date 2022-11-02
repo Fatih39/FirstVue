@@ -3,7 +3,7 @@
 import { RouterLink } from "vue-router";
 </script>
 <template>
-  <div class="greetings wrapper">
+  <div class="greetings wrapper fade-in">
     <!-- "Augmenting Learning with AI" Section -->
     <div class="stars-1"></div>
     <div class="signal-left"></div>

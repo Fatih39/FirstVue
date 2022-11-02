@@ -3,7 +3,7 @@
 import Carousel from "./Carousel.vue";
 </script>
 <template>
-  <div class="wrapper">
+  <div class="wrapper fade-in">
     <div class="main-page-2-signal-1 background-no-repeat-size-contain"></div>
     <Carousel></Carousel>
     <div class="section-2">
