@@ -67,11 +67,11 @@ const router = createRouter({
       meta: { transition: 'slide-right' },
     },
     // Need to create Not Found page
-    // {
-    //   path: "/404",
-    //   name: "landing-page",
-    //   component: () => import("../views/LandingPageView.vue"),
-    // },
+    {
+      path: "/:pathMatch(.*)*",
+      name: "404-not-found",
+      component: () => import("../views/404page.vue"),
+    },
   ],
   scrollBehavior (to, from, savedPosition) {
     if (savedPosition) {

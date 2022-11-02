@@ -108,6 +108,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                             <DynamicLink to="https://www.ial.edu.sg/">Join the Community</DynamicLink>
                         </div>
                     </div>
+                    <div class="event-stars-2 background-no-repeat-size-contain"></div>
                     <div class="past-event-2">
                         <div class="past-event-image-2 background-no-repeat-size-contain">
 

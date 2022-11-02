@@ -70,7 +70,7 @@
 
 .references-section-1 .references-section-1-title {
     font-weight: 700;
-    font-size: 7.2vw;
+    font-size: 7.5vw;
     line-height: 6.8vw;
     letter-spacing: -0.008em;
     text-align: center;
@@ -82,7 +82,7 @@
     font-size: 2.5vw;
     line-height: 2.721vw;
     text-align: center;
-    margin-top: 2vw;
+    margin-top: 7vw;
 }
 
 /* Section - 2 */
@@ -93,17 +93,17 @@
     position: absolute;
     z-index: -1;
     margin-left: -7vw;
-    margin-top: -20vw;
+    margin-top: -14vw;
 }
 
 .references-vector {
     background-image: url(../svg/references_vector_2.svg);
-    width: 100vw;
+    width: 105vw;
     height: 100vw;
     position: absolute;
     z-index: -1;
-    margin-top: -70vw;
-    margin-left: -5vw;
+    margin-top: -80vw;
+    margin-left: -10vw;
 }
 
 .references-stars-2 {
@@ -122,14 +122,15 @@
 
 .references-section-2-title {
     font-weight: 700;
-    font-size: 3.265vw;
+    font-size: 5vw;
     line-height: 4.354vw;
-    margin-top: 10vw;
+    margin-top: 2vw;
 }
 
 .references-section-2-content {
     display: flex;
-    padding-bottom: 10vw;
+    padding-bottom: 5vw;
+    margin-top: 5vw;
 }
 
 .references-section-2-content-container {
@@ -168,7 +169,7 @@
 
 .references-section-2-content-desc {
     margin-top: 2vw;
-    width: 30vw;
+    width: 28vw;
     text-align: center;
     font-size: 2.5vw;
     line-height: 3.2vw;
@@ -181,10 +182,18 @@
     line-height: 1.361vw;
     letter-spacing: 0.014em;
     font-weight: 400;
+    width: 6vw;
 }
 
 .references-section-2-research-container {
     display: flex;
+}
+
+.references-section-2-title-2 {
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 4.354vw;
+    margin-top: 15vw;
 }
 
 .references-section-2-research-desc {
@@ -207,18 +216,18 @@
 
 .references-section-2-research-desc .research-title{
     font-weight: 700;
-    font-size: 2.449vw;
-    line-height: 2.721vw;
+    font-size: 2.8vw;
+    line-height: 3vw;
     text-align: center;
     width: 50vw;
 }
 
 .references-section-2-research-desc .research-caption {
     font-weight: 400;
-    font-size: 1.633vw;
-    line-height: 2.721vw;
+    font-size: 1.9vw;
+    line-height: 2.9vw;
     text-align: center;
-    width: 50vw;
+    width: 55vw;
     margin-top: 2vw;
 }
 

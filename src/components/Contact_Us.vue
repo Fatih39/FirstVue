@@ -64,7 +64,7 @@
                         <input type="text" class="input-form"  name="job_function" placeholder="Job Function" autocomplete="off" required>
                         <textarea name="message" value="" placeholder="Message"></textarea>
                     </div>
-                    <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="form-agreement-link">Terms & Policies.</DynamicLink>
+                    <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="/terms-policies-master" id="form-agreement-link">Terms & Policies.</DynamicLink>
                     </div>
                     <div class="contact-us-form-submit-field"><input type="submit" value="Send" id="submit-field"></div>
                 </form>

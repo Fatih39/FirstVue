@@ -55,16 +55,15 @@
   display: flex;
   position:absolute;
   z-index: 1;
-  margin-top: 45vw;
-
+  margin-top: 50vw;
 }
 
 button {
   opacity: 50%;
-  width: 1.5vw;
-  height: 1.5vw;
+  width: 2vw;
+  height: 2vw;
   cursor: pointer;
-  margin: 0.25vw;
+  margin: 1vw;
   border-radius: 100%;
 }
 

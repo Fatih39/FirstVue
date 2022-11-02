@@ -57,7 +57,7 @@ import { RouterLink } from "vue-router";
               <div class="number-content">18%</div>
             </div>
             <div class="stats-title">Engagement</div>
-            <div class="caption">Students felt more supported in their learning with KiteSense.</div>
+            <div class="caption">Students are more engaged at an appropriate level of challenge based on their ability levels.</div>
           </div>
           <div class="fourth-stats">
             <div class="number">
@@ -82,7 +82,7 @@ import { RouterLink } from "vue-router";
         <div class="picture-1"></div>
         <div class="text-content">
           <div class="title">Ontology-Driven Mapping of Bodies of Knowledge</div>
-          <div class="content">We build the Mastery.AI engine to optimise learning pathways through ontology-driven knowledge maps. Enable students (or learners) to take control of their learning set at their own pace to master learning objectives.</div>
+          <div class="content">We build the Mastery.AI engine to optimise learning pathways through ontology-driven knowledge maps. Enable learners to take control of their learning set at their own pace to master learning objectives.</div>
           <div class="button-style-primary"><RouterLink to="/contact-us">Discover More Here</RouterLink></div>
         </div>
       </div>

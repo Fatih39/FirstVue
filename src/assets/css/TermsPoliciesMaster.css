@@ -85,6 +85,10 @@
     /* background-color: var(--test); */
 }
 
+.tp-m-caption ul {
+    margin-top: 0vw;
+}
+
 .tp-m-caption li {
     margin-left: -2vw;
 }
@@ -111,7 +115,7 @@
 
 .tp-m-contact-us {
     margin-top: 3vw;
-    font-size: 1.633vw;
+    font-size: 1.7vw;
 }
 
 .tp-m-contact-us-title {

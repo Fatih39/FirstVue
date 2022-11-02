@@ -107,6 +107,8 @@ nav {
   margin-left: -2vw;
   display: flex;
   justify-content: right;
+  position: relative;
+  z-index: 9999;
 }
 
 /* Button styles for nav-bar */

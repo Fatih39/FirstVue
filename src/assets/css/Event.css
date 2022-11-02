@@ -165,12 +165,12 @@
 
 .event-wrapper .event-page-title {
     font-weight: 900;
-    font-size: 7vw;
-    line-height: 7.122vw;
+    font-size: 7.5vw;
+    line-height: 7.5vw;
     letter-spacing: -0.008em;
     /* background-color: var(--test); */
     text-align: center;
-    width: 70vw;
+    width: 75vw;
     margin-left: 15vw;
 }
 
@@ -188,7 +188,8 @@
 .event-left-wrapper .button-style-primary-event {
     width: 16vw;
     height: 2vw;
-    margin-left: 10vw;
+    margin-left: 13vw;
+    margin-top: 5vw;
 }
 
 .event-left-wrapper .button-style-primary-event a {
@@ -205,10 +206,10 @@
 
 .event-wrapper .event-dummy {
     background-image: url(../svg/event_dummy.svg);
-    width: 45vw;
-    height: 45vw;
+    width: 50vw;
+    height: 50vw;
     margin-left: 43vw;
-    margin-top: -8vw;
+    margin-top: -12vw;
     position: absolute;
     z-index: -2;
 }
@@ -249,7 +250,7 @@
 
 .label {
     font-weight: 700;
-    font-size: 3.265vw;
+    font-size: 5.5vw;
     line-height: 4.354vw;
 }
 
@@ -277,7 +278,7 @@
 
 .all-past-events .event-desc {
     font-weight: 900;
-    font-size: 3vw;
+    font-size: 2.5vw;
     width: 50vw;
     /* margin-left: 5vw; */
     text-align: center;
@@ -352,18 +353,26 @@
     /* background-color: var(--test); */
 }
 
+.exhibitions-past-events .past-event-2 {
+    width: 26vw;
+}
+
 .exhibitions-past-events .past-event-1 {
     margin-left: 0;
 }
 
 .exhibitions-past-events .past-event-details-2 {
-    margin-top: 3.5vw;
+    margin-top: 5vw;
+}
+
+.past-event-2 .past-event-details-2 {
+    margin-top: 2.2vw;
 }
 
 .past-event-details-1, .past-event-details-2, .past-event-label {
     font-weight: 400;
     font-size: 2.5vw;
-    line-height: 2.721vw;
+    line-height: 3vw;
 }
 
 .past-event-label {
@@ -431,7 +440,16 @@
 }
 
 .all-past-section .exhibitions-past-events .past-event-2 .button-style-primary-event {
-    margin-top: 2vw;
+    margin-top: 5vw;
+}
+
+.event-stars-2 {
+    background-image: url(../svg/event_stars.svg);
+    width: 100vw;
+    height: 105vw;
+    position: absolute;
+    z-index: -1;
+    margin-left: -10vw;
 }
 
 /* Mailchimp form */

@@ -1,0 +1,37 @@
+.not-found-msg {
+    /* background-color: red; */
+    width: 100vw;
+    /* height: 30vw; */
+    font-size: 4vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
+
+.not-found-dummy {
+    background-image: url(../svg/page-not-found.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vw;
+    height: 25vw;
+    margin-left: 30vw;   
+}
+
+.not-found-links {
+    margin-top: 5vw;
+    text-align: center;
+    padding-bottom: 10vw;
+}
+
+.not-found-bg {
+    background-image: url(../svg/landing_page_bg_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    width: 70vw;
+    height: 70vw;
+    margin-left: 15vw;
+    margin-top: -5vw;
+}

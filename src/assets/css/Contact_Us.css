@@ -237,7 +237,7 @@ animation: lds-ellipsis3 0.6s infinite;
 /* Title  */
 .section-1-contact-us .title {
     font-family: Proxima Nova Alt Rg;
-    font-size: 6.531vw;
+    font-size: 7.5vw;
     line-height: 6.122vw;
     font-weight: 700;
     letter-spacing: -0.008em;
@@ -246,8 +246,8 @@ animation: lds-ellipsis3 0.6s infinite;
 /* Caption */
 .section-1-contact-us .caption {
     padding-top: 5vw;
-    width: 65vw;
-    font-size: 2.177vw;
+    width: 60vw;
+    font-size: 2.5vw;
 }
 
 /* Section - 2 */
@@ -261,7 +261,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .section-2-contact-us .desc {
-    width: 40vw;
+    width: 35vw;
     /* background-color: var(--test); */
 }
 /* Desc Title */
@@ -277,13 +277,13 @@ animation: lds-ellipsis3 0.6s infinite;
     padding-top: 2vw;
     padding-bottom: 7vw;
     font-size: 1.8vw;
-    line-height: 1.905vw;
+    line-height: 2.2vw;
 }
 
 /* Form */
 /* Background */
 .section-2-contact-us .form-bg {
-    width: 45vw;
+    width: 50vw;
     height: 75vw;
     margin-left: 2vw;
     margin-top: -5vw;
@@ -319,11 +319,11 @@ animation: lds-ellipsis3 0.6s infinite;
     font-family: Proxima Nova Alt Rg;
     color: var(--base);
     padding-bottom: 5vw;
-    margin-left: -6vw;
+    /* margin-left: -6vw; */
 }
 
 .section-2-contact-us .form-wrapper input {
-    width: 35vw;
+    width: 40vw;
     height: 2.5vw;
     margin-bottom: 2vw;
     background-color: var(--third_natural);
@@ -332,7 +332,7 @@ animation: lds-ellipsis3 0.6s infinite;
     padding-left: 2vw;
     color: var(--natural);
     font-family: Proxima Nova Alt Rg;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     font-weight: 700;
     line-height: 1.4vw;
     border-radius: 0.4vw;
@@ -341,8 +341,9 @@ animation: lds-ellipsis3 0.6s infinite;
 .section-2-contact-us .form-wrapper textarea {
     padding-top: 1vw;
     resize: none;
-    width: 35vw;
+    width: 40vw;
     height: 13vw;
+    font-size: 1.5vw;
 }
 
 .section-2-contact-us .form-wrapper input::placeholder {
@@ -354,12 +355,12 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .section-2-contact-us .form-agreement {
-    margin-top: -2vw;
-    width: 38vw;
+    margin-top: -1.5vw;
+    width: 40vw;
     padding-bottom: 2vw;
     /* background-color: var(--test); */
     color: var(--base);
-    font-size: 1vw;
+    font-size: 1.25vw;
     line-height: 1.361vw;
     font-family: Proxima Nova Alt Rg;
     text-align: left;
@@ -367,7 +368,7 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .form-agreement #form-agreement-link {
     color: var(--base);
-    font-size: 1vw;
+    font-size: 1.25vw;
     line-height: 1.361vw;
     font-weight: 700;
     display: inline;
@@ -444,20 +445,20 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .section-3-contact-us .sub-wrapper {
     width: 30vw;
-    padding-right: 10vw;
+    padding-right: 7vw;
 }
 
 .section-3-contact-us .sub-wrapper .sub-title {
     color: var(--menu-active);
     font-family: Proxima Nova Alt Rg;
-    font-size: 2.177vw;
+    font-size: 2.5vw;
     font-weight: 900;
     line-height: 2.721vw;
 }
 
 .section-3-contact-us .sub-wrapper .caption {
     padding-top: 1vw;
-    font-size: 1.224vw;
-    line-height: 1.9vw;
+    font-size: 1.7vw;
+    line-height: 2.2vw;
     color: var(--base);
 }
