@@ -95,7 +95,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             <DynamicLink to="/privacy-policy"><div class="sub-menu" id="sub">Privacy Policy</div></DynamicLink>
           </template>
         </DropdownMenu>
-        <DynamicLink to="/contact-us"><div class="get-started">Get Started</div></DynamicLink>
+        <DynamicLink to="/contact-us"><div class="get-started" id="get-started">Get Started</div></DynamicLink>
         </div>
       </div>
       </nav>

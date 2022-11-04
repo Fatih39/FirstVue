@@ -7,13 +7,13 @@
     <div class="ilc-wrapper fade-in">
         <div class="ilc-section-1">
             <div class="ilc-section-1-title">
-                Improve Learning Outcomes with AI Recommender
+                Empower Learners to Take Charge of Their Learning
             </div>
             <div class="ilc-section-1-caption">
-                Endorsed by Leading Educational Institutions
+                Deployed in Leading Educational Institutions
             </div>
             <div class="button-style-primary-ilc">
-                <DynamicLink to="">Read More</DynamicLink>
+                <DynamicLink to="/solution-education">Read More</DynamicLink>
             </div>
             <div class="ilc-stars-2 background-no-repeat-size-contain"></div>
             <div class="ilc-section-1-dummy background-no-repeat-size-contain">
@@ -35,7 +35,7 @@
                     <div class="ilc-section-2-text-content-content">
                         <ul>
                         <li>Intelligent publishing by  ingesting and tagging content based on topics, subtopics and difficulty levels.</li>
-                        <li>SAP’s capacity to publish smart digital books and provide differentiated learning pathways for learners across different learning abilities.</li>
+                        <li>Enhance SAP’s capacity to publish smart digital books and provide differentiated learning pathways for learners across different learning abilities.</li>
                         </ul>
                     </div>
                 </div>
@@ -63,9 +63,10 @@
                     </div>
                     <div class="ilc-section-2-text-content-content">
                         <ul>
-                            <li>Intelligent publishing by  ingesting and tagging content based on topics, subtopics and difficulty levels.</li>
+                            <li>Provide content for Python, Unity and other popular programming languages.</li>
+                            <li>Meet growing demand for a skilled IT workforce.</li>
                             <li>
-                            Enhance SAP’s capacity to publish smart digital books and provide differentiated learning pathways for learners across different learning abilities.
+                            Used by young adults at Temasek Polytechnic, a leading Institute of Higher Learning in Singapore.
                             </li>
                         </ul>
                     </div>
@@ -76,7 +77,7 @@
                     </div>
                     <div class="ilc-section-2-text-content-content">
                         <ul>
-                            <li>A  learning recommender for asynchronous self-directed learning  at scale.</li>
+                            <li>A  learning recommender for asynchronous self-directed learning at scale.</li>
                             <li>Automatically prescribes the "What's Next" with learning speed and content personalised to every learner.</li>
                             <li>Effective learning recommendations to help learners stretch or catch up, Increasing capacity to learn independently.</li>
                         </ul>

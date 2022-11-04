@@ -26,7 +26,7 @@
                         <input type="text" class="input-form" name="first_name" placeholder="First Name" autocomplete="off" required>
                         <input type="text" class="input-form" name="last_name" placeholder="Last Name" autocomplete="off" required>
                         <input type="email" class="input-form" name="email" placeholder="Email" autocomplete="off" required>
-                        <input type="text" class="input-form" name="organization_company" placeholder="Organization / Company" autocomplete="off" required>
+                        <input type="text" class="input-form" name="organization_company" placeholder="Organisation / Company" autocomplete="off" required>
                         <input type="text" class="input-form" name="industry" placeholder="Industry" autocomplete="off" required>
                         <input type="text" class="input-form"  name="job_function" placeholder="Job Function" autocomplete="off" required>
                     </div>

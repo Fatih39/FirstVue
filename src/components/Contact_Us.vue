@@ -59,7 +59,7 @@
                         <input type="text" class="input-form" name="first_name" placeholder="First Name" autocomplete="off" required>
                         <input type="text" class="input-form" name="last_name" placeholder="Last Name" autocomplete="off" required>
                         <input type="email" class="input-form" name="email" placeholder="Email" autocomplete="off" required>
-                        <input type="text" class="input-form" name="organization_company" placeholder="Organization / Company" autocomplete="off" required>
+                        <input type="text" class="input-form" name="organization_company" placeholder="Organisation / Company" autocomplete="off" required>
                         <input type="text" class="input-form" name="industry" placeholder="Industry" autocomplete="off" required>
                         <input type="text" class="input-form"  name="job_function" placeholder="Job Function" autocomplete="off" required>
                         <textarea name="message" value="" placeholder="Message"></textarea>
@@ -125,7 +125,6 @@ export default {
             this.coverActive = true;
             this.loading = true;
             emailjs.sendForm("service_byvgb07", "template_1xu8h5d", this.$refs.form, "yB0WPLSEW_5syCQG2").then(() => {
-                // alert("Succesfully sent!")
                 this.loading = false;
                 this.showPopUp = true;
                 this.showPopup();

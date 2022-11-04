@@ -150,10 +150,24 @@
 /* Wrapper */
 .event-stars {
     background-image: url(../svg/stars_7.svg);
+    /* background-color: red; */
     width: 200vw;
-    height: 200vw;
+    height: 100vw;
     position: absolute;
     z-index: -2;
+    margin-top: -10vw;
+    /* background-color: var(--test); */
+}
+
+.event-stars-3 {
+    background-image: url(../svg/stars_8.svg);
+    /* background-color: red; */
+    width: 200vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -2;
+    margin-top: 30vw;
+    margin-left: -10vw;
     /* background-color: var(--test); */
 }
 
@@ -161,6 +175,7 @@
     font-family: Proxima Nova Alt Rg;
     color: var(--natural);
     padding-bottom: 10vw;
+    margin-top: -3vw;
 }
 
 .event-wrapper .event-page-title {
@@ -206,10 +221,10 @@
 
 .event-wrapper .event-dummy {
     background-image: url(../svg/event_dummy.svg);
-    width: 50vw;
-    height: 50vw;
+    width: 45vw;
+    height: 45vw;
     margin-left: 43vw;
-    margin-top: -12vw;
+    margin-top: -8vw;
     position: absolute;
     z-index: -2;
 }
@@ -459,10 +474,11 @@
     z-index: -1;
     width: 100vw;
     height: 30vw;
+    margin-top: 5vw;
 }
 
 .event-mailchimp-wrapper {
-    margin-top: 12vw;
+    margin-top: 17vw;
     display: flex;
     justify-content: center;
 }

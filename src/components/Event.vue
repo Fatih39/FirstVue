@@ -45,11 +45,11 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                             <div class="event-details-date">9-10 November 2022</div>
                         </div>
                         <div class="event-details-2">
-                            Sands Expo, Singapore (Booth #L29)
+                            Sands Expo, Singapore<br>(Booth #L29)
                         </div>
                         <div class="event-button">
                             <div class="button-style-primary-event">
-                                <DynamicLink to="https://form.jotform.com/222612083853453" >Request Demo Now !</DynamicLink>
+                                <DynamicLink to="https://form.jotform.com/222612083853453" >Request Demo Now</DynamicLink>
                             </div>
                             <div class="button-style-primary-event">
                                 <DynamicLink to="https://www.terrapinn.com/exhibition/edutech-asia/index.stm" >Register Your Visit</DynamicLink>
@@ -58,6 +58,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                     </div>
                 </div>
                 <!-- Exhibitions -->
+                <div class="event-stars-3 background-no-repeat-size-contain"></div>
                 <div class="past-event-label">Past Exhibitions :</div>
                 <div class="event-vector-2 background-no-repeat-size-contain"></div>
                 <div class="exhibitions-past-events">

@@ -6,9 +6,9 @@
       <div class="carousel"> 
         <div class="carousel-bg"></div>
         <div class="carousel-bg-2"></div>
-          <div class="carousel-title" id="carousel-title">Differentiated Instructions at Scale for Australian Students</div>
+          <div class="carousel-title" id="carousel-title">Differentiated Learning at Scale for Students in Australia</div>
           <div class="carousel-container">
-            <div class="content" id="carousel-content">KiteSense provides a cloud-based learning recommender to deliver differentiated and self-directed learning at scale, with learning pace and content personalised to every student.</div>
+            <div class="content" id="carousel-content">KiteSense provided a cloud-based learning recommender to deliver differentiated and self-directed learning at scale, with learning pace and content personalised to every student.</div>
             <div class="logo"><img src="../assets/svg/about_us_logo_1.svg" alt="" id="carousel-img"></div>
           </div>
       </div>
@@ -16,9 +16,9 @@
         <button id="control-1" class="active"></button>
         <button id="control-2"></button>
         <button id="control-3"></button>
-        <button id="control-4"></button>
+        <!-- <button id="control-4"></button> -->
       </div>
-      <div class="button-style-primary"><RouterLink to="/contact-us">Read More</RouterLink></div>
+      <div class="button-style-primary"><RouterLink to="/solution-improve-learning-outcomes">Read More</RouterLink></div>
   </div> 
 </template>
 
@@ -79,13 +79,13 @@ import logo_1 from "../assets/svg/about_us_logo_1.svg"
 import logo_2 from "../assets/svg/about_us_logo_2.svg"
 import logo_3 from "../assets/svg/about_us_logo_3.svg"
 const carousel_title = [
-'Differentiated Instructions at Scale for Australian Students','Skills Development to Upskill Workforce','Supporting and Empowering Learners in Achieving Better Outcomes.','Smart Learning Program for SAP'
+'Differentiated Learning at Scale for Students in Australia','Nuturing Software Skills for Young Adult','Smart Learning Program for Young Learners'
 ];
 const carousel_content = [
-'KiteSense provides a cloud-based learning recommender to deliver differentiated and self-directed learning at scale, with learning pace and content personalised to every student.','Reduce lecturers\' workload with "smart learning tutors" to help young adults gain IT skills to enhance their employability in the workforce.','4 hours of learning on KiteSense lead to 18% of learners achieving better outcomes.','Intelligent publishing enhanced SAP’s capacity to publish smart digital books and provide differentiated learning pathways for learners across different learning abilities.'
+'KiteSense provided a cloud-based learning recommender to deliver differentiated and self-directed learning at scale, with learning pace and content personalised to every student.','Reduce lecturers\' workload smart virtual tutors. To help young adults gain IT skills to enhance their employability in the workforce.','Intelligent publishing enhanced SAP’s capacity to publish smart digital books and provide differentiated learning pathways for learners across different learning abilities.'
 ];
 const carousel_img = [
-logo_1, logo_2, logo_2, logo_3
+logo_1, logo_2, logo_3
 ];
 const max_index = carousel_content.length;
 
@@ -98,8 +98,8 @@ let img = document.getElementById('carousel-img');
 let control_1 = document.getElementById('control-1');
 let control_2 = document.getElementById('control-2');
 let control_3 = document.getElementById('control-3');
-let control_4 = document.getElementById('control-4');
-let all_switch = [control_1, control_2, control_3, control_4];
+// let control_4 = document.getElementById('control-4');
+let all_switch = [control_1, control_2, control_3];
 
 // Looper
 let current_index = 0;
@@ -150,11 +150,11 @@ control_3.addEventListener('click', () => {
   current_index = 2;
   next(current_index);
 })
-control_4.addEventListener('click', () => {
-  toggleSwitch(4);
-  current_index = 3;
-  next(current_index);
-})
+// control_4.addEventListener('click', () => {
+//   toggleSwitch(4);
+//   current_index = 3;
+//   next(current_index);
+// })
 
 let autoLoop = setInterval(() => {
   current_index++;
@@ -163,7 +163,7 @@ let autoLoop = setInterval(() => {
   }
   next(current_index);
 }
-, 2000)
+, 4000)
 
 const restartLoop = () => {
   clearInterval(autoLoop);
@@ -174,7 +174,7 @@ const restartLoop = () => {
   }
   next(current_index);
 }
-, 2000)
+, 4000)
 }
 
 })

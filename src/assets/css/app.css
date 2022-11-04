@@ -83,6 +83,9 @@ a {
   border: 0.25vw solid var(--primary);
   border-radius: 0.68vw;
   color: var(--primary);
+  font-weight: 700;
+  font-size: 1.7vw;
+  letter-spacing: 0.01em;
   background-color: var(--natural);
 }
 
