@@ -96,7 +96,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             Stay Up to Date with KiteSense
         </div>
         <div class="about-us-form-caption">
-            Don’t miss out on our future updates, stay tuned to get the latest updates.
+            Don't miss out on the latest updates!
         </div>
         <form action="https://kitesense.us5.list-manage.com/subscribe/post?u=31a9a2a32ed707c2043c28f31&id=462b223dd7&f_id=00228ae9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" ref="form" @submit="showPopup" novalidate>
         <div class="about-us-input">

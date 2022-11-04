@@ -1,4 +1,4 @@
-import { createApp } from "vue";
+import { createSSRApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import DynamicLink from "./components/logic/DynamicLink.vue"
@@ -10,7 +10,7 @@ import "./assets/css/main.css";
 
 // window.$ = require('jquery');
 
-const app = createApp(App);
+const app = createSSRApp(App);
 
 app.component('DynamicLink', DynamicLink)
 

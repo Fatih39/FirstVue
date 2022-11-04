@@ -77,7 +77,7 @@ export default {
             // alert("Sending..."); 
             this.coverActive = true;
             this.loading = true;
-            emailjs.sendForm('service_g76yx9n', 'template_5h9hx8i', this.$refs.form, 'e5dLPmoZPvHz0ycRM').then(() => {
+            emailjs.sendForm('service_byvgb07', 'template_1xu8h5d', this.$refs.form, 'yB0WPLSEW_5syCQG2').then(() => {
                 this.loading = false;
                 // disable loading here
                 // alert("Succesfully sent!")

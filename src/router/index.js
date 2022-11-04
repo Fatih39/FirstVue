@@ -66,6 +66,12 @@ const router = createRouter({
       component: () => import("../views/EducationView.vue"),
       meta: { transition: 'slide-right' },
     },
+    {
+      path: "/solution-improve-learning-outcomes",
+      name: "solution-improve-learning-outcomes",
+      component: () => import("../views/ImproveLearningOutcomesView.vue"),
+      meta: { transition: 'slide-right' },
+    },
     // Need to create Not Found page
     {
       path: "/:pathMatch(.*)*",

@@ -4,6 +4,11 @@ import Carousel from "./Carousel.vue";
 </script>
 <template>
   <div class="wrapper fade-in">
+    <div v-if="coverActive" id="pop-up-cover" class="fade-in">
+        <div v-if="loading" class="loading-wrapper fade-in">
+            <div class="lds-ellipsis fade-in"><div></div><div></div><div></div><div></div></div>
+        </div>
+    </div>
     <div class="main-page-2-signal-1 background-no-repeat-size-contain"></div>
     <Carousel></Carousel>
     <div class="section-2">
@@ -21,7 +26,16 @@ import Carousel from "./Carousel.vue";
         </form>
       </div>
     </div>
-
+    <div v-show="showPopUp" class="pop-up-after-send fade-in">
+        <div class="pop-up-after-send-background background-no-repeat-size-contain"></div>
+        <div class="pop-up-after-send-title">
+            Thank You !
+        </div>
+        <div class="pop-up-after-send-desc">
+            <div class="pop-up-after-send-caption">In this report, learn in detail about how KiteSense is using AI in the primary areas they are focusing on today</div>
+            <div class="pop-up-after-send-dummy background-no-repeat-size-contain"></div>
+        </div>
+    </div>
   </div>
 </template>
 
@@ -32,12 +46,32 @@ import Carousel from "./Carousel.vue";
 import emailjs from "emailjs-com";
 
 export default {
+  data() {
+        return {
+            coverActive: false,
+            showPopUp: false,
+            loading: false,
+        };
+    },
   methods : {
+    showPopup() {
+            setTimeout(() => {
+                this.showPopUp = false;
+                this.coverActive = false;
+            }, 3000);
+    },
     sendMail () {
-        emailjs.sendForm('service_g76yx9n', 'template_3ljsqyd', this.$refs.form, 'e5dLPmoZPvHz0ycRM').then(() => {
-            alert("Succesfully sent!")
+        this.coverActive = true;
+        this.loading = true;
+        emailjs.sendForm('service_byvgb07', 'template_gl1p7v4', this.$refs.form, 'yB0WPLSEW_5syCQG2').then(() => {
+            this.loading = false;
+            this.showPopUp = true;
+            this.showPopup();
             // clear input field
             this.$refs.form.reset();
+            setTimeout(() => {
+                    this.$router.push("/");
+            }, 3000);
         }, (error) => {
             alert("Failed to sent! Please refresh the page.", error);
         }
