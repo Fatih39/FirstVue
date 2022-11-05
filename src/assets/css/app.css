@@ -21,9 +21,21 @@ header {
     max-height: 100vh;
   }
   
-@font-face{
+  @font-face{
+    font-family: Proxima Nova Alt Bld;
+    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+}
+
+@font-face {
   font-family: Proxima Nova Alt Rg;
   src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sharp Sans;
+  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Custom Class */
@@ -49,7 +61,7 @@ a {
   width: 50%;
   display: flex;
   justify-content: left;
-  margin-left: 10vw;
+  margin-left: 12vw;
 }
 
 .logo-wrapper img {
@@ -68,7 +80,7 @@ a {
 /* Nav bar Styles */
 .nav-menu-wrapper{
   width: 100%;
-  margin-right: 3vw;
+  margin-right: 7vw;
   display: flex;
   justify-content: right;
   align-items: center;

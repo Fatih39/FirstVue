@@ -85,6 +85,8 @@
                 </div>
             </div>
         </div>
+        
+        <div class="ilc-stars-3 background-no-repeat-size-contain"></div>
         <div class="ilc-rocket background-no-repeat-size-contain"></div>
         <div class="ilc-form">
                 <div class="ilc-form-title">
@@ -101,7 +103,7 @@
                 </div>
                 <div class="ilc-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Register Now"></div>
                 </form>
-                <div class="ilc-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="agreement-link">Terms & Policies.</DynamicLink></div>
+                <div class="ilc-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="agreement-link">Terms & Condition.</DynamicLink></div>
             </div>
             <div v-show="showPopUp" class="pop-up-after-send fade-in">
                 <LandingPageNewsLetter />

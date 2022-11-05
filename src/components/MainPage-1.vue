@@ -22,7 +22,7 @@ import { RouterLink } from "vue-router";
     </h4>
 
     <div class="vector-1"></div>
-    <div class="button-style-primary"><RouterLink to="/contact-us">Request Demo</RouterLink></div>
+    <div class="button-style-primary ml-2"><RouterLink to="/contact-us">Request Demo</RouterLink></div>
     <!-- "7 Billion Learners" Section -->
     <div class="eclipse"></div>
     <div class="section-2">

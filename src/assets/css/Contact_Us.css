@@ -9,9 +9,21 @@
     --test: #FF0000;
     --menu-active : #005999;
 }
+@font-face{
+    font-family: Proxima Nova Alt Bld;
+    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+}
+
 @font-face {
-    font-family: Proxima Nova Alt Rg;
-    src: url(./fonts/ProximaNovaA-Regular.ttf);
+  font-family: Proxima Nova Alt Rg;
+  src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sharp Sans;
+  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Button Config */
@@ -236,7 +248,7 @@ animation: lds-ellipsis3 0.6s infinite;
 
 /* Title  */
 .section-1-contact-us .title {
-    font-family: Proxima Nova Alt Rg;
+    font-family: Proxima Nova Alt Bld;
     font-size: 7.5vw;
     line-height: 6.122vw;
     font-weight: 700;
@@ -266,7 +278,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 /* Desc Title */
 .section-2-contact-us .desc .desc-title {
-    font-family: Proxima Nova Alt Rg;
+    font-family: Proxima Nova Alt Bld;
     font-weight: 700;
     font-size: 2.5vw;
     line-height: 2.721vw;
@@ -316,7 +328,7 @@ animation: lds-ellipsis3 0.6s infinite;
     font-size: 3.5vw;
     line-height: 2.721vw;
     text-align: center;
-    font-family: Proxima Nova Alt Rg;
+    font-family: Proxima Nova Alt Bld;
     color: var(--base);
     padding-bottom: 5vw;
     /* margin-left: -6vw; */
@@ -356,7 +368,7 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .section-2-contact-us .form-agreement {
     margin-top: -1.5vw;
-    width: 40vw;
+    width: 42vw;
     padding-bottom: 2vw;
     /* background-color: var(--test); */
     color: var(--base);
@@ -373,6 +385,7 @@ animation: lds-ellipsis3 0.6s infinite;
     font-weight: 700;
     display: inline;
     border-bottom: solid 0.1vw var(--base);
+    font-family: Proxima Nova Alt Bld;
     /* width: 8vw; */
     /* background-color: red; */
 }
@@ -431,7 +444,7 @@ animation: lds-ellipsis3 0.6s infinite;
     padding-top: 12vw;
     margin-left: 5vw;
     color: var(--accent);
-    font-family: Proxima Nova Alt Rg;
+    font-family: Proxima Nova Alt Bld;
     font-size: 5vw;
     line-height: 6.122vw;
     font-weight: 900;
@@ -447,12 +460,12 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .section-3-contact-us .sub-wrapper {
     width: 30vw;
-    padding-right: 7vw;
+    padding-right: 9vw;
 }
 
 .section-3-contact-us .sub-wrapper .sub-title {
     color: var(--menu-active);
-    font-family: Proxima Nova Alt Rg;
+    font-family: Proxima Nova Alt Bld;
     font-size: 2.5vw;
     font-weight: 900;
     line-height: 2.721vw;

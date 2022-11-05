@@ -8,20 +8,20 @@ import DynamicLink from './logic/DynamicLink.vue';
             <div class="lds-ellipsis fade-in"><div></div><div></div><div></div><div></div></div>
         </div>
     </div>
+    <div class="education-stars-2 background-no-repeat-size-contain"></div>
     <div class="education-stars-1 background-no-repeat-size-contain"></div>
     <div class="education-wrapper fade-in">
         <div class="education-section-1">
             <div class="education-section-1-title">
-                4 Hours of Learning on KiteSense Lead to 18% of Students Achieving Better Outcomes.
+                4 Hours of Learning on KiteSense Improved Students Learning Outcomes by 18%.
             </div>
             <div class="education-section-1-desc">
                 Improve student learning outcomes and boost confidence with AI-driven self-directed learning.
             </div>
-            <div class="button-style-primary-education"><DynamicLink :to="{name : 'references', hash : '#research-section'}">Download Our Research Here</DynamicLink></div>
         </div>
         <div class="education-section-2">
             <div class="education-section-2-container">
-                <div class="education-stats-title">
+                <div class="education-stats-title pt-3-hf">
                     Increase average scores by 18%*
                 </div>
                 <div class="education-stats-desc">
@@ -40,15 +40,17 @@ import DynamicLink from './logic/DynamicLink.vue';
             </div>
         </div>
         <div class="education-section-2-disclaimer">*Based on a research study with Temasek Polytechnic, Singapore</div>
+        <div class="button-style-primary-education"><DynamicLink :to="{name : 'references', hash : '#research-section'}">Download Our Research Here</DynamicLink></div>
         <div class="education-vector-1 background-no-repeat-size-contain"></div>
         
+        <div class="education-stars-3 background-no-repeat-size-contain"></div>
         <div class="education-signal background-no-repeat-size-contain"></div>
         <div class="education-section-3">
             <div class="education-section-3-title">3 Tiers of Services Powered by Mastery.AI​</div>
             <div class="education-section-3-container">
                 <div class="education-section-3-text-content">
                     <div class="education-section-3-text-content-title">Smart Worksheet</div>
-                    <div class="education-section-3-text-content-desc">KiteSense systematically tags, organises content and delivers differentiated curriculum easily with AI-based learning. Worksheets are automatically generated based on the curriculum.</div>
+                    <div class="education-section-3-text-content-desc">KiteSense systematically tags, organises content and delivers differentiated curriculum easily. Worksheets are automatically generated based on the curriculum.</div>
                 </div>
                 <div class="education-section-3-picture-1 background-no-repeat-size-contain"></div>
             </div>
@@ -56,13 +58,13 @@ import DynamicLink from './logic/DynamicLink.vue';
                 <div class="education-section-3-picture-2 background-no-repeat-size-contain"></div>
                 <div class="education-section-3-text-content">
                     <div class="education-section-3-text-content-title">Smart Learning Journey</div>
-                    <div class="education-section-3-text-content-desc">Smart Learning Journey allows teachers to automatically stream students  into ability bands and assign tailored practice suited to their ability levels. This helps teachers gain insights into students activity and progress in real time. </div>
+                    <div class="education-section-3-text-content-desc">Smart Learning Journey allows teachers to automatically stream students  into ability bands and assign tailored practice suited to students ability levels. Learning analytics helps teachers gain insights into students abillities and progress in real time.</div>
                 </div>
             </div>
             <div class="education-section-3-container">
                 <div class="education-section-3-text-content">
                     <div class="education-section-3-text-content-title">Smart Tutor</div>
-                    <div class="education-section-3-text-content-desc">A fully asynchronous online adaptive learning platform, the ontology-driven knowledge maps automatically prescribes what students have to learn next and recommends the right content at the right time.  As learning paths are optimised based on each students’ profile, students can achieve proficiency of skills and knowledge faster while feeling more supported and engaged. </div>
+                    <div class="education-section-3-text-content-desc">An online adaptive learning platform that automatically prescribes what students have to learn next and recommends the right content at the right time.  As learning paths are optimised based on each students’ profile, students can achieve proficiency of skills and knowledge faster while feeling more supported and engaged.</div>
                 </div>
                 <div class="education-section-3-picture-3 background-no-repeat-size-contain"></div>
             </div>
@@ -153,7 +155,7 @@ import DynamicLink from './logic/DynamicLink.vue';
             </div>
             <div class="education-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Submit"></div>
         </form>
-        <div class="education-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="agreement-link">Terms & Policies.</DynamicLink></div>
+        <div class="education-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="agreement-link">Terms & Condition.</DynamicLink></div>
         </div>
         <div v-show="showPopUp" class="pop-up-after-send fade-in">
         <div class="pop-up-after-send-background background-no-repeat-size-contain"></div>

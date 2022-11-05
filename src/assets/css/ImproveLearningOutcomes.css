@@ -10,9 +10,21 @@
     --menu-active : #005999;
     --danger : #ff0000;
 }
+@font-face{
+    font-family: Proxima Nova Alt Bld;
+    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+}
+
 @font-face {
-    font-family: Proxima Nova Alt Rg;
-    src: url(./fonts/ProximaNovaA-Regular.ttf);
+  font-family: Proxima Nova Alt Rg;
+  src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sharp Sans;
+  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animations */
@@ -84,6 +96,16 @@
 
 }
 
+.ilc-stars-3 {
+    background-image: url(../svg/ilc-stars-3.svg);
+    width: 100vw;
+    height: 60vw;
+    position: absolute;
+    /* margin-top: 100vw; */
+    z-index: -1;
+    /* background-color: red; */
+}
+
 .ilc-wrapper {
     font-family: Proxima Nova Alt Rg;
 }
@@ -127,6 +149,7 @@
 }
 
 .ilc-section-1-title {
+    font-family: Proxima Nova Alt Bld;
     font-size: 7.3vw;
     line-height: 6.747vw;
     font-weight: 700;
@@ -169,7 +192,7 @@
     color: var(--natural);
     display: flex;
     justify-content: center;
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-top: 13vw;
 }
 
@@ -191,6 +214,8 @@
     font-size: 2.399vw;
     line-height: 3vw;
     font-weight: 700;
+    width: 36vw;
+    font-family: Proxima Nova Alt Bld;
 }
 
 .ilc-section-2 .ilc-section-2-text-content-content {
@@ -227,6 +252,7 @@
     font-weight: 900;
     font-size: 3.8vw;
     color: var(--natural);
+    font-family: Proxima Nova Alt Bld;
     line-height: 5.442vw;
 }
 
@@ -287,7 +313,7 @@
 
 .ilc-agreement {
     margin-top: 1vw;
-    width: 42vw;
+    width: 45vw;
     color: var(--base);
     font-weight: 400;
     font-size: 1.3vw;
@@ -302,6 +328,7 @@
     font-weight: 700;
     display: inline;
     border-bottom: solid 0.1vw var(--base);
+    font-family: Proxima Nova Alt Bld;
     /* width: 8vw; */
     /* background-color: red; */
 }

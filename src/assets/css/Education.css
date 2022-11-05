@@ -11,9 +11,21 @@
     --danger : #ff0000;
     --box-shadow : #CFECFF;
 }
+@font-face{
+    font-family: Proxima Nova Alt Bld;
+    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+}
+
 @font-face {
-    font-family: Proxima Nova Alt Rg;
-    src: url(./fonts/ProximaNovaA-Regular.ttf);
+  font-family: Proxima Nova Alt Rg;
+  src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sharp Sans;
+  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animation */
@@ -181,6 +193,14 @@ animation: lds-ellipsis3 0.6s infinite;
     padding-bottom: 4vw;
 }
 
+.pt-3-hf {
+    padding-bottom: 3.5vw;
+}
+
+.mt-3 {
+    margin-top: 3vw;
+}
+
 /* Button config */
 .button-style-primary-education {
     display: flex;
@@ -222,8 +242,8 @@ animation: lds-ellipsis3 0.6s infinite;
 .education-bg-1 {
     background-image: url(../svg/education-section-1-bg.svg);
     position: absolute;
-    width: 120vw;
-    height: 122.5vw;
+    width: 121vw;
+    height: 124.5vw;
     margin-top: -25vw;
     z-index: -2;
 }
@@ -238,6 +258,26 @@ animation: lds-ellipsis3 0.6s infinite;
     z-index: -2;
 }
 
+.education-stars-2 {
+    background-image: url(../svg/education-stars-1.svg);
+    position: absolute;
+    width: 110vw;
+    height: 120vw;
+    /* margin-top: -vw; */
+    margin-left: -35vw;
+    z-index: -2;
+    /* background-color: red; */
+}
+
+.education-stars-3 {
+    background-image: url(../svg/education-stars-2.svg);
+    position: absolute;
+    width: 110vw;
+    height: 110vw;
+    margin-left: -10vw;
+    z-index: -2;
+}
+
 /* Section - 1 */
 .education-section-1-title {
     color: var(--natural);
@@ -245,13 +285,15 @@ animation: lds-ellipsis3 0.6s infinite;
     font-weight: 900;
     line-height: 7vw;
     letter-spacing: -0.008em;
+    font-family: Proxima Nova Alt Bld;
 }
 
 .education-section-1-desc {
     color: var(--natural);
+    font-family: Proxima Nova Alt Rg;
     font-size: 2.5vw;
     margin-top: 3vw;
-    width: 70vw;
+    width: 65vw;
 }
 
 /* Section - 2 */
@@ -270,7 +312,8 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .education-stats-title {
-    font-size: 2.8vw;
+    font-family: Proxima Nova Alt Bld;
+    font-size: 2.4vw;
     font-weight: 700;
     line-height: 3vw;
 }
@@ -286,6 +329,7 @@ animation: lds-ellipsis3 0.6s infinite;
     font-size: 1.2vw;
     line-height: 3vw;
     margin-top: 2.5vw;
+    padding-bottom: 2vw;
 }
 
 .education-vector-1 {
@@ -317,6 +361,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 .education-section-3-title {
     text-align: center;
+    font-family: Proxima Nova Alt Bld;
     font-weight: 700;
     font-size: 4.8vw;
     line-height: 3.6vw;
@@ -361,6 +406,7 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .education-section-3-text-content-title {
     font-weight: 700;
+    font-family: Proxima Nova Alt Bld;
     font-size: 2.249vw;
     line-height: 2.5vw;
     letter-spacing: 0.02em;
@@ -371,6 +417,7 @@ animation: lds-ellipsis3 0.6s infinite;
     line-height: 2.624vw;
     margin-top: 1vw;
     letter-spacing: 0.02em;
+    font-family: Proxima Nova Alt Rg;
 }
 
 /* Section - 4 */
@@ -401,6 +448,7 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .education-section-4 .education-section-4-title {
     font-size: 4.812vw;
+    font-family: Proxima Nova Alt Bld;
     line-height: 4.511vw;
     letter-spacing: -0.008em;
     text-align: center;
@@ -489,6 +537,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .education-section-5-desc-title {
+    font-family: Proxima Nova Alt Bld;
     font-size: 4.812vw;
     line-height: 4.511vw;
     font-weight: 700;
@@ -506,7 +555,7 @@ animation: lds-ellipsis3 0.6s infinite;
 /* Education Form */
 
 .education-form-bg {
-    width: 90vw;
+    width: 80vw;
     height: 30vw;
     filter: blur(1.25vw);
     -webkit-filter: blur(1.25vw);
@@ -607,7 +656,7 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .education-agreement {
     margin-top: 1vw;
-    width: 42vw;
+    width: 45vw;
     color: var(--base);
     font-weight: 400;
     font-size: 1.3vw;
@@ -622,6 +671,7 @@ animation: lds-ellipsis3 0.6s infinite;
     font-weight: 700;
     display: inline;
     border-bottom: solid 0.1vw var(--base);
+    font-family: Proxima Nova Alt Bld;
     /* width: 8vw; */
     /* background-color: red; */
 }

@@ -34,7 +34,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
         <div class="event-section-3-wrapper">
             <div class="event-vector background-no-repeat-size-contain"></div>
             <div class="all-past-section fade-in">
-                <div class="label">Upcoming Event :</div>
+                <div class="label">Upcoming event :</div>
                 <div class="all-past-events">
                     <div class="all-past-event-image background-no-repeat-size-contain">
                         <!-- Image here -->

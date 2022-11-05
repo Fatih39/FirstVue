@@ -9,13 +9,20 @@
   --test: #FF0000;
 }
 @font-face{
-    font-family: Proxima Nova Alt Rg;
-    src: url(../fonts/ProximaNovaA-Regular.ttf);
+  font-family: Proxima Nova Alt Bld;
+  src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
 }
 
 @font-face {
-  font-family: Sharp Sans;
-  src: url(../fonts/SharpSans.otf) format("opentype");
+font-family: Proxima Nova Alt Rg;
+src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+@font-face {
+font-family: Sharp Sans;
+src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
+src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animations */
@@ -262,7 +269,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .about-us .carousel-title {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
   font-family: Sharp Sans;
   font-style: italic;
   font-size: 2.5vw;

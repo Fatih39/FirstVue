@@ -59,6 +59,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
     </div>
     
     <!-- Section 3 -->
+    <div class="about-us-stars-4 background-no-repeat-size-contain"></div>
     <div class="vector-6 background-no-repeat-size-contain"></div>
     <div class="vector-7 background-no-repeat-size-contain"></div>
     <!-- <div class="stars-4 background-no-repeat-size-contain"></div> -->
@@ -74,6 +75,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                 We are very happy to have Professor Alex Siow as our advisor. He is helping us to get KiteSense better, so you can access our high-quality services and data for your personalised teaching effectively and easily. 
             </div> 
         </div> -->
+        
         <div class="section-3-about-us-profile-wrapper">
             <div class="section-3-profile-photo-desc">
                 <DynamicLink to="https://www.linkedin.com/in/prof-alex-siow-5213b4/">
@@ -106,7 +108,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
         </div>
         <div class="about-us-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Register Now"></div>
         </form>
-        <div class="about-us-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="agreement-link">Terms & Policies.</DynamicLink></div>
+        <div class="about-us-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="agreement-link">Terms & Condition.</DynamicLink></div>
     </div>
     <div v-show="showPopUp" class="pop-up-after-send fade-in">
         <LandingPageNewsLetter />

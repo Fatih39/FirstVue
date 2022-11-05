@@ -64,10 +64,12 @@
 
             <div class="references-vector background-no-repeat-size-contain"></div>
             <div class="references-stars-2 background-no-repeat-size-contain"></div>
+            <div class="references-signal background-no-repeat-size-contain"></div>
+            <div id="research-section"></div>
             <div class="references-section-2-title-2">
                 Research
             </div>
-            <div class="references-section-2-research-container" id="research-section">
+            <div class="references-section-2-research-container">
                 <div class="references-section-2-research-image background-no-repeat-size-contain">
                     <!-- Image here -->
                 </div>

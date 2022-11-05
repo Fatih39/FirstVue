@@ -10,9 +10,21 @@
     --menu-active : #005999;
     --danger : #ff0000;
 }
+@font-face{
+    font-family: Proxima Nova Alt Bld;
+    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+}
+
 @font-face {
-    font-family: Proxima Nova Alt Rg;
-    src: url(./fonts/ProximaNovaA-Regular.ttf);
+  font-family: Proxima Nova Alt Rg;
+  src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sharp Sans;
+  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animations */
@@ -183,6 +195,7 @@
     font-size: 7.5vw;
     line-height: 7.5vw;
     letter-spacing: -0.008em;
+    font-family: Proxima Nova Alt Bld;
     /* background-color: var(--test); */
     text-align: center;
     width: 75vw;
@@ -267,6 +280,7 @@
     font-weight: 700;
     font-size: 5.5vw;
     line-height: 4.354vw;
+    font-family: Proxima Nova Alt Bld;
 }
 
 /* Exhibitions Section */
@@ -495,6 +509,7 @@
     font-size: 2.449vw;
     line-height: 2.721vw;
     text-align: center;
+    font-family: Proxima Nova Alt Bld;
 }
 
 .event-mailchimp-form form {
@@ -524,6 +539,7 @@
 
 .event-mailchimp-form form #mce-EMAIL::placeholder {
     color: var(--natural);
+    font-size: 1.4vw;
 }
 
 

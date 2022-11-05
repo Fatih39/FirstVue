@@ -9,9 +9,21 @@
     --test: #FF0000;
     --menu-active : #005999;
 }
+@font-face{
+    font-family: Proxima Nova Alt Bld;
+    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+}
+
 @font-face {
-    font-family: Proxima Nova Alt Rg;
-    src: url(./fonts/ProximaNovaA-Regular.ttf);
+  font-family: Proxima Nova Alt Rg;
+  src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sharp Sans;
+  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Custom Class */
@@ -22,12 +34,14 @@
 
 .bold-underline-thin {
     font-weight: 700;
+    font-family: Proxima Nova Alt Bld;
     border-bottom: 0.05vw solid var(--natural);
     color: var(--natural);
 }
 
 .bold-underline-thick {
     font-weight: 700;
+    font-family: Proxima Nova Alt Bld;
     border-bottom: 0.125vw solid var(--natural);
 }
 

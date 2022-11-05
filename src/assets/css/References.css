@@ -9,9 +9,21 @@
     --test: #FF0000;
     --menu-active : #005999;
 }
+@font-face{
+    font-family: Proxima Nova Alt Bld;
+    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+}
+
 @font-face {
-    font-family: Proxima Nova Alt Rg;
-    src: url(./fonts/ProximaNovaA-Regular.ttf);
+  font-family: Proxima Nova Alt Rg;
+  src: url(../fonts/ProximaNovaA-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sharp Sans;
+  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animations */
@@ -66,6 +78,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 15vw;
+    margin-top: -3vw;
 }
 
 .references-section-1 .references-section-1-title {
@@ -74,7 +87,8 @@
     line-height: 6.8vw;
     letter-spacing: -0.008em;
     text-align: center;
-    width: 70vw;
+    width: 75vw;
+    font-family: Proxima Nova Alt Bld;
 }
 
 .references-section-1 .references-section-1-desc {
@@ -185,6 +199,16 @@
     width: 6vw;
 }
 
+.references-signal {
+    background-image: url(../svg/references_signal.svg);
+    width: 105vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -1;
+    margin-top: -20vw;
+    margin-left: 30vw;
+}
+
 .references-section-2-research-container {
     display: flex;
 }
@@ -220,6 +244,7 @@
     line-height: 3vw;
     text-align: center;
     width: 50vw;
+    font-family: Proxima Nova Alt Bld;
 }
 
 .references-section-2-research-desc .research-caption {
@@ -233,4 +258,13 @@
 
 .references-section-2-research-desc .button-style-primary {
     margin-top: 20vw;
+}
+
+#research-section{
+    width: 10vw;
+    height: 1vw;
+    margin-left: -20vw;
+    margin-top: 6vw;
+    position: absolute;
+    background-color: red;
 }
