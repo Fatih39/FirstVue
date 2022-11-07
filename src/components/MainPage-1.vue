@@ -92,7 +92,7 @@ import { RouterLink } from "vue-router";
         <div class="text-content">
           <div class="title">Exceptional Education For Every Learner</div>
           <div class="content">KiteSense Mastery.AI powers multiple subjects and learning modalities. Easy to set up and configure across ages and countries.</div>
-          <div class="button-style-primary"><RouterLink to="/contact-us">Read More</RouterLink></div>
+          <div class="button-style-primary"><RouterLink to="/solution-education">Read More</RouterLink></div>
         </div>
       </div>
     </div>

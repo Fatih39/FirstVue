@@ -407,7 +407,7 @@ animation: lds-ellipsis3 0.6s infinite;
   padding: 1vw;
   font-family: Proxima Nova Alt Rg;
   font-size: 1.7vw;
-  margin-left: -26vw;
+  margin-left: -25.5vw;
   color: var(--primary);
   cursor: pointer;
 }
@@ -428,4 +428,10 @@ animation: lds-ellipsis3 0.6s infinite;
   width: 100vw;
   height: 100vw;
   position: absolute;
+}
+
+@media (max-width: 760px) {
+  .section-2 .form #name-field {
+    margin-bottom: 0vw;
+  }
 }

@@ -1,4 +1,20 @@
 <script setup>
+import LandingPageNewsLetter from './LandingPageNewsLetter.vue';
+const addScript = (src) => {
+  return new Promise((resolve, reject) => {
+    const myScript = document.createElement('script');
+
+    myScript.setAttribute('src', src); 
+    myScript.addEventListener('load', resolve);
+    myScript.addEventListener('error', reject);
+
+    document.body.appendChild(myScript);
+  });
+}
+
+addScript('https://code.jquery.com/jquery-3.6.1.min.js');
+addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
+
 </script>
 <!-- ilc = improve-learning-outcomes -->
 <template>
@@ -103,7 +119,7 @@
                 </div>
                 <div class="ilc-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Register Now"></div>
                 </form>
-                <div class="ilc-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="" id="agreement-link">Terms & Condition.</DynamicLink></div>
+                <div class="ilc-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="/terms-policies-master" id="agreement-link">Terms & Condition.</DynamicLink></div>
             </div>
             <div v-show="showPopUp" class="pop-up-after-send fade-in">
                 <LandingPageNewsLetter />

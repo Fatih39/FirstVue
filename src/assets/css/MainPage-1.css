@@ -58,7 +58,7 @@
   /* background-color: red; */
   /* background-color: blue; */
   padding-top: 17vw;
-  margin-top: -30vw;
+  margin-top: -32vw;
   margin-left: -2vw;
   height: auto;
 }
@@ -505,9 +505,6 @@ h4 {
   margin-top: 5vw;
 }
 
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
+@media (min-width: 760px) {
+  
 }

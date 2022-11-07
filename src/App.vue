@@ -3,6 +3,7 @@ import { RouterView } from "vue-router";
 import DropdownMenu from "./components/logic/DropdownMenu.vue"
 import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
 import DynamicLink from "./components/logic/DynamicLink.vue";
+import { onMounted } from "vue";
 // import all necessary scripts
 const addScript = (src) => {
   return new Promise((resolve, reject) => {
@@ -21,9 +22,9 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 </script>
 <template>
   <!-- For header & footer -->
-  <header>
+  <header id="header">
     <div class="wrapper">
-      <nav>
+      <nav id="navbar">
         <div class="nav-wrapper">
           <div class="logo-wrapper">
           <DynamicLink to="/" class="logo-link">
@@ -177,7 +178,29 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 </template>
 
 <script>
-// import { onMounted, toHandlers } from "vue";
+// import { onMounted } from "vue";
+
+window.document.body.onscroll = () => {
+  const mediaQuery = window.matchMedia('(max-width: 760px)');
+
+  // window.onscroll = () => {
+  //   navbarScroll();
+  // } 
+  // const navbarScroll = (event) => {
+    if (mediaQuery.matches){
+      if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+      document.getElementById("header").classList.add('fixed-navbar-header');
+      document.getElementById("navbar").classList.add('fade-in');
+      document.getElementById("navbar").classList.add('fixed-navbar');
+      } else {
+      document.getElementById("header").classList.remove('fixed-navbar-header');
+      // document.getElementById("navbar").classList.remove('fade-in');
+      document.getElementById("navbar").classList.remove('fixed-navbar');
+      }
+    }
+  // }
+}
+
 
 export default {
   data () {

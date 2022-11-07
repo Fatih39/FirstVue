@@ -66,11 +66,81 @@
     cursor: pointer;
 }
 
+
+/* Pop Up Config */
+.pop-up-after-send {
+    /* background-image: url(../svg/landing_page_bg_2.svg); */
+    width: 45vw;
+    height: 40vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 28vw;
+    top: 15%;
+    /* margin-top: -70vw; */
+    z-index: 2;
+}
+
+.pop-up-after-send-background {
+    width: 45vw;
+    height: 35vw;
+    position: absolute;
+    z-index: -1;
+    /* margin-top: -15vw; */
+    background: rgba(207, 236, 255, 0.7);
+    border-radius: 1.701vw;
+    filter: blur(1.25vw);
+    -webkit-filter: blur(1.25vw);
+}
+
+.pop-up-after-send-title {
+    /* background-color: var(--test); */
+    /* margin-top: -15vw; */
+    font-weight: 700;
+    font-size: 3.354vw;
+    line-height: 3.122vw;
+    letter-spacing: -0.008em;
+    color: var(--menu-active);
+}
+
+.pop-up-after-send-desc {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.pop-up-after-send-caption {
+    margin-top: 5vw;
+    font-weight: 400;
+    font-size: 1.177vw;
+    line-height: 2.721vw;
+    text-align: center;
+}
+
+.pop-up-after-send-dummy {
+    background-image: url(../svg/landing_page_2_popup_dummy.svg);
+    margin-top: 5vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.invalid-email-msg {
+    font-size: 1vw;
+    color: var(--danger);
+    position: absolute;
+    margin-top: -1.5vw;
+    margin-left: 0.5vw;
+}
+
 /* Wrapper */
 .ilc-bg {
     background-image: url(../image/ilc-bg.png);
     width: 115vw;
-    height: 280vw;
+    height: 290vw;
     position: absolute;
     margin-top: -30vw;
     z-index: -2;
@@ -331,4 +401,43 @@
     font-family: Proxima Nova Alt Bld;
     /* width: 8vw; */
     /* background-color: red; */
+}
+
+@media (max-width: 760px) {
+    /* Pop Up loading & after */
+    #pop-up-cover {
+        width: 100vw;
+        height: 200vw;
+    }
+
+    .loading-wrapper {
+        margin-left: 14vw;
+    }
+
+    .pop-up-after-send {
+        top: 40%;
+        width: 40vw;
+    }
+
+    .pop-up-after-send-background {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-title {
+        font-size: 5vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-desc {
+        width: 45vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-caption {
+        font-size: 1.7vw;
+    }
+
+    .pop-up-after-send-dummy {
+        width: 20vw;
+        height: 20vw;
+    }
 }

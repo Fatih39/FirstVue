@@ -122,7 +122,7 @@ animation: lds-ellipsis3 0.6s infinite;
     transform: translate(0, 0);
 }
 100% {
-    transform: translate(24px, 0);
+    transform: translate(1.805vw, 0);
 }
 }
 
@@ -138,7 +138,7 @@ animation: lds-ellipsis3 0.6s infinite;
     margin-left: 28vw;
     top: 15%;
     /* margin-top: -70vw; */
-    z-index: 2;
+    z-index: 10001;
 }
 
 .pop-up-after-send-background {
@@ -197,7 +197,7 @@ animation: lds-ellipsis3 0.6s infinite;
     width: 100vw;
     height: 217.5vw;
     margin-top: -30vw;
-    z-index: 1;
+    z-index: 10000;
 }
 
 .section-2-contact-us .form-wrapper a {
@@ -218,8 +218,8 @@ animation: lds-ellipsis3 0.6s infinite;
     background-image: url(../svg/contact-us-wrapper-background.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 181vw;
-    height: 181vw;
+    width: 183.5vw;
+    height: 183vw;
     margin-top: -30vw;
     padding-top: 20vw;
     position: absolute;
@@ -396,7 +396,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .contact-us-form-submit-field #submit-field {
-    margin-left: 15vw;
+    margin-left: 17vw;
     margin-top: 2vw;
 }
 
@@ -476,4 +476,52 @@ animation: lds-ellipsis3 0.6s infinite;
     font-size: 1.7vw;
     line-height: 2.2vw;
     color: var(--base);
+}
+
+@media (max-width: 760px) {
+    .section-2-contact-us .form-bg {
+        height: 85vw;
+    }
+    .contact-us-form-submit-field #submit-field {
+        margin-left: 17vw;
+        margin-top: 1vw;
+        width: 8vw;
+        font-size: 1.8vw;
+    }
+    /* Pop Up loading & after */
+    #pop-up-cover {
+        width: 100vw;
+        height: 200vw;
+    }
+
+    .loading-wrapper {
+        margin-left: 14vw;
+    }
+
+    .pop-up-after-send {
+        top: 40%;
+        width: 40vw;
+    }
+
+    .pop-up-after-send-background {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-title {
+        font-size: 5vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-desc {
+        width: 45vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-caption {
+        font-size: 1.7vw;
+    }
+
+    .pop-up-after-send-dummy {
+        width: 20vw;
+        height: 20vw;
+    }
 }

@@ -519,3 +519,42 @@
     text-align: center;    
     line-height: 1.361vw;
 }
+
+@media (max-width: 760px) {
+    /* Pop Up loading & after */
+    #pop-up-cover {
+        width: 100vw;
+        height: 200vw;
+    }
+
+    .loading-wrapper {
+        margin-left: 14vw;
+    }
+
+    .pop-up-after-send {
+        top: 40%;
+        width: 40vw;
+    }
+
+    .pop-up-after-send-background {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-title {
+        font-size: 5vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-desc {
+        width: 45vw;
+    }
+
+    .pop-up-after-send .pop-up-after-send-caption {
+        font-size: 1.7vw;
+    }
+
+    .pop-up-after-send-dummy {
+        width: 20vw;
+        height: 20vw;
+    }
+}

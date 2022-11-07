@@ -6,6 +6,20 @@
     padding: 0.5vw;
   }
 }
+
+@keyframes fade-in {
+  from {
+      opacity : 0;
+  } to {
+      opacity: 1;
+  }
+}
+
+.fade-in {
+animation-name: fade-in;
+animation-duration: 0.25s;
+}
+
 * {
 	--natural: #ffffff;
 	--primary: #024F94;
@@ -19,6 +33,7 @@
 header {
     line-height: 1.5;
     max-height: 100vh;
+    /* transition: 0.25s; */
   }
   
   @font-face{
@@ -99,6 +114,8 @@ a {
   font-size: 1.7vw;
   letter-spacing: 0.01em;
   background-color: var(--natural);
+  margin-left: 1vw;
+  width: 9vw;
 }
 
 .nav-menu-wrapper .get-started:active{
@@ -114,22 +131,24 @@ a {
 }
 
 nav {
-  width: 100vw;
+  width: 105vw;
   font-size: 1.5vw;
   font-weight: 900;
   text-align: center;
   margin-top: 2rem;
-  margin-left: -2vw;
+  margin-left: -7vw;
   display: flex;
   justify-content: right;
   position: relative;
   z-index: 9999;
+  /* transition: 0.25s; */
+  /* background-color: red; */
 }
 
 /* Button styles for nav-bar */
 .nav-menu-wrapper button {
   margin-right: 1vw;
-  width: 9vw;
+  width: auto;
   height: 3vw;
   background: none;
   border: none;
@@ -297,6 +316,7 @@ footer {
   letter-spacing: 0.014em;
   color: var(--primary);
   width: 7vw;
+  margin-left: 0.2vw;
 }
 
 .legal .submission-msg-pop-up {
@@ -330,28 +350,22 @@ footer {
   margin: 0.5vw;
 }
 
-@media (min-width: 1024px) {
-  /* header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  } */
+.fixed-navbar {
+  position: fixed;
+  margin-top: 0vw;
+  width: 110vw;
+  margin-left: -10vw;
+  transition-duration: 0.25s;
+  background-color: var(--menu-active);
+}
 
-  /* .logo {
-    margin: 0 2rem 0 0;
-  } */
+.fixed-navbar-header {
+  padding-bottom: 20vw;
+  transition: 0.25s;
+}
 
-  /* header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  } */
-
-  /* nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-    padding: 1rem 0;
-    margin-top: 1rem;
-  } */
+@media (max-width: 760px) {
+  .nav-menu-wrapper button {
+    font-size: 2vw;
+  }
 }

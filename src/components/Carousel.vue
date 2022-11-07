@@ -65,10 +65,19 @@ button {
   cursor: pointer;
   margin: 1vw;
   border-radius: 100%;
+  border: none;
 }
 
 .active {
   opacity: 100%;
+}
+
+@media (max-width : 760px) {
+  button {
+    width: 0.7rem;
+    height: 0.7rem;
+    border: none;
+  }
 }
 
 </style>
@@ -150,11 +159,6 @@ control_3.addEventListener('click', () => {
   current_index = 2;
   next(current_index);
 })
-// control_4.addEventListener('click', () => {
-//   toggleSwitch(4);
-//   current_index = 3;
-//   next(current_index);
-// })
 
 let autoLoop = setInterval(() => {
   current_index++;
