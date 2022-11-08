@@ -1,1 +1,1 @@
-This folder contains vue router (index.js)
+# App route config

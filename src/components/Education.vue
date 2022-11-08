@@ -155,7 +155,7 @@ import DynamicLink from './logic/DynamicLink.vue';
             </div>
             <div class="education-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Submit"></div>
         </form>
-        <div class="education-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="/terms-policies-master" id="agreement-link">Terms & Condition.</DynamicLink></div>
+        <div class="education-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="/terms-policies-master" id="agreement-link">Terms & Conditions.</DynamicLink></div>
         </div>
         <div v-show="showPopUp" class="pop-up-after-send fade-in">
         <div class="pop-up-after-send-background background-no-repeat-size-contain"></div>

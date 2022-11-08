@@ -67,15 +67,6 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
         <div class="section-3-about-us-title">
             Meet Our Advisor
         </div>
-        <!-- <div class="section-3-about-us-content">
-            <div>
-                Professor Alex Siow is a renowned author, professor, board chairman, managing director, independent director, consultant, and advisor. Prior to joining NUS, Prof Alex was the Managing Director, Health & Public Service, Accenture, SVP/CIO, Starhub and CIO, HDB. He is also an experienced independent advisory professional, with more than a decade in the industry. 
-            </div>
-            <div>
-                We are very happy to have Professor Alex Siow as our advisor. He is helping us to get KiteSense better, so you can access our high-quality services and data for your personalised teaching effectively and easily. 
-            </div> 
-        </div> -->
-        
         <div class="section-3-about-us-profile-wrapper">
             <div class="section-3-profile-photo-desc">
                 <DynamicLink to="https://www.linkedin.com/in/prof-alex-siow-5213b4/">
@@ -108,7 +99,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
         </div>
         <div class="about-us-submit"><input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Register Now"></div>
         </form>
-        <div class="about-us-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="/terms-policies-master" id="agreement-link">Terms & Condition.</DynamicLink></div>
+        <div class="about-us-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="/terms-policies-master" id="agreement-link">Terms & Conditions.</DynamicLink></div>
     </div>
     <div v-show="showPopUp" class="pop-up-after-send fade-in">
         <LandingPageNewsLetter />

@@ -139,7 +139,7 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             <div class="title">Resources:</div>
             <div class="footer-content"><RouterLink to="/references" class="footer-menu">References</RouterLink></div>
             <div class="footer-content"><RouterLink to="/events" class="footer-menu">Events</RouterLink></div>
-            <div class="footer-content"><RouterLink to="/terms-policies-master" class="footer-menu">Terms & Condition</RouterLink></div>
+            <div class="footer-content"><RouterLink to="/terms-policies-master" class="footer-menu">Terms & Conditions</RouterLink></div>
             <div class="footer-content"><RouterLink to="/privacy-policy" class="footer-menu">Privacy Policy</RouterLink></div>
         </div>
       </div>

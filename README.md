@@ -1,3 +1,7 @@
-# Vue App
+# How To Run
+1. Set current dir > root dir of project
+2. On terminal : npm run dev
 
-My First Project using Vue 3 & vite (on process)
+# Project Structure
+
+
