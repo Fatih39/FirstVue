@@ -173,7 +173,7 @@ export default {
                 this.showPopUp = true;
                 setTimeout(() => {
                     this.showPopUp = false;
-                },3000);
+                },5000);
                 // this.email = null;
             } else {
                 this.invalidEmail = true;

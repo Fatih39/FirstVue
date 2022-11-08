@@ -148,7 +148,7 @@ export default {
                 this.showPopUp = true;
                 setTimeout(() => {
                     this.showPopUp = false;
-                },3000);
+                },5000);
             } else {
                 this.invalidEmail = true;
             }

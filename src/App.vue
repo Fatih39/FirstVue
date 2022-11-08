@@ -120,10 +120,10 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
         </div>
         <div class="address">1 Pemimpin Dr, #02-03<br>Singapore 576151</div>
         <div class="socials">
-          <RouterLink to="/" class="socials-icon"><img src="./assets/svg/msg_icon.svg" alt="msg_icon"></RouterLink>
-          <RouterLink to="/" class="socials-icon"><img src="./assets/svg/call_icon.svg" alt="msg_icon"></RouterLink>
-          <RouterLink to="/" class="socials-icon"><img src="./assets/svg/linkedin_icon.svg" alt="msg_icon"></RouterLink>
-          <RouterLink to="/" class="socials-icon"><img src="./assets/svg/facebook_icon.svg" alt="msg_icon"></RouterLink>
+          <a href="mailto:hello@kitesense.sg" class="socials-icon"><img src="./assets/svg/msg_icon.svg" alt="msg_icon"></a>
+          <a href="tel:+6589401525" class="socials-icon"><img src="./assets/svg/call_icon.svg" alt="call_icon"></a>
+          <DynamicLink to="https://www.linkedin.com/company/kitesense" class="socials-icon"><img src="./assets/svg/linkedin_icon.svg" alt="linkedin_icon"></DynamicLink>
+          <DynamicLink to="https://www.facebook.com/kitesensepage" class="socials-icon"><img src="./assets/svg/facebook_icon.svg" alt="facebook_icon"></DynamicLink>
         </div>
       </div>
       <div>

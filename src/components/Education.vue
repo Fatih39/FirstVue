@@ -187,7 +187,7 @@ export default{
             setTimeout(() => {
                 this.showPopUp = false;
                 this.coverActive = false;
-            }, 3000);
+            }, 5000);
         },
         sendMail() {
             this.coverActive = true;
@@ -201,7 +201,7 @@ export default{
                 // sessionStorage.setItem("user_filled_form_state", true);
                 setTimeout(() => {
                     this.$router.push("/solution-education");
-                }, 3000);
+                }, 5000);
             }, (error) => {
                 alert("Failed to sent! Please refresh the page.", error);
             });

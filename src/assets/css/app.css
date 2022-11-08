@@ -103,15 +103,17 @@ a {
 
 .nav-menu-wrapper button {
   cursor: pointer;
+  font-family: Proxima Nova Alt Bld;
 }
 
 .nav-menu-wrapper .get-started {
-  padding: 1vw;
+  padding: 0.75vw;
   border: 0.25vw solid var(--primary);
   border-radius: 0.68vw;
   color: var(--primary);
   font-weight: 700;
   font-size: 1.7vw;
+  font-family: Proxima Nova Alt Bld;
   letter-spacing: 0.01em;
   background-color: var(--natural);
   margin-left: 1vw;

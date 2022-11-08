@@ -58,7 +58,7 @@
                     <div class="references-section-2-content-desc">
                         Smart Learning Journey - Automatically stream  learners into ability bands
                     </div>
-                    <div class="button-style-primary mt-min-5" @click="validated ? downloadFile1() : validate()">Download</div>
+                    <div class="button-style-primary mt-min-5" @click="validated ? downloadFile4() : validate()">Download</div>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                     <div class="research-caption">
                         Bringing Out the Best in Every Learner - As a leading institution of higher education, this research is one of many undertaken by Temasek Polytechnic to improve and enhance faculty instruction.
                     </div>
-                    <div class="button-style-primary" @click="validated ? downloadFile4() : validate()">Download</div>
+                    <div class="button-style-primary" @click="validated ? downloadFile5() : validate()">Download</div>
                 </div>
             </div>
         </div>
@@ -105,18 +105,20 @@ export default {
         // console.log(this.validated);
     },  
     methods : {
-        // Error on build server
         downloadFile1() {
-            window.open("https://drive.google.com/file/d/1IM576rB8d29dGJAGCork9BOrrSC3kQ9Z/view?usp=sharing");
+            window.open("https://drive.google.com/file/d/14OHWO2xb8mBjWBQ24EWUVdQFrYj9dJrp/view?usp=sharing");
         },
         downloadFile2() {
-            window.open("https://drive.google.com/file/d/1SuXCZpzoXO15-nodClYidhEaHI4Xx9KL/view?usp=sharing")
+            window.open("https://drive.google.com/file/d/17HzAhqiKniDHOVttiKoiZE73nHegn9vJ/view?usp=sharing")
         },
         downloadFile3() {
             window.open("https://drive.google.com/file/d/1SuXCZpzoXO15-nodClYidhEaHI4Xx9KL/view?usp=sharing")
         },
         downloadFile4() {
-            window.open("https://drive.google.com/file/d/1IM576rB8d29dGJAGCork9BOrrSC3kQ9Z/view?usp=sharing")
+            window.open("https://drive.google.com/file/d/18gdbrISblymbPPdqhR6Ch9DpQjxxBABu/view?usp=sharing")
+        },
+        downloadFile5() {
+            window.open("https://drive.google.com/file/d/1E5_qLLPhREzWQHPi1-bgsEY8VrVN4s_s/view?usp=sharing")
         },
         validate() {
             let current_user_state = sessionStorage.getItem("user_filled_form_state");

@@ -70,7 +70,7 @@ export default {
             setTimeout(() => {
                 this.showPopUp = false;
                 this.coverActive = false;
-            }, 3000)
+            }, 5000)
         },
         sendMail () {
             // can add classlist "loading here"
@@ -90,7 +90,7 @@ export default {
                 this.showPopup();
                 setTimeout(() => {
                     this.$router.push('/references');
-                }, 3000);
+                }, 5000);
             }, (error) => {
                 alert("Failed to sent! Please refresh the page.", error);
             }

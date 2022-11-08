@@ -41,7 +41,7 @@
                 Data Trust
             </div>
             <div class="desc-caption">
-                KiteSense™ has robust administrative, physical, managerial, technical and cyber defence safeguards in place to secure its facilities and systems from unauthorised access and to secure your company's data. 
+                KiteSense has robust administrative, physical, managerial, technical and cyber defence safeguards in place to secure its facilities and systems from unauthorised access and to secure your company's data. 
             </div>
             <!-- <div class="desc-title">
                 Easy to Use
@@ -119,7 +119,7 @@ export default {
             setTimeout(() => {
                 this.showPopUp = false;
                 this.coverActive = false;
-            }, 3000);
+            }, 5000);
         },
         sendMail() {
             this.coverActive = true;
@@ -133,7 +133,7 @@ export default {
                 sessionStorage.setItem("user_filled_form_state", true);
                 setTimeout(() => {
                     this.$router.push("/contact-us");
-                }, 3000);
+                }, 5000);
             }, (error) => {
                 alert("Failed to sent! Please refresh the page.", error);
             });
