@@ -27,14 +27,7 @@ import Carousel from "./Carousel.vue";
       </div>
     </div>
     <div v-show="showPopUp" class="pop-up-after-send fade-in">
-        <div class="pop-up-after-send-background background-no-repeat-size-contain"></div>
-        <div class="pop-up-after-send-title">
-            Thank You !
-        </div>
-        <div class="pop-up-after-send-desc">
-            <div class="pop-up-after-send-caption">In this report, learn in detail about how KiteSense is using AI in the primary areas they are focusing on today</div>
-            <div class="pop-up-after-send-dummy background-no-repeat-size-contain"></div>
-        </div>
+        <LandingPageNewsLetter />
     </div>
   </div>
 </template>
@@ -44,39 +37,40 @@ import Carousel from "./Carousel.vue";
 
 <script>
 import emailjs from "emailjs-com";
+import LandingPageNewsLetter from "./LandingPageNewsLetter.vue";
 
 export default {
-  data() {
+    data() {
         return {
             coverActive: false,
             showPopUp: false,
             loading: false,
         };
     },
-  methods : {
-    showPopup() {
+    methods: {
+        showPopup() {
             setTimeout(() => {
                 this.showPopUp = false;
                 this.coverActive = false;
             }, 5000);
-    },
-    sendMail () {
-        this.coverActive = true;
-        this.loading = true;
-        emailjs.sendForm('service_byvgb07', 'template_gl1p7v4', this.$refs.form, 'yB0WPLSEW_5syCQG2').then(() => {
-            this.loading = false;
-            this.showPopUp = true;
-            this.showPopup();
-            // clear input field
-            this.$refs.form.reset();
-            setTimeout(() => {
+        },
+        sendMail() {
+            this.coverActive = true;
+            this.loading = true;
+            emailjs.sendForm("service_byvgb07", "template_gl1p7v4", this.$refs.form, "yB0WPLSEW_5syCQG2").then(() => {
+                this.loading = false;
+                this.showPopUp = true;
+                this.showPopup();
+                // clear input field
+                this.$refs.form.reset();
+                setTimeout(() => {
                     this.$router.push("/");
-            }, 5000);
-        }, (error) => {
-            alert("Failed to sent! Please refresh the page.", error);
-        }
-        )
+                }, 5000);
+            }, (error) => {
+                alert("Failed to sent! Please refresh the page.", error);
+            });
+        },
     },
-  }
+    components: { LandingPageNewsLetter }
 }
 </script>

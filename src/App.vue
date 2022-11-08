@@ -201,15 +201,21 @@ window.document.body.onscroll = () => {
   // }
 }
 
-
 export default {
-  data () {
-    return {
-      submittedState : false,
-      invalidEmail : false,
-      email: null
-    }
-  },
+  // emits : ['email'],
+  data: () => ({
+    submittedState : false,
+    invalidEmail : false,
+    email : '',
+  }),
+  // watch : {
+  //   email : (event) => {
+  //     email = event.value;
+  //   }
+  // },
+  // mounted () {
+  //   this.email = email;
+  // },
   methods : {
     validation (email) {
       var checker = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

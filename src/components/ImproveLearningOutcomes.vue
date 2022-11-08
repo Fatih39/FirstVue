@@ -130,13 +130,11 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 <style src="../assets/css/ImproveLearningOutcomes.css"></style>
 <script>
 export default {
-    data () {
-        return {
-            showPopUp : false,
-            invalidEmail : false,
-            email : null,
-        }
-    },
+    data: () => ({
+        showPopUp : false,
+        invalidEmail : false,
+        email : '',
+    }),
     methods : {
         validation (email) {
             var checker = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

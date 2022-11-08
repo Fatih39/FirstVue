@@ -370,4 +370,7 @@ footer {
   .nav-menu-wrapper button {
     font-size: 2vw;
   }
+  #mce-EMAIL {
+    font-size: 1vw;
+  }
 }

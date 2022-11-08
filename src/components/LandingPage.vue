@@ -30,7 +30,7 @@
                         <input type="text" class="input-form" name="industry" placeholder="Industry" autocomplete="off" required>
                         <input type="text" class="input-form"  name="job_function" placeholder="Job Function" autocomplete="off" required>
                     </div>
-                    <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the Privacy Statement.</div>
+                    <div class="form-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the Terms & Conditions.</div>
                     <div class="landing-page-form-submit-field"><input type="submit" value="Download Report" id="submit-field"></div>
                 </form>
 
@@ -44,7 +44,7 @@
                 Thank You !
             </div>
             <div class="pop-up-after-send-desc">
-                <div class="pop-up-after-send-caption">In this report, learn in detail about how KiteSense is using AI in the primary areas they are focusing on today</div>
+                <div class="pop-up-after-send-caption">In this references, learn in detail about how KiteSense is using AI in the primary areas they are focusing on today</div>
                 <div class="pop-up-after-send-dummy background-no-repeat-size-contain"></div>
             </div>
         </div>

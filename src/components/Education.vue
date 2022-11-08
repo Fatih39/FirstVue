@@ -1,4 +1,5 @@
 <script setup>
+import LandingPageNewsLetter from './LandingPageNewsLetter.vue';
 import DynamicLink from './logic/DynamicLink.vue';
 </script>
 <template>
@@ -158,15 +159,8 @@ import DynamicLink from './logic/DynamicLink.vue';
         <div class="education-agreement">By registering, you confirm that you agree to the storing and processing of your personal data by KiteSense as described in the <DynamicLink to="/terms-policies-master" id="agreement-link">Terms & Conditions.</DynamicLink></div>
         </div>
         <div v-show="showPopUp" class="pop-up-after-send fade-in">
-        <div class="pop-up-after-send-background background-no-repeat-size-contain"></div>
-        <div class="pop-up-after-send-title">
-            Thank You !
+        <LandingPageNewsLetter />
         </div>
-        <div class="pop-up-after-send-desc">
-            <div class="pop-up-after-send-caption">In this report, learn in detail about how KiteSense is using AI in the primary areas they are focusing on today</div>
-            <div class="pop-up-after-send-dummy background-no-repeat-size-contain"></div>
-        </div>
-    </div>
     </div>
 </template>
 
@@ -207,5 +201,6 @@ export default{
             });
         },
     },
+    components: { LandingPageNewsLetter }
 }
 </script>
