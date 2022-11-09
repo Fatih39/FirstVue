@@ -366,7 +366,7 @@ footer {
   transition: 0.25s;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
   .nav-menu-wrapper button {
     font-size: 2vw;
   }

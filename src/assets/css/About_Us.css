@@ -520,7 +520,7 @@
     line-height: 1.361vw;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
     /* Pop Up loading & after */
     #pop-up-cover {
         width: 100vw;

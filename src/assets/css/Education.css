@@ -673,7 +673,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
     /* Pop Up loading & after */
     #pop-up-cover {
         width: 100vw;

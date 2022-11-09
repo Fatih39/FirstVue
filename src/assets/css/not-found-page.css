@@ -35,3 +35,34 @@
     margin-left: 15vw;
     margin-top: -5vw;
 }
+
+@media (max-width: 1000px) {
+    .wrapper-404 {
+        margin-top: 30vw;
+        height: 150vw;
+    }
+    .not-found-msg {
+        margin-top: 15vw;
+        font-size: 5vw;
+    }
+    .not-found-bg {
+        width: 170vw;
+        height: 170vw;
+        position: absolute;
+        z-index: -1;
+        margin-top: -15vw;
+        margin-left: -15vw;
+    }
+    .not-found-dummy {
+        margin-top: 15vw;
+        width: 70vw;
+        height: 70vw;
+        margin-left: 15vw;
+    }
+    .not-found-links  {
+        margin-top: -15vw;
+        padding-bottom: 31.5vw;
+        font-size: 4vw;
+    }
+
+}

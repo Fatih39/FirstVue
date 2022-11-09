@@ -430,7 +430,7 @@ animation: lds-ellipsis3 0.6s infinite;
   position: absolute;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
   .section-2 .form #name-field {
     margin-bottom: 0vw;
   }
