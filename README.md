@@ -4,11 +4,6 @@
 
 # Project Structure
 ```bash
-├───archive
-├───dist
-│   ├───assets
-│   ├───doc
-│   └───svg
 ├───node_modules
 │   ├───.bin
 │   ├───.vite
