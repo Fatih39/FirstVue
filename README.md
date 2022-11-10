@@ -3,9 +3,6 @@
 2. On terminal : npm run dev
 
 # Project Structure
-Folder PATH listing for volume DATA
-Volume serial number is 4E04-76B1
-D:.
 ```bash
 ├───archive
 ├───dist
