@@ -83,7 +83,7 @@ import { RouterLink } from "vue-router";
         <div class="picture-1"></div>
         <div class="text-content">
           <div class="title">Ontology-Driven Mapping of Bodies of Knowledge</div>
-          <div class="content">We build the Mastery.AI engine to optimise learning pathways through ontology-driven knowledge maps. Enables learners to take control of their learning, by mastery learning courses on their pace.</div>
+          <div class="content">We build the Mastery.AI engine to optimise learning pathways through ontology-driven knowledge maps. Enabling learners to take control of their learning, and gain mastery in less time.</div>
           <div class="button-style-primary"><RouterLink to="/references">Discover More Here</RouterLink></div>
         </div>
       </div>
