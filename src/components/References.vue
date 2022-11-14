@@ -88,13 +88,11 @@
 </template>
 <style src="../assets/css/References.css" scoped></style>
 <script>
-// import axios from 'axios'
 export default {
     data () {
         return {
             path : null,
             validated : false,
-            // publicPath : import.meta.env.BASE_URL,
         }
     },
     mounted () {
@@ -102,7 +100,6 @@ export default {
         if (current_user_state == "true") {
             this.validated = true;
         }
-        // console.log(this.validated);
     },  
     methods : {
         downloadFile1() {
@@ -124,18 +121,12 @@ export default {
             let current_user_state = sessionStorage.getItem("user_filled_form_state");
             if (current_user_state == "true") {
                 this.$router.push('/references');
-                // this.path = "about-us";
                 this.validated = true;
-                // this.hide = false;
             } else {
                 this.$router.push('/landing-page');
             }
-            // console.log(current_user_state);
-            // console.log(this.validated);
         }
     }
 
 }
-
-
 </script>

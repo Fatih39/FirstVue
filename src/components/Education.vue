@@ -190,9 +190,7 @@ export default{
                 this.loading = false;
                 this.showPopUp = true;
                 this.showPopup();
-                // clear input field
                 this.$refs.form.reset();
-                // sessionStorage.setItem("user_filled_form_state", true);
                 setTimeout(() => {
                     this.$router.push("/solution-education");
                 }, 5000);

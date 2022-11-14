@@ -5,6 +5,3 @@ import About_Us from "../components/About_Us.vue"
 <template>
   <About_Us />
 </template>
-
-<style>
-</style>

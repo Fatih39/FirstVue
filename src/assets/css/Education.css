@@ -44,8 +44,6 @@
 /* Loading & Pop Up Message */
 .loading-wrapper {
     position: fixed;
-    /* background-color: var(--test); */
-    /* margin-top: 40vw; */
     top: 50%;
     width: 30vw;
     height: 30vw;
@@ -110,7 +108,6 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .pop-up-after-send {
-    /* background-image: url(../svg/landing_page_bg_2.svg); */
     width: 45vw;
     height: 40vw;
     position: fixed;
@@ -119,8 +116,6 @@ animation: lds-ellipsis3 0.6s infinite;
     align-items: center;
     flex-direction: column;
     margin-left: 18vw;
-    top: 15%;
-    /* margin-top: -70vw; */
     z-index: 10000;
 }
 
@@ -129,7 +124,6 @@ animation: lds-ellipsis3 0.6s infinite;
     height: 35vw;
     position: absolute;
     z-index: -1;
-    /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
     filter: blur(1.25vw);
@@ -137,8 +131,6 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .pop-up-after-send-title {
-    /* background-color: var(--test); */
-    /* margin-top: -15vw; */
     font-weight: 700;
     font-size: 3.354vw;
     line-height: 3.122vw;
@@ -151,7 +143,6 @@ animation: lds-ellipsis3 0.6s infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .pop-up-after-send-caption {
@@ -174,7 +165,6 @@ animation: lds-ellipsis3 0.6s infinite;
     background-color: var(--accent);
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     opacity: 90%;
     position: fixed;
     width: 100vw;
@@ -209,7 +199,6 @@ animation: lds-ellipsis3 0.6s infinite;
     justify-content: center;
     background-color: var(--natural);
     font-size: 1.1vw;
-    /* margin-left: 5vw; */
     position: relative;
     z-index: 1;
     width: 20vw;
@@ -263,10 +252,8 @@ animation: lds-ellipsis3 0.6s infinite;
     position: absolute;
     width: 110vw;
     height: 120vw;
-    /* margin-top: -vw; */
     margin-left: -35vw;
     z-index: -2;
-    /* background-color: red; */
 }
 
 .education-stars-3 {
@@ -553,7 +540,6 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 /* Education Form */
-
 .education-form-bg {
     width: 80vw;
     height: 30vw;
@@ -563,7 +549,6 @@ animation: lds-ellipsis3 0.6s infinite;
     position: absolute;
     z-index: -2;
     border-radius: 1.701vw;
-    /* margin-left: -10vw; */
 }
 
 .education-form {
@@ -598,7 +583,6 @@ animation: lds-ellipsis3 0.6s infinite;
     width: 30vw;
     height: 2.5vw;
     margin-bottom: 2vw;
-    /* margin-left: -10vw; */
     background-color: var(--third_natural);
     border: none;
     padding: 0.5vw;
@@ -634,7 +618,6 @@ animation: lds-ellipsis3 0.6s infinite;
 .education-form #mc-embedded-subscribe {
     background-color: var(--natural);
     font-size: 1.7vw;
-    /* margin-left: 5vw; */
     width: 8vw;
     height: 5vw;
     border: 0.25vw solid var(--primary);
@@ -668,8 +651,6 @@ animation: lds-ellipsis3 0.6s infinite;
     display: inline;
     border-bottom: solid 0.1vw var(--base);
     font-family: Proxima Nova Alt Bld;
-    /* width: 8vw; */
-    /* background-color: red; */
 }
 
 

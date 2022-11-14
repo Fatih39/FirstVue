@@ -111,7 +111,6 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 </style>
 
 <script>
-// import { onMounted } from "vue";
 export default {
     data: () => ({
         showPopUp : false,
@@ -130,7 +129,6 @@ export default {
                 setTimeout(() => {
                     this.showPopUp = false;
                 },5000);
-                // this.email = null;
             } else {
                 this.invalidEmail = true;
             }

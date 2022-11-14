@@ -92,7 +92,6 @@
 
 /* Pop Up Config */
 .pop-up-after-send {
-    /* background-image: url(../svg/landing_page_bg_2.svg); */
     width: 45vw;
     height: 40vw;
     position: fixed;
@@ -102,7 +101,6 @@
     flex-direction: column;
     margin-left: 28vw;
     top: 15%;
-    /* margin-top: -70vw; */
     z-index: 2;
 }
 
@@ -111,7 +109,6 @@
     height: 35vw;
     position: absolute;
     z-index: -1;
-    /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
     filter: blur(1.25vw);
@@ -119,8 +116,6 @@
 }
 
 .pop-up-after-send-title {
-    /* background-color: var(--test); */
-    /* margin-top: -15vw; */
     font-weight: 700;
     font-size: 3.354vw;
     line-height: 3.122vw;
@@ -133,7 +128,6 @@
     display: flex;  
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .pop-up-after-send-caption {
@@ -162,25 +156,21 @@
 /* Wrapper */
 .event-stars {
     background-image: url(../svg/stars_7.svg);
-    /* background-color: red; */
     width: 200vw;
     height: 100vw;
     position: absolute;
     z-index: -2;
     margin-top: -10vw;
-    /* background-color: var(--test); */
 }
 
 .event-stars-3 {
     background-image: url(../svg/stars_8.svg);
-    /* background-color: red; */
     width: 200vw;
     height: 100vw;
     position: absolute;
     z-index: -2;
     margin-top: 30vw;
     margin-left: -10vw;
-    /* background-color: var(--test); */
 }
 
 .event-wrapper {
@@ -196,7 +186,6 @@
     line-height: 7.5vw;
     letter-spacing: -0.008em;
     font-family: Proxima Nova Alt Bld;
-    /* background-color: var(--test); */
     text-align: center;
     width: 75vw;
     margin-left: 15vw;
@@ -271,7 +260,6 @@
     height: 80vw;
     position: absolute;
     z-index: -2;
-    /* transform: rotate(10deg); */
     margin-top: 120vw;
     margin-left: 45vw;
 }
@@ -296,7 +284,6 @@
     align-items: center;
     margin-left: -3vw;
     padding-bottom: 3vw;
-    /* background-color: var(--test); */
 }
 
 .all-past-event-image {
@@ -309,7 +296,6 @@
     font-weight: 900;
     font-size: 2.5vw;
     width: 50vw;
-    /* margin-left: 5vw; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -320,7 +306,6 @@
 .all-past-events .event-desc .event-details-2 {
     margin-top: 3vw;
     width: 40vw;
-    /* background-color: var(--natural); */
 }
 
 .event-desc .event-button {
@@ -341,7 +326,6 @@
 }
 
 .exhibitions-past-events, .tech-talk-past-events {
-    /* margin-top: 3vw; */
     display: flex;
 }
 
@@ -375,11 +359,8 @@
     width: 30vw;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
-    /* margin-left: -8vw; */
-    /* background-color: var(--test); */
 }
 
 .exhibitions-past-events .past-event-2 {
@@ -437,11 +418,9 @@
     width: 25vw;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
     margin-left: 8vw;
-    /* background-color: var(--test); */
 }
 
 

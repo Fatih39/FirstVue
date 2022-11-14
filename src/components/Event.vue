@@ -102,9 +102,6 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                         <div class="past-event-details-1">
                             InnovLogue : Bridging Learning & Work Performance with Learning Analytics.<br>26 May 2022
                         </div>
-                        <!-- <div class="past-event-details-2">
-                            
-                        </div> -->
                         <div class="button-style-primary-event">
                             <DynamicLink to="https://www.ial.edu.sg/">Join the Community</DynamicLink>
                         </div>
@@ -152,7 +149,6 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 
 <style src="../assets/css/Event.css"></style>
 <script>
-// import { onMounted } from "vue";
 export default {
     data: () => ({
         showPopUp : false,
@@ -166,20 +162,15 @@ export default {
         },
         showPopup () {
             if (this.validation(this.email)) {
-                // console.log(this.validation(this.email));
                 this.invalidEmail = false;
                 this.showPopUp = true;
                 setTimeout(() => {
                     this.showPopUp = false;
                 },5000);
-                // this.email = null;
             } else {
                 this.invalidEmail = true;
-                // console.log(this.validation(this.email));
             }
         }
     }
 }
-
-
 </script>

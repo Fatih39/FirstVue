@@ -143,8 +143,6 @@ nav {
   justify-content: right;
   position: relative;
   z-index: 9999;
-  /* transition: 0.25s; */
-  /* background-color: red; */
 }
 
 /* Button styles for nav-bar */
@@ -181,7 +179,6 @@ nav {
 
 .nav-menu-wrapper .sub-menu:hover, a:hover {
   background-color: var(--accent);
-  /* border-radius: 0.5vw; */
   font-weight: 400;
   color: var(--natural);
 }
@@ -322,12 +319,10 @@ footer {
 }
 
 .legal .submission-msg-pop-up {
-  /* color: var(--success); */
   position: absolute;
   display: flex;
   align-items: center;
   width: 7vw;
-  /* margin-top: 1vw; */
   color: 0.5vw;
 }
 

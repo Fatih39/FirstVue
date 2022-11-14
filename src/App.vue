@@ -3,7 +3,6 @@ import { RouterView } from "vue-router";
 import DropdownMenu from "./components/logic/DropdownMenu.vue"
 import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue"
 import DynamicLink from "./components/logic/DynamicLink.vue";
-import { onMounted } from "vue";
 // import all necessary scripts
 const addScript = (src) => {
   return new Promise((resolve, reject) => {
@@ -45,8 +44,6 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
             <button class="sol">Solutions</button>
           </template>
           <template #dropdown-menu>
-            <!-- onmouseover="activateParent('solution')" onmouseout="deactivateParent('solution')" -->
-            <!-- <button id="solution">Solution</button> -->
             <div class="sub-menu">
               <SubDropdownMenu>
                 <template #sub-button>
@@ -54,7 +51,6 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                 </template>
                 <template #sub-dropdown-menu>
                   <DynamicLink to="/solution-education"><div class="sub-menu" id="sub">Education</div></DynamicLink>
-                  <!-- <div class="sub-menu" id="sub">Content Publisher</div> -->
                 </template>
               </SubDropdownMenu>
             </div>
@@ -65,11 +61,9 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
                 </template>
                 <template #sub-dropdown-menu>
                   <DynamicLink to="/solution-improve-learning-outcomes"><div class="sub-menu" id="sub">Improve Learning Outcomes</div></DynamicLink>
-                  <!-- <div class="sub-menu" id="sub">Smart Learning Program</div> -->
                 </template>
               </SubDropdownMenu>
             </div>
-            <!-- <div class="dummy">Dummy</div> -->
           </template>
         </DropdownMenu>
         <DropdownMenu>
@@ -147,16 +141,9 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
         <div class="legal">
             <div class="title">Meet the Experts:</div>
             <div class="footer-content">Sign up with your email to join our community</div>
-            <!-- <div class="pop-up-success">
-
-            </div> -->
             <div class="footer-content">
               <form action="https://kitesense.us5.list-manage.com/subscribe/post?u=31a9a2a32ed707c2043c28f31&id=462b223dd7&f_id=00228ae9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" ref="form" target="_blank" @submit="showSuccessMsg">
               <input type="email" placeholder="" v-model="email" name="EMAIL" id="mce-EMAIL" required autocomplete="off" />
-              <!-- <div id="mce-responses" class="clear foot">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-              </div> -->
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_31a9a2a32ed707c2043c28f31_462b223dd7" tabindex="-1" value=""></div>
               <div class="submission-msg-pop-up" v-if="submittedState">
                 <div class="wrappper-pop-up-msg-success" v-if="!invalidEmail">
@@ -178,15 +165,8 @@ addScript('//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
 </template>
 
 <script>
-// import { onMounted } from "vue";
-
 window.document.body.onscroll = () => {
   const mediaQuery = window.matchMedia('(max-width: 760px)');
-
-  // window.onscroll = () => {
-  //   navbarScroll();
-  // } 
-  // const navbarScroll = (event) => {
     if (mediaQuery.matches){
       if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
       document.getElementById("header").classList.add('fixed-navbar-header');
@@ -194,28 +174,16 @@ window.document.body.onscroll = () => {
       document.getElementById("navbar").classList.add('fixed-navbar');
       } else {
       document.getElementById("header").classList.remove('fixed-navbar-header');
-      // document.getElementById("navbar").classList.remove('fade-in');
       document.getElementById("navbar").classList.remove('fixed-navbar');
       }
     }
-  // }
 }
-
 export default {
-  // emits : ['email'],
   data: () => ({
     submittedState : false,
     invalidEmail : false,
     email : '',
   }),
-  // watch : {
-  //   email : (event) => {
-  //     email = event.value;
-  //   }
-  // },
-  // mounted () {
-  //   this.email = email;
-  // },
   methods : {
     validation (email) {
       var checker = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -227,9 +195,6 @@ export default {
         this.invalidEmail = false;
         console.log(this.validation(this.email));
         console.log(this.email);
-        // setTimeout(() => {
-        // this.showPopUp = false;
-        // },3000);
       } else {
         this.invalidEmail = true;
         console.log(this.validation(this.email));
@@ -238,8 +203,6 @@ export default {
     }
   }
 }
-
 </script>
-
 <style src="./assets/css/app.css" scoped>
 </style>

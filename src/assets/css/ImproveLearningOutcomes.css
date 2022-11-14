@@ -54,7 +54,6 @@
     justify-content: center;
     background-color: var(--natural);
     font-size: 1.6vw;
-    /* margin-left: 10vw; */
     position: relative;
     z-index: 1;
     width: 8vw;
@@ -69,7 +68,6 @@
 
 /* Pop Up Config */
 .pop-up-after-send {
-    /* background-image: url(../svg/landing_page_bg_2.svg); */
     width: 45vw;
     height: 40vw;
     position: fixed;
@@ -79,7 +77,6 @@
     flex-direction: column;
     margin-left: 28vw;
     top: 15%;
-    /* margin-top: -70vw; */
     z-index: 2;
 }
 
@@ -88,7 +85,6 @@
     height: 35vw;
     position: absolute;
     z-index: -1;
-    /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
     filter: blur(1.25vw);
@@ -96,8 +92,6 @@
 }
 
 .pop-up-after-send-title {
-    /* background-color: var(--test); */
-    /* margin-top: -15vw; */
     font-weight: 700;
     font-size: 3.354vw;
     line-height: 3.122vw;
@@ -110,7 +104,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .pop-up-after-send-caption {
@@ -144,7 +137,6 @@
     position: absolute;
     margin-top: -30vw;
     z-index: -2;
-    /* background-color: red; */
 }
 
 .ilc-stars-1 {
@@ -171,9 +163,7 @@
     width: 100vw;
     height: 60vw;
     position: absolute;
-    /* margin-top: 100vw; */
     z-index: -1;
-    /* background-color: red; */
 }
 
 .ilc-wrapper {
@@ -188,7 +178,6 @@
     z-index: -1;
     margin-top: 50vw;
     margin-left: -40vw;
-    /* background-color: red; */
 }
 
 .ilc-rocket {
@@ -308,7 +297,6 @@
 }
 
 /* Form section */
-
 .ilc-form {
     margin-top: 15vw;
     display: flex;
@@ -365,7 +353,6 @@
 .ilc-form #mc-embedded-subscribe {
     background-color: var(--natural);
     font-size: 1.7vw;
-    /* margin-left: 5vw; */
     width: 15vw;
     height: 5vw;
     border: 0.25vw solid var(--primary);
@@ -399,8 +386,6 @@
     display: inline;
     border-bottom: solid 0.1vw var(--base);
     font-family: Proxima Nova Alt Bld;
-    /* width: 8vw; */
-    /* background-color: red; */
 }
 
 @media (max-width: 1000px) {

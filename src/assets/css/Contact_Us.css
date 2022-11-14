@@ -34,7 +34,6 @@
     justify-content: center;
     background-color: var(--natural);
     font-size: 1.497vw;
-    /* margin-left: 5vw; */
     position: relative;
     z-index: 1;
     width: 4vw;
@@ -61,8 +60,6 @@
 /* Loading & Pop Up Message */
 .loading-wrapper {
     position: fixed;
-    /* background-color: var(--test); */
-    /* margin-top: 40vw; */
     top: 50%;
     width: 30vw;
     height: 30vw;
@@ -127,7 +124,6 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .pop-up-after-send {
-    /* background-image: url(../svg/landing_page_bg_2.svg); */
     width: 45vw;
     height: 40vw;
     position: fixed;
@@ -137,7 +133,6 @@ animation: lds-ellipsis3 0.6s infinite;
     flex-direction: column;
     margin-left: 28vw;
     top: 15%;
-    /* margin-top: -70vw; */
     z-index: 10001;
 }
 
@@ -146,7 +141,6 @@ animation: lds-ellipsis3 0.6s infinite;
     height: 35vw;
     position: absolute;
     z-index: -1;
-    /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
     filter: blur(1.25vw);
@@ -154,8 +148,6 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .pop-up-after-send-title {
-    /* background-color: var(--test); */
-    /* margin-top: -15vw; */
     font-weight: 700;
     font-size: 3.354vw;
     line-height: 3.122vw;
@@ -168,7 +160,6 @@ animation: lds-ellipsis3 0.6s infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .pop-up-after-send-caption {
@@ -191,7 +182,6 @@ animation: lds-ellipsis3 0.6s infinite;
     background-color: var(--accent);
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     opacity: 90%;
     position: absolute;
     width: 100vw;
@@ -274,7 +264,6 @@ animation: lds-ellipsis3 0.6s infinite;
 
 .section-2-contact-us .desc {
     width: 35vw;
-    /* background-color: var(--test); */
 }
 /* Desc Title */
 .section-2-contact-us .desc .desc-title {
@@ -299,7 +288,6 @@ animation: lds-ellipsis3 0.6s infinite;
     height: 75vw;
     margin-left: 2vw;
     margin-top: -5vw;
-    /* margin-right: 2vw; */
     filter: blur(1.25vw);
     -webkit-filter: blur(1.25vw);
     background-color: rgba(207, 236, 255, 0.5);
@@ -309,10 +297,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .section-2-contact-us .form {
-    /* background-color: var(--test); */
     width: 50vw;
-    /* padding-left: 10vw; */
-    /* margin-top: -2vw; */
 }
 
 .section-2-contact-us .form-wrapper {
@@ -331,7 +316,6 @@ animation: lds-ellipsis3 0.6s infinite;
     font-family: Proxima Nova Alt Bld;
     color: var(--base);
     padding-bottom: 5vw;
-    /* margin-left: -6vw; */
 }
 
 .section-2-contact-us .form-wrapper input {
@@ -370,7 +354,6 @@ animation: lds-ellipsis3 0.6s infinite;
     margin-top: -1.5vw;
     width: 42vw;
     padding-bottom: 2vw;
-    /* background-color: var(--test); */
     color: var(--base);
     font-size: 1.25vw;
     line-height: 1.361vw;
@@ -386,13 +369,10 @@ animation: lds-ellipsis3 0.6s infinite;
     display: inline;
     border-bottom: solid 0.1vw var(--base);
     font-family: Proxima Nova Alt Bld;
-    /* width: 8vw; */
-    /* background-color: red; */
 }
 
 .contact-us-form-submit-field {
     display: flex;
-    /* background-color: red; */
 }
 
 .contact-us-form-submit-field #submit-field {
@@ -455,7 +435,6 @@ animation: lds-ellipsis3 0.6s infinite;
     display: flex;
     margin-left: 5vw;
     padding-top: 5vw;
-    /* background-color: var(--test); */
 }
 
 .section-3-contact-us .sub-wrapper {

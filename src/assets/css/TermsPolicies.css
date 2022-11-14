@@ -34,7 +34,6 @@
     justify-content: center;
     background-color: var(--natural);
     font-size: 1.497vw;
-    /* margin-left: 5vw; */
     position: relative;
     z-index: 1;
     width: 13vw;
@@ -133,7 +132,6 @@
     height: 150vw;
     position: absolute;
     z-index: -2;
-    /* background-color: var(--test); */
 }
 
 .tp-vector-1 {

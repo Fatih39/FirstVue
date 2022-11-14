@@ -16,20 +16,12 @@
         <button id="control-1" class="active"></button>
         <button id="control-2"></button>
         <button id="control-3"></button>
-        <!-- <button id="control-4"></button> -->
       </div>
       <div class="button-style-primary"><RouterLink to="/solution-improve-learning-outcomes">Read More</RouterLink></div>
   </div> 
 </template>
 
 <style src="../assets/css/MainPage-2.css">
-/* @media (min-width: 1024px) {
-.about {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
-} */
 </style>
 
 <style scoped>
@@ -107,7 +99,6 @@ let img = document.getElementById('carousel-img');
 let control_1 = document.getElementById('control-1');
 let control_2 = document.getElementById('control-2');
 let control_3 = document.getElementById('control-3');
-// let control_4 = document.getElementById('control-4');
 let all_switch = [control_1, control_2, control_3];
 
 // Looper

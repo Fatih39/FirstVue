@@ -48,7 +48,6 @@
     justify-content: center;
     background-color: var(--natural);
     font-size: 1.497vw;
-    /* margin-left: 5vw; */
     position: relative;
     z-index: 1;
     width: 15vw;
@@ -79,7 +78,6 @@
 
 /* Pop Up Config */
 .pop-up-after-send {
-    /* background-image: url(../svg/landing_page_bg_2.svg); */
     width: 45vw;
     height: 40vw;
     position: fixed;
@@ -89,7 +87,6 @@
     flex-direction: column;
     margin-left: 28vw;
     top: 15%;
-    /* margin-top: -70vw; */
     z-index: 2;
 }
 
@@ -98,7 +95,6 @@
     height: 35vw;
     position: absolute;
     z-index: -1;
-    /* margin-top: -15vw; */
     background: rgba(207, 236, 255, 0.7);
     border-radius: 1.701vw;
     filter: blur(1.25vw);
@@ -106,8 +102,6 @@
 }
 
 .pop-up-after-send-title {
-    /* background-color: var(--test); */
-    /* margin-top: -15vw; */
     font-weight: 700;
     font-size: 3.354vw;
     line-height: 3.122vw;
@@ -120,7 +114,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .pop-up-after-send-caption {
@@ -151,17 +144,6 @@
     font-family: Proxima Nova Alt Rg;
 }
 
-/* Section - 1 */
-/* .section-1-about-us {
-    width: 50vw;
-    margin-left: 5vw;
-    font-weight: 700;
-    font-size: 6.531vw;
-    color: var(--natural);
-    line-height: 6.122vw;
-    letter-spacing: -0.008em;
-} */
-
 .about-us-dummy {
     background-image: url(../svg/about_us_dummy_1.svg);
     background-repeat: no-repeat;
@@ -189,7 +171,6 @@
     width: 130vw;
     height: 140vw;
     margin-top: -30vw;
-    /* margin-left: -5vw; */
     position: absolute;
     z-index: -1;
 }
@@ -202,7 +183,6 @@
     margin-top: -30vw;
     margin-left: 50vw; 
     width: 100vw;
-    /* max-width: 100%; */
     height: 60vw;
     position: absolute;
 }
@@ -212,10 +192,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
-    /* margin-top: -40vw; */
     width: 40vw;
     height: 40vw;
-    /* background-color: var(--test); */
     position: absolute;
 }
 
@@ -228,7 +206,6 @@
     margin-left: 5vw;
     width: 100vw;
     height: 150vw;
-    /* background-color: var(--test); */
     position: absolute;
 }
 
@@ -237,7 +214,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
-    /* margin-top: 20vw; */
     margin-left: -5vw;
     width: 105vw;
     height: 110vw;
@@ -312,7 +288,6 @@
     text-align: center;   
     margin-top: -1vw; 
     font-family: Proxima Nova Alt Bld;
-    /* border-bottom: solid 0.1vw var(--natural); */
 }
 
 .about-us-profile .about-us-profile-1-position, .about-us-profile-2-position {
@@ -332,8 +307,6 @@
     display: inline;
     border-bottom: solid 0.1vw var(--base);
     font-family: Proxima Nova Alt Bld;
-    /* width: 8vw; */
-    /* background-color: red; */
 }
 
 /* Section - 3 */
@@ -366,26 +339,12 @@
     font-weight: 700;
     line-height: 6.122vw;
     letter-spacing: -0.008em;
-    /* width: 50vw; */
     padding-bottom: 5vw;
     font-family: Proxima Nova Alt Bld;
 }
 
-/* .section-3-about-us .section-3-about-us-content {
-    width: 85vw;
-    font-size: 2.177vw;
-    line-height: 2.721vw;
-
-}
-
-.section-3-about-us .section-3-about-us-content div {
-    padding-bottom: 2vw;
-} */
-
-
 .section-3-about-us-profile-wrapper {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-top: -5vw;
     margin-left: -5vw;

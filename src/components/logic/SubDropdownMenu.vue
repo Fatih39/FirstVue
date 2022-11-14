@@ -1,7 +1,6 @@
 <!-- This is used for sub-dropdown-menu -->
 <template>
     <div class="item" @mouseleave="active = false">
-        <!-- <div @mouseover="here = true" @mouseleave="here = false"> -->
             <div @mouseover="active = true" class="button">
                 <slot name="sub-button"></slot>
             </div>
@@ -40,8 +39,6 @@
     z-index: 1;
     margin-left: 8vw;
     margin-top: -2.5vw;
-    /* background-color: red; */
-    /* padding-left: 0.5vw; */
     text-align: left;
     font-size: 1.2vw;
     color: var(--menu-active);

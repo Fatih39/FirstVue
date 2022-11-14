@@ -1,1 +1,0 @@
-# All assets for this app

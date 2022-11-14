@@ -35,7 +35,6 @@
                 </form>
 
             </div>
-            <!-- <button></button> -->
         </div>
 
         <div v-show="showPopUp" class="pop-up-after-send fade-in">
@@ -53,8 +52,6 @@
 </template>
 
 <style src="../assets/css/LandingPage.css"></style>
-<!-- <style src="../assets/css/Loading.css"></style> -->
-
 <script>
 import emailjs from "emailjs-com";
 export default {
@@ -73,20 +70,14 @@ export default {
             }, 5000)
         },
         sendMail () {
-            // can add classlist "loading here"
-            // alert("Sending..."); 
             this.coverActive = true;
             this.loading = true;
             emailjs.sendForm('service_byvgb07', 'template_1xu8h5d', this.$refs.form, 'yB0WPLSEW_5syCQG2').then(() => {
-                this.loading = false;
-                // disable loading here
-                // alert("Succesfully sent!")
-                
+                this.loading = false;             
                 // clear input field
                 this.$refs.form.reset();
                 sessionStorage.setItem("user_filled_form_state", true);
                 this.showPopUp = true;
-                // this.coverActive = true;
                 this.showPopup();
                 setTimeout(() => {
                     this.$router.push('/references');

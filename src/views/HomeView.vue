@@ -2,7 +2,6 @@
 import MainPage1 from "../components/MainPage-1.vue";
 import MainPage2 from "../components/MainPage-2.vue";
 
-
 </script>
 
 <template>

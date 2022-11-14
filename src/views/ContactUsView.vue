@@ -5,7 +5,3 @@ import Contact_Us from "../components/Contact_Us.vue";
 <template>
       <Contact_Us />
 </template>
-
-<style>
-
-</style>

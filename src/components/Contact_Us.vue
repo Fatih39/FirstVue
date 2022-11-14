@@ -43,12 +43,6 @@
             <div class="desc-caption">
                 KiteSense has robust administrative, physical, managerial, technical and cyber defence safeguards in place to secure its facilities and systems from unauthorised access and to secure your company's data. 
             </div>
-            <!-- <div class="desc-title">
-                Easy to Use
-            </div>
-            <div class="desc-caption">
-                Easy implementation, intuitive design interface, supports existing workflow seamlessly. 
-            </div> -->
         </div>
         <div class="form">
             <div class="form-bg"></div>

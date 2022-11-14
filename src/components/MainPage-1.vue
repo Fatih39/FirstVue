@@ -10,7 +10,6 @@ import { RouterLink } from "vue-router";
     <div class="signal-left"></div>
     <div class="signal-right"></div>
     <div class="stars-2"></div>
-    <!-- <h1 class="green">{{ msg }}</h1> -->
     <h3 class="h3-1">
       Augmenting Learning
     </h3>
@@ -28,7 +27,6 @@ import { RouterLink } from "vue-router";
     <div class="section-2">
       <div class="title-wrapper"><div class="title">Cloud-Based Recommender for All Learners</div><div class="caption">An online adaptive learning recommender to guide every learner towards mastery. KiteSense empowers learners to learn independently at their own pace so organisations can save time, resources, and achieve better outcomes.</div></div>
       <div class="gif"></div>
-      <!-- <div class="content">KiteSense cloud-based recommender guides every learner towards the mastery of a chosen subject by automatically prescribing “what’s next”. By serving the right content at the right stage of their learning journey, KiteSense enables learners to learn independently and accurately with better outcomes.</div> -->
     </div>
     <!-- "Best In Class Performance" Section -->
     <div class="vector-2"></div>

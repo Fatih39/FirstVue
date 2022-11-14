@@ -72,7 +72,6 @@ const router = createRouter({
       component: () => import("../views/ImproveLearningOutcomesView.vue"),
       meta: { transition: 'slide-right' },
     },
-    // Need to create Not Found page
     {
       path: "/:pathMatch(.*)*",
       name: "404-not-found",
@@ -100,8 +99,6 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   let current_user_state = sessionStorage.getItem("user_filled_form_state");
-  // console.log(current_user_state);
-  // console.log(to.meta.requiresAuth);
   if (to.meta.requiresAuth) {
     if (current_user_state == "true") {
       next();
