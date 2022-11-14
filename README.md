@@ -1,6 +1,19 @@
-# How To Run
-1. Set current dir > root dir of project
-2. On terminal : npm run dev
+# Setup
+
+## Install dependencies
+
+```shell
+npm install
+# or
+npm ci
+```
+
+## Run the project locally
+
+```shell
+npm run dev
+```
+
 
 # Project Structure
 ```bash
