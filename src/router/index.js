@@ -8,6 +8,9 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
+      children: [
+        { path: '', component: HomeView, alias: ['/company'] },
+      ],
     },
     {
       path: "/about",
@@ -65,6 +68,9 @@ const router = createRouter({
       name: "solution-education",
       component: () => import("../views/EducationView.vue"),
       meta: { transition: 'slide-right' },
+      children: [
+        { path: '', component: HomeView, alias: ['/learning-journey'] },
+      ]
     },
     {
       path: "/solution-improve-learning-outcomes",
