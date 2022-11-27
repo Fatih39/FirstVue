@@ -278,6 +278,7 @@ import DynamicLink from "./logic/DynamicLink.vue";
 <style src="../assets/css/Education.css"></style>
 
 <script>
+import emailjs from "emailjs-com";
 export default {
   data() {
     return {
