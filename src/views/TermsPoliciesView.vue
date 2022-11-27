@@ -3,5 +3,5 @@ import TermsPolicies from "../components/TermsPolicies.vue";
 </script>
 
 <template>
-    <TermsPolicies />
+  <TermsPolicies />
 </template>

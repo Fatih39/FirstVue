@@ -1,7 +1,6 @@
 <script setup>
 import MainPage1 from "../components/MainPage-1.vue";
 import MainPage2 from "../components/MainPage-2.vue";
-
 </script>
 
 <template>
@@ -10,4 +9,3 @@ import MainPage2 from "../components/MainPage-2.vue";
     <MainPage2 />
   </main>
 </template>
-

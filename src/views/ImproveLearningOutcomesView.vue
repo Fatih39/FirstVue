@@ -1,7 +1,7 @@
 <script setup>
-import ImproveLearningOutcomes from '../components/ImproveLearningOutcomes.vue';
+import ImproveLearningOutcomes from "../components/ImproveLearningOutcomes.vue";
 </script>
 
 <template>
-    <ImproveLearningOutcomes />
+  <ImproveLearningOutcomes />
 </template>

@@ -3,5 +3,5 @@ import Event from "../components/Event.vue";
 </script>
 
 <template>
-    <Event />
+  <Event />
 </template>

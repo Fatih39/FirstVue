@@ -8,9 +8,7 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
-      children: [
-        { path: '', component: HomeView, alias: ['/company'] },
-      ],
+      children: [{ path: "", component: HomeView, alias: ["/company"] }],
     },
     {
       path: "/about",
@@ -19,64 +17,64 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/contact-us",
       name: "contact-us",
       component: () => import("../views/ContactUsView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/terms-policies",
       name: "terms-policies",
       component: () => import("../views/TermsPoliciesView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/terms-policies-master",
       name: "terms-policies-master",
       component: () => import("../views/TermsPoliciesMasterView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/landing-page",
       name: "landing-page",
       component: () => import("../views/LandingPageView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/events",
       name: "events",
       component: () => import("../views/EventView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/references",
       name: "references",
       component: () => import("../views/ReferencesView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/privacy-policy",
       name: "privacy-policy",
       component: () => import("../views/PrivacyPolicyView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/solution-education",
       name: "solution-education",
       component: () => import("../views/EducationView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
       children: [
-        { path: '', component: HomeView, alias: ['/learning-journey'] },
-      ]
+        { path: "", component: HomeView, alias: ["/learning-journey"] },
+      ],
     },
     {
       path: "/solution-improve-learning-outcomes",
       name: "solution-improve-learning-outcomes",
       component: () => import("../views/ImproveLearningOutcomesView.vue"),
-      meta: { transition: 'slide-right' },
+      meta: { transition: "slide-right" },
     },
     {
       path: "/:pathMatch(.*)*",
@@ -84,23 +82,23 @@ const router = createRouter({
       component: () => import("../views/404page.vue"),
     },
   ],
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;
     } else {
       if (to.hash) {
         return {
-          el : to.hash,
-          behavior : "smooth",
-        }
+          el: to.hash,
+          behavior: "smooth",
+        };
       } else {
         return {
           top: 0,
-          behavior : "smooth",
-        }
+          behavior: "smooth",
+        };
       }
     }
-  }
+  },
 });
 
 router.beforeEach((to, from, next) => {
@@ -110,13 +108,12 @@ router.beforeEach((to, from, next) => {
       next();
     } else {
       next({
-        name : "landing-page"
+        name: "landing-page",
       });
     }
-  } else {  
+  } else {
     next();
   }
-})
-
+});
 
 export default router;

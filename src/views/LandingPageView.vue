@@ -2,5 +2,5 @@
 import LandingPage from "../components/LandingPage.vue";
 </script>
 <template>
-    <LandingPage />
+  <LandingPage />
 </template>
