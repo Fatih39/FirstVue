@@ -1,6 +1,6 @@
 <!-- Main Page Section 2 -->
 <script setup>
-import Carousel from "./Carousel.vue";
+import Carousel from "./CarouselImage.vue";
 </script>
 <template>
   <div class="wrapper fade-in">
