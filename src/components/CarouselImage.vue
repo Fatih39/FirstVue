@@ -91,9 +91,9 @@ button {
 
 <script setup>
 import { onMounted } from "vue";
-import logo_1 from "../assets/svg/about_us_logo_1.svg";
-import logo_2 from "../assets/svg/about_us_logo_2.svg";
-import logo_3 from "../assets/svg/about_us_logo_3.svg";
+import logo_1 from "@/assets/svg/about_us_logo_1.svg";
+import logo_2 from "@/assets/svg/about_us_logo_2.svg";
+import logo_3 from "@/assets/svg/about_us_logo_3.svg";
 const carousel_title = [
   "Differentiated Learning at Scale for Students in Australia",
   "Nuturing Software Skills for Young Adult",

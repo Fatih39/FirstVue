@@ -1,5 +1,5 @@
 <script setup>
-import DynamicLink from "../components/logic/DynamicLink.vue";
+import DynamicLink from "@/components/logic/DynamicLink.vue";
 </script>
 <template>
   <div class="wrapper-404">

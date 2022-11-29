@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import HomeView from "@/views/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,55 +16,55 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import("../views/AboutView.vue"),
+      component: () => import("@/views/AboutView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/contact-us",
       name: "contact-us",
-      component: () => import("../views/ContactUsView.vue"),
+      component: () => import("@/views/ContactUsView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/terms-policies",
       name: "terms-policies",
-      component: () => import("../views/TermsPoliciesView.vue"),
+      component: () => import("@/views/TermsPoliciesView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/terms-policies-master",
       name: "terms-policies-master",
-      component: () => import("../views/TermsPoliciesMasterView.vue"),
+      component: () => import("@/views/TermsPoliciesMasterView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/landing-page",
       name: "landing-page",
-      component: () => import("../views/LandingPageView.vue"),
+      component: () => import("@/views/LandingPageView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/events",
       name: "events",
-      component: () => import("../views/EventView.vue"),
+      component: () => import("@/views/EventView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/references",
       name: "references",
-      component: () => import("../views/ReferencesView.vue"),
+      component: () => import("@/views/ReferencesView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/privacy-policy",
       name: "privacy-policy",
-      component: () => import("../views/PrivacyPolicyView.vue"),
+      component: () => import("@/views/PrivacyPolicyView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/solution-education",
       name: "solution-education",
-      component: () => import("../views/EducationView.vue"),
+      component: () => import("@/views/EducationView.vue"),
       meta: { transition: "slide-right" },
       children: [
         { path: "", component: HomeView, alias: ["/learning-journey"] },
@@ -73,13 +73,13 @@ const router = createRouter({
     {
       path: "/solution-improve-learning-outcomes",
       name: "solution-improve-learning-outcomes",
-      component: () => import("../views/ImproveLearningOutcomesView.vue"),
+      component: () => import("@/views/ImproveLearningOutcomesView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/:pathMatch(.*)*",
       name: "404-not-found",
-      component: () => import("../views/404Page.vue"),
+      component: () => import("@/views/404Page.vue"),
     },
   ],
   scrollBehavior(to, from, savedPosition) {
