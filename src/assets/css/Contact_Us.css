@@ -171,7 +171,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .pop-up-after-send-dummy {
-    background-image: url(../svg/landing_page_2_popup_dummy.svg);
+    background-image: url(../svg/popupDummy2.svg);
     margin-top: 5vw;
     width: 10vw;
     height: 10vw;
@@ -205,7 +205,7 @@ animation: lds-ellipsis3 0.6s infinite;
 /* Wrapper */
 
 .background-contact-us {
-    background-image: url(../svg/contact-us-wrapper-background.svg);
+    background-image: url(../svg/contactUs/wrapper-background.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 183.5vw;
@@ -217,7 +217,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .eclipse-contact-us {
-    background-image: url(../svg/eclipse_3.svg);
+    background-image: url(../svg/misc/eclipse/eclipse3.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100vw;
@@ -409,7 +409,7 @@ animation: lds-ellipsis3 0.6s infinite;
     margin-left: 5vw;
 }
 .vector-4 {
-    background: url(../svg/Vector_4.svg);
+    background: url(../svg/misc/vector/vector4.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 110vw;

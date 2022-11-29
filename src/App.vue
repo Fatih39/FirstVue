@@ -31,7 +31,7 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
             <img
               alt="KiteSense logo"
               class="logo"
-              src="@/assets/svg/kitesense_logo.svg"
+              src="@/assets/svg/misc/companyLogo/kitesense.svg"
             />
           </div>
           <div class="nav-menu-wrapper">
@@ -136,26 +136,30 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
           <img
             alt="KiteSense logo"
             class="logo"
-            src="@/assets/svg/kitesense_logo.svg"
+            src="@/assets/svg/misc/companyLogo/kitesense.svg"
           />
         </div>
         <div class="address">1 Pemimpin Dr, #02-03<br />Singapore 576151</div>
         <div class="socials">
           <a href="mailto:hello@kitesense.sg" class="socials-icon"
-            ><img src="@/assets/svg/msg_icon.svg" alt="msg_icon"
+            ><img src="@/assets/svg/misc/msg_icon.svg" alt="msg_icon"
           /></a>
           <a href="tel:+6589401525" class="socials-icon"
-            ><img src="@/assets/svg/call_icon.svg" alt="call_icon"
+            ><img src="@/assets/svg/misc/call_icon.svg" alt="call_icon"
           /></a>
           <DynamicLink
             to="https://www.linkedin.com/company/kitesense"
             class="socials-icon"
-            ><img src="@/assets/svg/linkedin_icon.svg" alt="linkedin_icon"
+            ><img
+              src="@/assets/svg/misc/companyLogo/linkedin.svg"
+              alt="linkedin_icon"
           /></DynamicLink>
           <DynamicLink
             to="https://www.facebook.com/kitesensepage"
             class="socials-icon"
-            ><img src="@/assets/svg/facebook_icon.svg" alt="facebook_icon"
+            ><img
+              src="@/assets/svg/misc/companyLogo/facebook.svg"
+              alt="facebook_icon"
           /></DynamicLink>
         </div>
       </div>

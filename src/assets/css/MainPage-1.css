@@ -81,7 +81,7 @@ h4 {
 }
 
 .stars-1 {
-  background-image: url(../svg/eclipse.svg);
+  background-image: url(../svg/misc/eclipse/eclipse.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 1;
@@ -92,7 +92,7 @@ h4 {
 }
 
 .eclipse {
-  background-image: url(../svg/eclipse_2.svg);
+  background-image: url(../svg/misc/eclipse/eclipse.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -0.5;
@@ -102,7 +102,7 @@ h4 {
 }
 
 .vector-1 {
-  background-image: url(../svg/Vector_1.svg);
+  background-image: url(../svg/misc/vector/vector1.svg);
   position: absolute;
   margin-top: -2vw;
   margin-left: -5vw;
@@ -114,7 +114,7 @@ h4 {
 }
   
 .signal-left {
-  background-image: url(../svg/Signal_left.svg);
+  background-image: url(../svg/misc/signal/signalLeft.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 60vw;
@@ -128,7 +128,7 @@ h4 {
 }
 
 .signal-right {
-  background-image: url(../svg/Signal_right.svg);
+  background-image: url(../svg/misc/signal/signalRight.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 47vw;
@@ -140,7 +140,7 @@ h4 {
 }
 
 .stars-2 {
-  background-image: url(../svg/stars.svg);
+  background-image: url(../svg/misc/stars/stars.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -2;
@@ -230,7 +230,7 @@ h4 {
 
 .gif {
   margin-top: 2vw;
-  background-image: url(../svg/dummy_gif.svg);
+  background-image: url(../svg/misc/dummy_gif.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 70vw;
@@ -252,7 +252,7 @@ h4 {
 }
 
 .vector-2 {
-  background-image: url(../svg/cropped_vector_2.svg);
+  background-image: url(../svg/misc/cropped/2.svg);
   position: absolute;
   margin-top: -9vw;
   z-index: 0;
@@ -305,7 +305,7 @@ h4 {
 }
 
 .arrow-stats {
-  background-image: url(../svg/arrow.svg);
+  background-image: url(../svg/misc/arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 5.5vw;
@@ -341,7 +341,7 @@ h4 {
 }
 
 .vector-3 {
-  background-image: url(../svg/signal.svg);
+  background-image: url(../svg/misc/signal/signal.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -355,7 +355,7 @@ h4 {
 
 /* Section - 4 */
 .section-4-background {
-  background-image: url(../svg/mainpag_1_sec_4_bg.svg);
+  background-image: url(../svg/misc/mainpag_1_sec_4_bg.svg);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -373,7 +373,7 @@ h4 {
 }
 
 .section-4 .picture-1 {
-  background-image: url(../svg/interface_1.svg);
+  background-image: url(../svg/misc/interface/interface1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 45vw;
@@ -383,7 +383,7 @@ h4 {
 }
 
 .section-4 .picture-2 {
-  background-image: url(../svg/interface_2.svg);
+  background-image: url(../svg/misc/interface/interface2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 45vw;
@@ -453,7 +453,7 @@ h4 {
 }
 
 .vector-4 {
-  background-image: url(../svg/Vector_10.svg);
+  background-image: url(../svg/misc/vector/vector10.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 110vw;

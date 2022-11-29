@@ -340,7 +340,7 @@ footer {
 }
 
 .success-icon {
-  background-image: url(../svg/success_icon.svg);
+  background-image: url(../svg/misc/success_icon.svg);
   width: 1vw;
   height: 1vw;
   color: var(--success);

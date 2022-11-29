@@ -127,7 +127,7 @@
 }
 
 .tp-stars {
-    background-image: url(../svg/stars_3.svg);
+    background-image: url(../svg/misc/stars/stars3.svg);
     width: 100vw;
     height: 150vw;
     position: absolute;
@@ -135,7 +135,7 @@
 }
 
 .tp-vector-1 {
-    background-image: url(../svg/Vector_8.svg);
+    background-image: url(../svg/misc/vector/vector8.svg);
     width: 100vw;
     height: 60vw;
     position: absolute;
@@ -144,7 +144,7 @@
 }
 
 .tp-signal {
-    background-image: url(../svg/tp-signal.svg);
+    background-image: url(../svg/tp/signal.svg);
     width: 70vw;
     height: 70vw;
     position: absolute;
@@ -154,7 +154,7 @@
 }
 
 .tp-dummy {
-    background-image: url(../svg/tp-rocket.svg);
+    background-image: url(../svg/tp/rocket.svg);
     width: 15vw;
     height: 15vw;
     margin-left: 70vw;
