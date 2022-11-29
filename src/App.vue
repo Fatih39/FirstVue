@@ -1,8 +1,8 @@
 <script setup>
 import { RouterView } from "vue-router";
-import DropdownMenu from "./components/logic/DropdownMenu.vue";
-import SubDropdownMenu from "./components/logic/SubDropdownMenu.vue";
-import DynamicLink from "./components/logic/DynamicLink.vue";
+import DropdownMenu from "@/components/piece/DropdownMenu.vue";
+import SubDropdownMenu from "@/components/piece/SubDropdownMenu.vue";
+import DynamicLink from "@/components/piece/DynamicLink.vue";
 // import all necessary scripts
 const addScript = (src) => {
   return new Promise((resolve, reject) => {
@@ -142,20 +142,20 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
         <div class="address">1 Pemimpin Dr, #02-03<br />Singapore 576151</div>
         <div class="socials">
           <a href="mailto:hello@kitesense.sg" class="socials-icon"
-            ><img src="./assets/svg/msg_icon.svg" alt="msg_icon"
+            ><img src="@/assets/svg/msg_icon.svg" alt="msg_icon"
           /></a>
           <a href="tel:+6589401525" class="socials-icon"
-            ><img src="./assets/svg/call_icon.svg" alt="call_icon"
+            ><img src="@/assets/svg/call_icon.svg" alt="call_icon"
           /></a>
           <DynamicLink
             to="https://www.linkedin.com/company/kitesense"
             class="socials-icon"
-            ><img src="./assets/svg/linkedin_icon.svg" alt="linkedin_icon"
+            ><img src="@/assets/svg/linkedin_icon.svg" alt="linkedin_icon"
           /></DynamicLink>
           <DynamicLink
             to="https://www.facebook.com/kitesensepage"
             class="socials-icon"
-            ><img src="./assets/svg/facebook_icon.svg" alt="facebook_icon"
+            ><img src="@/assets/svg/facebook_icon.svg" alt="facebook_icon"
           /></DynamicLink>
         </div>
       </div>
@@ -305,4 +305,4 @@ export default {
   },
 };
 </script>
-<style src="./assets/css/app.css" scoped></style>
+<style src="@/assets/css/app.css" scoped></style>

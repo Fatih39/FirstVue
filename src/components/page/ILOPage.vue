@@ -1,5 +1,5 @@
 <script setup>
-import LandingPageNewsLetter from "./LandingPageNewsLetter.vue";
+import LandingPageNewsLetter from "@/components/piece/LandingPageNewsLetter.vue";
 const addScript = (src) => {
   return new Promise((resolve, reject) => {
     const myScript = document.createElement("script");
@@ -15,7 +15,7 @@ const addScript = (src) => {
 addScript("https://code.jquery.com/jquery-3.6.1.min.js");
 addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
 </script>
-<!-- ilc = improve-learning-outcomes -->
+
 <template>
   <div class="ilc-bg background-no-repeat-size-contain"></div>
   <div class="ilc-stars-1 background-no-repeat-size-contain"></div>
@@ -191,7 +191,7 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
     <div class="ilc-cloud background-no-repeat-size-contain"></div>
   </div>
 </template>
-<style src="../assets/css/ImproveLearningOutcomes.css"></style>
+<style src="@/assets/css/ImproveLearningOutcomes.css"></style>
 <script>
 export default {
   data: () => ({

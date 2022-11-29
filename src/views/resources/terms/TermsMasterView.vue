@@ -1,5 +1,5 @@
 <script setup>
-import TermsPoliciesMaster from "@/components/TermsPoliciesMaster.vue";
+import TermsPoliciesMaster from "@/components/page/TermsPoliciesMasterPage.vue";
 </script>
 
 <template>

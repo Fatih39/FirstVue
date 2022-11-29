@@ -1,7 +1,8 @@
 <script setup>
-import LandingPageNewsLetter from "./LandingPageNewsLetter.vue";
-import DynamicLink from "./logic/DynamicLink.vue";
+import LandingPageNewsLetter from "@/components/piece/LandingPageNewsLetter.vue";
+import DynamicLink from "@/components/piece/DynamicLink.vue";
 </script>
+
 <template>
   <div class="education-bg-1 background-no-repeat-size-contain"></div>
   <div v-if="coverActive" id="pop-up-cover" class="fade-in">
@@ -275,7 +276,7 @@ import DynamicLink from "./logic/DynamicLink.vue";
   </div>
 </template>
 
-<style src="../assets/css/Education.css"></style>
+<style src="@/assets/css/Education.css"></style>
 
 <script>
 import emailjs from "emailjs-com";

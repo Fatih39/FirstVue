@@ -1,5 +1,5 @@
 <script setup>
-import References from "@/components/References.vue";
+import References from "@/components/page/ReferencesPage.vue";
 </script>
 <template>
   <References />

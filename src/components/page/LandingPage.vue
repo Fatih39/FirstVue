@@ -1,4 +1,3 @@
-<!-- Pop Up Landing Page -->
 <template>
   <div class="popup-wrapper fade-in">
     <div class="landing-page-bg background-no-repeat-size-contain"></div>
@@ -103,7 +102,7 @@
   </div>
 </template>
 
-<style src="../assets/css/LandingPage.css"></style>
+<style src="@/assets/css/LandingPage.css"></style>
 <script>
 import emailjs from "emailjs-com";
 export default {

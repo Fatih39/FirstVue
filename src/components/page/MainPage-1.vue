@@ -1,7 +1,7 @@
-<!-- Main Page Section 1 -->
 <script setup>
 import { RouterLink } from "vue-router";
 </script>
+
 <template>
   <div class="greetings wrapper fade-in">
     <div class="main-page-1-bg"></div>
@@ -130,4 +130,4 @@ import { RouterLink } from "vue-router";
   </div>
 </template>
 
-<style src="../assets/css/MainPage-1.css" scoped></style>
+<style src="@/assets/css/MainPage-1.css" scoped></style>

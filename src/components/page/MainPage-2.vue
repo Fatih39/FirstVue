@@ -1,6 +1,5 @@
-<!-- Main Page Section 2 -->
 <script setup>
-import Carousel from "./CarouselImage.vue";
+import Carousel from "@/components/piece/CarouselImage.vue";
 </script>
 <template>
   <div class="wrapper fade-in">
@@ -34,7 +33,6 @@ import Carousel from "./CarouselImage.vue";
               placeholder="Name"
               autocomplete="off"
               id="name-field"
-              :value="inputFieldReset"
               required
             />
           </div>
@@ -45,17 +43,11 @@ import Carousel from "./CarouselImage.vue";
               placeholder="Your Email"
               autocomplete="off"
               id="email-field"
-              :value="inputFieldReset"
               required
             />
           </div>
           <div>
-            <textarea
-              placeholder="Message"
-              name="message"
-              :value="inputFieldReset"
-              required
-            ></textarea>
+            <textarea placeholder="Message" name="message" required></textarea>
           </div>
           <div class="main-page-2-submit">
             <input type="submit" value="Connect Us" id="submit-field" />
@@ -69,11 +61,11 @@ import Carousel from "./CarouselImage.vue";
   </div>
 </template>
 
-<style src="../assets/css/MainPage-2.css" scoped></style>
+<style src="@/assets/css/MainPage-2.css" scoped></style>
 
 <script>
 import emailjs from "emailjs-com";
-import LandingPageNewsLetter from "./LandingPageNewsLetter.vue";
+import LandingPageNewsLetter from "@/components/piece/LandingPageNewsLetter.vue";
 
 export default {
   data() {

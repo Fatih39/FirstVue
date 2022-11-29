@@ -1,4 +1,3 @@
-<!-- Contact Us Page -->
 <template>
   <div class="wrapper-contact-us fade-in">
     <div class="background-contact-us"></div>
@@ -151,11 +150,12 @@
     </div>
   </div>
 </template>
-<style src="../assets/css/Contact_Us.css"></style>
+<style src="@/assets/css/Contact_Us.css"></style>
+
 <script>
 import emailjs from "emailjs-com";
-import LandingPageNewsLetter from "./LandingPageNewsLetter.vue";
-import DynamicLink from "./logic/DynamicLink.vue";
+import LandingPageNewsLetter from "@/components/piece/LandingPageNewsLetter.vue";
+import DynamicLink from "@/components/piece/DynamicLink.vue";
 
 export default {
   data() {

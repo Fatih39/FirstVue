@@ -1,6 +1,6 @@
 <!-- About Us Page -->
 <script setup>
-import LandingPageNewsLetter from "./LandingPageNewsLetter.vue";
+import LandingPageNewsLetter from "@/components/piece/LandingPageNewsLetter.vue";
 const addScript = (src) => {
   return new Promise((resolve, reject) => {
     const myScript = document.createElement("script");
@@ -154,7 +154,7 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
     </div>
   </div>
 </template>
-<style src="../assets/css/About_Us.css"></style>
+<style src="@/assets/css/About_Us.css"></style>
 
 <script>
 export default {

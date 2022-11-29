@@ -80,8 +80,7 @@ const router = createRouter({
     {
       path: "/solution/improve-learning-outcomes",
       name: "improve-learning-outcomes",
-      component: () =>
-        import("@/views/solutions/ImproveLearningOutcomesView.vue"),
+      component: () => import("@/views/solutions/ILOView.vue"),
       meta: { transition: "slide-right" },
     },
 

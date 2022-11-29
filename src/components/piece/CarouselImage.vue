@@ -17,7 +17,7 @@
         </div>
         <div class="logo">
           <img
-            src="../assets/svg/about_us_logo_1.svg"
+            src="@/assets/svg/about_us_logo_1.svg"
             alt=""
             id="carousel-img"
           />
@@ -37,7 +37,7 @@
   </div>
 </template>
 
-<style src="../assets/css/MainPage-2.css"></style>
+<style src="@/assets/css/MainPage-2.css"></style>
 
 <style scoped>
 @keyframes fade-in {

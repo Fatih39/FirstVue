@@ -1,6 +1,6 @@
 <script setup>
-import MainPage1 from "@/components/MainPage-1.vue";
-import MainPage2 from "@/components/MainPage-2.vue";
+import MainPage1 from "@/components/page/MainPage-1.vue";
+import MainPage2 from "@/components/page/MainPage-2.vue";
 </script>
 
 <template>

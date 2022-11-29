@@ -1,6 +1,6 @@
 <script setup>
-import DynamicLink from "./logic/DynamicLink.vue";
-import LandingPageNewsLetter from "./LandingPageNewsLetter.vue";
+import DynamicLink from "@/components/piece/DynamicLink.vue";
+import LandingPageNewsLetter from "@/components/piece/LandingPageNewsLetter.vue";
 const addScript = (src) => {
   return new Promise((resolve, reject) => {
     const myScript = document.createElement("script");
@@ -15,6 +15,7 @@ const addScript = (src) => {
 addScript("https://code.jquery.com/jquery-3.6.1.min.js");
 addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
 </script>
+
 <template>
   <div class="event-wrapper fade-in">
     <div class="event-stars background-no-repeat-size-contain"></div>
@@ -206,7 +207,7 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
   </div>
 </template>
 
-<style src="../assets/css/Event.css"></style>
+<style src="@/assets/css/Event.css"></style>
 <script>
 export default {
   data: () => ({

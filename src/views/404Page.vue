@@ -1,5 +1,5 @@
 <script setup>
-import DynamicLink from "@/components/logic/DynamicLink.vue";
+import DynamicLink from "@/components/piece/DynamicLink.vue";
 </script>
 <template>
   <div class="wrapper-404">
@@ -11,4 +11,4 @@ import DynamicLink from "@/components/logic/DynamicLink.vue";
     </div>
   </div>
 </template>
-<style src="../assets/css/not-found-page.css" scoped></style>
+<style src="@/assets/css/not-found-page.css" scoped></style>

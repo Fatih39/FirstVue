@@ -1,4 +1,3 @@
-<!-- Terms & Policies Master Page -->
 <template>
   <div class="tp-m-wrapper fade-in">
     <div class="tp-m-stars-1"></div>
@@ -399,4 +398,4 @@
   </div>
 </template>
 
-<style src="../assets/css/TermsPoliciesMaster.css"></style>
+<style src="@/assets/css/TermsPoliciesMaster.css"></style>

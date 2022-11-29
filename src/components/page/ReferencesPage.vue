@@ -1,4 +1,56 @@
-<script setup></script>
+<script>
+export default {
+  data() {
+    return {
+      path: null,
+      validated: false,
+    };
+  },
+  mounted() {
+    let current_user_state = sessionStorage.getItem("user_filled_form_state");
+    if (current_user_state == "true") {
+      this.validated = true;
+    }
+  },
+  methods: {
+    downloadFile1() {
+      window.open(
+        "https://drive.google.com/file/d/14OHWO2xb8mBjWBQ24EWUVdQFrYj9dJrp/view?usp=sharing"
+      );
+    },
+    downloadFile2() {
+      window.open(
+        "https://drive.google.com/file/d/17HzAhqiKniDHOVttiKoiZE73nHegn9vJ/view?usp=sharing"
+      );
+    },
+    downloadFile3() {
+      window.open(
+        "https://drive.google.com/file/d/1SuXCZpzoXO15-nodClYidhEaHI4Xx9KL/view?usp=sharing"
+      );
+    },
+    downloadFile4() {
+      window.open(
+        "https://drive.google.com/file/d/18gdbrISblymbPPdqhR6Ch9DpQjxxBABu/view?usp=sharing"
+      );
+    },
+    downloadFile5() {
+      window.open(
+        "https://drive.google.com/file/d/1E5_qLLPhREzWQHPi1-bgsEY8VrVN4s_s/view?usp=sharing"
+      );
+    },
+    validate() {
+      let current_user_state = sessionStorage.getItem("user_filled_form_state");
+      if (current_user_state == "true") {
+        this.$router.push("/references");
+        this.validated = true;
+      } else {
+        this.$router.push("/landing-page");
+      }
+    },
+  },
+};
+</script>
+
 <template>
   <div class="references-wrapper fade-in">
     <!-- Section - 1 -->
@@ -123,56 +175,4 @@
     </div>
   </div>
 </template>
-<style src="../assets/css/References.css" scoped></style>
-<script>
-export default {
-  data() {
-    return {
-      path: null,
-      validated: false,
-    };
-  },
-  mounted() {
-    let current_user_state = sessionStorage.getItem("user_filled_form_state");
-    if (current_user_state == "true") {
-      this.validated = true;
-    }
-  },
-  methods: {
-    downloadFile1() {
-      window.open(
-        "https://drive.google.com/file/d/14OHWO2xb8mBjWBQ24EWUVdQFrYj9dJrp/view?usp=sharing"
-      );
-    },
-    downloadFile2() {
-      window.open(
-        "https://drive.google.com/file/d/17HzAhqiKniDHOVttiKoiZE73nHegn9vJ/view?usp=sharing"
-      );
-    },
-    downloadFile3() {
-      window.open(
-        "https://drive.google.com/file/d/1SuXCZpzoXO15-nodClYidhEaHI4Xx9KL/view?usp=sharing"
-      );
-    },
-    downloadFile4() {
-      window.open(
-        "https://drive.google.com/file/d/18gdbrISblymbPPdqhR6Ch9DpQjxxBABu/view?usp=sharing"
-      );
-    },
-    downloadFile5() {
-      window.open(
-        "https://drive.google.com/file/d/1E5_qLLPhREzWQHPi1-bgsEY8VrVN4s_s/view?usp=sharing"
-      );
-    },
-    validate() {
-      let current_user_state = sessionStorage.getItem("user_filled_form_state");
-      if (current_user_state == "true") {
-        this.$router.push("/references");
-        this.validated = true;
-      } else {
-        this.$router.push("/landing-page");
-      }
-    },
-  },
-};
-</script>
+<style src="@/assets/css/References.css" scoped></style>
