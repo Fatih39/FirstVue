@@ -11,19 +11,19 @@
 }
 @font-face{
     font-family: Proxima Nova Alt Bld;
-    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+    src: url(@/assets/fonts/ProximaNovaA-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: Proxima Nova Alt Rg;
-  src: url(../fonts/ProximaNovaA-Regular.ttf);
+  src: url(@/assets/fonts/ProximaNovaA-Regular.ttf);
 }
 
 @font-face {
   font-family: Sharp Sans;
-  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animations */
@@ -113,7 +113,7 @@ animation: lds-ellipsis3 0.6s infinite;
 
 /* Wrapper */
 .landing-page-bg {
-    background-image: url(../svg/landingPage/bg.svg);
+    background-image: url(@/assets/svg/landingPage/bg.svg);
     width: 120vw;
     height: 100vw;
     position: absolute;
@@ -122,7 +122,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .landing-page-stars {
-    background-image: url(../svg/misc/stars/stars6.svg);
+    background-image: url(@/assets/svg/misc/stars/stars6.svg);
     width: 100vw;
     height: 70vw;
     position: absolute;
@@ -187,7 +187,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .pop-up-content .character {
-    background: url(../svg/misc/astronaut.svg);
+    background: url(@/assets/svg/misc/astronaut.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 5vw;
@@ -278,7 +278,7 @@ animation: lds-ellipsis3 0.6s infinite;
 }
 
 .pop-up-after-send-dummy {
-    background-image: url(../svg/landingPage/popupDummy.svg);
+    background-image: url(@/assets/svg/landingPage/popupDummy.svg);
     margin-top: 5vw;
     width: 10vw;
     height: 10vw;
@@ -300,7 +300,7 @@ animation: lds-ellipsis3 0.6s infinite;
 @media (max-width: 1000px) {
     /* Page Background */
     .landing-page-bg {
-        background-image: url(../svg/landingPage/bgMobile.svg);
+        background-image: url(@/assets/svg/landingPage/bgMobile.svg);
         width: 150vw;
         height: 180vw;
     }

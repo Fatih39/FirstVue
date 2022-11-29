@@ -12,19 +12,19 @@
 }
 @font-face{
     font-family: Proxima Nova Alt Bld;
-    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+    src: url(@/assets/fonts/ProximaNovaA-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: Proxima Nova Alt Rg;
-  src: url(../fonts/ProximaNovaA-Regular.ttf);
+  src: url(@/assets/fonts/ProximaNovaA-Regular.ttf);
 }
 
 @font-face {
   font-family: Sharp Sans;
-  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animations */
@@ -139,7 +139,7 @@
 }
 
 .pop-up-after-send-dummy {
-    background-image: url(../svg/landingPage/popupDummy2.svg);
+    background-image: url(@/assets/svg/landingPage/popupDummy2.svg);
     margin-top: 5vw;
     width: 10vw;
     height: 10vw;
@@ -155,7 +155,7 @@
 
 /* Wrapper */
 .event-stars {
-    background-image: url(../svg/misc/stars/stars7.svg);
+    background-image: url(@/assets/svg/misc/stars/stars7.svg);
     width: 200vw;
     height: 100vw;
     position: absolute;
@@ -164,7 +164,7 @@
 }
 
 .event-stars-3 {
-    background-image: url(../svg/misc/stars/stars8.svg);
+    background-image: url(@/assets/svg/misc/stars/stars8.svg);
     width: 200vw;
     height: 100vw;
     position: absolute;
@@ -222,7 +222,7 @@
 
 
 .event-wrapper .event-dummy {
-    background-image: url(../svg/event/dummy.svg);
+    background-image: url(@/assets/svg/event/dummy.svg);
     width: 45vw;
     height: 45vw;
     margin-left: 43vw;
@@ -233,7 +233,7 @@
 
 /* Section - 3 */
 .event-title-vector {
-    background-image: url(../svg/misc/vector/vector9.svg);
+    background-image: url(@/assets/svg/misc/vector/vector9.svg);
     width: 100vw;
     height: 30vw;
     margin-left: -10vw;
@@ -255,7 +255,7 @@
 }
 
 .event-section-3-wrapper .event-vector {
-    background-image: url(../svg/event/signal.svg);
+    background-image: url(@/assets/svg/event/signal.svg);
     width: 80vw;
     height: 80vw;
     position: absolute;
@@ -287,7 +287,7 @@
 }
 
 .all-past-event-image {
-    background-image: url(../svg/event/exhibitions1.svg);
+    background-image: url(@/assets/svg/event/exhibitions1.svg);
     width: 40vw;
     height: 40vw;
 }
@@ -331,7 +331,7 @@
 
 /* Exhibitions */
 .event-vector-2 {
-    background-image: url(../svg/misc/vector/vector12.svg);
+    background-image: url(@/assets/svg/misc/vector/vector12.svg);
     position: absolute;
     z-index: -1;
     width: 110vw;
@@ -344,13 +344,13 @@
     padding-bottom: 5vw;
 }
 .exhibitions-past-events .past-event-image-1 {
-    background-image: url(../svg/event/exhibitions2.svg);
+    background-image: url(@/assets/svg/event/exhibitions2.svg);
     width: 35vw;
     height: 35vw;
 }
 
 .exhibitions-past-events .past-event-image-2 {
-    background-image: url(../svg/event/exhibitions3.svg);
+    background-image: url(@/assets/svg/event/exhibitions3.svg);
     width: 35vw;
     height: 35vw;
 }
@@ -403,13 +403,13 @@
 }
 
 .tech-talk-past-events .past-event-image-1 {
-    background-image: url(../svg/event/techTalk.svg);
+    background-image: url(@/assets/svg/event/techTalk.svg);
     width: 35vw;
     height: 35vw;
 }
 
 .tech-talk-past-events .past-event-image-2 {
-    background-image: url(../svg/event/techTalk2.svg);
+    background-image: url(@/assets/svg/event/techTalk2.svg);
     width: 35vw;
     height: 35vw;
 }
@@ -456,7 +456,7 @@
 }
 
 .event-stars-2 {
-    background-image: url(../svg/event/stars.svg);
+    background-image: url(@/assets/svg/event/stars.svg);
     width: 100vw;
     height: 105vw;
     position: absolute;
@@ -466,7 +466,7 @@
 
 /* Mailchimp form */
 .event-mailchimp-vector {
-    background-image: url(../svg/misc/vector/vector9.svg);
+    background-image: url(@/assets/svg/misc/vector/vector9.svg);
     position: absolute;
     z-index: -1;
     width: 100vw;
@@ -481,7 +481,7 @@
 }
 
 .event-mailchimp-image {
-    background-image: url(../svg/event/mailchimpDummy.svg);
+    background-image: url(@/assets/svg/event/mailchimpDummy.svg);
     width: 15vw;
     height: 15vw;
     padding-right: 5vw;

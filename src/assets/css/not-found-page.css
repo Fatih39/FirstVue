@@ -8,7 +8,7 @@
 }
 
 .not-found-dummy {
-    background-image: url(../svg/notFound/notFound.svg);
+    background-image: url(@/assets/svg/notFound/notFound.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 50vw;
@@ -23,7 +23,7 @@
 }
 
 .not-found-bg {
-    background-image: url(../svg/landingPage/bg2.svg);
+    background-image: url(@/assets/svg/landingPage/bg2.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;

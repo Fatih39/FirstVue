@@ -38,19 +38,19 @@ header {
   
   @font-face{
     font-family: Proxima Nova Alt Bld;
-    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+    src: url(@/assets/fonts/ProximaNovaA-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: Proxima Nova Alt Rg;
-  src: url(../fonts/ProximaNovaA-Regular.ttf);
+  src: url(@/assets/fonts/ProximaNovaA-Regular.ttf);
 }
 
 @font-face {
   font-family: Sharp Sans;
-  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Custom Class */
@@ -340,7 +340,7 @@ footer {
 }
 
 .success-icon {
-  background-image: url(../svg/misc/success_icon.svg);
+  background-image: url(@/assets/svg/misc/success_icon.svg);
   width: 1vw;
   height: 1vw;
   color: var(--success);
