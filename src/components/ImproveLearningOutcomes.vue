@@ -28,7 +28,7 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
         Deployed in Leading Educational Institutions
       </div>
       <div class="button-style-primary-ilc">
-        <DynamicLink to="/solution-education">Read More</DynamicLink>
+        <DynamicLink to="/solution/education">Read More</DynamicLink>
       </div>
       <div class="ilc-stars-2 background-no-repeat-size-contain"></div>
       <div class="ilc-section-1-dummy background-no-repeat-size-contain">

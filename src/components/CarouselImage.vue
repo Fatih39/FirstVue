@@ -30,7 +30,7 @@
       <button id="control-3"></button>
     </div>
     <div class="button-style-primary">
-      <RouterLink to="/solution-improve-learning-outcomes"
+      <RouterLink to="/solution/improve-learning-outcomes"
         >Read More</RouterLink
       >
     </div>

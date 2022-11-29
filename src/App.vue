@@ -49,7 +49,7 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
                       <div class="sub-menu-title">By Industries</div>
                     </template>
                     <template #sub-dropdown-menu>
-                      <DynamicLink to="/solution-education"
+                      <DynamicLink to="/solution/education"
                         ><div class="sub-menu" id="sub">
                           Education
                         </div></DynamicLink
@@ -63,7 +63,7 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
                       <div class="sub-menu-title">By Use Cases</div>
                     </template>
                     <template #sub-dropdown-menu>
-                      <DynamicLink to="/solution-improve-learning-outcomes"
+                      <DynamicLink to="/solution/improve-learning-outcomes"
                         ><div class="sub-menu" id="sub">
                           Improve Learning Outcomes
                         </div></DynamicLink
@@ -171,7 +171,7 @@ addScript("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
             >
           </div>
           <div class="footer-content">
-            <RouterLink to="/solution-education" class="footer-menu"
+            <RouterLink to="/solution/education" class="footer-menu"
               >Solutions</RouterLink
             >
           </div>

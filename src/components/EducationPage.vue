@@ -165,7 +165,7 @@ import DynamicLink from "./logic/DynamicLink.vue";
               every subject.
             </div>
           </div>
-          <DynamicLink to="/solution-improve-learning-outcomes"
+          <DynamicLink to="/solution/improve-learning-outcomes"
             ><div class="button-style-primary-education">
               Impact Study
             </div></DynamicLink
@@ -311,7 +311,7 @@ export default {
             this.showPopup();
             this.$refs.form.reset();
             setTimeout(() => {
-              this.$router.push("/solution-education");
+              this.$router.push("/solution/education");
             }, 5000);
           },
           (error) => {

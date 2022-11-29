@@ -121,7 +121,7 @@ import { RouterLink } from "vue-router";
             modalities. Easy to set up and configure across ages and countries.
           </div>
           <div class="button-style-primary">
-            <RouterLink to="/solution-education">Read More</RouterLink>
+            <RouterLink to="/solution/education">Read More</RouterLink>
           </div>
         </div>
       </div>
