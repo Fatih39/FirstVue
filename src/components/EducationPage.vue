@@ -70,7 +70,7 @@ import DynamicLink from "./logic/DynamicLink.vue";
     <div class="education-signal background-no-repeat-size-contain"></div>
     <div class="education-section-3">
       <div class="education-section-3-title">
-        3 Tiers of Services Powered by Mastery.AI​
+        3 Tiers of Services Powered by Mastery.AI
       </div>
       <div class="education-section-3-container">
         <div class="education-section-3-text-content">
@@ -278,6 +278,7 @@ import DynamicLink from "./logic/DynamicLink.vue";
 <style src="../assets/css/Education.css"></style>
 
 <script>
+import emailjs from "emailjs-com";
 export default {
   data() {
     return {
