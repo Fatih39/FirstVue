@@ -541,14 +541,27 @@ export default {
 }
 
 .section-2-contact-us .form-wrapper textarea {
-  padding-top: 1vw;
   resize: none;
   width: 40vw;
   height: 13vw;
   font-size: 1.5vw;
+  margin-bottom: 2vw;
+  background-color: var(--third_natural);
+  border: none;
+  padding: 1vw 0.5vw 1vw 2vw;
+  color: var(--natural);
+  font-family: Proxima Nova Alt Rg;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 1.4vw;
+  border-radius: 0.4vw;
 }
 
 .section-2-contact-us .form-wrapper input::placeholder {
+  color: var(--natural);
+}
+
+.section-2-contact-us .form-wrapper textarea::placeholder {
   color: var(--natural);
 }
 
