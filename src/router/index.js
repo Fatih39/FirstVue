@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import HomeView from "@/views/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    // Main sections
     {
       path: "/",
       name: "home",
@@ -11,75 +12,83 @@ const router = createRouter({
       children: [{ path: "", component: HomeView, alias: ["/company"] }],
     },
     {
+      path: "/landing-page",
+      name: "landing-page",
+      component: () => import("@/views/LandingPageView.vue"),
+      meta: { transition: "slide-right" },
+    },
+    // route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+
+    // Company Sections
+    {
       path: "/about",
       name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import("../views/AboutView.vue"),
+      component: () => import("@/views/company/AboutView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/contact-us",
       name: "contact-us",
-      component: () => import("../views/ContactUsView.vue"),
+      component: () => import("@/views/company/ContactUsView.vue"),
       meta: { transition: "slide-right" },
     },
+
+    // Resources Section
     {
       path: "/terms-policies",
-      name: "terms-policies",
-      component: () => import("../views/TermsPoliciesView.vue"),
+      name: "terms",
+      component: () => import("@/views/resources/terms/TermsView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/terms-policies-master",
-      name: "terms-policies-master",
-      component: () => import("../views/TermsPoliciesMasterView.vue"),
-      meta: { transition: "slide-right" },
-    },
-    {
-      path: "/landing-page",
-      name: "landing-page",
-      component: () => import("../views/LandingPageView.vue"),
+      name: "terms-master",
+      component: () => import("@/views/resources/terms/TermsMasterView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/events",
       name: "events",
-      component: () => import("../views/EventView.vue"),
+      component: () => import("@/views/resources/EventView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/references",
       name: "references",
-      component: () => import("../views/ReferencesView.vue"),
+      component: () => import("@/views/resources/ReferencesView.vue"),
       meta: { transition: "slide-right" },
     },
     {
       path: "/privacy-policy",
       name: "privacy-policy",
-      component: () => import("../views/PrivacyPolicyView.vue"),
+      component: () => import("@/views/resources/PrivacyPolicyView.vue"),
       meta: { transition: "slide-right" },
     },
+
+    // Solutions sections
     {
-      path: "/solution-education",
-      name: "solution-education",
-      component: () => import("../views/EducationView.vue"),
+      path: "/solution/education",
+      name: "education",
+      component: () => import("@/views/solutions/EducationView.vue"),
       meta: { transition: "slide-right" },
       children: [
         { path: "", component: HomeView, alias: ["/learning-journey"] },
       ],
     },
     {
-      path: "/solution-improve-learning-outcomes",
-      name: "solution-improve-learning-outcomes",
-      component: () => import("../views/ImproveLearningOutcomesView.vue"),
+      path: "/solution/improve-learning-outcomes",
+      name: "improve-learning-outcomes",
+      component: () => import("@/views/solutions/ILOView.vue"),
       meta: { transition: "slide-right" },
     },
+
+    // Not found
     {
       path: "/:pathMatch(.*)*",
       name: "404-not-found",
-      component: () => import("../views/404Page.vue"),
+      component: () => import("@/views/404Page.vue"),
     },
   ],
   scrollBehavior(to, from, savedPosition) {

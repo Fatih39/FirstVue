@@ -11,19 +11,19 @@
 }
 @font-face{
     font-family: Proxima Nova Alt Bld;
-    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+    src: url(@/assets/fonts/ProximaNovaA-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: Proxima Nova Alt Rg;
-  src: url(../fonts/ProximaNovaA-Regular.ttf);
+  src: url(@/assets/fonts/ProximaNovaA-Regular.ttf);
 }
 
 @font-face {
   font-family: Sharp Sans;
-  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animation */
@@ -125,7 +125,7 @@
 }
 
 .pop-up-after-send-dummy {
-    background-image: url(../svg/landing_page_2_popup_dummy.svg);
+    background-image: url(@/assets/svg/landingPage/popupDummy2.svg);
     margin-top: 5vw;
     width: 10vw;
     height: 10vw;
@@ -145,7 +145,7 @@
 }
 
 .about-us-dummy {
-    background-image: url(../svg/about_us_dummy_1.svg);
+    background-image: url(@/assets/svg/aboutUs/dummy1.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -157,7 +157,7 @@
 }
 
 .vector-5 {
-    background-image: url(../svg/Vector_5.svg);
+    background-image: url(@/assets/svg/misc/vector/vector5.svg);
     width: 110vw;
     height: 50vw;
     margin-top: 6vw;
@@ -167,7 +167,7 @@
 }
 
 .about-us-background {
-    background-image: url(../svg/about_us_background.svg);
+    background-image: url(@/assets/svg/aboutUs/background.svg);
     width: 130vw;
     height: 140vw;
     margin-top: -30vw;
@@ -176,7 +176,7 @@
 }
 
 .stars-1 {
-    background-image: url(../svg/eclipse.svg);
+    background-image: url(@/assets/svg/misc/eclipse/eclipse.svg);
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
@@ -188,7 +188,7 @@
 }
 
 .stars-2 {
-    background-image: url(../svg/stars.svg);
+    background-image: url(@/assets/svg/misc/stars/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
@@ -198,7 +198,7 @@
 }
 
 .stars-3 {
-    background-image: url(../svg/stars_2.svg);
+    background-image: url(@/assets/svg/misc/stars/stars2.svg);
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
@@ -210,7 +210,7 @@
 }
 
 .about-us-stars-4 {
-    background-image: url(../svg/about_us_stars.svg);
+    background-image: url(@/assets/svg/aboutUs/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
@@ -266,7 +266,7 @@
 }
 
 .about-us-profile .about-us-profile-image-1 {
-    background-image: url(../svg/mr_yp.svg);
+    background-image: url(@/assets/svg/misc/people/yp.svg);
     background-size: 36vw;
     background-position: center;
     width: 36vw;
@@ -274,7 +274,7 @@
 }
 
 .about-us-profile .about-us-profile-image-2 {
-    background-image: url(../svg/mr_wee_koon.svg);
+    background-image: url(@/assets/svg/misc/people/weeKoon.svg);
     background-size: 36vw;
     background-position: center;
     width: 36vw;
@@ -311,7 +311,7 @@
 
 /* Section - 3 */
 .vector-6 {
-    background-image: url(../svg/Vector_6.svg);
+    background-image: url(@/assets/svg/misc/vector/vector6.svg);
     width: 100vw;
     height: 60vw;
     position: absolute;
@@ -319,7 +319,7 @@
 }
 
 .vector-7 {
-    background-image: url(../svg/Vector_7.svg);
+    background-image: url(@/assets/svg/misc/vector/vector7.svg);
     width: 100vw;
     height: 100vw;
     position: absolute;
@@ -356,7 +356,7 @@
 }
 
 .section-3-profile-photo-desc .profile-photo {
-    background-image: url(../svg//prof_alex_siow.svg);
+    background-image: url(@/assets/svg/misc/people/profAlexSiow.svg);
     background-size: 30vw;
     background-position: center;
     width: 34vw;

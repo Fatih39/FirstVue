@@ -11,19 +11,19 @@
 }
 @font-face{
     font-family: Proxima Nova Alt Bld;
-    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+    src: url(@/assets/fonts/ProximaNovaA-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: Proxima Nova Alt Rg;
-  src: url(../fonts/ProximaNovaA-Regular.ttf);
+  src: url(@/assets/fonts/ProximaNovaA-Regular.ttf);
 }
 
 @font-face {
   font-family: Sharp Sans;
-  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Button Config */
@@ -127,7 +127,7 @@
 }
 
 .tp-stars {
-    background-image: url(../svg/stars_3.svg);
+    background-image: url(@/assets/svg/misc/stars/stars3.svg);
     width: 100vw;
     height: 150vw;
     position: absolute;
@@ -135,7 +135,7 @@
 }
 
 .tp-vector-1 {
-    background-image: url(../svg/Vector_8.svg);
+    background-image: url(@/assets/svg/misc/vector/vector8.svg);
     width: 100vw;
     height: 60vw;
     position: absolute;
@@ -144,7 +144,7 @@
 }
 
 .tp-signal {
-    background-image: url(../svg/tp-signal.svg);
+    background-image: url(@/assets/svg/tp/signal.svg);
     width: 70vw;
     height: 70vw;
     position: absolute;
@@ -154,7 +154,7 @@
 }
 
 .tp-dummy {
-    background-image: url(../svg/tp-rocket.svg);
+    background-image: url(@/assets/svg/tp/rocket.svg);
     width: 15vw;
     height: 15vw;
     margin-left: 70vw;

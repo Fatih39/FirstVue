@@ -16,4 +16,4 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm run build
-      - uses: wagoid/commitlint-github-action@v5
+      # - uses: wagoid/commitlint-github-action@v5

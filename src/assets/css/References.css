@@ -11,19 +11,19 @@
 }
 @font-face{
     font-family: Proxima Nova Alt Bld;
-    src: url(../fonts/ProximaNovaA-Bold.woff) format('woff');
+    src: url(@/assets/fonts/ProximaNovaA-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: Proxima Nova Alt Rg;
-  src: url(../fonts/ProximaNovaA-Regular.ttf);
+  src: url(@/assets/fonts/ProximaNovaA-Regular.ttf);
 }
 
 @font-face {
   font-family: Sharp Sans;
-  src: url(../fonts/SharpSansNo1-Book.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
-  src: url(../fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansNo1-Book.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-Semibold.ttf) format('truetype');
+  src: url(@/assets/fonts/SharpSansDispNo1-SemiboldIt.ttf) format('truetype');
 }
 
 /* Animations */
@@ -65,7 +65,7 @@
 
 /* Section - 1 */
 .references-stars-1 {
-    background-image: url(../svg/references_stars_1.svg);
+    background-image: url(@/assets/svg/references/stars1.svg);
     position: absolute;
     width: 100vw;
     height: 150vw;
@@ -100,7 +100,7 @@
 
 /* Section - 2 */
 .references-cloud-vector {
-    background-image: url(../svg/references_vector_1.svg);
+    background-image: url(@/assets/svg/references/vector1.svg);
     width: 100vw;
     height: 35vw;
     position: absolute;
@@ -110,7 +110,7 @@
 }
 
 .references-vector {
-    background-image: url(../svg/references_vector_2.svg);
+    background-image: url(@/assets/svg/references/vector2.svg);
     width: 105vw;
     height: 100vw;
     position: absolute;
@@ -120,7 +120,7 @@
 }
 
 .references-stars-2 {
-    background-image: url(../svg/references_stars_2.svg);
+    background-image: url(@/assets/svg/references/stars2.svg);
     position: absolute;
     width: 100vw;
     height: 70vw;
@@ -152,25 +152,25 @@
 }
 
 .references-section-2-content-image-1 {
-    background-image: url(../svg/references_brochures_1.svg);
+    background-image: url(@/assets/svg/references/brochures1.svg);
     width: 30vw;
     height: 30vw;
 }
 
 .references-section-2-content-image-2 {
-    background-image: url(../svg/references_brochures_2.svg);
+    background-image: url(@/assets/svg/references/brochures2.svg);
     width: 30vw;
     height: 30vw;
 }
 
 .references-section-2-content-image-3 {
-    background-image: url(../svg/references_brochures_3.svg);
+    background-image: url(@/assets/svg/references/brochures3.svg);
     width: 30vw;
     height: 30vw;
 }
 
 .references-section-2-content-image-4 {
-    background-image: url(../svg/references_brochures_4.svg);
+    background-image: url(@/assets/svg/references/brochures4.svg);
     width: 30vw;
     height: 30vw;
 }
@@ -194,7 +194,7 @@
 }
 
 .references-signal {
-    background-image: url(../svg/references_signal.svg);
+    background-image: url(@/assets/svg/references/signal.svg);
     width: 105vw;
     height: 100vw;
     position: absolute;
@@ -221,7 +221,7 @@
 }
 
 .references-section-2-research-image {
-    background-image: url(../svg/references_research_1.svg);
+    background-image: url(@/assets/svg/references/research1.svg);
     width: 35vw;
     height: 35vw;
 }
