@@ -336,8 +336,6 @@ h4 {
   position: relative;
   z-index: 1;
   margin-top: -47vw;
-  padding-top: 60vw;
-  padding-left: 4vw;
 }
 
 .title-wrapper {
@@ -366,7 +364,7 @@ h4 {
   font-family: Proxima Nova Alt Rg;
   text-align: center;
   width: 90vw;
-  /* margin-top: 7vw; */
+  margin-top: 7vw;
 }
 
 .gif {
