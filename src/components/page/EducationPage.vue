@@ -251,12 +251,7 @@ import DynamicLink from "@/components/piece/DynamicLink.vue";
             required
             autocomplete="off"
           />
-          <textarea
-            name="message"
-            value=""
-            placeholder="Message"
-            id="message"
-          ></textarea>
+          <textarea name="message" value="" placeholder="Message"></textarea>
         </div>
         <div class="education-submit">
           <input
@@ -912,7 +907,7 @@ export default {
   display: flex;
 }
 
-#mce-EMAIL {
+.education-input #mce-EMAIL {
   width: 30vw;
   height: 2.5vw;
   margin-bottom: 2vw;
@@ -926,39 +921,22 @@ export default {
   font-weight: 700;
   line-height: 1.4vw;
   border-radius: 0.4vw;
-}
-
-#message {
-  width: 30vw;
-  height: 2.5vw;
-  margin-bottom: 2vw;
-  background-color: var(--third_natural);
-  border: none;
-  padding: 0.5vw;
-  padding-left: 2vw;
-  color: var(--natural);
-  font-family: Proxima Nova Alt Rg;
-  font-size: 1.5vw;
-  font-weight: 700;
-  line-height: 1.4vw;
-  border-radius: 0.4vw;
-  resize: none;
-  margin-left: 5vw;
-  width: 30vw;
-  line-height: 2.5vw;
 }
 
 .education-input #mce-EMAIL::placeholder {
   color: var(--natural);
 }
 
-#message::placeholder {
-  color: var(--natural);
+.education-input #mce-EMAIL:focus,
+textarea:focus {
+  outline: none;
 }
 
-.education-input #mce-EMAIL:focus,
-#message:focus {
-  outline: none;
+.education-input textarea {
+  resize: none;
+  margin-left: 5vw;
+  width: 30vw;
+  line-height: 2.5vw;
 }
 
 .education-submit {
