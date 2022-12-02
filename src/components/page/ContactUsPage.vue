@@ -378,7 +378,7 @@ export default {
 }
 
 .pop-up-after-send-dummy {
-  background-image: url(@/assets/svg/landingPage/popupDummy2.svg);
+  background-image: url(@/assets/svg/popupDummy2.svg);
   margin-top: 5vw;
   width: 10vw;
   height: 10vw;
