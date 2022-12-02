@@ -194,7 +194,6 @@ import { RouterLink } from "vue-router";
   margin-top: -32vw;
   margin-left: -2vw;
   height: auto;
-  padding-bottom: 10vw;
 }
 
 .h3-1,
